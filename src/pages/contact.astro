@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Contact" description="Get in touch with techonplay.com.">
+  <section class="container contact">
+    <h1>Contact</h1>
+    <p class="sub">
+      Got a news tip, feedback, or a business inquiry? We're here to help.
+      Whether you're a reader with a question or a brand looking to
+      advertise, getting in touch is simple.
+    </p>
+
+    <div class="prose">
+      <h2>Get in Touch</h2>
+      <p>
+        For all inquiries, including advertising, press releases, and general support,
+        please email us directly:
+      </p>
+      <p><a href="mailto:fernandolisboa.dev@gmail.com">fernandolisboa.dev@gmail.com</a></p>
+      <p>We aim to respond to all inquiries within 48 hours.</p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .contact {
+    padding-block: 56px 80px;
+    max-width: 52ch;
+  }
+
+  .sub {
+    color: var(--ink-soft);
+    margin: 12px 0 32px;
+  }
+</style>

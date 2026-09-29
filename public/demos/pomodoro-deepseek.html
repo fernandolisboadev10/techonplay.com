@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pomodoro</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+
+  body {
+    --accent: #e05a47;
+    --accent-soft: rgba(224, 90, 71, .14);
+    --accent-hover: #cf4b39;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #f4f5f7;
+    color: #14171a;
+    transition: background .45s ease;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body.break {
+    --accent: #2f9e7f;
+    --accent-soft: rgba(47, 158, 127, .16);
+    --accent-hover: #268a6e;
+    background: #f1f7f4;
+  }
+
+  .card {
+    width: min(100%, 380px);
+    background: #fff;
+    border: 1px solid rgba(20, 23, 26, .06);
+    border-radius: 22px;
+    padding: 34px 28px 22px;
+    text-align: center;
+    box-shadow: 0 12px 32px rgba(20, 25, 35, .08);
+  }
+
+  .mode {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    padding: 7px 15px;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    transition: background .35s ease, color .35s ease;
+  }
+
+  .time {
+    font-size: clamp(58px, 20vw, 84px);
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.02em;
+    margin: 22px 0 0;
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum" 1;
+  }
+
+  .bar {
+    height: 4px;
+    background: #eceef1;
+    border-radius: 999px;
+    overflow: hidden;
+    margin: 20px 0 14px;
+  }
+
+  .bar > i {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: var(--accent);
+    border-radius: 999px;
+    transition: width .12s linear, background .35s ease;
+  }
+
+  .alert {
+    min-height: 18px;
+    font-size: 13px;
+    line-height: 1.35;
+    color: #6b7280;
+    opacity: 0;
+    transition: opacity .3s ease;
+  }
+
+  .alert.show { opacity: 1; }
+
+  .controls {
+    display: flex;
+    gap: 10px;
+    margin-top: 18px;
+  }
+
+  .btn {
+    flex: 1;
+    padding: 12px 10px;
+    border-radius: 12px;
+    border: 1px solid #dfe3e8;
+    background: #fff;
+    color: #14171a;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background .18s ease, border-color .18s ease, transform .08s ease, opacity .18s ease;
+  }
+
+  .btn:hover:not(:disabled) { background: #f6f7f9; border-color: #cbd2da; }
+  .btn:active:not(:disabled) { transform: translateY(1px); }
+  .btn:disabled { opacity: .38; cursor: default; }
+
+  .btn.primary {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+  .btn.primary:hover:not(:disabled) {
+    background: var(--accent-hover);
+    border-color: var(--accent-hover);
+  }
+
+  .hint {
+    margin: 18px 0 0;
+    font-size: 12px;
+    color: #9aa2ad;
+  }
+
+  @keyframes flash {
+    0% {
+      box-shadow: 0 12px 32px rgba(20, 25, 35, .08), 0 0 0 0 var(--accent-soft);
+    }
+    70% {
+      box-shadow: 0 12px 32px rgba(20, 25, 35, .08), 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+    100% {
+      box-shadow: 0 12px 32px rgba(20, 25, 35, .08), 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+  }
+
+  .card.flash { animation: flash .9s ease-out 2; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .card.flash { animation: none; }
+    * { transition-duration: .01ms !important; }
+  }
+</style>
+</head>
+<body>
+
+<main class="card" id="card">
+  <div class="mode" id="mode">Work</div>
+  <div class="time" id="time" role="timer" aria-live="off">25:00</div>
+  <div class="bar"><i id="barFill"></i></div>
+  <div class="alert" id="alert" role="status" aria-live="polite"></div>
+  <div class="controls">
+    <button class="btn primary" id="startBtn">Start</button>
+    <button class="btn" id="pauseBtn" disabled>Pause</button>
+    <button class="btn" id="resetBtn">Reset</button>
+  </div>
+  <p class="hint">Space = start / pause &nbsp;·&nbsp; R = reset</p>
+</main>
+
+<script>
+(function () {
+  'use strict';
+
+  var WORK_SECONDS = 25 * 60;
+  var BREAK_SECONDS = 5 * 60;
+  var DURATION = { work: WORK_SECONDS, break: BREAK_SECONDS };
+  var LABEL = { work: 'Work', break: 'Break' };
+
+  var mode = 'work';
+  var remaining = WORK_SECONDS; // seconds (float)
+  var running = false;
+  var endAt = 0;
+  var ticker = null;
+  var alertTimer = null;
+  var audioCtx = null;
+
+  var els = {
+    body: document.body,
+    card: document.getElementById('card'),
+    mode: document.getElementById('mode'),
+    time: document.getElementById('time'),
+    barFill: document.getElementById('barFill'),
+    alert: document.getElementById('alert'),
+    start: document.getElementById('startBtn'),
+    pause: document.getElementById('pauseBtn'),
+    reset: document.getElementById('resetBtn')
+  };
+
+  function formatTime(seconds) {
+    var total = Math.ceil(seconds);
+    if (total < 0) total = 0;
+    var m = Math.floor(total / 60);
+    var s = total % 60;
+    return (m < 10 ? '0' : '') + m + ':' + (s < 10 ? '0' : '') + s;
+  }
+
+  function render() {
+    var total = DURATION[mode];
+    var pct = Math.max(0, Math.min(1, remaining / total)) * 100;
+
+    els.time.textContent = formatTime(remaining);
+    els.mode.textContent = LABEL[mode];
+    els.barFill.style.width = pct + '%';
+    els.body.classList.toggle('break', mode === 'break');
+
+    els.start.disabled = running;
+    els.pause.disabled = !running;
+
+    document.title = formatTime(remaining) + ' · ' + LABEL[mode];
+  }
+
+  function showAlert(message) {
+    els.alert.textContent = message;
+    els.alert.classList.add('show');
+    if (alertTimer) clearTimeout(alertTimer);
+    alertTimer = setTimeout(function () {
+      els.alert.classList.remove('show');
+    }, 5000);
+  }
+
+  function hideAlert() {
+    if (alertTimer) clearTimeout(alertTimer);
+    els.alert.classList.remove('show');
+  }
+
+  function flashCard() {
+    els.card.classList.remove('flash');
+    // force reflow so the animation can restart
+    void els.card.offsetWidth;
+    els.card.classList.add('flash');
+    setTimeout(function () {
+      els.card.classList.remove('flash');
+    }, 2000);
+  }
+
+  function playChime() {
+    try {
+      var Ctx = window.AudioContext || window.webkitAudioContext;
+      if (!Ctx) return;
+      if (!audioCtx) audioCtx = new Ctx();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+
+      var start = audioCtx.currentTime + 0.02;
+      var notes = [880, 1108.73, 1318.51]; // A5, C#6, E6
+
+      notes.forEach(function (freq, i) {
+        var t = start + i * 0.18;
+        var osc = audioCtx.createOscillator();
+        var gain = audioCtx.createGain();
+
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(freq, t);
+
+        gain.gain.setValueAtTime(0.0001, t);
+        gain.gain.exponentialRampToValueAtTime(0.22, t + 0.02);
+        gain.gain.exponentialRampToValueAtTime(0.0001, t + 0.42);
+
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start(t);
+        osc.stop(t + 0.45);
+      });
+    } catch (e) {
+      /* audio is a nice-to-have; ignore failures */
+    }
+  }
+
+  function vibrate() {
+    if (navigator.vibrate) {
+      try { navigator.vibrate([180, 90, 180]); } catch (e) {}
+    }
+  }
+
+  function tick() {
+    remaining = (endAt - Date.now()) / 1000;
+    if (remaining <= 0) {
+      remaining = 0;
+      render();
+      completeSession();
+      return;
+    }
+    render();
+  }
+
+  function completeSession() {
+    var finished = mode;
+
+    mode = (finished === 'work') ? 'break' : 'work';
+    remaining = DURATION[mode];
+    endAt = Date.now() + remaining * 1000;
+
+    playChime();
+    vibrate();
+    flashCard();
+    showAlert(
+      finished === 'work'
+        ? 'Work session complete — enjoy a 5 minute break.'
+        : 'Break is over — back to work.'
+    );
+
+    render();
+  }
+
+  function start() {
+    if (running) return;
+    if (remaining <= 0) remaining = DURATION[mode];
+
+    running = true;
+    endAt = Date.now() + remaining * 1000;
+    ticker = setInterval(tick, 100);
+
+    hideAlert();
+    render();
+  }
+
+  function pause() {
+    if (!running) return;
+
+    running = false;
+    clearInterval(ticker);
+    ticker = null;
+
+    remaining = Math.max(0, (endAt - Date.now()) / 1000);
+    render();
+  }
+
+  function reset() {
+    running = false;
+    clearInterval(ticker);
+    ticker = null;
+
+    mode = 'work';
+    remaining = WORK_SECONDS;
+
+    hideAlert();
+    els.card.classList.remove('flash');
+    render();
+  }
+
+  els.start.addEventListener('click', start);
+  els.pause.addEventListener('click', pause);
+  els.reset.addEventListener('click', reset);
+
+  document.addEventListener('keydown', function (e) {
+    if (e.repeat || e.metaKey || e.ctrlKey || e.altKey) return;
+
+    if (e.code === 'Space') {
+      e.preventDefault();
+      if (running) { pause(); } else { start(); }
+    } else if (e.key === 'r' || e.key === 'R') {
+      reset();
+    }
+  });
+
+  render();
+})();
+</script>
+
+</body>
+</html>

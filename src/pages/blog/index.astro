@@ -1,0 +1,183 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+
+const posts = (await getCollection('blog', ({ data }) => !data.draft)).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+const categories = [
+  'Prompt Engineering',
+  'AI Coding Tools',
+  'Tutorials',
+  'Case Studies',
+  'Chatbots',
+  'Reviews',
+];
+---
+<BaseLayout title="Blog" description="Articles on prompt engineering, AI tools, and workflows for developers.">
+  <div class="container">
+    <header class="page-header">
+      <h1>Blog</h1>
+      <p>Prompt engineering, AI tools, and workflows for devs.</p>
+    </header>
+
+    <input
+      type="search"
+      id="search-input"
+      class="search-input"
+      placeholder="Search articles…"
+      aria-label="Search articles"
+    />
+
+    <div class="filters" id="filters">
+      <button class="filter active" data-category="all">All</button>
+      {categories.map((c) => (
+        <button class="filter" data-category={c}>{c}</button>
+      ))}
+    </div>
+
+    <div class="posts" id="posts">
+      {posts.map((post) => (
+        <div
+          class="post-item"
+          data-category={post.data.category}
+          data-search={`${post.data.title} ${post.data.description}`.toLowerCase()}
+        >
+          <PostCard
+            slug={post.id}
+            title={post.data.title}
+            description={post.data.description}
+            category={post.data.category}
+            date={post.data.date}
+            readingTime={post.data.readingTime}
+            image={post.data.image}
+            imageAlt={post.data.imageAlt}
+          />
+        </div>
+      ))}
+    </div>
+
+    <p class="no-results" id="no-results" hidden>No articles match your search.</p>
+  </div>
+</BaseLayout>
+
+<style>
+  .page-header {
+    padding-block: 48px 24px;
+    max-width: 60ch;
+  }
+
+  .page-header p {
+    color: var(--ink-soft);
+    margin-top: 8px;
+  }
+
+  .search-input {
+    display: block;
+    width: 100%;
+    max-width: 360px;
+    padding: 10px 16px;
+    margin-bottom: 16px;
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    background: var(--surface);
+    color: var(--ink);
+  }
+
+  .search-input:focus {
+    border-color: var(--violet);
+  }
+
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+
+  .filter {
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    padding: 8px 14px;
+    border-radius: 20px;
+    border: 1px solid var(--line);
+    background: transparent;
+    color: var(--ink-soft);
+    cursor: pointer;
+  }
+
+  .filter.active {
+    background: var(--violet);
+    color: #ffffff;
+    border-color: var(--violet);
+  }
+
+  .posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding-bottom: 16px;
+  }
+
+  @media (max-width: 860px) {
+    .posts {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .posts {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .no-results {
+    color: var(--ink-soft);
+    padding-bottom: 40px;
+  }
+</style>
+
+<script>
+  const filters = document.querySelectorAll<HTMLButtonElement>('.filter');
+  const items = document.querySelectorAll<HTMLElement>('.post-item');
+  const searchInput = document.querySelector<HTMLInputElement>('#search-input');
+  const noResults = document.querySelector<HTMLElement>('#no-results');
+
+  let activeCategory = 'all';
+
+  function applyFilters() {
+    const query = (searchInput?.value ?? '').trim().toLowerCase();
+    let visibleCount = 0;
+
+    items.forEach((item) => {
+      const matchesCategory = activeCategory === 'all' || item.dataset.category === activeCategory;
+      const matchesQuery = !query || (item.dataset.search ?? '').includes(query);
+      const visible = matchesCategory && matchesQuery;
+      item.style.display = visible ? '' : 'none';
+      if (visible) visibleCount += 1;
+    });
+
+    if (noResults) noResults.hidden = visibleCount > 0;
+    filters.forEach((f) => f.classList.toggle('active', f.dataset.category === activeCategory));
+  }
+
+  filters.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      activeCategory = btn.dataset.category ?? 'all';
+      applyFilters();
+    });
+  });
+
+  searchInput?.addEventListener('input', applyFilters);
+
+  const params = new URLSearchParams(window.location.search);
+  const initialCategory = params.get('category');
+  const initialQuery = params.get('q');
+  if (initialCategory) activeCategory = initialCategory;
+  if (initialQuery && searchInput) searchInput.value = initialQuery;
+  applyFilters();
+</script>

@@ -1,0 +1,112 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const lastUpdated = 'September 7, 2026';
+---
+<BaseLayout title="Terms of Use" description="The terms that govern your use of TechOnPlay (techonplay.com).">
+  <section class="container legal-page">
+    <h1>Terms of Use</h1>
+    <p class="updated">Last updated: {lastUpdated}</p>
+
+    <div class="prose">
+      <p>
+        Welcome to TechOnPlay! These Terms of Use outline the rules and
+        regulations for the use of TechOnPlay's website, located at
+        techonplay.com. By accessing this website, we assume
+        you accept these terms. Do not continue to use TechOnPlay if you do not
+        agree to all of the terms stated on this page.
+      </p>
+
+      <h2>Intellectual Property Rights</h2>
+      <p>
+        Unless otherwise stated, TechOnPlay and/or its licensors own the
+        intellectual property rights for all material on this site. You may
+        access this content for your own personal or professional use,
+        subject to the restrictions set in these terms. You must not:
+      </p>
+      <ul>
+        <li>Republish material from TechOnPlay without proper attribution.</li>
+        <li>Sell, rent, or sub-license material from TechOnPlay.</li>
+        <li>Reproduce, duplicate, or copy material from TechOnPlay in bulk.</li>
+        <li>Redistribute content from TechOnPlay.</li>
+      </ul>
+
+      <h2>Disclaimer of Warranties</h2>
+      <p>
+        This website is provided "as is," with all faults, and TechOnPlay makes
+        no representations or warranties of any kind related to this website
+        or the materials on it.
+      </p>
+      <p>
+        <strong>Important:</strong> the prompts, tutorials, and comparisons
+        published on TechOnPlay are for informational purposes only, based on
+        our own testing at the time of writing. AI tools and models change
+        frequently, so results may vary. We are not responsible for any
+        outcome, cost, or damage resulting from the use of our prompts or
+        workflows. Use them at your own risk.
+      </p>
+
+      <h2>Limitation of Liability</h2>
+      <p>
+        In no event shall TechOnPlay, nor any of its officers or contributors, be
+        held liable for anything arising out of or in any way connected with
+        your use of this website, including any indirect, consequential, or
+        special liability.
+      </p>
+
+      <h2>External Links and Advertising</h2>
+      <p>
+        Our site may contain links to third-party websites or services that
+        are not owned or controlled by TechOnPlay. We have no control over, and
+        assume no responsibility for, the content, privacy policies, or
+        practices of any third-party sites.
+      </p>
+      <p>
+        <strong>Ads:</strong> we use Google AdSense and may use other
+        advertising platforms to display ads on this site. We have no
+        control over the content of third-party ads.
+      </p>
+      <p>
+        <strong>Affiliate links:</strong> TechOnPlay may participate in affiliate
+        marketing programs. This means we may earn a commission on purchases
+        made through links on this site, at no extra cost to you.
+      </p>
+
+      <h2>Governing Law &amp; Jurisdiction</h2>
+      <p>
+        These Terms are governed by and interpreted in accordance with the
+        laws of the Federative Republic of Brazil, and you submit to the
+        non-exclusive jurisdiction of the state and federal courts located in
+        Brazil for the resolution of any disputes. While our content is
+        written for an international, English-speaking audience, our
+        operating entity is based in Brazil.
+      </p>
+
+      <h2>Changes to these terms</h2>
+      <p>
+        TechOnPlay reserves the right to revise these Terms at any time.
+        Continued use of the site after a change means you accept the
+        updated terms.
+      </p>
+
+      <h2>Contact us</h2>
+      <p>
+        Questions about these terms? Reach out through our
+        {' '}<a href="/contact">contact page</a>.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .legal-page {
+    padding-block: 56px 80px;
+    max-width: 68ch;
+  }
+
+  .updated {
+    color: var(--ink-soft);
+    font-size: 0.9rem;
+    margin: 12px 0 32px;
+  }
+</style>

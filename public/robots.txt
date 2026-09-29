@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://techonplay.com/sitemap-index.xml

@@ -1,0 +1,44 @@
+---
+interface Props {
+  compact?: boolean;
+}
+const { compact = false } = Astro.props;
+---
+<!--
+  No backend of its own (static site) — this form needs to point at an
+  external email service's endpoint (e.g. ConvertKit, Mailchimp, Beehiiv).
+  Swap the `action` below for the real endpoint once one is chosen.
+-->
+<form class="newsletter" class:list={{ compact }} action="https://api.example-esp.com/subscribe" method="POST">
+  <input type="email" name="email" placeholder="you@email.com" required aria-label="Email" />
+  <button type="submit" class="button button-primary">Subscribe</button>
+</form>
+
+<style>
+  .newsletter {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    max-width: 420px;
+  }
+
+  input {
+    flex: 1;
+    min-width: 0;
+    padding: 12px 16px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    background: var(--surface);
+    color: var(--ink);
+  }
+
+  input:focus {
+    border-color: var(--violet);
+  }
+
+  .compact {
+    max-width: 320px;
+  }
+</style>

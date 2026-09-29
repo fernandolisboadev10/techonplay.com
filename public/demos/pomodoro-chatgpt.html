@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro Timer</title>
+  <style>
+    :root {
+      --bg: #f5f5f5;
+      --card: #ffffff;
+      --text: #222222;
+      --muted: #777777;
+      --accent: #222222;
+      --border: #e5e5e5;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .timer-card {
+      width: min(92%, 420px);
+      padding: 40px 30px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+    }
+
+    .mode {
+      margin-bottom: 18px;
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .timer {
+      margin-bottom: 28px;
+      font-size: clamp(64px, 18vw, 96px);
+      font-weight: 700;
+      line-height: 1;
+      letter-spacing: 0.03em;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .controls {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    button {
+      min-width: 100px;
+      padding: 12px 20px;
+      border: 1px solid var(--accent);
+      border-radius: 10px;
+      background: var(--accent);
+      color: #fff;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.15s ease, opacity 0.15s ease;
+    }
+
+    button:hover {
+      opacity: 0.88;
+    }
+
+    button:active {
+      transform: scale(0.97);
+    }
+
+    button.secondary {
+      background: #fff;
+      color: var(--text);
+      border-color: var(--border);
+    }
+
+    .status {
+      margin-top: 24px;
+      min-height: 20px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .timer-card.alert {
+      animation: pulse 0.8s ease-in-out 3;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.03);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <main class="timer-card" id="timerCard">
+    <div class="mode" id="mode">Work</div>
+    <div class="timer" id="timer">25:00</div>
+
+    <div class="controls">
+      <button id="startBtn">Start</button>
+      <button id="pauseBtn" class="secondary">Pause</button>
+      <button id="resetBtn" class="secondary">Reset</button>
+    </div>
+
+    <div class="status" id="status">Ready to start</div>
+  </main>
+
+  <script>
+    const WORK_TIME = 25 * 60;
+    const BREAK_TIME = 5 * 60;
+
+    let timeLeft = WORK_TIME;
+    let isWork = true;
+    let interval = null;
+    let isRunning = false;
+
+    const timer = document.getElementById("timer");
+    const mode = document.getElementById("mode");
+    const status = document.getElementById("status");
+    const timerCard = document.getElementById("timerCard");
+
+    const startBtn = document.getElementById("startBtn");
+    const pauseBtn = document.getElementById("pauseBtn");
+    const resetBtn = document.getElementById("resetBtn");
+
+    let audioContext = null;
+
+    function updateDisplay() {
+      const minutes = Math.floor(timeLeft / 60);
+      const seconds = timeLeft % 60;
+
+      timer.textContent =
+        String(minutes).padStart(2, "0") + ":" +
+        String(seconds).padStart(2, "0");
+
+      mode.textContent = isWork ? "Work" : "Break";
+      document.title = `${timer.textContent} • ${mode.textContent}`;
+    }
+
+    function playAlertSound() {
+      try {
+        if (!audioContext) {
+          audioContext = new (window.AudioContext || window.webkitAudioContext)();
+        }
+
+        if (audioContext.state === "suspended") {
+          audioContext.resume();
+        }
+
+        const now = audioContext.currentTime;
+
+        [0, 0.25, 0.5].forEach((offset) => {
+          const oscillator = audioContext.createOscillator();
+          const gain = audioContext.createGain();
+
+          oscillator.type = "sine";
+          oscillator.frequency.setValueAtTime(880, now + offset);
+
+          gain.gain.setValueAtTime(0.0001, now + offset);
+          gain.gain.exponentialRampToValueAtTime(0.25, now + offset + 0.02);
+          gain.gain.exponentialRampToValueAtTime(0.0001, now + offset + 0.18);
+
+          oscillator.connect(gain);
+          gain.connect(audioContext.destination);
+
+          oscillator.start(now + offset);
+          oscillator.stop(now + offset + 0.2);
+        });
+      } catch (error) {
+        // Audio may be unavailable in some browsers.
+      }
+    }
+
+    function visualAlert() {
+      timerCard.classList.remove("alert");
+      void timerCard.offsetWidth;
+      timerCard.classList.add("alert");
+
+      setTimeout(() => {
+        timerCard.classList.remove("alert");
+      }, 2500);
+    }
+
+    function switchSession() {
+      playAlertSound();
+      visualAlert();
+
+      isWork = !isWork;
+      timeLeft = isWork ? WORK_TIME : BREAK_TIME;
+
+      status.textContent = isWork
+        ? "Break finished. Time to work!"
+        : "Work session finished. Time for a break!";
+
+      updateDisplay();
+    }
+
+    function startTimer() {
+      if (isRunning) return;
+
+      isRunning = true;
+      status.textContent = isWork ? "Working..." : "Taking a break...";
+
+      interval = setInterval(() => {
+        if (timeLeft > 0) {
+          timeLeft--;
+          updateDisplay();
+        } else {
+          switchSession();
+        }
+      }, 1000);
+    }
+
+    function pauseTimer() {
+      if (!isRunning) return;
+
+      clearInterval(interval);
+      interval = null;
+      isRunning = false;
+      status.textContent = "Paused";
+    }
+
+    function resetTimer() {
+      clearInterval(interval);
+      interval = null;
+      isRunning = false;
+      isWork = true;
+      timeLeft = WORK_TIME;
+      status.textContent = "Ready to start";
+      updateDisplay();
+    }
+
+    startBtn.addEventListener("click", startTimer);
+    pauseBtn.addEventListener("click", pauseTimer);
+    resetBtn.addEventListener("click", resetTimer);
+
+    updateDisplay();
+  </script>
+
+</body>
+</html>

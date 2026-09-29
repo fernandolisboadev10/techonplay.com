@@ -1,0 +1,60 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import NewsletterForm from '../components/NewsletterForm.astro';
+
+const items = [
+  'A new, tested prompt every week',
+  'No-nonsense comparisons of AI tools for developers',
+  'Early notice on new guides and site updates',
+];
+---
+<BaseLayout title="Newsletter" description="Weekly AI prompts and news for developers, straight to your inbox.">
+  <section class="container newsletter-page">
+    <h1>A new prompt, every week.</h1>
+    <p class="sub">Straight to your inbox. No spam, no fluff.</p>
+
+    <ul class="items">
+      {items.map((item) => <li>{item}</li>)}
+    </ul>
+
+    <NewsletterForm />
+  </section>
+</BaseLayout>
+
+<style>
+  .newsletter-page {
+    padding-block: 64px 96px;
+    max-width: 56ch;
+  }
+
+  .sub {
+    color: var(--ink-soft);
+    margin: 12px 0 32px;
+  }
+
+  .items {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .items li {
+    padding-left: 20px;
+    position: relative;
+    color: var(--ink-soft);
+  }
+
+  .items li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 8px;
+    height: 8px;
+    background: var(--teal);
+    border-radius: 50%;
+  }
+</style>

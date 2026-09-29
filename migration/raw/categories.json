@@ -1,0 +1,1162 @@
+[
+  {
+    "id": 13,
+    "count": 14,
+    "description": "Welcome to TechOnPlay's AI hub—your comprehensive resource for understanding and leveraging artificial intelligence in practical applications. We cover the rapidly evolving AI landscape, from breakthrough technologies and innovative tools to implementation strategies and real-world use cases.\r\n\r\nOur AI content bridges the gap between technical innovation and practical application. We cover generative AI tools (ChatGPT, Claude, Midjourney), AI automation, machine learning applications, prompt engineering, and industry trends reshaping marketing, development, and business operations.\r\n\r\nRather than theoretical discussions, we emphasize actionable AI strategies. We test tools extensively, share real-world examples, and acknowledge limitations honestly. Our content helps you understand when to use AI, which tools fit your requirements, and how to maximize results.",
+    "link": "https://techonplay.com/category/artificial-intelligence/",
+    "name": "AI",
+    "slug": "artificial-intelligence",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Arquivo de AI - TechOnPlay ▶</title>\n<meta name=\"description\" content=\"Explore AI tools, machine learning trends, automation guides, and practical artificial intelligence applications for professionals and businesses.\" />\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://techonplay.com/category/artificial-intelligence/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Arquivo de AI - TechOnPlay ▶\" />\n<meta property=\"og:description\" content=\"Explore AI tools, machine learning trends, automation guides, and practical artificial intelligence applications for professionals and businesses.\" />\n<meta property=\"og:url\" content=\"https://techonplay.com/category/artificial-intelligence/\" />\n<meta property=\"og:site_name\" content=\"TechOnPlay ▶\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/techonplay.com\\/category\\/artificial-intelligence\\/\",\"url\":\"https:\\/\\/techonplay.com\\/category\\/artificial-intelligence\\/\",\"name\":\"Arquivo de AI - TechOnPlay ▶\",\"isPartOf\":{\"@id\":\"https:\\/\\/techonplay.com\\/#website\"},\"description\":\"Explore AI tools, machine learning trends, automation guides, and practical artificial intelligence applications for professionals and businesses.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/techonplay.com\\/category\\/artificial-intelligence\\/#breadcrumb\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/techonplay.com\\/category\\/artificial-intelligence\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Início\",\"item\":\"https:\\/\\/techonplay.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"AI\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/techonplay.com\\/#website\",\"url\":\"https:\\/\\/techonplay.com\\/\",\"name\":\"TechOnPlay ▶\",\"description\":\"https:\\/\\/techonplay.com\\/\",\"publisher\":{\"@id\":\"https:\\/\\/techonplay.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/techonplay.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/techonplay.com\\/#organization\",\"name\":\"TechOnPlay ▶\",\"url\":\"https:\\/\\/techonplay.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/techonplay.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/techonplay.com\\/wp-content\\/uploads\\/2025\\/12\\/cropped-logo-oficial-1.png\",\"contentUrl\":\"https:\\/\\/techonplay.com\\/wp-content\\/uploads\\/2025\\/12\\/cropped-logo-oficial-1.png\",\"width\":538,\"height\":91,\"caption\":\"TechOnPlay ▶\"},\"image\":{\"@id\":\"https:\\/\\/techonplay.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Arquivo de AI - TechOnPlay ▶",
+      "description": "Explore AI tools, machine learning trends, automation guides, and practical artificial intelligence applications for professionals and businesses.",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://techonplay.com/category/artificial-intelligence/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Arquivo de AI - TechOnPlay ▶",
+      "og_description": "Explore AI tools, machine learning trends, automation guides, and practical artificial intelligence applications for professionals and businesses.",
+      "og_url": "https://techonplay.com/category/artificial-intelligence/",
+      "og_site_name": "TechOnPlay ▶",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "https://techonplay.com/category/artificial-intelligence/",
+            "url": "https://techonplay.com/category/artificial-intelligence/",
+            "name": "Arquivo de AI - TechOnPlay ▶",
+            "isPartOf": {
+              "@id": "https://techonplay.com/#website"
+            },
+            "description": "Explore AI tools, machine learning trends, automation guides, and practical artificial intelligence applications for professionals and businesses.",
+            "breadcrumb": {
+              "@id": "https://techonplay.com/category/artificial-intelligence/#breadcrumb"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://techonplay.com/category/artificial-intelligence/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Início",
+                "item": "https://techonplay.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AI"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://techonplay.com/#website",
+            "url": "https://techonplay.com/",
+            "name": "TechOnPlay ▶",
+            "description": "https://techonplay.com/",
+            "publisher": {
+              "@id": "https://techonplay.com/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://techonplay.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://techonplay.com/#organization",
+            "name": "TechOnPlay ▶",
+            "url": "https://techonplay.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://techonplay.com/#/schema/logo/image/",
+              "url": "https://techonplay.com/wp-content/uploads/2025/12/cropped-logo-oficial-1.png",
+              "contentUrl": "https://techonplay.com/wp-content/uploads/2025/12/cropped-logo-oficial-1.png",
+              "width": 538,
+              "height": 91,
+              "caption": "TechOnPlay ▶"
+            },
+            "image": {
+              "@id": "https://techonplay.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/categories/13",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/posts?categories=13"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "count": 3,
+    "description": "TechOnPlay's Gaming section explores the intersection of technology and gaming—hardware innovations, performance optimization, industry trends, and the technical evolution of interactive entertainment. We cover gaming from a tech-first perspective, focusing on technology powering games rather than game-specific content.\r\n\r\nWe cover gaming hardware (GPUs, monitors, peripherals), gaming platforms (consoles, handhelds, cloud gaming), performance optimization, gaming technology trends (ray tracing, DLSS/FSR, VR/AR), and industry analysis.\r\n\r\nGaming drives technological innovation across graphics processing, display technology, and cloud infrastructure. We provide detailed reviews and comparisons with real-world performance analysis and practical recommendations for different use cases and budgets. Our focus remains technical and analytical, delivering insights gamers and tech professionals need.",
+    "link": "https://techonplay.com/category/gaming/",
+    "name": "Gaming",
+    "slug": "gaming",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Arquivo de Gaming - TechOnPlay ▶</title>\n<meta name=\"description\" content=\"Technology coverage: hardware reviews, gaming trends, performance analysis, and innovation in gaming tech. Expert insights for gamers.\" />\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://techonplay.com/category/gaming/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Arquivo de Gaming - TechOnPlay ▶\" />\n<meta property=\"og:description\" content=\"Technology coverage: hardware reviews, gaming trends, performance analysis, and innovation in gaming tech. Expert insights for gamers.\" />\n<meta property=\"og:url\" content=\"https://techonplay.com/category/gaming/\" />\n<meta property=\"og:site_name\" content=\"TechOnPlay ▶\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/techonplay.com\\/category\\/gaming\\/\",\"url\":\"https:\\/\\/techonplay.com\\/category\\/gaming\\/\",\"name\":\"Arquivo de Gaming - TechOnPlay ▶\",\"isPartOf\":{\"@id\":\"https:\\/\\/techonplay.com\\/#website\"},\"description\":\"Technology coverage: hardware reviews, gaming trends, performance analysis, and innovation in gaming tech. Expert insights for gamers.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/techonplay.com\\/category\\/gaming\\/#breadcrumb\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/techonplay.com\\/category\\/gaming\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Início\",\"item\":\"https:\\/\\/techonplay.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Gaming\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/techonplay.com\\/#website\",\"url\":\"https:\\/\\/techonplay.com\\/\",\"name\":\"TechOnPlay ▶\",\"description\":\"https:\\/\\/techonplay.com\\/\",\"publisher\":{\"@id\":\"https:\\/\\/techonplay.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/techonplay.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/techonplay.com\\/#organization\",\"name\":\"TechOnPlay ▶\",\"url\":\"https:\\/\\/techonplay.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/techonplay.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/techonplay.com\\/wp-content\\/uploads\\/2025\\/12\\/cropped-logo-oficial-1.png\",\"contentUrl\":\"https:\\/\\/techonplay.com\\/wp-content\\/uploads\\/2025\\/12\\/cropped-logo-oficial-1.png\",\"width\":538,\"height\":91,\"caption\":\"TechOnPlay ▶\"},\"image\":{\"@id\":\"https:\\/\\/techonplay.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Arquivo de Gaming - TechOnPlay ▶",
+      "description": "Technology coverage: hardware reviews, gaming trends, performance analysis, and innovation in gaming tech. Expert insights for gamers.",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://techonplay.com/category/gaming/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Arquivo de Gaming - TechOnPlay ▶",
+      "og_description": "Technology coverage: hardware reviews, gaming trends, performance analysis, and innovation in gaming tech. Expert insights for gamers.",
+      "og_url": "https://techonplay.com/category/gaming/",
+      "og_site_name": "TechOnPlay ▶",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "https://techonplay.com/category/gaming/",
+            "url": "https://techonplay.com/category/gaming/",
+            "name": "Arquivo de Gaming - TechOnPlay ▶",
+            "isPartOf": {
+              "@id": "https://techonplay.com/#website"
+            },
+            "description": "Technology coverage: hardware reviews, gaming trends, performance analysis, and innovation in gaming tech. Expert insights for gamers.",
+            "breadcrumb": {
+              "@id": "https://techonplay.com/category/gaming/#breadcrumb"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://techonplay.com/category/gaming/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Início",
+                "item": "https://techonplay.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Gaming"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://techonplay.com/#website",
+            "url": "https://techonplay.com/",
+            "name": "TechOnPlay ▶",
+            "description": "https://techonplay.com/",
+            "publisher": {
+              "@id": "https://techonplay.com/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://techonplay.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://techonplay.com/#organization",
+            "name": "TechOnPlay ▶",
+            "url": "https://techonplay.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://techonplay.com/#/schema/logo/image/",
+              "url": "https://techonplay.com/wp-content/uploads/2025/12/cropped-logo-oficial-1.png",
+              "contentUrl": "https://techonplay.com/wp-content/uploads/2025/12/cropped-logo-oficial-1.png",
+              "width": 538,
+              "height": 91,
+              "caption": "TechOnPlay ▶"
+            },
+            "image": {
+              "@id": "https://techonplay.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/categories/21",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/posts?categories=21"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "count": 5,
+    "description": "TechOnPlay's Guides section offers comprehensive, step-by-step tutorials that transform complex technology concepts into actionable knowledge. Whether you're learning a new tool, implementing a technical solution, or optimizing your tech stack, our guides provide clear instructions and expert insights.\r\n\r\nWe cover software tutorials, AI implementation, productivity optimization, development workflows, and digital strategy. Each guide addresses specific challenges with structured, scannable content designed for quick reference, including screenshots, code examples, and troubleshooting tips.\r\n\r\nOur tutorials follow a consistent format: overview, prerequisites, step-by-step instructions, best practices, troubleshooting, and next steps. From beginner basics to advanced workflows, our guides provide reliable, tested guidance for technology implementation.",
+    "link": "https://techonplay.com/category/guides/",
+    "name": "Guides",
+    "slug": "guides",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Arquivo de Guides - TechOnPlay ▶</title>\n<meta name=\"description\" content=\"Comprehensive tech guides, tutorials, and how-to articles. Learn tools, strategies, and techniques with clear step-by-step instructions.\" />\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://techonplay.com/category/guides/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Arquivo de Guides - TechOnPlay ▶\" />\n<meta property=\"og:description\" content=\"Comprehensive tech guides, tutorials, and how-to articles. Learn tools, strategies, and techniques with clear step-by-step instructions.\" />\n<meta property=\"og:url\" content=\"https://techonplay.com/category/guides/\" />\n<meta property=\"og:site_name\" content=\"TechOnPlay ▶\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/techonplay.com\\/category\\/guides\\/\",\"url\":\"https:\\/\\/techonplay.com\\/category\\/guides\\/\",\"name\":\"Arquivo de Guides - TechOnPlay ▶\",\"isPartOf\":{\"@id\":\"https:\\/\\/techonplay.com\\/#website\"},\"description\":\"Comprehensive tech guides, tutorials, and how-to articles. Learn tools, strategies, and techniques with clear step-by-step instructions.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/techonplay.com\\/category\\/guides\\/#breadcrumb\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/techonplay.com\\/category\\/guides\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Início\",\"item\":\"https:\\/\\/techonplay.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Guides\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/techonplay.com\\/#website\",\"url\":\"https:\\/\\/techonplay.com\\/\",\"name\":\"TechOnPlay ▶\",\"description\":\"https:\\/\\/techonplay.com\\/\",\"publisher\":{\"@id\":\"https:\\/\\/techonplay.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/techonplay.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/techonplay.com\\/#organization\",\"name\":\"TechOnPlay ▶\",\"url\":\"https:\\/\\/techonplay.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/techonplay.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/techonplay.com\\/wp-content\\/uploads\\/2025\\/12\\/cropped-logo-oficial-1.png\",\"contentUrl\":\"https:\\/\\/techonplay.com\\/wp-content\\/uploads\\/2025\\/12\\/cropped-logo-oficial-1.png\",\"width\":538,\"height\":91,\"caption\":\"TechOnPlay ▶\"},\"image\":{\"@id\":\"https:\\/\\/techonplay.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Arquivo de Guides - TechOnPlay ▶",
+      "description": "Comprehensive tech guides, tutorials, and how-to articles. Learn tools, strategies, and techniques with clear step-by-step instructions.",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://techonplay.com/category/guides/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Arquivo de Guides - TechOnPlay ▶",
+      "og_description": "Comprehensive tech guides, tutorials, and how-to articles. Learn tools, strategies, and techniques with clear step-by-step instructions.",
+      "og_url": "https://techonplay.com/category/guides/",
+      "og_site_name": "TechOnPlay ▶",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "https://techonplay.com/category/guides/",
+            "url": "https://techonplay.com/category/guides/",
+            "name": "Arquivo de Guides - TechOnPlay ▶",
+            "isPartOf": {
+              "@id": "https://techonplay.com/#website"
+            },
+            "description": "Comprehensive tech guides, tutorials, and how-to articles. Learn tools, strategies, and techniques with clear step-by-step instructions.",
+            "breadcrumb": {
+              "@id": "https://techonplay.com/category/guides/#breadcrumb"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://techonplay.com/category/guides/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Início",
+                "item": "https://techonplay.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Guides"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://techonplay.com/#website",
+            "url": "https://techonplay.com/",
+            "name": "TechOnPlay ▶",
+            "description": "https://techonplay.com/",
+            "publisher": {
+              "@id": "https://techonplay.com/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://techonplay.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://techonplay.com/#organization",
+            "name": "TechOnPlay ▶",
+            "url": "https://techonplay.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://techonplay.com/#/schema/logo/image/",
+              "url": "https://techonplay.com/wp-content/uploads/2025/12/cropped-logo-oficial-1.png",
+              "contentUrl": "https://techonplay.com/wp-content/uploads/2025/12/cropped-logo-oficial-1.png",
+              "width": 538,
+              "height": 91,
+              "caption": "TechOnPlay ▶"
+            },
+            "image": {
+              "@id": "https://techonplay.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/categories/15",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/posts?categories=15"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "count": 5,
+    "description": "TechOnPlay's Reviews section delivers comprehensive, unbiased evaluations of technology products, software platforms, and digital tools. Our expert analysis helps you make informed decisions by cutting through marketing hype and revealing real-world performance and value.\r\n\r\nWe test AI tools, productivity software, hardware devices, developer resources, and business platforms. Every review combines hands-on testing, technical analysis, and practical use cases to provide actionable insights you can trust.\r\n\r\nEach review examines features, performance, pricing, user experience, and value proposition. Unlike sponsored content, TechOnPlay maintains editorial independence. We disclose affiliate relationships transparently and prioritize honest assessment over promotional messaging.",
+    "link": "https://techonplay.com/category/reviews/",
+    "name": "Reviews",
+    "slug": "reviews",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Arquivo de Reviews - TechOnPlay ▶</title>\n<meta name=\"description\" content=\"Honest tech reviews of AI tools, software platforms, productivity apps, and hardware. Expert analysis to help you choose the right technology.\" />\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://techonplay.com/category/reviews/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Arquivo de Reviews - TechOnPlay ▶\" />\n<meta property=\"og:description\" content=\"Honest tech reviews of AI tools, software platforms, productivity apps, and hardware. Expert analysis to help you choose the right technology.\" />\n<meta property=\"og:url\" content=\"https://techonplay.com/category/reviews/\" />\n<meta property=\"og:site_name\" content=\"TechOnPlay ▶\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/techonplay.com\\/category\\/reviews\\/\",\"url\":\"https:\\/\\/techonplay.com\\/category\\/reviews\\/\",\"name\":\"Arquivo de Reviews - TechOnPlay ▶\",\"isPartOf\":{\"@id\":\"https:\\/\\/techonplay.com\\/#website\"},\"description\":\"Honest tech reviews of AI tools, software platforms, productivity apps, and hardware. Expert analysis to help you choose the right technology.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/techonplay.com\\/category\\/reviews\\/#breadcrumb\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/techonplay.com\\/category\\/reviews\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Início\",\"item\":\"https:\\/\\/techonplay.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Reviews\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/techonplay.com\\/#website\",\"url\":\"https:\\/\\/techonplay.com\\/\",\"name\":\"TechOnPlay ▶\",\"description\":\"https:\\/\\/techonplay.com\\/\",\"publisher\":{\"@id\":\"https:\\/\\/techonplay.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/techonplay.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/techonplay.com\\/#organization\",\"name\":\"TechOnPlay ▶\",\"url\":\"https:\\/\\/techonplay.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/techonplay.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/techonplay.com\\/wp-content\\/uploads\\/2025\\/12\\/cropped-logo-oficial-1.png\",\"contentUrl\":\"https:\\/\\/techonplay.com\\/wp-content\\/uploads\\/2025\\/12\\/cropped-logo-oficial-1.png\",\"width\":538,\"height\":91,\"caption\":\"TechOnPlay ▶\"},\"image\":{\"@id\":\"https:\\/\\/techonplay.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Arquivo de Reviews - TechOnPlay ▶",
+      "description": "Honest tech reviews of AI tools, software platforms, productivity apps, and hardware. Expert analysis to help you choose the right technology.",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://techonplay.com/category/reviews/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Arquivo de Reviews - TechOnPlay ▶",
+      "og_description": "Honest tech reviews of AI tools, software platforms, productivity apps, and hardware. Expert analysis to help you choose the right technology.",
+      "og_url": "https://techonplay.com/category/reviews/",
+      "og_site_name": "TechOnPlay ▶",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "https://techonplay.com/category/reviews/",
+            "url": "https://techonplay.com/category/reviews/",
+            "name": "Arquivo de Reviews - TechOnPlay ▶",
+            "isPartOf": {
+              "@id": "https://techonplay.com/#website"
+            },
+            "description": "Honest tech reviews of AI tools, software platforms, productivity apps, and hardware. Expert analysis to help you choose the right technology.",
+            "breadcrumb": {
+              "@id": "https://techonplay.com/category/reviews/#breadcrumb"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://techonplay.com/category/reviews/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Início",
+                "item": "https://techonplay.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Reviews"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://techonplay.com/#website",
+            "url": "https://techonplay.com/",
+            "name": "TechOnPlay ▶",
+            "description": "https://techonplay.com/",
+            "publisher": {
+              "@id": "https://techonplay.com/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://techonplay.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://techonplay.com/#organization",
+            "name": "TechOnPlay ▶",
+            "url": "https://techonplay.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://techonplay.com/#/schema/logo/image/",
+              "url": "https://techonplay.com/wp-content/uploads/2025/12/cropped-logo-oficial-1.png",
+              "contentUrl": "https://techonplay.com/wp-content/uploads/2025/12/cropped-logo-oficial-1.png",
+              "width": 538,
+              "height": 91,
+              "caption": "TechOnPlay ▶"
+            },
+            "image": {
+              "@id": "https://techonplay.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/categories/17",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/posts?categories=17"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "count": 8,
+    "description": "Stay safe while using AI. TechOnPlay's Security section covers data privacy, safety practices, and risk breakdowns for the AI tools and platforms you use every day, from chatbots to AI video generators. Get clear, practical answers before you trust any tool with your data.",
+    "link": "https://techonplay.com/category/security/",
+    "name": "Security",
+    "slug": "security",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Arquivo de Security - TechOnPlay ▶</title>\n<meta name=\"description\" content=\"Explore AI security guides covering data privacy, safe usage tips, and risk analysis for the top AI tools on the market today.\" />\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://techonplay.com/category/security/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Arquivo de Security - TechOnPlay ▶\" />\n<meta property=\"og:description\" content=\"Explore AI security guides covering data privacy, safe usage tips, and risk analysis for the top AI tools on the market today.\" />\n<meta property=\"og:url\" content=\"https://techonplay.com/category/security/\" />\n<meta property=\"og:site_name\" content=\"TechOnPlay ▶\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/techonplay.com\\/category\\/security\\/\",\"url\":\"https:\\/\\/techonplay.com\\/category\\/security\\/\",\"name\":\"Arquivo de Security - TechOnPlay ▶\",\"isPartOf\":{\"@id\":\"https:\\/\\/techonplay.com\\/#website\"},\"description\":\"Explore AI security guides covering data privacy, safe usage tips, and risk analysis for the top AI tools on the market today.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/techonplay.com\\/category\\/security\\/#breadcrumb\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/techonplay.com\\/category\\/security\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Início\",\"item\":\"https:\\/\\/techonplay.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Security\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/techonplay.com\\/#website\",\"url\":\"https:\\/\\/techonplay.com\\/\",\"name\":\"TechOnPlay ▶\",\"description\":\"https:\\/\\/techonplay.com\\/\",\"publisher\":{\"@id\":\"https:\\/\\/techonplay.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/techonplay.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/techonplay.com\\/#organization\",\"name\":\"TechOnPlay ▶\",\"url\":\"https:\\/\\/techonplay.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/techonplay.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/techonplay.com\\/wp-content\\/uploads\\/2025\\/12\\/cropped-logo-oficial-1.png\",\"contentUrl\":\"https:\\/\\/techonplay.com\\/wp-content\\/uploads\\/2025\\/12\\/cropped-logo-oficial-1.png\",\"width\":538,\"height\":91,\"caption\":\"TechOnPlay ▶\"},\"image\":{\"@id\":\"https:\\/\\/techonplay.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Arquivo de Security - TechOnPlay ▶",
+      "description": "Explore AI security guides covering data privacy, safe usage tips, and risk analysis for the top AI tools on the market today.",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://techonplay.com/category/security/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Arquivo de Security - TechOnPlay ▶",
+      "og_description": "Explore AI security guides covering data privacy, safe usage tips, and risk analysis for the top AI tools on the market today.",
+      "og_url": "https://techonplay.com/category/security/",
+      "og_site_name": "TechOnPlay ▶",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "https://techonplay.com/category/security/",
+            "url": "https://techonplay.com/category/security/",
+            "name": "Arquivo de Security - TechOnPlay ▶",
+            "isPartOf": {
+              "@id": "https://techonplay.com/#website"
+            },
+            "description": "Explore AI security guides covering data privacy, safe usage tips, and risk analysis for the top AI tools on the market today.",
+            "breadcrumb": {
+              "@id": "https://techonplay.com/category/security/#breadcrumb"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://techonplay.com/category/security/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Início",
+                "item": "https://techonplay.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Security"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://techonplay.com/#website",
+            "url": "https://techonplay.com/",
+            "name": "TechOnPlay ▶",
+            "description": "https://techonplay.com/",
+            "publisher": {
+              "@id": "https://techonplay.com/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://techonplay.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://techonplay.com/#organization",
+            "name": "TechOnPlay ▶",
+            "url": "https://techonplay.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://techonplay.com/#/schema/logo/image/",
+              "url": "https://techonplay.com/wp-content/uploads/2025/12/cropped-logo-oficial-1.png",
+              "contentUrl": "https://techonplay.com/wp-content/uploads/2025/12/cropped-logo-oficial-1.png",
+              "width": 538,
+              "height": 91,
+              "caption": "TechOnPlay ▶"
+            },
+            "image": {
+              "@id": "https://techonplay.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/categories/29",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/posts?categories=29"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "count": 0,
+    "description": "",
+    "link": "https://techonplay.com/category/sem-categoria/",
+    "name": "Sem categoria",
+    "slug": "sem-categoria",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Arquivo de Sem categoria - TechOnPlay ▶</title>\n<meta name=\"description\" content=\"categoria\" />\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://techonplay.com/category/sem-categoria/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Arquivo de Sem categoria - TechOnPlay ▶\" />\n<meta property=\"og:description\" content=\"categoria\" />\n<meta property=\"og:url\" content=\"https://techonplay.com/category/sem-categoria/\" />\n<meta property=\"og:site_name\" content=\"TechOnPlay ▶\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/techonplay.com\\/category\\/sem-categoria\\/\",\"url\":\"https:\\/\\/techonplay.com\\/category\\/sem-categoria\\/\",\"name\":\"Arquivo de Sem categoria - TechOnPlay ▶\",\"isPartOf\":{\"@id\":\"https:\\/\\/techonplay.com\\/#website\"},\"description\":\"categoria\",\"breadcrumb\":{\"@id\":\"https:\\/\\/techonplay.com\\/category\\/sem-categoria\\/#breadcrumb\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/techonplay.com\\/category\\/sem-categoria\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Início\",\"item\":\"https:\\/\\/techonplay.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Sem categoria\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/techonplay.com\\/#website\",\"url\":\"https:\\/\\/techonplay.com\\/\",\"name\":\"TechOnPlay ▶\",\"description\":\"https:\\/\\/techonplay.com\\/\",\"publisher\":{\"@id\":\"https:\\/\\/techonplay.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/techonplay.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/techonplay.com\\/#organization\",\"name\":\"TechOnPlay ▶\",\"url\":\"https:\\/\\/techonplay.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/techonplay.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/techonplay.com\\/wp-content\\/uploads\\/2025\\/12\\/cropped-logo-oficial-1.png\",\"contentUrl\":\"https:\\/\\/techonplay.com\\/wp-content\\/uploads\\/2025\\/12\\/cropped-logo-oficial-1.png\",\"width\":538,\"height\":91,\"caption\":\"TechOnPlay ▶\"},\"image\":{\"@id\":\"https:\\/\\/techonplay.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Arquivo de Sem categoria - TechOnPlay ▶",
+      "description": "categoria",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://techonplay.com/category/sem-categoria/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Arquivo de Sem categoria - TechOnPlay ▶",
+      "og_description": "categoria",
+      "og_url": "https://techonplay.com/category/sem-categoria/",
+      "og_site_name": "TechOnPlay ▶",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "https://techonplay.com/category/sem-categoria/",
+            "url": "https://techonplay.com/category/sem-categoria/",
+            "name": "Arquivo de Sem categoria - TechOnPlay ▶",
+            "isPartOf": {
+              "@id": "https://techonplay.com/#website"
+            },
+            "description": "categoria",
+            "breadcrumb": {
+              "@id": "https://techonplay.com/category/sem-categoria/#breadcrumb"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://techonplay.com/category/sem-categoria/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Início",
+                "item": "https://techonplay.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Sem categoria"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://techonplay.com/#website",
+            "url": "https://techonplay.com/",
+            "name": "TechOnPlay ▶",
+            "description": "https://techonplay.com/",
+            "publisher": {
+              "@id": "https://techonplay.com/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://techonplay.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://techonplay.com/#organization",
+            "name": "TechOnPlay ▶",
+            "url": "https://techonplay.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://techonplay.com/#/schema/logo/image/",
+              "url": "https://techonplay.com/wp-content/uploads/2025/12/cropped-logo-oficial-1.png",
+              "contentUrl": "https://techonplay.com/wp-content/uploads/2025/12/cropped-logo-oficial-1.png",
+              "width": 538,
+              "height": 91,
+              "caption": "TechOnPlay ▶"
+            },
+            "image": {
+              "@id": "https://techonplay.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/categories/1",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/posts?categories=1"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "count": 8,
+    "description": "TechOnPlay's Tools section curates the best digital resources, software platforms, and productivity applications for modern professionals. We discover, test, and recommend tools that enhance workflows, automate tasks, improve collaboration, and solve real business challenges.\r\n\r\nWe cover productivity tools, AI platforms, collaboration software, content creation apps, developer resources, marketing tech, and business software. Our evaluations examine functionality, usability, pricing, integration capabilities, reliability, and support quality.\r\n\r\nRecommendations reflect hands-on testing and real-world application rather than marketing claims. TechOnPlay maintains editorial independence and discloses affiliate relationships transparently. We recommend tools we've tested, used, and found genuinely valuable—and say so clearly when tools fall short.",
+    "link": "https://techonplay.com/category/tools/",
+    "name": "Tools",
+    "slug": "tools",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Arquivo de Tools - TechOnPlay ▶</title>\n<meta name=\"description\" content=\"Discover the best tech tools, productivity software, AI platforms, and digital resources. Curated recommendations for professionals in 2026.\" />\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://techonplay.com/category/tools/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Arquivo de Tools - TechOnPlay ▶\" />\n<meta property=\"og:description\" content=\"Discover the best tech tools, productivity software, AI platforms, and digital resources. Curated recommendations for professionals in 2026.\" />\n<meta property=\"og:url\" content=\"https://techonplay.com/category/tools/\" />\n<meta property=\"og:site_name\" content=\"TechOnPlay ▶\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/techonplay.com\\/category\\/tools\\/\",\"url\":\"https:\\/\\/techonplay.com\\/category\\/tools\\/\",\"name\":\"Arquivo de Tools - TechOnPlay ▶\",\"isPartOf\":{\"@id\":\"https:\\/\\/techonplay.com\\/#website\"},\"description\":\"Discover the best tech tools, productivity software, AI platforms, and digital resources. Curated recommendations for professionals in 2026.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/techonplay.com\\/category\\/tools\\/#breadcrumb\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/techonplay.com\\/category\\/tools\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Início\",\"item\":\"https:\\/\\/techonplay.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Tools\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/techonplay.com\\/#website\",\"url\":\"https:\\/\\/techonplay.com\\/\",\"name\":\"TechOnPlay ▶\",\"description\":\"https:\\/\\/techonplay.com\\/\",\"publisher\":{\"@id\":\"https:\\/\\/techonplay.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/techonplay.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/techonplay.com\\/#organization\",\"name\":\"TechOnPlay ▶\",\"url\":\"https:\\/\\/techonplay.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/techonplay.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/techonplay.com\\/wp-content\\/uploads\\/2025\\/12\\/cropped-logo-oficial-1.png\",\"contentUrl\":\"https:\\/\\/techonplay.com\\/wp-content\\/uploads\\/2025\\/12\\/cropped-logo-oficial-1.png\",\"width\":538,\"height\":91,\"caption\":\"TechOnPlay ▶\"},\"image\":{\"@id\":\"https:\\/\\/techonplay.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Arquivo de Tools - TechOnPlay ▶",
+      "description": "Discover the best tech tools, productivity software, AI platforms, and digital resources. Curated recommendations for professionals in 2026.",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://techonplay.com/category/tools/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Arquivo de Tools - TechOnPlay ▶",
+      "og_description": "Discover the best tech tools, productivity software, AI platforms, and digital resources. Curated recommendations for professionals in 2026.",
+      "og_url": "https://techonplay.com/category/tools/",
+      "og_site_name": "TechOnPlay ▶",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "https://techonplay.com/category/tools/",
+            "url": "https://techonplay.com/category/tools/",
+            "name": "Arquivo de Tools - TechOnPlay ▶",
+            "isPartOf": {
+              "@id": "https://techonplay.com/#website"
+            },
+            "description": "Discover the best tech tools, productivity software, AI platforms, and digital resources. Curated recommendations for professionals in 2026.",
+            "breadcrumb": {
+              "@id": "https://techonplay.com/category/tools/#breadcrumb"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://techonplay.com/category/tools/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Início",
+                "item": "https://techonplay.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Tools"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://techonplay.com/#website",
+            "url": "https://techonplay.com/",
+            "name": "TechOnPlay ▶",
+            "description": "https://techonplay.com/",
+            "publisher": {
+              "@id": "https://techonplay.com/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://techonplay.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://techonplay.com/#organization",
+            "name": "TechOnPlay ▶",
+            "url": "https://techonplay.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://techonplay.com/#/schema/logo/image/",
+              "url": "https://techonplay.com/wp-content/uploads/2025/12/cropped-logo-oficial-1.png",
+              "contentUrl": "https://techonplay.com/wp-content/uploads/2025/12/cropped-logo-oficial-1.png",
+              "width": 538,
+              "height": 91,
+              "caption": "TechOnPlay ▶"
+            },
+            "image": {
+              "@id": "https://techonplay.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/categories/14",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/posts?categories=14"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "count": 3,
+    "description": "TechOnPlay's Trends section explores the cutting edge of technology—emerging innovations, shifting market dynamics, and transformative developments shaping the digital future. We analyze where technology is heading, why it matters, and how forward-thinking professionals can prepare and adapt.\r\n\r\nWe cover emerging technologies (quantum computing, brain-computer interfaces), AI evolution, digital transformation, market analysis, future of work trends, and consumer tech innovations. Our analysis examines technical feasibility, market readiness, economic viability, practical timelines, and strategic implications.\r\n\r\nWe separate genuine innovation from hype cycles. Our trend analysis incorporates market research, industry reports, and expert perspectives. Whether you're planning technology investments or developing product strategies, TechOnPlay provides forward-looking analysis for navigating rapid technological change.",
+    "link": "https://techonplay.com/category/trends/",
+    "name": "Trends",
+    "slug": "trends",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Arquivo de Trends - TechOnPlay ▶</title>\n<meta name=\"description\" content=\"Explore emerging tech trends, innovation analysis, and future technology predictions. Stay ahead of digital transformation in 2026.\" />\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://techonplay.com/category/trends/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Arquivo de Trends - TechOnPlay ▶\" />\n<meta property=\"og:description\" content=\"Explore emerging tech trends, innovation analysis, and future technology predictions. Stay ahead of digital transformation in 2026.\" />\n<meta property=\"og:url\" content=\"https://techonplay.com/category/trends/\" />\n<meta property=\"og:site_name\" content=\"TechOnPlay ▶\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https:\\/\\/techonplay.com\\/category\\/trends\\/\",\"url\":\"https:\\/\\/techonplay.com\\/category\\/trends\\/\",\"name\":\"Arquivo de Trends - TechOnPlay ▶\",\"isPartOf\":{\"@id\":\"https:\\/\\/techonplay.com\\/#website\"},\"description\":\"Explore emerging tech trends, innovation analysis, and future technology predictions. Stay ahead of digital transformation in 2026.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/techonplay.com\\/category\\/trends\\/#breadcrumb\"},\"inLanguage\":\"en-US\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/techonplay.com\\/category\\/trends\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Início\",\"item\":\"https:\\/\\/techonplay.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Trends\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/techonplay.com\\/#website\",\"url\":\"https:\\/\\/techonplay.com\\/\",\"name\":\"TechOnPlay ▶\",\"description\":\"https:\\/\\/techonplay.com\\/\",\"publisher\":{\"@id\":\"https:\\/\\/techonplay.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/techonplay.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/techonplay.com\\/#organization\",\"name\":\"TechOnPlay ▶\",\"url\":\"https:\\/\\/techonplay.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/techonplay.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/techonplay.com\\/wp-content\\/uploads\\/2025\\/12\\/cropped-logo-oficial-1.png\",\"contentUrl\":\"https:\\/\\/techonplay.com\\/wp-content\\/uploads\\/2025\\/12\\/cropped-logo-oficial-1.png\",\"width\":538,\"height\":91,\"caption\":\"TechOnPlay ▶\"},\"image\":{\"@id\":\"https:\\/\\/techonplay.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Arquivo de Trends - TechOnPlay ▶",
+      "description": "Explore emerging tech trends, innovation analysis, and future technology predictions. Stay ahead of digital transformation in 2026.",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://techonplay.com/category/trends/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Arquivo de Trends - TechOnPlay ▶",
+      "og_description": "Explore emerging tech trends, innovation analysis, and future technology predictions. Stay ahead of digital transformation in 2026.",
+      "og_url": "https://techonplay.com/category/trends/",
+      "og_site_name": "TechOnPlay ▶",
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "https://techonplay.com/category/trends/",
+            "url": "https://techonplay.com/category/trends/",
+            "name": "Arquivo de Trends - TechOnPlay ▶",
+            "isPartOf": {
+              "@id": "https://techonplay.com/#website"
+            },
+            "description": "Explore emerging tech trends, innovation analysis, and future technology predictions. Stay ahead of digital transformation in 2026.",
+            "breadcrumb": {
+              "@id": "https://techonplay.com/category/trends/#breadcrumb"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://techonplay.com/category/trends/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Início",
+                "item": "https://techonplay.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Trends"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://techonplay.com/#website",
+            "url": "https://techonplay.com/",
+            "name": "TechOnPlay ▶",
+            "description": "https://techonplay.com/",
+            "publisher": {
+              "@id": "https://techonplay.com/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://techonplay.com/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://techonplay.com/#organization",
+            "name": "TechOnPlay ▶",
+            "url": "https://techonplay.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://techonplay.com/#/schema/logo/image/",
+              "url": "https://techonplay.com/wp-content/uploads/2025/12/cropped-logo-oficial-1.png",
+              "contentUrl": "https://techonplay.com/wp-content/uploads/2025/12/cropped-logo-oficial-1.png",
+              "width": 538,
+              "height": 91,
+              "caption": "TechOnPlay ▶"
+            },
+            "image": {
+              "@id": "https://techonplay.com/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/categories/16",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://techonplay.com/wp-json/wp/v2/posts?categories=16"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

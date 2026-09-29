@@ -1,0 +1,240 @@
+:root {
+  color-scheme: light;
+  --bg: #faf8ff;
+  --surface: #ffffff;
+  --ink-strong: #241e3d;
+  --ink-deep: #180f2e;
+  --ink: #2a2440;
+  --ink-soft: #6b6383;
+  --line: #e4defa;
+
+  --violet: #7c3aed;
+  --violet-soft: #c4b5fd;
+  --violet-deep: #5b21b6;
+
+  --rose: #e11d48;
+  --rose-soft: #fb7185;
+
+  --teal: #0d9488;
+  --teal-soft: #5eead4;
+
+  --gradient: linear-gradient(135deg, var(--rose-soft), var(--rose));
+
+  --font-display: 'Fraunces', serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+
+  --measure: 68ch;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+    --bg: #0d1117;
+    --surface: #161b22;
+    --ink-strong: #f5f3ff;
+    --ink: #ded9f0;
+    --ink-soft: #9d94bd;
+    --line: #30363d;
+
+    --violet: #a78bfa;
+    --violet-soft: #c4b5fd;
+    --violet-deep: #8b5cf6;
+
+    --rose: #fb7185;
+    --rose-soft: #fda4af;
+
+    --teal: #2dd4bf;
+  }
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #0d1117;
+  --surface: #161b22;
+  --ink-strong: #f5f3ff;
+  --ink: #ded9f0;
+  --ink-soft: #9d94bd;
+  --line: #30363d;
+
+  --violet: #a78bfa;
+  --violet-soft: #c4b5fd;
+  --violet-deep: #8b5cf6;
+
+  --rose: #fb7185;
+  --rose-soft: #fda4af;
+
+  --teal: #2dd4bf;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  color: var(--ink-strong);
+  line-height: 1.15;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1080px;
+  margin-inline: auto;
+  padding-inline: 24px;
+}
+
+.prose {
+  max-width: var(--measure);
+}
+
+.prose p, .prose ul, .prose ol {
+  color: var(--ink-soft);
+  font-size: 1.05rem;
+}
+
+.prose h2 {
+  margin-top: 2.5em;
+  font-size: 1.6rem;
+}
+
+.prose h3 {
+  margin-top: 2em;
+  font-size: 1.25rem;
+  color: var(--ink-strong);
+}
+
+.prose img {
+  height: auto;
+  border-radius: 10px;
+  margin: 32px 0;
+}
+
+.prose table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin: 32px 0;
+  font-size: 0.95rem;
+  color: var(--ink);
+}
+
+.prose th,
+.prose td {
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+  color: var(--ink);
+  font-size: inherit;
+}
+
+.prose th {
+  background: var(--surface);
+  color: var(--ink-strong);
+  font-weight: 700;
+}
+
+.prose tbody tr:nth-child(even) td {
+  background: color-mix(in srgb, var(--surface) 55%, transparent);
+}
+
+.prose pre {
+  background: var(--ink-deep);
+  color: #ece7fb;
+  padding: 20px;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+}
+
+.prose code {
+  font-family: var(--font-mono);
+  background: #efe9fd;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.prose pre code {
+  background: none;
+  padding: 0;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 12px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+.button-primary {
+  background: var(--gradient);
+  color: #ffffff;
+}
+
+.button-primary:hover {
+  opacity: 0.92;
+}
+
+.button-ghost {
+  background: transparent;
+  border-color: var(--line);
+  color: var(--ink-strong);
+}
+
+.button-ghost:hover {
+  border-color: var(--teal);
+  color: var(--teal);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--violet);
+  outline-offset: 2px;
+}

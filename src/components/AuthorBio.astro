@@ -1,0 +1,83 @@
+---
+---
+<aside class="author-bio">
+  <img
+    src="/images/fernando-lisboa.png"
+    alt="Fernando Lisboa"
+    class="author-photo"
+    width="72"
+    height="72"
+    loading="lazy"
+  />
+  <div class="author-body">
+    <p class="author-name">Fernando Lisboa</p>
+    <p>
+      I'm an independent Systems Analyst and Tech Writer from Brazil with a
+      passion for AI and Robotics.
+    </p>
+    <p>
+      I built TechOnPlay to cut through the noise of the AI world. While big
+      media chases headlines, I focus on utility — testing tools, writing
+      guides, and making AI accessible for developers, from curious
+      beginners to seasoned engineers.
+    </p>
+    <p>
+      Running this independent publishing ecosystem is my full-time
+      mission. If this research helped you today, consider supporting my
+      work.
+    </p>
+  </div>
+</aside>
+
+<style>
+  .author-bio {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-top: 56px;
+    padding: 28px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, var(--ink-deep), var(--violet-deep));
+    color: #ece7fb;
+  }
+
+  .author-photo {
+    flex-shrink: 0;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .author-name {
+    margin: 0 0 8px;
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .author-body p:not(.author-name) {
+    margin: 0 0 10px;
+    font-size: 0.92rem;
+    line-height: 1.6;
+    color: rgba(236, 231, 251, 0.85);
+  }
+
+  .author-body p:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 560px) {
+    .author-bio {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .author-body p:not(.author-name) {
+      text-align: left;
+    }
+  }
+</style>
