@@ -24,8 +24,8 @@
   --font-body: 'Inter', sans-serif;
   --font-mono: 'IBM Plex Mono', monospace;
   --font-read: 'Lexend', 'Inter', sans-serif;
-  --link: #0b6fcc;
-  --link-line: rgba(11, 111, 204, 0.28);
+  --link: #0a6bd0;
+  --link-line: rgba(11, 111, 204, 0.13);
 
   --measure: 68ch;
 }
@@ -50,7 +50,7 @@
     --teal: #2dd4bf;
 
     --link: #6cb2ff;
-    --link-line: rgba(108, 178, 255, 0.32);
+    --link-line: rgba(108, 178, 255, 0.22);
   }
 }
 
@@ -73,7 +73,7 @@
   --teal: #2dd4bf;
 
   --link: #6cb2ff;
-  --link-line: rgba(108, 178, 255, 0.32);
+  --link-line: rgba(108, 178, 255, 0.22);
 }
 
 * {
@@ -138,16 +138,18 @@ img {
 
 .prose a {
   color: var(--link);
-  text-decoration-line: underline;
-  text-decoration-color: var(--link-line);
-  text-decoration-thickness: 0.28em;
-  text-underline-offset: 0.08em;
-  text-decoration-skip-ink: none;
-  transition: text-decoration-color 0.2s ease;
+  text-decoration: none;
+  background-image: linear-gradient(var(--link-line), var(--link-line));
+  background-repeat: no-repeat;
+  background-position: 0 92%;
+  background-size: 100% 0.42em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  transition: background-size 0.2s ease;
 }
 
 .prose a:hover {
-  text-decoration-color: var(--link);
+  background-size: 100% 100%;
 }
 
 .prose h2 {
