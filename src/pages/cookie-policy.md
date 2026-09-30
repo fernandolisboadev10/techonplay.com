@@ -35,6 +35,8 @@ Some of our articles contain affiliate links (e.g., to Amazon). If you click on 
 
 ## 4. How to Control Cookies
 
+You can change your choice at any time with the **Cookie settings** link in the footer. Visitors in Europe and the UK are asked before analytics and advertising cookies load; elsewhere they load by default and you can reject them from the same banner.
+
 You have the right to accept or reject cookies.
 
 - **Browser Settings:** You can set your browser to refuse all or some browser cookies, or to alert you when websites set or access cookies.

@@ -1,6 +1,7 @@
 ---
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import CookieBanner from '../components/CookieBanner.astro';
 import '../styles/global.css';
 
 interface Props {
@@ -47,14 +48,52 @@ const organizationSchema = {
     <meta name="msvalidate.01" content="F04E2D779DB6A8BB49F3A3817EFBF74F" />
     <meta name="google-site-verification" content="YUGAi5Km1HM9xujfPEHmEkev43C75gjETjzUEyOLaSo" />
 
-    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-XKTXW9L66D"></script>
     <script is:inline>
+      // Consent: EU/UK-style timezones start denied (opt-in); everywhere else starts granted (opt-out).
+      // The visitor's choice is stored in localStorage under "cookie-consent".
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-XKTXW9L66D');
+      (function () {
+        var tz = '';
+        try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
+        var strict = tz.indexOf('Europe/') === 0 ||
+          ['Atlantic/Canary','Atlantic/Madeira','Atlantic/Azores','Atlantic/Faroe','Atlantic/Reykjavik','Asia/Nicosia','Asia/Famagusta'].indexOf(tz) !== -1;
+        var stored = null;
+        try { stored = localStorage.getItem('cookie-consent'); } catch (e) {}
+        var state = (stored === 'granted' || stored === 'denied') ? stored : (strict ? 'denied' : 'granted');
+        var adsLoaded = false;
+
+        function loadAds() {
+          if (adsLoaded) return;
+          adsLoaded = true;
+          var s = document.createElement('script');
+          s.async = true;
+          s.crossOrigin = 'anonymous';
+          s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1196503092730158';
+          document.head.appendChild(s);
+        }
+
+        gtag('consent', 'default', {
+          ad_storage: state, analytics_storage: state, ad_user_data: state, ad_personalization: state
+        });
+        gtag('js', new Date());
+        gtag('config', 'G-XKTXW9L66D');
+        if (state === 'granted') loadAds();
+
+        window.techonplayConsent = {
+          hasChoice: function () { return stored === 'granted' || stored === 'denied'; },
+          set: function (value) {
+            stored = value;
+            try { localStorage.setItem('cookie-consent', value); } catch (e) {}
+            gtag('consent', 'update', {
+              ad_storage: value, analytics_storage: value, ad_user_data: value, ad_personalization: value
+            });
+            if (value === 'granted') loadAds();
+          }
+        };
+      })();
     </script>
-    <script is:inline async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1196503092730158" crossorigin="anonymous"></script>
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-XKTXW9L66D"></script>
     <link rel="canonical" href={canonicalURL} />
     <link rel="alternate" type="application/rss+xml" title={siteName} href={new URL('/rss.xml', Astro.site)} />
     <title>{title} · TechOnPlay</title>
@@ -110,5 +149,6 @@ const organizationSchema = {
       <slot />
     </main>
     <Footer />
+    <CookieBanner />
   </body>
 </html>
