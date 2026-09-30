@@ -1,0 +1,24 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+const { frontmatter } = Astro.props;
+---
+<BaseLayout title={frontmatter.title} description={frontmatter.description}>
+  <section class="container legal-page">
+    <h1>{frontmatter.title}</h1>
+    <div class="prose">
+      <slot />
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .legal-page {
+    padding-block: 56px 80px;
+    max-width: 68ch;
+  }
+
+  .legal-page h1 {
+    margin-bottom: 32px;
+  }
+</style>

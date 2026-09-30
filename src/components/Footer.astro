@@ -1,6 +1,4 @@
 ---
-import NewsletterForm from './NewsletterForm.astro';
-
 const categories = [
   { label: 'Home', href: '/' },
   { label: 'AI', href: '/blog?category=AI' },
@@ -47,11 +45,6 @@ const quickLinks = [
       </ul>
     </div>
 
-    <div>
-      <p class="col-title">Newsletter</p>
-      <p class="newsletter-copy">Sign up for our newsletter to get updates and news.</p>
-      <NewsletterForm compact />
-    </div>
   </div>
 
   <div class="bottom">
@@ -73,7 +66,7 @@ const quickLinks = [
 
   .grid {
     display: grid;
-    grid-template-columns: 1.6fr 1fr 1fr 1.2fr;
+    grid-template-columns: 1.6fr 1fr 1fr;
     gap: 40px;
     padding-block: 56px 40px;
   }
@@ -119,11 +112,6 @@ const quickLinks = [
     background: linear-gradient(135deg, var(--violet), var(--rose));
   }
 
-  .newsletter-copy {
-    color: var(--ink-soft);
-    font-size: 0.9rem;
-    margin: 0 0 16px;
-  }
 
   ul {
     list-style: none;
