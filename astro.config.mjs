@@ -20,9 +20,25 @@ for (const file of readdirSync(blogDir)) {
 // https://astro.build/config
 export default defineConfig({
   site: 'https://techonplay.com',
+  // URLs herdadas do WordPress (categorias, autor, feed e sitemaps do Yoast)
   redirects: {
     '/about': '/about-us',
     '/contact': '/contact-us',
+    '/category/artificial-intelligence': '/blog?category=AI',
+    '/category/gaming': '/blog?category=Gaming',
+    '/category/guides': '/blog?category=Guides',
+    '/category/reviews': '/blog?category=Reviews',
+    '/category/security': '/blog?category=Security',
+    '/category/tools': '/blog?category=Tools',
+    '/category/trends': '/blog?category=Trends',
+    '/category/sem-categoria': '/blog',
+    '/author/fernandolisboa-devgmail-com': '/about-us',
+    '/feed': '/rss.xml',
+    '/sitemap_index.xml': '/sitemap-index.xml',
+    '/wp-sitemap.xml': '/sitemap-index.xml',
+    '/post-sitemap.xml': '/sitemap-0.xml',
+    '/page-sitemap.xml': '/sitemap-0.xml',
+    '/category-sitemap.xml': '/sitemap-index.xml',
   },
   integrations: [
     sitemap({
