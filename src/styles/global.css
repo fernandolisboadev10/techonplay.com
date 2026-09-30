@@ -23,6 +23,9 @@
   --font-display: 'Fraunces', serif;
   --font-body: 'Inter', sans-serif;
   --font-mono: 'IBM Plex Mono', monospace;
+  --font-read: 'Lexend', 'Inter', sans-serif;
+  --link: #0b6fcc;
+  --link-line: rgba(11, 111, 204, 0.28);
 
   --measure: 68ch;
 }
@@ -45,6 +48,9 @@
     --rose-soft: #fda4af;
 
     --teal: #2dd4bf;
+
+    --link: #6cb2ff;
+    --link-line: rgba(108, 178, 255, 0.32);
   }
 }
 
@@ -65,6 +71,9 @@
   --rose-soft: #fda4af;
 
   --teal: #2dd4bf;
+
+  --link: #6cb2ff;
+  --link-line: rgba(108, 178, 255, 0.32);
 }
 
 * {
@@ -111,8 +120,34 @@ img {
 }
 
 .prose p, .prose ul, .prose ol {
-  color: var(--ink-soft);
-  font-size: 1.05rem;
+  font-family: var(--font-read);
+  color: var(--ink);
+  font-size: 1.15rem;
+  line-height: 1.8;
+  font-weight: 300;
+}
+
+.prose li {
+  font-family: var(--font-read);
+}
+
+.prose strong, .prose b {
+  font-weight: 600;
+  color: var(--ink-strong);
+}
+
+.prose a {
+  color: var(--link);
+  text-decoration-line: underline;
+  text-decoration-color: var(--link-line);
+  text-decoration-thickness: 0.28em;
+  text-underline-offset: 0.08em;
+  text-decoration-skip-ink: none;
+  transition: text-decoration-color 0.2s ease;
+}
+
+.prose a:hover {
+  text-decoration-color: var(--link);
 }
 
 .prose h2 {
