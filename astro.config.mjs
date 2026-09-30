@@ -20,6 +20,10 @@ for (const file of readdirSync(blogDir)) {
 // https://astro.build/config
 export default defineConfig({
   site: 'https://techonplay.com',
+  redirects: {
+    '/about': '/about-us',
+    '/contact': '/contact-us',
+  },
   integrations: [
     sitemap({
       serialize(item) {
