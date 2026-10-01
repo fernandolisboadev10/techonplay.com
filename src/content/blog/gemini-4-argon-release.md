@@ -5,6 +5,8 @@ category: "News"
 date: 2026-10-01T09:00:00-04:00
 readingTime: "6 min"
 tags: ["Gemini 4", "Google", "AI models", "cybersecurity"]
+image: "./images/gemini-4-argon-release.webp"
+imageAlt: "Dark security operations desk with a laptop showing blurred code, a glowing hardware security key, and wall monitors in the background, illustrating Gemini 4 Argon access for cyber defenders"
 ---
 
 Google just announced its strongest AI model yet, and most people can't use it. **Gemini 4 Argon** launched on September 30 to a small group of vetted cyber defenders, with no public date for everyone else.
