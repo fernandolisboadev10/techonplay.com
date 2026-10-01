@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    # 09:00 and 18:00 America/New_York. GitHub cron is UTC and ignores DST, so run at both possible hours
+    # (EDT: 13 and 22, EST: 14 and 23). Posts dated in the future go live on the next run after their date.
+    - cron: '2 13,14,22,23 * * *'
 
 permissions:
   contents: read

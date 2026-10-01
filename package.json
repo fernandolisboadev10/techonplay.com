@@ -11,7 +11,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "image": "node --env-file-if-exists=.env scripts/generate-image.mjs",
-    "migrate": "node scripts/migrate-wp.mjs"
+    "migrate": "node scripts/migrate-wp.mjs",
+    "radar": "node scripts/radar.mjs"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^7.3.1",
