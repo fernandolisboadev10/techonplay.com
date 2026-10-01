@@ -1,0 +1,127 @@
+---
+interface Props {
+  title: string;
+}
+const { title } = Astro.props;
+
+const url = new URL(Astro.url.pathname, Astro.site).toString();
+const u = encodeURIComponent(url);
+const t = encodeURIComponent(title);
+
+const links = [
+  { name: 'WhatsApp', cls: 'whatsapp', href: `https://wa.me/?text=${t}%20${u}`, path: 'M12.04 2a9.9 9.9 0 0 0-8.47 15l-1.5 5.5 5.64-1.48A9.9 9.9 0 1 0 12.04 2Zm5.8 14.1c-.25.7-1.45 1.34-2 1.4-.5.06-1.13.09-1.82-.12a16.6 16.6 0 0 1-1.65-.61c-2.9-1.25-4.78-4.17-4.92-4.36-.14-.2-1.17-1.56-1.17-2.97s.74-2.1 1-2.39c.27-.29.58-.36.78-.36h.55c.18 0 .42-.07.65.5.25.58.84 2 .91 2.15.07.14.12.31.02.5-.1.2-.15.31-.29.48l-.44.5c-.15.14-.3.3-.13.58.17.29.76 1.25 1.63 2.03 1.12 1 2.06 1.3 2.35 1.45.29.14.46.12.63-.07.17-.2.73-.85.92-1.14.2-.29.39-.24.66-.14.27.1 1.7.8 2 .95.29.14.48.22.55.34.07.12.07.7-.18 1.4Z' },
+  { name: 'Facebook', cls: 'facebook', href: `https://www.facebook.com/sharer/sharer.php?u=${u}`, path: 'M13.5 22v-8.2h2.8l.5-3.3h-3.3V8.4c0-.95.4-1.7 1.8-1.7h1.6V3.8c-.3 0-1.3-.15-2.5-.15-2.6 0-4.3 1.6-4.3 4.4v2.45H7.3v3.3h2.8V22h3.4Z' },
+  { name: 'X', cls: 'x', href: `https://twitter.com/intent/tweet?text=${t}&url=${u}`, path: 'M17.75 3h3.07l-6.7 7.66L22 21h-6.17l-4.83-6.32L5.47 21H2.4l7.17-8.2L2 3h6.33l4.37 5.78L17.75 3Zm-1.08 16.17h1.7L7.4 4.74H5.58l11.09 14.43Z' },
+  { name: 'LinkedIn', cls: 'linkedin', href: `https://www.linkedin.com/sharing/share-offsite/?url=${u}`, path: 'M6.94 8.5H3.56V20h3.38V8.5ZM5.25 3.2a1.97 1.97 0 1 0 0 3.94 1.97 1.97 0 0 0 0-3.94ZM20.44 20v-6.3c0-3.1-1.65-4.55-3.85-4.55-1.77 0-2.57.98-3.01 1.66V8.5H10.2c.04.97 0 11.5 0 11.5h3.38v-6.42c0-.34.02-.69.13-.93.28-.69.9-1.4 1.96-1.4 1.38 0 1.93 1.06 1.93 2.6V20h3.34Z' },
+  { name: 'Telegram', cls: 'telegram', href: `https://t.me/share/url?url=${u}&text=${t}`, path: 'M21.4 4.1 2.9 11.3c-1.26.5-1.25 1.2-.23 1.52l4.75 1.48 1.83 5.6c.22.6.12.85.75.85.49 0 .7-.22.97-.49l2.3-2.24 4.8 3.55c.88.49 1.52.24 1.74-.82l3.15-14.85c.32-1.29-.49-1.88-1.56-1.36ZM8.5 13.7l9.3-5.87c.44-.27.84-.12.51.18l-7.96 7.18-.31 3.3-1.54-4.79Z' },
+];
+---
+<div class="share" data-share-url={url}>
+  <span class="share-label">Share:</span>
+  <ul>
+    {links.map((l) => (
+      <li>
+        <a class={`share-btn ${l.cls}`} href={l.href} target="_blank" rel="noopener noreferrer" aria-label={`Share on ${l.name}`} title={l.name}>
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d={l.path} /></svg>
+        </a>
+      </li>
+    ))}
+    <li>
+      <button type="button" class="share-btn copy" aria-label="Copy link" title="Copy link">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.07 0l3-3a5 5 0 0 0-7.07-7.07l-1.5 1.5" /><path d="M14 11a5 5 0 0 0-7.07 0l-3 3a5 5 0 0 0 7.07 7.07l1.5-1.5" /></svg>
+      </button>
+    </li>
+  </ul>
+  <span class="share-status" role="status" aria-live="polite"></span>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.share').forEach((box) => {
+    const btn = box.querySelector<HTMLButtonElement>('.copy');
+    const status = box.querySelector<HTMLElement>('.share-status');
+    const url = box.dataset.shareUrl ?? location.href;
+    if (!btn || !status) return;
+
+    const done = (ok: boolean) => {
+      status.textContent = ok ? 'Link copied!' : 'Could not copy';
+      setTimeout(() => (status.textContent = ''), 2000);
+    };
+
+    btn.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(url);
+        done(true);
+      } catch {
+        const ta = document.createElement('textarea');
+        ta.value = url;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        let ok = false;
+        try { ok = document.execCommand('copy'); } catch { ok = false; }
+        document.body.removeChild(ta);
+        done(ok);
+      }
+    });
+  });
+</script>
+
+<style>
+  .share {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px 12px;
+    margin: 0 0 32px;
+  }
+
+  .share-label {
+    color: var(--ink-soft);
+    font-size: 0.95rem;
+  }
+
+  ul {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .share-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.15s ease, filter 0.15s ease;
+  }
+
+  .share-btn:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.1);
+  }
+
+  .share-btn:focus-visible {
+    outline: 2px solid var(--violet);
+    outline-offset: 2px;
+  }
+
+  .whatsapp { background: #25d366; }
+  .facebook { background: #3b5998; }
+  .x { background: #111; }
+  .linkedin { background: #0a66c2; }
+  .telegram { background: #229ed9; }
+  .copy { background: #999; }
+
+  .share-status {
+    font-size: 0.85rem;
+    color: var(--teal);
+  }
+</style>
