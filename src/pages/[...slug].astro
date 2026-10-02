@@ -4,14 +4,17 @@ import PostLayout from '../layouts/PostLayout.astro';
 import { isPublished } from '../utils/posts';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog', isPublished);
-  return posts.map((post) => ({
+  const posts = (await getCollection('blog', isPublished)).sort(
+    (a, b) => a.data.date.valueOf() - b.data.date.valueOf(),
+  );
+  const link = (p?: (typeof posts)[number]) => (p ? { slug: p.id, title: p.data.title } : undefined);
+  return posts.map((post, i) => ({
     params: { slug: post.id },
-    props: { post },
+    props: { post, prev: link(posts[i - 1]), next: link(posts[i + 1]) },
   }));
 }
 
-const { post } = Astro.props;
+const { post, prev, next } = Astro.props;
 const { Content } = await render(post);
 ---
 <PostLayout
@@ -22,6 +25,8 @@ const { Content } = await render(post);
   readingTime={post.data.readingTime}
   image={post.data.image}
   imageAlt={post.data.imageAlt}
+  prev={prev}
+  next={next}
 >
   <Content />
 </PostLayout>

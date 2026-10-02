@@ -41,6 +41,9 @@ const posts = (await getCollection('blog', isPublished))
         />
       ))}
     </div>
+    <div class="more">
+      <a class="more-btn" href="/blog">See more posts</a>
+    </div>
   </section>
 </BaseLayout>
 
@@ -119,6 +122,29 @@ const posts = (await getCollection('blog', isPublished))
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
+  }
+
+  .more {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .more-btn {
+    display: inline-block;
+    padding: 16px 40px;
+    border-radius: 999px;
+    background: linear-gradient(135deg, var(--violet), var(--rose));
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.05rem;
+    text-decoration: none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .more-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(160, 40, 160, 0.3);
   }
 
   @media (max-width: 860px) {
