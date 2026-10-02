@@ -28,7 +28,7 @@ const posts = (await getCollection('blog', isPublished))
       <a href="/blog">See all →</a>
     </div>
     <div class="grid">
-      {posts.map((post) => (
+      {posts.map((post, i) => (
         <PostCard
           slug={post.id}
           title={post.data.title}
@@ -38,6 +38,7 @@ const posts = (await getCollection('blog', isPublished))
           readingTime={post.data.readingTime}
           image={post.data.image}
           imageAlt={post.data.imageAlt}
+          priority={i === 0}
         />
       ))}
     </div>

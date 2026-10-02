@@ -20,10 +20,10 @@
 
   --gradient: linear-gradient(135deg, var(--rose-soft), var(--rose));
 
-  --font-display: 'Fraunces', serif;
-  --font-body: 'Inter', sans-serif;
-  --font-mono: 'IBM Plex Mono', monospace;
-  --font-read: 'Lexend', 'Inter', sans-serif;
+  --font-display: var(--f-fraunces);
+  --font-body: var(--f-inter);
+  --font-mono: var(--f-plex-mono);
+  --font-read: var(--f-lexend), var(--f-inter);
   --link: #0a6bd0;
   --link-line: rgba(11, 111, 204, 0.13);
 

@@ -1,6 +1,6 @@
 // @ts-check
 import { readFileSync, readdirSync } from 'node:fs';
-import { defineConfig } from 'astro/config';
+import { defineConfig, fontProviders } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import { unified } from '@astrojs/markdown-remark';
 import rehypeExternalLinks from 'rehype-external-links';
@@ -40,6 +40,13 @@ export default defineConfig({
     '/page-sitemap.xml': '/sitemap-0.xml',
     '/category-sitemap.xml': '/sitemap-index.xml',
   },
+  // Self-hosted fonts: no Google Fonts round trips, preloaded and with metric-matched fallbacks.
+  fonts: [
+    { provider: fontProviders.google(), name: 'Inter', cssVariable: '--f-inter', weights: [400, 500, 600, 700], styles: ['normal'], subsets: ['latin'], fallbacks: ['sans-serif'] },
+    { provider: fontProviders.google(), name: 'Fraunces', cssVariable: '--f-fraunces', weights: [400, 500, 600], styles: ['normal'], subsets: ['latin'], fallbacks: ['serif'] },
+    { provider: fontProviders.google(), name: 'Lexend', cssVariable: '--f-lexend', weights: [300, 400], styles: ['normal'], subsets: ['latin'], fallbacks: ['sans-serif'] },
+    { provider: fontProviders.google(), name: 'IBM Plex Mono', cssVariable: '--f-plex-mono', weights: [400, 500], styles: ['normal'], subsets: ['latin'], fallbacks: ['monospace'] },
+  ],
   integrations: [
     sitemap({
       serialize(item) {

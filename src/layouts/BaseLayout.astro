@@ -2,6 +2,7 @@
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import CookieBanner from '../components/CookieBanner.astro';
+import { Font } from 'astro:assets';
 import '../styles/global.css';
 
 interface Props {
@@ -78,7 +79,23 @@ const organizationSchema = {
         });
         gtag('js', new Date());
         gtag('config', 'G-XKTXW9L66D');
-        if (state === 'granted') loadAds();
+
+        // Third-party scripts (analytics and ads) load on the first interaction, or a few seconds
+        // after the page finished loading, so they never compete with the first paint.
+        var thirdPartyLoaded = false;
+        function loadThirdParty() {
+          if (thirdPartyLoaded) return;
+          thirdPartyLoaded = true;
+          var g = document.createElement('script');
+          g.async = true;
+          g.src = 'https://www.googletagmanager.com/gtag/js?id=G-XKTXW9L66D';
+          document.head.appendChild(g);
+          if (state === 'granted') loadAds();
+        }
+        ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (ev) {
+          window.addEventListener(ev, loadThirdParty, { once: true, passive: true });
+        });
+        window.addEventListener('load', function () { setTimeout(loadThirdParty, 3500); });
 
         window.techonplayConsent = {
           hasChoice: function () { return stored === 'granted' || stored === 'denied'; },
@@ -88,12 +105,11 @@ const organizationSchema = {
             gtag('consent', 'update', {
               ad_storage: value, analytics_storage: value, ad_user_data: value, ad_personalization: value
             });
-            if (value === 'granted') loadAds();
+            if (value === 'granted' && thirdPartyLoaded) loadAds();
           }
         };
       })();
     </script>
-    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-XKTXW9L66D"></script>
     <link rel="canonical" href={canonicalURL} />
     <link rel="alternate" type="application/rss+xml" title={siteName} href={new URL('/rss.xml', Astro.site)} />
     <title>{title} · TechOnPlay</title>
@@ -112,25 +128,10 @@ const organizationSchema = {
 
     <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="preload"
-      as="style"
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=Lexend:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=Lexend:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
-      media="print"
-      onload="this.media='all'"
-    />
-    <noscript>
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=Lexend:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
-      />
-    </noscript>
+    <Font cssVariable="--f-inter" preload />
+    <Font cssVariable="--f-fraunces" preload />
+    <Font cssVariable="--f-lexend" />
+    <Font cssVariable="--f-plex-mono" />
 
   </head>
   <body>
