@@ -1,103 +1,96 @@
 ---
-title: "Gemini Pro for Students Is Dead: Grab This New Deal Before It Ends [2026]"
-description: "Learn why Gemini Pro for Students ended and how to claim Google's new free AI Plus deal for students in 2026"
+title: "Gemini Pro for Students: Free Google AI Pro Until Dec 31 [2026]"
+description: "Gemini Pro for students is free in the US: one year of Google AI Pro until Dec 31, 2026. See what you get, who qualifies and what it costs afterward."
 category: "Tools"
 date: 2026-09-21
-updated: 2026-09-21
+updated: 2026-10-02T14:00:00-04:00
 readingTime: "6 min"
 image: "./images/Google-Gemini-Pro-for-Students.webp"
 imageAlt: "Gemini Pro for Students"
 ---
 
-College tuition already drains your savings, and now **Gemini Pro for Students** just lost its free ride. Google quietly shut the door on the 12-month free plan that thousands of students relied on, and if you missed the deadline, you are locked out.
+College tuition already drains your savings, so a free AI subscription matters. **Gemini Pro for students** is available again in the US: Google is giving verified college students one free year of Google AI Pro, a plan it values at $19.99 a month.
 
-Here is why this matters right now. Google has reshuffled its AI pricing three times in 2026 alone, cutting some plans and killing others without much warning. Students who assumed the free year would just renew got a rude surprise when their card started getting charged.
+Google announced the offer on August 19, 2026, and you can redeem it until December 31, 2026. It comes with a new student hub inside the Gemini app, and it renews at the full price after 12 months unless you cancel.
 
-The good news: Google did not abandon students completely. A new offer landed in August, and it works differently from the one you may have heard about. This guide breaks down exactly what ended, what replaced it, and how to claim the current deal before it disappears too.
+This guide covers what the offer includes, who qualifies, how it compares with other plans, and how to avoid paying for something you do not use. [Editorial note: details follow Google's August 19 announcement and its help page, checked on October 2, 2026. An earlier version of this article said the US offer had ended and that students received Google AI Plus. That was wrong, and this version corrects it.]
 
-### What Actually Happened to Gemini Pro for Students
+### What the Gemini Pro for Students Offer Includes
 
-The original **Gemini Pro for Students** offer gave verified students a free year of Google AI Pro. That meant Gemini’s top model, 2TB of storage, and deep research tools at zero cost.
+Google lists these benefits for US students:
 
-Redemption windows closed on a rolling basis by region between October 2025 and March 2026. The final US cutoff landed on April 30, 2026. If you claimed the offer before that date, you may still be inside your free year. If you show up now looking for it, Google’s own student page confirms the offer has ended.
+- 📊 4x higher usage limits in Gemini than the free plan
+- 💾 5 TB of storage across Google Photos, Drive and Gmail
+- 🤖 Gemini inside Gmail and Google Docs
+- ⚡ Access to Gemini Spark, Google's background agent, as rollout allows
+- 🩺 Google Health Premium
 
-### The New Deal: A Free Year of Google AI Plus
+The free year starts when you redeem. After 12 months, Google AI Pro costs $19.99 a month, and you can cancel any time.
 
-On August 19, 2026, Google launched a fresh student offer covering more than 140 markets. This time the free year applies to Google AI Plus, not the full Pro tier, and it comes bundled with a new student hub inside the Gemini app.
+### Why You May Have Seen Google AI Plus Instead
 
-Google AI Plus normally costs $4.99 a month after a June 2026 price cut, so the free year saves you roughly $60. That is smaller than the old Pro deal, but it still beats paying out of pocket for a full academic year.
+Google runs two student deals. US students get Google AI Pro. Students in more than 140 other markets get Google AI Plus, which includes 400 GB of storage and 2x usage limits, then costs $4.99 a month. Google excluded the US, Canada, Albania, Bolivia, Hong Kong, Macau and Tunisia from the Plus offer.
 
-The new hub adds study-specific shortcuts: instant flashcard generation, guided problem-solving walkthroughs, and quicker access to NotebookLM inside the same interface. ✅
+If you saw the Plus version, you were reading material written for another country. We explain the split in our guide to [Google AI Plus for students](/google-ai-plus-for-students/).
 
-### How to Check If You Still Qualify for Either Offer
+### How to Check If You Qualify
 
-Do not trust old blog posts, including outdated versions of this one. Google changes eligibility by country and by account status constantly.
+Do not rely on old posts, including older versions of this one. Terms vary by country and account.
 
-Here is the fastest way to check your actual status:
-
-1.  Go to the official Google AI for Students page.
+1.  Go to Google's student page at one.google.com/ai-student.
 2.  Sign in with your personal Google Account, not a school Workspace account.
-3.  Verify your student status through SheerID if prompted.
-4.  Read the terms shown on your screen. If nothing free appears, you do not currently qualify.
+3.  Verify your student status through SheerID when prompted.
+4.  Add a payment method, which Google requires at sign-up.
 
-⏱️ This takes about three minutes and saves you from acting on stale information.
+⏱️ This takes about five minutes. You must be 18 or older and enrolled at an eligible school. If you redeemed an earlier Pro student trial, Google says you can verify again through SheerID to continue the discount, so check your account.
 
 ### Crush Massive Textbooks in Seconds
 
-Whether you land the free Pro tier, the new Plus offer, or stick with the free Gemini app, the document-reading power stays useful all year.
+Whichever plan you use, the document tools help with coursework. Upload a long PDF and ask Gemini to pull out themes, formulas or key dates, then check the answers against the source.
 
-The current models handle enormous PDFs in one prompt. Upload a 400-page textbook, and the system extracts themes, formulas, or key dates in seconds instead of hours.
-
-### Execute Deep Research for A+ Papers
-
-Writing a thesis demands real sources, not invented ones. Deep Research scans hundreds of live pages at once and compiles a synthesized report with citations attached.
-
-This feature sits behind Pro-level access, so it matters which offer you land. Using it well turns a messy research phase into an organized literature review in a fraction of the time.
+For research, Deep Research scans live web pages and compiles a cited report. It is available on the free plan too, so you do not need Pro to try it. Verify every source before you cite it.
 
 ### Free vs Paid: What You Actually Get in 2026
 
-The table below breaks down the old expired offer, the new live offer, and the full paid plan side by side.
+The table compares the plans a US student might choose.
 
-| Feature 📊 | Old Student Offer ❌ (Expired) | New Student Offer ✅ (Live Now) | Paid Google AI Pro 💰 |
+| Feature 📊 | Free Gemini ✅ | Google AI Plus (outside US) 🌍 | Google AI Pro, Student Year 💰 |
 | --- | --- | --- | --- |
-| Price | 🎯 Free for 12 months (redemption closed) | 🎯 Free for 12 months (new markets) | 💰 $19.99/month, no student rate |
-| AI Model | Gemini 2.5 Pro / early 3 Pro access | Gemini 3.1 Pro + 3.6 Flash | Gemini 3.1 Pro (full access) |
-| Cloud Storage | 💾 2TB Google One | 💾 400GB Google One | 💾 5TB Google One |
-| Deep Research | 🧠 Full access | 🧠 Limited access | 🧠 Full access |
-| NotebookLM | ✅ Standard access | ✅ Standard access | ✅ 5x audio overviews |
-| Eligibility Today | ⏱️ Closed, redemption ended April 30, 2026 | ⏱️ Open in 140+ markets since Aug 19, 2026 | ⏱️ Open to anyone, any time |
+| Price | 🎯 $0 | 🎯 Free for 12 months, then $4.99 a month | 🎯 Free for 12 months, then $19.99 a month |
+| Usage limits | Baseline | 2x the free plan | 4x the free plan |
+| Cloud storage | 💾 15 GB | 💾 400 GB | 💾 5 TB |
+| Deep Research | 🧠 Included | 🧠 Included | 🧠 Higher limits |
+| Eligibility today | ⏱️ Anyone | ⏱️ 140+ markets, not the US | ⏱️ US students, redeem by Dec 31, 2026 |
 
 ### Build a Backup AI Stack in Case You Miss Out
 
-If neither student offer applies to you, do not panic. The free Gemini tier now runs on the Gemini 3.6 Flash model, which handles most homework and everyday questions without a subscription.
+If you miss the deadline or do not qualify, the free Gemini plan still covers most homework. Many students also pair Gemini with another assistant, then compare prices before paying for any tool.
 
-Smart students also run more than one tool. Combine Gemini for research with ChatGPT for brainstorming, and compare pricing before you commit to any paid plan.
+For coding classes, a tool like Cursor AI or GitHub Copilot can fill gaps. Keep a short list of prompts for each task so you always pick the right model.
 
-For coding-heavy classes, pairing any Gemini tier with a tool like Cursor AI or GitHub Copilot keeps your workflow moving. Keep a shortlist of prompts handy so you always reach for the right model for the task.
+### Do Not Let the Free Year Turn Into a Charge
 
-### Stop Chasing Deals That No Longer Exist
+**Gemini Pro for students** is one of the better student perks of 2026, but only if you manage the end date. Set a reminder 30 days before the trial ends, decide whether you still need 5 TB and higher limits, and cancel if you do not.
 
-**Gemini Pro for Students** in its original free form is gone, but Google has not left students behind entirely. The new AI Plus offer, the still-strong free Gemini tier, and the paid Pro plan all give you real options depending on your budget.
-
-This shift fits into a broader trend of vendors testing and cutting student perks fast. Check your eligibility today before this window closes too, and build a study stack that does not depend on one company’s generosity.
+Student perks change quickly, so build a study setup that does not depend on a single company. Redeem before December 31, 2026 if you want the free year.
 
 ### FAQ
 
-**Is Gemini Pro for Students still free in 2026?**
+**Is Gemini Pro for students free in 2026?**
 
-_No. The original 12-month free offer closed on a rolling basis, with the final US redemption deadline on April 30, 2026. If you already claimed it before that date, your free year may still be active until it expires._
+_Yes, for US college students. Google is offering one free year of Google AI Pro, and you must redeem it before December 31, 2026. After 12 months, the plan renews at $19.99 a month unless you cancel before the trial ends._
 
-**What replaced the free Gemini Pro student offer?**
+**What is the difference between the student offers?**
 
-_Google launched a free year of Google AI Plus for students on August 19, 2026, available in more than 140 markets. It includes a new student hub but offers less storage and fewer research tools than the original Pro deal._
+_US students get Google AI Pro, with 5 TB of storage and 4x usage limits. Students in more than 140 other markets get Google AI Plus, with 400 GB and 2x limits. Google excluded the US and Canada from the Plus offer._
 
 **How much does Google AI Pro cost without the student offer?**
 
-_Google AI Pro costs $19.99 a month as of mid-2026 and includes Gemini 3.1 Pro, 5TB of storage, and full Deep Research access. There is currently no standing student discount on this tier._
+_Google AI Pro costs $19.99 a month. The student year removes that cost for 12 months. Google also lists a student bundle with YouTube Premium for about $8.99 a month, which students can keep for up to four years._
 
-**Can I still use Gemini for free without any student offer?**
+**Can I still use Gemini for free without a student offer?**
 
-_Yes. The free Gemini tier now runs on the Gemini 3.6 Flash model and includes limited access to Gemini 3.1 Pro and NotebookLM. It covers most everyday homework and study tasks without a subscription._
+_Yes. The free Gemini plan includes Deep Research, Gemini Live and Gemini Notebook with lower limits. It covers most everyday homework and study tasks without a subscription._
 
 -   ![How to Use ChatGPT Effectively](./images/How-to-Use-ChatGPT-Effectively-150x150.webp)
     
