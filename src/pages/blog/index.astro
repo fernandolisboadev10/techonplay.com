@@ -8,14 +8,10 @@ const posts = (await getCollection('blog', isPublished)).sort(
   (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
 );
 
-const categories = [
-  'Prompt Engineering',
-  'AI Coding Tools',
-  'Tutorials',
-  'Case Studies',
-  'Chatbots',
-  'Reviews',
-];
+// Filters come from the categories the posts actually use, most used first.
+const counts = new Map<string, number>();
+for (const post of posts) counts.set(post.data.category, (counts.get(post.data.category) ?? 0) + 1);
+const categories = [...counts.entries()].sort((a, b) => b[1] - a[1]).map(([name]) => name);
 ---
 <BaseLayout title="Blog" description="Articles on prompt engineering, AI tools, and workflows for developers.">
   <div class="container">
@@ -58,6 +54,10 @@ const categories = [
           />
         </div>
       ))}
+    </div>
+
+    <div class="more-wrap" id="more-wrap" hidden>
+      <button type="button" id="more-posts" class="more-btn">See more posts</button>
     </div>
 
     <p class="no-results" id="no-results" hidden>No articles match your search.</p>
@@ -136,6 +136,30 @@ const categories = [
     }
   }
 
+  .more-wrap {
+    display: flex;
+    justify-content: center;
+    margin-block: 24px 40px;
+  }
+
+  .more-btn {
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 12px 28px;
+    border-radius: 999px;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    background: linear-gradient(135deg, var(--violet), var(--rose));
+    transition: transform 0.15s ease, filter 0.15s ease;
+  }
+
+  .more-btn:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.1);
+  }
+
   .no-results {
     color: var(--ink-soft);
     padding-bottom: 40px;
@@ -148,7 +172,12 @@ const categories = [
   const searchInput = document.querySelector<HTMLInputElement>('#search-input');
   const noResults = document.querySelector<HTMLElement>('#no-results');
 
+  const PAGE_SIZE = 6;
+  const moreWrap = document.querySelector<HTMLElement>('#more-wrap');
+  const moreBtn = document.querySelector<HTMLButtonElement>('#more-posts');
+
   let activeCategory = 'all';
+  let shown = PAGE_SIZE;
 
   function applyFilters() {
     const query = (searchInput?.value ?? '').trim().toLowerCase();
@@ -157,10 +186,12 @@ const categories = [
     items.forEach((item) => {
       const matchesCategory = activeCategory === 'all' || item.dataset.category === activeCategory;
       const matchesQuery = !query || (item.dataset.search ?? '').includes(query);
-      const visible = matchesCategory && matchesQuery;
-      item.style.display = visible ? '' : 'none';
-      if (visible) visibleCount += 1;
+      const matches = matchesCategory && matchesQuery;
+      if (matches) visibleCount += 1;
+      item.style.display = matches && visibleCount <= shown ? '' : 'none';
     });
+
+    if (moreWrap) moreWrap.hidden = visibleCount <= shown;
 
     if (noResults) noResults.hidden = visibleCount > 0;
     filters.forEach((f) => f.classList.toggle('active', f.dataset.category === activeCategory));
@@ -169,11 +200,20 @@ const categories = [
   filters.forEach((btn) => {
     btn.addEventListener('click', () => {
       activeCategory = btn.dataset.category ?? 'all';
+      shown = PAGE_SIZE;
       applyFilters();
     });
   });
 
-  searchInput?.addEventListener('input', applyFilters);
+  searchInput?.addEventListener('input', () => {
+    shown = PAGE_SIZE;
+    applyFilters();
+  });
+
+  moreBtn?.addEventListener('click', () => {
+    shown += PAGE_SIZE;
+    applyFilters();
+  });
 
   const params = new URLSearchParams(window.location.search);
   const initialCategory = params.get('category');
