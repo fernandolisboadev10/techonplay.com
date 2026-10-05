@@ -31,3 +31,13 @@ Schedule it locally (the scheduler uses the machine's clock, so convert 21:00 ET
 
 - Windows: `schtasks /Create /SC DAILY /ST 22:00 /TN "techonplay-radar" /TR "cmd /c cd /d C:\Users\Fernando\Desktop\techonplay.com && npm run radar"`
 - macOS/Linux: `crontab -e` and add `0 21 * * * cd /path/to/techonplay.com && npm run radar` (cron uses local time; set `CRON_TZ=America/New_York` on cron versions that support it).
+
+## Internal links and sources (every new post)
+
+Added after the 2026-10 content audit (`audit/REPORT.md`). Before publishing a post:
+
+- Link to 3 to 6 related posts inside the body with descriptive anchors, using relative paths (`/slug/`), and link back from 2 or 3 existing posts of the same topic so the new post is never an orphan.
+- Finish with `## Sources` (2 to 4 links to big US outlets such as TechCrunch, CNBC, Engadget, 9to5Mac, 9to5Google, Tom's Hardware, Variety) and `## Related Reading` (3 to 6 same-topic posts). Open every external URL first; never invent one.
+- Never state a future event as past. If the product is not on sale yet, write a pre-release guide.
+- After editing, run `node scripts/audit-links.mjs` (broken links, inbound counts), `npm run build`, then `node audit/check-built-links.mjs`. Run `node audit/check-external.mjs` now and then to catch dead external links.
+- When a post's facts go stale (new model, new price), update it and set `updated`; the JSON-LD `dateModified` now follows that field.

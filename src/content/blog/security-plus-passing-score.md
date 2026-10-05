@@ -113,6 +113,10 @@ There’s no secret formula that tells you exactly how many questions you can mi
 
 Instead of chasing a number that doesn’t exist, put your energy into the domains that carry the most weight, especially Security Operations, and practice under real exam conditions. That’s the only strategy that actually moves the needle on test day.
 
+## Sources
+
+- [CompTIA: Security+ certification and exam objectives](https://www.comptia.org/en-us/certifications/security/)
+
 ## Related Reading
 
 - [Is Linux More Secure Than Windows in 2026? The Honest Answer](/is-linux-more-secure-than-windows-2026/)
