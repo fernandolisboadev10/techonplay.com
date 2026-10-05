@@ -146,6 +146,12 @@ The best AI video generators in September 2026 no longer include Sora, and no si
 
 Run the same prompt in two tools this week and keep the one that lands closest on the first try. Tell us in the comments which generator you use and what it does best.
 
+## Sources
+
+- [TechCrunch: Why OpenAI really shut down Sora](https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/)
+- [CNBC: OpenAI shutters short-form video app Sora as company reels in costs](https://www.cnbc.com/2026/03/24/openai-shutters-short-form-video-app-sora-as-company-reels-in-costs.html)
+- [TechCrunch: Google’s Gemini Omni turns images, audio, and text into video](https://techcrunch.com/2026/05/19/googles-gemini-omni-turns-images-audio-and-text-into-video-and-thats-just-the-start/)
+
 ## Related Reading
 
 - [Google Flow Camera Commands: 40 Prompts to Steal Right Now](/google-flow-camera-commands/)

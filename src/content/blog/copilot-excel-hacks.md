@@ -139,6 +139,11 @@ Copilot in Excel isn’t the “ask a chatbot to write a formula” tool it was 
 
 Pick one feature from this list, most likely Agent Mode or the COPILOT function, and try it on a workbook you touch every week. The upgrade only pays off once it replaces an old habit.
 
+## Sources
+
+- [TechCrunch: Microsoft says it has over 20M paid Copilot users](https://techcrunch.com/2026/04/29/microsoft-says-it-has-over-20m-paid-copilot-users-and-they-really-are-using-it/)
+- [Engadget: Microsoft’s Copilot app adds Office, natural coding and automation](https://www.engadget.com/2268096/microsofts-copilot-app-adds-office-natural-coding-and-automation/)
+
 ## Related Reading
 
 - [ChatGPT Free Automations: 3 Scheduled Tasks You Can Run Today [2026]](/chatgpt-free-automations-guide/)

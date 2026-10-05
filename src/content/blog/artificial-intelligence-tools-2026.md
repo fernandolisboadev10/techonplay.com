@@ -187,6 +187,12 @@ The best artificial intelligence tools in 2026 are specialists, and trying to fo
 
 Test the free plan of one pick from each class this month, and tell us in the comments which combination ended up in your actual workflow.
 
+## Sources
+
+- [TechCrunch: Why OpenAI really shut down Sora](https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/)
+- [TechCrunch: ElevenLabs’ new v4 speech model supports more expression control and 90 languages](https://techcrunch.com/2026/09/28/elevenlabs-new-v4-speech-model-supports-more-expression-control-and-90-languages/)
+- [TechCrunch: Google’s Gemini Omni turns images, audio, and text into video](https://techcrunch.com/2026/05/19/googles-gemini-omni-turns-images-audio-and-text-into-video-and-thats-just-the-start/)
+
 ## Related Reading
 
 - [Best AI Image Generators 2026: 7 Tools Leading Right Now [Sept Update]](/best-ai-image-generators-2026/)

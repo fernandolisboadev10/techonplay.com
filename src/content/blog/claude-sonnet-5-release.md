@@ -3,7 +3,7 @@ title: "Claude Sonnet 5 Release 2026: Full Benchmarks and Upgrade Verdict"
 description: "See the full Claude Sonnet 5 release 2026 breakdown: pricing, benchmarks vs Opus 4.8, and whether upgrading from 4.6 is worth it."
 category: "AI"
 date: 2026-09-18
-updated: 2026-09-19
+updated: 2026-10-04
 readingTime: "9 min"
 image: "./images/Claude-Sonnet-4.6-Release-2026.webp"
 imageAlt: "Claude Sonnet 4.6 Release 2026"
@@ -14,6 +14,8 @@ The **Claude Sonnet 5 release 2026** replaced Sonnet 4.6 as Anthropic’s defaul
 Sonnet 4.6 was the “breaking news” model back in February, but three release cycles later it is no longer what shows up first when developers pick a model for agentic work. Anthropic has since shipped Opus 4.7, Opus 4.8, and, just this month, an entirely new top tier called Fable 5.1 and Mythos 5.1. Sonnet 5 now sits in the middle of that stack, and the benchmarks say it earns the spot.
 
 This guide breaks down exactly what changed between 4.6 and 5, the specific benchmark where Sonnet 5 beats the far pricier Opus 4.8 outright, and whether upgrading still makes sense if you never left Sonnet 4.6.
+
+[Update, October 4, 2026: Anthropic released [Sonnet 5.5](https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/) on September 28, which it describes as 30% faster than Sonnet 5 and cheaper per task, after [Opus 5.5](https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/) on September 22. The benchmarks below are Sonnet 5 launch numbers, so treat Sonnet 5.5 as the current mid-tier model.]
 
 ## What Actually Changed Between Sonnet 4.6 and Sonnet 5
 
@@ -48,7 +50,7 @@ Opus 4.8 still wins on raw coding, computer use, and reasoning scores. But it co
 
 ## Real-World Cost Impact for Developers
 
-Official pricing puts Sonnet 5 at $2 per million input tokens and $10 per million output tokens, confirmed as the permanent rate as of August 10, 2026, not a limited-time introductory price. Compare that to Sonnet 4.6’s $3/$15 and Opus 4.8’s $5/$25.
+Sonnet 5 launched at $2 per million input tokens and $10 per million output tokens. [TechCrunch reported at launch](https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/) that this was introductory pricing through August 31, with $3 and $15 afterward, so check Anthropic’s pricing page for the rate you will actually pay. Compare that to Sonnet 4.6’s $3/$15 and Opus 4.8’s $5/$25.
 
 Prompt caching cuts costs by up to 90% on repeated context, and batch processing adds another 50% discount on top of that. A Zapier senior engineer summed up the practical impact on long-running automations that used to fail partway through: “That used to stall halfway. For day-to-day automation, it’s a no-brainer.”
 
@@ -98,7 +100,7 @@ _Anthropic released Claude Sonnet 5 on June 30, 2026, as the default model for F
 
 **How much does Claude Sonnet 5 cost per million tokens?**
 
-_Sonnet 5 costs $2 per million input tokens and $10 per million output tokens. Anthropic confirmed this as the permanent rate on August 10, 2026, down from Sonnet 4.6’s $3/$15 pricing._
+_Sonnet 5 launched at $2 per million input tokens and $10 per million output tokens, down from Sonnet 4.6’s $3/$15. Launch coverage described $2/$10 as introductory pricing through August 31, so confirm the current rate on Anthropic’s pricing page._
 
 **Is Claude Sonnet 5 better than Opus 4.8?**
 
@@ -117,6 +119,10 @@ _Fable 5.1 and its restricted counterpart Mythos 5.1 launched in September 2026 
 The Claude Sonnet 5 release 2026 broke the usual upgrade trade-off: better benchmarks, lower rate limits pressure than the 4.6 cycle caused, and a cheaper bill, all at once. Opus 4.8 and the new Fable 5.1 tier still win on raw capability, but for agentic coding and terminal work specifically, Sonnet 5 already beats the model that costs 2.5 times more.
 
 If you are still running Sonnet 4.6 in production, benchmark Sonnet 5 against your own workload this week. The gap is real, and so is the price cut.
+
+## Sources
+
+- [Engadget: Anthropic’s new Sonnet 5 model is better at the tasks that are running up enterprise bills](https://www.engadget.com/2205475/anthropic-releases-claude-sonnet-5-model/)
 
 ## Related Reading
 

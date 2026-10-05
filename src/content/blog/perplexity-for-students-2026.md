@@ -131,6 +131,10 @@ Perplexity for students is not a replacement for doing the reading, but it is a 
 
 Bookmark the Academic Focus toggle, set up one Space per class, and cite the primary source every time, not the AI that found it for you.
 
+## Sources
+
+- [TechCrunch: Perplexity’s Comet AI browser now free](https://techcrunch.com/2025/10/02/perplexitys-comet-ai-browser-now-free-max-users-get-new-background-assistant/)
+
 ## Related Reading
 
 - [Perplexity Pro vs ChatGPT Plus 2026: The Real Fight Is Who Finishes the Work](/perplexity-pro-vs-chatgpt-plus-2026/)

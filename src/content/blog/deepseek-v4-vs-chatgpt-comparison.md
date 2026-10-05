@@ -158,6 +158,11 @@ The DeepSeek V4 vs ChatGPT choice is no longer about price alone. OpenAI’s GPT
 
 Send the same three tasks from your real work to V4.1-Flash and GPT-6 Luna this week, then compare quality and cost per task. Tell us in the comments which model won on your code.
 
+## Sources
+
+- [CNBC: China’s DeepSeek releases preview of long-awaited V4 model as AI race intensifies](https://www.cnbc.com/2026/04/24/deepseek-v4-llm-preview-open-source-ai-competition-china.html)
+- [TechCrunch: OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes](https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/)
+
 ## Related Reading
 
 - [DeepSeek AI 2026 Review: V4.1-Flash, Pricing and Privacy [Sept Update]](/deepseek-ai-2026-review/)

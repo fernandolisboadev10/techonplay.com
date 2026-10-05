@@ -136,6 +136,10 @@ _Almost always in blog and marketing writing. Passive voice has legitimate uses 
 
 _Transition words are one of the clearest fingerprints of AI text because models default to a narrow, formal set of them. Swapping in the shorter, conversational connectors Americans actually use is one of the fastest ways to change the entire feel of a piece._
 
+## Sources
+
+- [Google Search Central: Using generative AI content on your website](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content)
+
 ## Related Reading
 
 - [How to Use ChatGPT Effectively: 9 Rules That Actually Work [2026]](/how-to-use-chatgpt-effectively/)

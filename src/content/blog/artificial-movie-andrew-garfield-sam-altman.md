@@ -111,6 +111,12 @@ _The official teaser trailer is available through Neon’s channels and major en
 
 The Artificial movie turns one of tech’s strangest weeks into what could be one of 2026’s most talked-about films, and the timing could not be better for anyone trying to make sense of how we got here. Bookmark this page. We will update it with the full trailer breakdown and early NYFF reactions the moment they land.
 
+## Sources
+
+- [Variety: Artificial trailer, Andrew Garfield is Sam Altman as Neon sets Christmas Day release](https://variety.com/2026/film/news/artificial-trailer-andrew-garfield-openai-biopic-1236802616/)
+- [Deadline: Artificial teaser trailer shows Andrew Garfield as Sam Altman](https://deadline.com/2026/09/artificial-trailer-andrew-garfield-luca-guadagnino-1237070971/)
+- [Engadget: The first trailer for the Sam Altman biopic is damn creepy](https://www.engadget.com/2253048/the-first-trailer-for-the-sam-altman-biopic-is-damn-creepy/)
+
 ## Related Reading
 
 - [GPT-6 Astra Release: What OpenAI’s New Model Means for Developers](/gpt-6-astra-release/)

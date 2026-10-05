@@ -152,6 +152,10 @@ _Among the best AI image generators 2026 has released, no single tool wins every
 
 Test two tools with the same prompt this week and keep the one that gets closest on the first try. Tell us in the comments which generator you use and what it does best.
 
+## Sources
+
+- [TechCrunch: ChatGPT can now virtually try on clothes for you](https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/)
+
 ## Related Reading
 
 - [Grok Imagine 2.0 Prompts: The Formula That Actually Works](/grok-imagine-2-0-prompts-guide/)

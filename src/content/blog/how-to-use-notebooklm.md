@@ -173,6 +173,10 @@ The name changed, but the winning habit did not: give the tool a small, high-qua
 
 Open Gemini Notebook today, build one notebook around a decision you need to make this month, and run the counter-case prompt. Then tell us what it changed in the comments.
 
+## Sources
+
+- [9to5Google: Gemini Live adds Deep Research as Notebooks come to AI Mode](https://9to5google.com/2026/08/19/gemini-app-ai-mode-study-tools/)
+
 ## Related Reading
 
 - [Best Google AI Tools 2026: 10 Picks After Gemini 3.8 [Sept Update]](/best-google-ai-tools-2026/)

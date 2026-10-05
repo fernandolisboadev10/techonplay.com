@@ -78,6 +78,11 @@ _It means the same thing: Generative Pre-trained Transformer. The “Chat” sim
 
 _ChatGPT has a free tier with simpler models, plus paid plans with access to the most advanced ones. Plans change often, so check OpenAI’s website for current details._
 
+## Sources
+
+- [TechCrunch: OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes](https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/)
+- [TechCrunch: OpenAI launches Astra, its powerful (and controversial) new model](https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/)
+
 ## Related Reading
 
 - [GPT-6 Astra Release: What OpenAI’s New Model Means for Developers](/gpt-6-astra-release/)

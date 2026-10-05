@@ -90,6 +90,12 @@ The honest answer: the **GPT-6 Astra release** sets a new ceiling on raw capabil
 
 The GPT-6 Astra release raises the ceiling on what a single model can do across coding, computer use, and cybersecurity work, but it arrives with real caveats around cost and access controls that enterprise teams cannot skip. Test it against your actual workloads before committing budget, and watch how OpenAI’s Daybreak program expands cyber access in the coming weeks.
 
+## Sources
+
+- [CNBC: OpenAI announces rollout of GPT-6 Astra model](https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html)
+- [TechCrunch: OpenAI launches Astra, its powerful (and controversial) new model](https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/)
+- [Engadget: OpenAI says GPT-6 Astra is "the most intelligent and aligned model in the world"](https://www.engadget.com/2250814/openai-says-gpt-6-astra-is-the-most-intelligent-and-aligned-model-in-the-world/)
+
 ## Related Reading
 
 - [DeepSeek V4 vs ChatGPT: Which Is Better After GPT-6? [Sept 2026]](/deepseek-v4-vs-chatgpt-comparison/)

@@ -109,6 +109,11 @@ _Yes, noticeably. Typography was one of the biggest weaknesses of the earlier Au
 
 Try the three prompts above, then push your own edits through the region tool. That combination is where Quality Mode actually earns its #2 spot on the leaderboard
 
+## Sources
+
+- [TechCrunch: Grok Imagine, xAI’s new AI image and video generator](https://techcrunch.com/2025/08/04/grok-imagine-xais-new-ai-image-and-video-generator-lets-you-make-nsfw-content/)
+- [CNBC: Musk’s X faces probes in Europe, India, Malaysia after Grok generated explicit images](https://www.cnbc.com/2026/01/05/india-eu-investigate-musks-x-after-grok-created-deepfake-child-porn.html)
+
 ## Related Reading
 
 - [Best AI Image Generators 2026: 7 Tools Leading Right Now [Sept Update]](/best-ai-image-generators-2026/)

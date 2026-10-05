@@ -101,6 +101,12 @@ The **Moltbook AI agent** network is not a gimmick you can safely ignore. It is 
 
 Curious how these agent risks connect to the security choices you make on your own devices? Read [how to protect your data from AI chatbots](/how-to-protect-your-data-from-ai-chatbots/) to see how the same principles apply closer to home.
 
+## Sources
+
+- [CNBC: Meta gets into social networks for AI agents with acquisition of viral Moltbook platform](https://www.cnbc.com/2026/03/10/meta-social-networks-ai-agents-moltbook-acquisition.html)
+- [TechCrunch: Meta acquired Moltbook, the AI agent social network that went viral because of fake posts](https://techcrunch.com/2026/03/10/meta-acquired-moltbook-the-ai-agent-social-network-that-went-viral-because-of-fake-posts/)
+- [Engadget: Meta is buying Moltbook, the ridiculous social network populated by AI bots](https://www.engadget.com/ai/meta-is-buying-moltbook-the-ridiculous-social-network-populated-by-ai-bots-152732453.html)
+
 ## Related Reading
 
 - [AI Ransomware Attacks Now Take Under 10 Hours: How to Protect Yourself](/ai-ransomware-attacks/)

@@ -148,6 +148,11 @@ _Forty commands sounds like a lot, but you really only need five or six in regul
 
 Save this guide, pick your favorite command, and generate your next post today.
 
+## Sources
+
+- [TechCrunch: Google’s Gemini Omni turns images, audio, and text into video](https://techcrunch.com/2026/05/19/googles-gemini-omni-turns-images-audio-and-text-into-video-and-thats-just-the-start/)
+- [9to5Google: Google Flow AI video editing and music tools getting dedicated apps and Omni upgrades](https://9to5google.com/2026/05/19/google-flow-video-music-ai-apps/)
+
 ## Related Reading
 
 - [Best AI Video Generators After Sora: 6 Tools Ranked [Sept 2026]](/best-ai-video-generators-of-2026/)

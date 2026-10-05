@@ -127,6 +127,11 @@ Most NVIDIA driver crashing problems trace back to one of three things: a bad dr
 
 Save a known-good driver installer somewhere safe. Future you will thank present you the next time NVIDIA ships a rough update on the eve of a big launch.
 
+## Sources
+
+- [PC Gamer: Latest Nvidia Game Ready drivers fix various black screen issues](https://www.pcgamer.com/hardware/graphics-cards/latest-nvidia-game-ready-drivers-fix-various-black-screen-issues-that-left-gamers-staring-at-their-sad-reflections/)
+- [Tom’s Hardware: Nvidia hotfix arrives to address remaining black screen issues](https://www.tomshardware.com/pc-components/gpu-drivers/nvidia-hotfix-arrives-to-address-black-screen-issues-remaining-after-thursdays-driver-release)
+
 ## Related Reading
 
 - [Best Gaming PC for AI and Gaming in 2026: 4 Builds That Deliver](/best-gaming-pc-ai-and-gaming-2026/)

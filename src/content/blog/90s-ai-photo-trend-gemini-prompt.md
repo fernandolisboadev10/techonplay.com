@@ -87,6 +87,11 @@ _Gemini currently produces convincing results faster and with fewer refusals. Ch
 
 Grab a recent selfie, copy the prompt for your tool into Gemini or ChatGPT, and post your result while this wave is still peaking.
 
+## Sources
+
+- [TechCrunch: India leads the way on Google’s Nano Banana with a local creative twist](https://techcrunch.com/2025/09/17/india-leads-the-way-on-googles-nano-banana-with-a-local-creative-twist/)
+- [9to5Google: Nano Banana responsible for 10+ million first-time Gemini app users](https://9to5google.com/2025/09/04/gemini-app-nano-banana/)
+
 ## Related Reading
 
 - [The 3D Figurine AI Trend on ChatGPT: The Exact Prompt That Works](/3d-figurine-ai-trend-chatgpt/)

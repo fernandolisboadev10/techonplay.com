@@ -133,6 +133,11 @@ There’s no official GTA 6 system requirements chart yet, and anyone claiming o
 
 Bookmark this page. We’ll update every tier the second official specs land.
 
+## Sources
+
+- [PC Gamer: When might the GTA 6 PC release date be?](https://www.pcgamer.com/games/grand-theft-auto/gta-6-pc-release-date/)
+- [PC Gamer: Grand Theft Auto 6 coverage](https://www.pcgamer.com/grand-theft-auto-6/)
+
 ## Related Reading
 
 - [Best Gaming PC for AI and Gaming in 2026: 4 Builds That Deliver](/best-gaming-pc-ai-and-gaming-2026/)

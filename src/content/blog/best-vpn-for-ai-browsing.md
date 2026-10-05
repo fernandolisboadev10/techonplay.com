@@ -105,6 +105,11 @@ A VPN won’t make your AI conversations disappear, but it removes the easiest t
 
 Pick NordVPN if speed and future-proof encryption matter most, Surfshark if you’re covering a whole household on a budget, or ExpressVPN if you want the VPN bundled with identity monitoring tools built for exactly this kind of risk.
 
+## Sources
+
+- [Engadget: How to stop AI companies from training on your data](https://www.engadget.com/2268598/how-to-stop-ai-companies-training-your-data/)
+- [CNBC: Don’t want chatbots using your conversations for AI training? Some let you opt out](https://www.cnbc.com/2024/08/16/ai-training-chatgpt-google-meta-grok-claude.html)
+
 ## Related Reading
 
 - [How to Protect Your Data From AI Chatbots (2026 Guide)](/how-to-protect-your-data-from-ai-chatbots/)

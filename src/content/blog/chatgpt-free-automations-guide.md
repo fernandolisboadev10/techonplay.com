@@ -157,6 +157,12 @@ ChatGPT free automations are small on purpose. Three daily tasks will not run yo
 
 Open Scheduled today, paste the morning briefing, set the window, and let it run for a week. Then tell us in the comments which task earned its slot.
 
+## Sources
+
+- [Engadget: Free accounts can now access ChatGPT’s upgraded task scheduling tool](https://www.engadget.com/2244194/free-accounts-can-now-access-chatgpts-upgraded-task-scheduling-tool/)
+- [Engadget: ChatGPT now has a hub for scheduled tasks](https://www.engadget.com/2196844/chatgpt-now-has-a-hub-for-scheduled-tasks/)
+- [TechCrunch: ChatGPT now lets you schedule reminders and recurring tasks](https://techcrunch.com/2025/01/14/chatgpt-now-lets-you-schedule-reminders-and-recurring-tasks/)
+
 ## Related Reading
 
 - [How to Use ChatGPT Effectively: 9 Rules That Actually Work [2026]](/how-to-use-chatgpt-effectively/)

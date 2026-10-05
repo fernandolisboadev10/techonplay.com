@@ -172,6 +172,12 @@ Start small. Pick one tool from the table above that fits a task you already do 
 
 Tell us in the comments which tool made your stack and what it replaced.
 
+## Sources
+
+- [CNBC: Microsoft, Khan Academy provide free AI assistant for all educators in US](https://www.cnbc.com/2024/05/21/microsoft-khan-academy-launch-free-ai-assistant-for-all-us-teachers.html)
+- [TechCrunch: Google adds Gemini to its Education suite](https://techcrunch.com/2024/05/16/google-adds-gemini-to-its-education-suite/)
+- [CNBC: AI is getting very popular among students and teachers, very quickly](https://www.cnbc.com/2024/06/11/ai-is-getting-very-popular-among-students-and-teachers-very-quickly.html)
+
 ## Related Reading
 
 - [Perplexity for Students: The Research Tool That Cites Everything](/perplexity-for-students-2026/)

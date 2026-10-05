@@ -202,6 +202,11 @@ Learning how to detect deepfakes in 2026 comes down to layers. Your eyes catch t
 
 No single step is enough, and that’s fine. Pick two checks from this guide and make them a habit this week. Next time a shocking clip lands in your feed, you’ll be the person who checks before sharing. Want to see what the fakers are working with? Read our guide to the [best AI video generators of 2026](/best-ai-video-generators-of-2026/).
 
+## Sources
+
+- [TechCrunch: Google rolls out fake call detection to protect against AI deepfake impersonation scams](https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/)
+- [BleepingComputer: Google adds Android protection against AI deepfake scam calls](https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/)
+
 ## Related Reading
 
 - [AI Voice Generators for Viral Content: The 2026 Guide [ElevenLabs v3]](/how-to-use-ai-voice-generators/)

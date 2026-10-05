@@ -92,6 +92,11 @@ _Google AI Pro costs $19.99 a month. The student year removes that cost for 12 m
 
 _Yes. The free Gemini plan includes Deep Research, Gemini Live and Gemini Notebook with lower limits. It covers most everyday homework and study tasks without a subscription._
 
+## Sources
+
+- [Engadget: Google is offering college students a year of its AI Pro plan for free](https://www.engadget.com/2240161/google-is-offering-college-students-a-year-of-ai-pro-for-free/)
+- [9to5Google: Gemini Live adds Deep Research as Notebooks come to AI Mode](https://9to5google.com/2026/08/19/gemini-app-ai-mode-study-tools/)
+
 ## Related Reading
 
 - [Google AI Plus for Students: US Gets AI Pro Free Instead [2026]](/google-ai-plus-for-students/)

@@ -182,6 +182,11 @@ Nobody needs to memorize 100 commands. What works is picking five or six across 
 
 The creators winning right now are the ones treating chatgpt image prompts as a toolkit, not a lucky guess. They stopped guessing and started directing.
 
+## Sources
+
+- [TechCrunch: ChatGPT can now virtually try on clothes for you](https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/)
+- [Engadget: ChatGPT image generation is now faster and better at following tweaks](https://www.engadget.com/ai/chatgpt-image-generation-is-now-faster-and-better-at-following-tweaks-180000750.html)
+
 ## Related Reading
 
 - [Best AI Image Generators 2026: 7 Tools Leading Right Now [Sept Update]](/best-ai-image-generators-2026/)

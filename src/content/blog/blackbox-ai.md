@@ -101,6 +101,11 @@ Blackbox AI earns its install numbers with a free tier that does not disappear a
 
 Try the free plan on your next debugging session before committing to Pro Plus or Pro Max. Tell us in the comments whether the Chairman workflow changed how you work, or if the credit burn sent you back to a single-model tool.
 
+## Sources
+
+- [CNBC: Cursor announces major update to AI agents as coding tool battle heats up](https://www.cnbc.com/2026/02/24/cursor-announces-major-update-as-ai-coding-agent-battle-heats-up.html)
+- [CNBC: Microsoft’s GitHub was positioned to win the AI coding race, but outages got in the way](https://www.cnbc.com/2026/05/22/microsoft-was-positioned-to-win-in-ai-coding-outages-got-in-the-way.html)
+
 ## Related Reading
 
 - [Cursor AI Review 2026: Is the $29B Coding Tool Worth It?](/cursor-ai-review-2026/)

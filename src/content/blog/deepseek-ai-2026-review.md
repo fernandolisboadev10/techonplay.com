@@ -144,6 +144,10 @@ DeepSeek AI now pairs agent scores that match or beat GPT-5.6 Sol and Opus 5.0 o
 
 Run one real task through the free chat this week, then send the same prompt to your current chatbot and compare. Tell us in the comments where DeepSeek won and where it fell short.
 
+## Sources
+
+- [CNBC: China’s DeepSeek releases preview of long-awaited V4 model as AI race intensifies](https://www.cnbc.com/2026/04/24/deepseek-v4-llm-preview-open-source-ai-competition-china.html)
+
 ## Related Reading
 
 - [DeepSeek V4 vs ChatGPT: Which Is Better After GPT-6? [Sept 2026]](/deepseek-v4-vs-chatgpt-comparison/)

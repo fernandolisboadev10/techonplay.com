@@ -159,6 +159,11 @@ The three-line upgrade works on every prompt in this guide, not only the six abo
 
 Which framework are you starting with? Tell us in the comments.
 
+## Sources
+
+- [Engadget: OpenAI releases a new ChatGPT tool for all things work related](https://www.engadget.com/2211869/openai-releases-chatgpt-work-tool-macos-windows-web-plans/)
+- [TechCrunch: OpenAI launches Astra, its powerful (and controversial) new model](https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/)
+
 ## Related Reading
 
 - [Best ChatGPT Prompts 2026: 30 Templates for Work, Study, and Creative Projects](/best-chatgpt-prompts-2026/)

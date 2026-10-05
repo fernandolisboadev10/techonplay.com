@@ -128,6 +128,11 @@ Perplexity Pro gives you the more powerful agent on paper, with parallel multi-m
 
 Run one real multi-step task through each this week, track what it costs you in time, credits or guesswork, and keep the plan that matched what you expected to pay. Tell us in the comments which agent actually finished the job.
 
+## Sources
+
+- [TechCrunch: Perplexity’s Personal Computer is now available to everyone on Mac](https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/)
+- [Engadget: Perplexity’s Hybrid Compute splits sensitive tasks between cloud and local AI](https://www.engadget.com/2248548/perplexitys-hybrid-compute-splits-sensitive-tasks-between-cloud-and-local-ai/)
+
 ## Related Reading
 
 - [How to Use ChatGPT Effectively: 9 Rules That Actually Work [2026]](/how-to-use-chatgpt-effectively/)

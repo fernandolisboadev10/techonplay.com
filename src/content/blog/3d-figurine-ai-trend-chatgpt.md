@@ -72,6 +72,12 @@ _Gemini currently produces sharper, more accurate results on the first try, sinc
 
 Pick a clear, well-lit photo, paste the prompt above into ChatGPT, and lean on the desk-and-packaging details to carry the collectible look. If the hands or face come out warped, run it again before changing any wording.
 
+## Sources
+
+- [TechCrunch: India leads the way on Google’s Nano Banana with a local creative twist](https://techcrunch.com/2025/09/17/india-leads-the-way-on-googles-nano-banana-with-a-local-creative-twist/)
+- [9to5Google: Nano Banana responsible for 10+ million first-time Gemini app users](https://9to5google.com/2025/09/04/gemini-app-nano-banana/)
+- [CNBC: Google’s Gemini tops Apple’s App Store, snagging lead spot from ChatGPT](https://www.cnbc.com/2025/09/16/google-gemini-tops-apples-app-store-snagging-lead-spot-from-chatgpt.html)
+
 ## Related Reading
 
 - [90s AI Photo Trend: Exact Prompts for Gemini and ChatGPT](/90s-ai-photo-trend-gemini-prompt/)

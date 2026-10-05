@@ -153,6 +153,12 @@ Running the install command takes thirty seconds. Getting real value out of Clau
 
 **Your next step:** create a CLAUDE.md file in your current project root today, and start your next session paying attention to which permission mode it opens in. That one detail tells you more about how the agent will behave than any flag you could set manually.
 
+## Sources
+
+- [TechCrunch: Anthropic is turning Claude Code’s auto mode on by default](https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/)
+- [Engadget: Anthropic releases safer Claude Code auto mode](https://www.engadget.com/ai/anthropic-releases-safer-claude-code-auto-mode-to-avoid-mass-file-deletions-and-other-ai-snafus-142500615.html)
+- [TechCrunch: Anthropic hands Claude Code more control, but keeps it on a leash](https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/)
+
 ## Related Reading
 
 - [Claude Sonnet 5 Release 2026: Full Benchmarks and Upgrade Verdict](/claude-sonnet-5-release/)

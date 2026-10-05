@@ -115,6 +115,11 @@ Use a personal Google Account for the subscription. Google does not accept schoo
 
 The US student deal is better than the AI Plus offer people search for, but only if you claim it and plan the exit. Go to one.google.com/ai-student, finish the SheerID check, and set your cancel reminder the same day. Tell us in the comments which Gemini study feature you plan to try first.
 
+## Sources
+
+- [Engadget: Google is offering college students a year of its AI Pro plan for free](https://www.engadget.com/2240161/google-is-offering-college-students-a-year-of-ai-pro-for-free/)
+- [9to5Google: Gemini Live adds Deep Research as Notebooks come to AI Mode](https://9to5google.com/2026/08/19/gemini-app-ai-mode-study-tools/)
+
 ## Related Reading
 
 - [Gemini Pro for Students: Free Google AI Pro Until Dec 31 [2026]](/google-gemini-pro-students/)

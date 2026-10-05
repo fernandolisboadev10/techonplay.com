@@ -113,6 +113,11 @@ There is no single best gaming PC for AI and gaming, only the right tier for you
 
 Tell us in the comments which build tier matches your setup, or which AI tools you are trying to run locally, and we will help you fine-tune the pick.
 
+## Sources
+
+- [Tom’s Hardware: Nvidia RTX 50 Super GPUs are reportedly stuck in limbo due to GDDR7 pricing](https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-50-super-gpus-are-reportedly-ready-but-stuck-in-limbo-due-to-excessive-gddr7-pricing-3gb-gddr7-module-costs-triple-the-price-of-2gb)
+- [Tom’s Hardware: Benchmarking Qwen 3.8 27B on RTX 5090 and beyond](https://www.tomshardware.com/tech-industry/artificial-intelligence/benchmarking-qwen-3-8-27b-on-rtx-5090-and-beyond-vram-capacity-alone-cant-overcome-severe-software-and-inference-engine-bottlenecks)
+
 ## Related Reading
 
 - [NVIDIA Driver Crashing in 2026: The Fix That Actually Works](/fix-nvidia-driver-crashing-2026/)

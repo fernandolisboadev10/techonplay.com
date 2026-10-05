@@ -104,6 +104,12 @@ You don’t need to quit using AI chatbots to protect your privacy, you just nee
 
 Take five minutes right now to open your chatbot’s privacy dashboard. That single habit does more for your data security than any browser extension ever will.
 
+## Sources
+
+- [CNBC: Don’t want chatbots using your conversations for AI training? Some let you opt out](https://www.cnbc.com/2024/08/16/ai-training-chatgpt-google-meta-grok-claude.html)
+- [Engadget: How to stop AI companies from training on your data](https://www.engadget.com/2268598/how-to-stop-ai-companies-training-your-data/)
+- [TechCrunch: Anthropic users face a new choice, opt out or share your data for AI training](https://techcrunch.com/2025/08/28/anthropic-users-face-a-new-choice-opt-out-or-share-your-data-for-ai-training/)
+
 ## Related Reading
 
 - [Best VPN for AI Browsing in 2026: Keep ChatGPT and Gemini Private](/best-vpn-for-ai-browsing/)

@@ -199,6 +199,11 @@ Your next step takes two minutes. Copy the four-block prompt above, fill it in f
 
 Want to see what the newest model can do? Read our breakdown of GPT-6 Astra next.
 
+## Sources
+
+- [Engadget: ChatGPT, what is free in 2026 and what is not](https://www.engadget.com/2234173/chatgpt-free-features-2026/)
+- [TechCrunch: OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes](https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/)
+
 ## Related Reading
 
 - [Best ChatGPT Prompts 2026: 30 Templates for Work, Study, and Creative Projects](/best-chatgpt-prompts-2026/)
