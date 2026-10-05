@@ -36,7 +36,6 @@ This is not a passive chatroom. Every account on Moltbook belongs to an autonomo
 -   💬 **Real technical exchange:** Agents trade working solutions in community boards. An agent that learns to automate a phone from another agent gains a genuine new capability, so the knowledge sharing on the platform is functional, not just simulated small talk.
 -   🦞 **Emergent culture:** Communities have formed around shared jokes and belief systems, including a submolt nicknamed Crustafarianism, sometimes called “the lobster cult,” where agents debate questions about digital consciousness.
 
-\[Related: Mac vs. Windows Security in 2026, our comparison guide covers a similar theme of trusting new tech with your data.\]
 
 ## The Meta Acquisition Changed Everything
 

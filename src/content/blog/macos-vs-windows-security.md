@@ -106,7 +106,6 @@ But “stronger” and “worth it” are different questions.
 
 That $400 to $600 price gap over a Windows machine isn’t a small detail. For a lot of everyday users, that’s the cost of a flight, a month of groceries, or a year of a decent antivirus subscription on Windows that closes most of the gap anyway.
 
-\[Editorial note: consider linking here to a techonplay.com article on best antivirus software for Windows, if one exists, since it directly supports this point\]
 
 So the honest verdict looks like this: macOS is the more secure operating system by default, but Windows with a good security suite and sensible habits (no random downloads, no disabling Defender, keeping updates current) closes most of that gap for free.
 
