@@ -19,7 +19,7 @@ This guide covers what to set up first, which modes and features actually save y
 
 Perplexity’s free tier already beats a plain Google search for most homework questions, but Education Pro is where the tool becomes genuinely useful for a full course load.
 
-Verified students get Perplexity Pro at roughly 50% off the standard $20 a month rate, landing around $10 a month, through Perplexity’s own student page. Verification runs through SheerID or a straight sign-in with your school email, so there is no coupon code to hunt down.
+Verified students get [Perplexity Pro](/perplexity-pro-vs-chatgpt-plus-2026/) at roughly 50% off the standard $20 a month rate, landing around $10 a month, through Perplexity’s own student page. Verification runs through SheerID or a straight sign-in with your school email, so there is no coupon code to hunt down.
 
 ### What the discount actually unlocks
 
@@ -52,7 +52,7 @@ The setup that works best for a full semester:
 
 ✅ One Space per class or per major assignment, not one giant catch-all thread ✅ Name it something you will recognize later, like “Bio 201 Midterm Paper” instead of “Untitled” ✅ Upload the syllabus or assigned readings directly into the Space so answers stay grounded in your actual course material ✅ Pin the sources you already verified so you are not re-checking the same citation twice
 
-Related: our breakdown of [Google Gemini Pro for students](https://techonplay.com/google-gemini-pro-students/) covers a similar workspace approach if your school leans Google Workspace instead.
+Related: our breakdown of [Google Gemini Pro for students](/google-gemini-pro-students/) covers a similar workspace approach if your school leans Google Workspace instead.
 
 ## Write Prompts That Actually Save You Time
 
@@ -70,7 +70,7 @@ Each of these gives Perplexity a job, a scope, and an output format, which is th
 
 None of these tools wins every assignment. Perplexity’s advantage is that every claim comes with a clickable source, which matters when you have to cite your work. ChatGPT is faster for brainstorming, drafting, and rewriting since it is not constrained by pulling live sources for every reply. Plain Google search still wins when you already know exactly what you are looking for and just need the fastest path to it.
 
-Related: for a deeper side-by-side, see our full Perplexity Pro vs. ChatGPT Plus comparison.
+Related: for a deeper side-by-side, see our full [Perplexity Pro vs. ChatGPT Plus comparison](/perplexity-pro-vs-chatgpt-plus-2026/).
 
 | 🎓 Plan | 💰 Price | 🎯 Best For | ✅ Key Features | 🔓 Verification |
 | --- | --- | --- | --- | --- |
@@ -97,11 +97,11 @@ For a 40-page assigned reading the night before class, dropping the shortcut int
 
 ## The Mistake That Gets Students in Trouble
 
-The single most common misuse is citing Perplexity itself in a bibliography instead of the primary source it points to. Perplexity is a research assistant that finds and summarizes papers, not a publisher. Always click through to the original article, journal, or dataset and cite that directly.
+The single most common misuse is citing Perplexity itself in a bibliography instead of the primary source it points to. Perplexity is a research assistant that finds and summarizes papers, not a publisher. Always click through to the original article, journal, or dataset and cite that directly. Teachers face the same questions, as covered in [AI for education](/ai-for-education-2026/).
 
 The second mistake is trusting a single AI-generated summary without cross-checking it. Ask the same research question in Academic Focus and a general model, or ask Perplexity to find contradicting evidence on purpose. If two searches agree, you can move faster. If they do not, that disagreement is usually worth digging into before you write it down as fact.
 
-Related: our guide on organizing research with NotebookLM covers a complementary tool if you need to keep dozens of PDFs and lecture notes cross-referenced in one place.
+Related: our guide on organizing research with [NotebookLM](/how-to-use-notebooklm/) covers a complementary tool if you need to keep dozens of PDFs and lecture notes cross-referenced in one place.
 
 ## FAQ
 
@@ -131,18 +131,10 @@ Perplexity for students is not a replacement for doing the reading, but it is a 
 
 Bookmark the Academic Focus toggle, set up one Space per class, and cite the primary source every time, not the AI that found it for you.
 
--   ![How to Use ChatGPT Effectively](./images/How-to-Use-ChatGPT-Effectively-150x150.webp)
-    
-    [How to Use ChatGPT Effectively: 9 Rules That Actually Work \[2026\]](https://techonplay.com/how-to-use-chatgpt-effectively/)
--   ![](./images/o-que-significa-gpt-150x150.webp)
-    
-    [What Does GPT Stand For? The Acronym Everyone Uses but Few Understand](https://techonplay.com/what-does-gpt-stand-for/)
--   ![Perplexity Pro vs ChatGPT Plus](./images/Perplexity-Pro-vs-ChatGPT-Plus-150x150.webp)
-    
-    [Perplexity Pro vs ChatGPT Plus 2026: The Real Fight Is Who Finishes the Work](https://techonplay.com/perplexity-pro-vs-chatgpt-plus-2026/)
--   ![Notebook LM](./images/Google-2-150x150.webp)
-    
-    [Notebook LM Is Now Gemini Notebook: What Changed in 2026](https://techonplay.com/how-to-use-notebooklm/)
--   ![iPhone Duo Review](./images/iPhone-Duo-Review-150x150.webp)
-    
-    [iPhone Duo Review: Is Apple’s First Foldable Worth $1,999?](https://techonplay.com/iphone-duo-review/)
+## Related Reading
+
+- [Perplexity Pro vs ChatGPT Plus 2026: The Real Fight Is Who Finishes the Work](/perplexity-pro-vs-chatgpt-plus-2026/)
+- [AI for Education: The Teacher Tool Stack Backed by 2026 Data](/ai-for-education-2026/)
+- [Gemini Pro for Students: Free Google AI Pro Until Dec 31 [2026]](/google-gemini-pro-students/)
+- [Notebook LM Is Now Gemini Notebook: What Changed in 2026](/how-to-use-notebooklm/)
+- [Google AI Plus for Students: US Gets AI Pro Free Instead [2026]](/google-ai-plus-for-students/)

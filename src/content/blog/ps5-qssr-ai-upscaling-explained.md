@@ -73,7 +73,7 @@ If you own a PS5 Pro, nothing changes for you. PSSR stays your upscaler.
 
 ## Why PS5 QSSR Matters for Big Upcoming Games
 
-AI upscaling lets a game render fewer pixels internally and reconstruct a sharper image. For players on a standard PS5, that can mean a cleaner picture without buying a new console.
+AI upscaling lets a game render fewer pixels internally and reconstruct a sharper image. For players on a standard PS5, that can mean a cleaner picture without buying a new console. See our [GTA 6 system requirements](/gta-6-system-requirements/) guide for the release everyone is waiting on. PC players can check the [best gaming PC for AI and gaming](/best-gaming-pc-ai-and-gaming-2026/).
 
 That is relevant for the next wave of big releases. Rockstar's GTA 6 is confirmed for PS5 and arrives November 19, 2026, as covered in our [GTA 6 system requirements guide](/gta-6-system-requirements/). Whether it will support QSSR has not been announced.
 
@@ -106,3 +106,9 @@ PS5 QSSR is a real step for standard PS5 owners: AI upscaling that improves imag
 If you own either game, update it tonight and compare the new graphics option against your usual mode. We'll add testing results and new supported games here as they appear.
 
 **Sources:** [PlayStation Blog](https://blog.playstation.com/2026/10/01/ai-upscaling-is-coming-to-ps5/), [Engadget](https://www.engadget.com/2274744/sony-brings-ai-upscaling-to-the-base-ps5/), [The Verge](https://www.theverge.com/games/1003549/sony-ps5-quick-spectral-super-resolution-qssr).
+
+## Related Reading
+
+- [GTA 6 System Requirements 2026: What Your PC Actually Needs](/gta-6-system-requirements/)
+- [Best Gaming PC for AI and Gaming in 2026: 4 Builds That Deliver](/best-gaming-pc-ai-and-gaming-2026/)
+- [Steam Frame Repairability: What iFixit's Teardown Found [2026]](/steam-frame-repairability/)

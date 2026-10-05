@@ -25,7 +25,7 @@ Memory Sources is the other quiet shift. ChatGPT now shows you exactly which sav
 
 ### 💼 Best ChatGPT Prompts for Work
 
-Work prompts benefit the most from ChatGPT Work, the agentic workspace that breaks a project into steps and executes across files instead of just replying in chat.
+Work prompts benefit the most from ChatGPT Work, the agentic workspace that breaks a project into steps and executes across files instead of just replying in chat. For framework-based prompts such as SWOT and Porter's Five Forces, see our guide to [ChatGPT prompts for business strategy](/chatgpt-prompts-for-business-strategy/).
 
 **1\. Meeting-to-action-items converter**  
 “Read this meeting transcript and output only the action items, grouped by owner, with a one-line deadline suggestion for each. Skip discussion that did not lead to a decision.”
@@ -67,7 +67,7 @@ Students get the most value out of prompts that force ChatGPT to check understan
 
 ### 🎨 Best ChatGPT Prompts for Creativity
 
-Creative prompts work best when you give ChatGPT constraints instead of open-ended freedom.
+Creative prompts work best when you give ChatGPT constraints instead of open-ended freedom. Visual work gets its own list: [100 ChatGPT image prompts](/chatgpt-image-prompts-visual-commands/).
 
 **11\. Constraint-based brainstorm**  
 “Give me 10 short story premises that all involve a character who cannot lie for 24 hours, but make each premise take place in a completely different genre.”
@@ -205,6 +205,8 @@ A good prompt in 2026 does three things the old ones did not need to.
 
 **Ask for structure, not just an answer.** [GPT-5.6](https://openai.com/pt-BR/gpt-5/) handles multi-step work well, so prompts that request an outline, a table, or a checklist tend to return more usable output than open-ended questions.
 
+Pair good prompts with the habits in our guide on [how to use ChatGPT effectively](/how-to-use-chatgpt-effectively/), and let [scheduled tasks](/chatgpt-free-automations-guide/) run your best prompts on autopilot.
+
 ### FAQ
 
 **What is the best ChatGPT prompt structure in 2026?**
@@ -229,18 +231,10 @@ The **best ChatGPT prompts 2026** are not longer or more complicated than last y
 
 Save two or three prompts from each category above, adjust them to your own workflow, and test them against your real tasks this week.
 
--   ![How to Use ChatGPT Effectively](./images/How-to-Use-ChatGPT-Effectively-150x150.webp)
-    
-    [How to Use ChatGPT Effectively: 9 Rules That Actually Work \[2026\]](https://techonplay.com/how-to-use-chatgpt-effectively/)
--   ![](./images/o-que-significa-gpt-150x150.webp)
-    
-    [What Does GPT Stand For? The Acronym Everyone Uses but Few Understand](https://techonplay.com/what-does-gpt-stand-for/)
--   ![Perplexity Pro vs ChatGPT Plus](./images/Perplexity-Pro-vs-ChatGPT-Plus-150x150.webp)
-    
-    [Perplexity Pro vs ChatGPT Plus 2026: The Real Fight Is Who Finishes the Work](https://techonplay.com/perplexity-pro-vs-chatgpt-plus-2026/)
--   ![Notebook LM](./images/Google-2-150x150.webp)
-    
-    [Notebook LM Is Now Gemini Notebook: What Changed in 2026](https://techonplay.com/how-to-use-notebooklm/)
--   ![iPhone Duo Review](./images/iPhone-Duo-Review-150x150.webp)
-    
-    [iPhone Duo Review: Is Apple’s First Foldable Worth $1,999?](https://techonplay.com/iphone-duo-review/)
+## Related Reading
+
+- [How to Use ChatGPT Effectively: 9 Rules That Actually Work [2026]](/how-to-use-chatgpt-effectively/)
+- [ChatGPT Prompts for Business Strategy: 6 Frameworks That Work in 2026](/chatgpt-prompts-for-business-strategy/)
+- [100 ChatGPT Image Prompts I Actually Use Instead of Generic AI Photos](/chatgpt-image-prompts-visual-commands/)
+- [ChatGPT Free Automations: 3 Scheduled Tasks You Can Run Today [2026]](/chatgpt-free-automations-guide/)
+- [Copilot in Excel: 8 Features That Replaced the Old Hacks [Sept Update]](/copilot-excel-hacks/)

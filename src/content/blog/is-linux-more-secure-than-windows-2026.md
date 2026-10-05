@@ -73,6 +73,8 @@ None of this means Linux is worse. It means the advantages are specific, not mag
 
 ### How to Actually Harden Your Linux Machine in 2026
 
+Hardening does not stop social engineering such as the [fake blue screen scam](/fake-blue-screen-scam/). If you are studying for a certification, see our [Security+ passing score](/security-plus-passing-score/) guide.
+
 #### Lock Down SSH First
 
 Disable password authentication and switch to key-based login. This alone kills the brute-force vector that accounts for the majority of Linux endpoint attacks.
@@ -93,7 +95,7 @@ Give your daily user account only the privileges it needs. A compromised low-pri
 
 Stick to official repositories and verified sources. The XZ Utils incident happened inside the trusted supply chain, not from some sketchy download site, so vigilance matters even with “official” packages.
 
-Related: macOS vs Windows Security: Which One Actually Protects You Better? — [https://techonplay.com/macos-vs-windows-security/](https://techonplay.com/macos-vs-windows-security/)
+Related: macOS vs Windows Security: Which One Actually Protects You Better? — [https://techonplay.com/macos-vs-windows-security/](/macos-vs-windows-security/)
 
 ### FAQ
 
@@ -121,20 +123,10 @@ _It was a supply chain attack where a malicious actor spent years earning trust 
 
 Linux isn’t automatically safer than Windows or macOS. It’s more _controllable_. That control only pays off if you actually use it: lock down SSH, enable your firewall, automate your patches, and treat every package install like it matters, because in 2026, it does.
 
-Ready to make the switch? Start with the five hardening steps above before you migrate a single file, and check out our full macOS vs Windows security breakdown to see how all three platforms really stack up.
+Ready to make the switch? Start with the five hardening steps above before you migrate a single file, and check out our full [macOS vs Windows security breakdown](/macos-vs-windows-security/) to see how all three platforms really stack up.
 
--   ![How to Use ChatGPT Effectively](./images/How-to-Use-ChatGPT-Effectively-150x150.webp)
-    
-    [How to Use ChatGPT Effectively: 9 Rules That Actually Work \[2026\]](https://techonplay.com/how-to-use-chatgpt-effectively/)
--   ![](./images/o-que-significa-gpt-150x150.webp)
-    
-    [What Does GPT Stand For? The Acronym Everyone Uses but Few Understand](https://techonplay.com/what-does-gpt-stand-for/)
--   ![Perplexity Pro vs ChatGPT Plus](./images/Perplexity-Pro-vs-ChatGPT-Plus-150x150.webp)
-    
-    [Perplexity Pro vs ChatGPT Plus 2026: The Real Fight Is Who Finishes the Work](https://techonplay.com/perplexity-pro-vs-chatgpt-plus-2026/)
--   ![Notebook LM](./images/Google-2-150x150.webp)
-    
-    [Notebook LM Is Now Gemini Notebook: What Changed in 2026](https://techonplay.com/how-to-use-notebooklm/)
--   ![iPhone Duo Review](./images/iPhone-Duo-Review-150x150.webp)
-    
-    [iPhone Duo Review: Is Apple’s First Foldable Worth $1,999?](https://techonplay.com/iphone-duo-review/)
+## Related Reading
+
+- [macOS vs Windows Security: Which One Actually Keeps You Safer in 2026?](/macos-vs-windows-security/)
+- [The Fake Blue Screen Scam: How to Spot the ‘ClickFix’ Trap Before It’s Too Late](/fake-blue-screen-scam/)
+- [Security+ Passing Score: How Many Questions Can You Miss?](/security-plus-passing-score/)

@@ -11,7 +11,7 @@ imageAlt: "ChatGPT Prompts for Business Strategy"
 
 **ChatGPT prompts for business strategy** usually fail for one reason. They ask the model for an opinion instead of a framework, so ChatGPT falls back on the same five bullet points every LinkedIn post already gives you.
 
-That gap matters more now that ChatGPT runs on GPT-5.6 and the newer **[GPT-6 Astra](https://techonplay.com/gpt-6-astra-release/)** models, with Projects and stronger memory that can hold an entire strategy thread across weeks of work. The tool got smarter. Most prompts did not catch up.
+That gap matters more now that ChatGPT runs on GPT-5.6 and the newer **[GPT-6 Astra](/gpt-6-astra-release/)** models, with Projects and stronger memory that can hold an entire strategy thread across weeks of work. The tool got smarter. Most prompts did not catch up.
 
 This guide skips generic prompt lists. Below are six proven strategy frameworks, from Porter’s Five Forces to OKRs, each turned into a copy-paste prompt you can run today, plus a three-line upgrade that sharpens any answer ChatGPT gives you.
 
@@ -23,7 +23,7 @@ Consultants do not work that way. They pick a framework that fits the actual que
 
 The prompts below copy that habit. Each one names a framework, asks for your real numbers, and forces a specific output, so the answer looks like something a strategist would actually hand you.
 
-Related: for a broader set of ready-to-use prompts beyond strategy, see our [**full list of strategic ChatGPT**](https://techonplay.com/strategic-prompts-for-chatgpt/) **[prompts](https://techonplay.com/strategic-prompts-for-chatgpt/).**
+Related: for a broader set of ready-to-use prompts beyond strategy, see our **full list of strategic ChatGPT** **prompts.**
 
 ## The 6 Business Strategy Frameworks ChatGPT Can Run For You
 
@@ -35,7 +35,7 @@ Use this when you need to understand why a market is profitable, or why it is no
 
  
 
-🎯 Prompt: Porter’s Five Forces 📋 Copy Prompt
+🎯 Prompt: Porter’s Five Forces
 
 Act as a business strategist trained in Porter's Five Forces. My company is \[company name\], operating in \[industry\] and selling \[product or service\] to \[target customer\]. Analyze the five forces for my market: threat of new entrants, supplier bargaining power, buyer bargaining power, threat of substitutes, and competitive rivalry. For each force, rate it Low, Medium, or High, explain why in two sentences, and end with the single biggest strategic risk I should address in the next 90 days.
 
@@ -47,7 +47,7 @@ A SWOT built on guesses is worthless. This version forces you to supply the fact
 
  
 
-🧭 Prompt: SWOT Analysis 📋 Copy Prompt
+🧭 Prompt: SWOT Analysis
 
 Act as a strategy consultant running a SWOT analysis for \[company name\], a \[industry\] business with \[number\] employees and \[key product or service\]. Use only the information I give you: our strengths are \[list\], our weaknesses are \[list\], the market opportunities we see are \[list\], and the threats we are watching are \[list\]. Turn this into a SWOT grid, then tell me which single strength and opportunity combination gives us the fastest path to growth.
 
@@ -59,7 +59,7 @@ Use this when the question is not “should we grow” but “where.”
 
  
 
-📈 Prompt: Ansoff Matrix 📋 Copy Prompt
+📈 Prompt: Ansoff Matrix
 
 Act as a growth strategist using the Ansoff Matrix. My company sells \[product or service\] to \[current market\]. I am considering four paths: market penetration, market development into \[new market\], product development such as \[new product idea\], and diversification into \[new area\]. Score each path from 1 to 10 on revenue potential, risk, and time to results, given our current resources of \[budget or team size\]. Recommend one path and list the first three steps to test it.
 
@@ -71,11 +71,10 @@ Pricing decisions made on gut feel are strategy decisions made blind.
 
  
 
-💰 Prompt: Willingness to Pay 📋 Copy Prompt
+💰 Prompt: Willingness to Pay
 
 Act as a pricing strategist. My product is \[product\], currently priced at \[$price\], sold to \[customer type\]. Our closest competitors charge \[competitor prices\]. Customers tell us the biggest value driver is \[value driver\]. Build three pricing scenarios, lower, same, and higher, estimate how each affects perceived value and likely churn, and recommend one price with the reasoning a CFO would want to see.
 
-Related: for prompts that support the campaign side of a pricing launch, see our [ChatGPT for marketing guide](https://techonplay.com/chatgpt-for-marketing-guide/).
 
 ### 5\. PESTEL: Catch Risks Before They Hit the P&L
 
@@ -83,7 +82,7 @@ Run this once a quarter, not once a year. Macro conditions move faster than most
 
  
 
-🌍 Prompt: PESTEL 📋 Copy Prompt
+🌍 Prompt: PESTEL
 
 Act as a risk analyst using the PESTEL framework for \[company or industry\]. Walk through Political, Economic, Social, Technological, Environmental, and Legal factors that could affect us in \[region\] over the next 12 months. For each factor, give one real trend, rate its impact as Low, Medium, or High, and flag the two factors that need a contingency plan first.
 
@@ -93,23 +92,11 @@ Act as a risk analyst using the PESTEL framework for \[company or industry\]. Wa
 
 A framework only matters if it produces something your team can act on Monday.
 
- 
-
-🌍 Prompt: PESTEL 📋 Copy Prompt
-
-Act as a risk analyst using the PESTEL framework for \[company or industry\]. Walk through Political, Economic, Social, Technological, Environmental, and Legal factors that could affect us in \[region\] over the next 12 months. For each factor, give one real trend, rate its impact as Low, Medium, or High, and flag the two factors that need a contingency plan first.
-
-This is the prompt that closes the loop between analysis and action, so save it for last in any planning session.
-
-## Which Framework Should You Start With?
-
-Match the framework to the decision, not the other way around. The table below breaks down what each one answers and how long it takes to draft.
-
- 
-
-✅ Prompt: OKRs 📋 Copy Prompt
+✅ Prompt: OKRs
 
 Act as a strategy execution coach. Our top strategic priority for \[quarter or year\] is \[priority\]. Write one Objective that is ambitious and qualitative, then three Key Results that are measurable and time-bound. Each Key Result should include a baseline of \[current number\] and a target we can hit in \[timeframe\]. Flag any Key Result that sounds like a task instead of an outcome.
+
+This is the prompt that closes the loop between analysis and action, so save it for last in any planning session.
 
 ## Which Framework Should You Start With?
 
@@ -130,7 +117,7 @@ If two frameworks seem to fit, start with the one that has a decision deadline a
 
 ## The 3-Line Prompt Upgrade That Fixes Generic Answers
 
-Every prompt above works because it stacks three things ChatGPT needs and most people skip.
+Every prompt above works because it stacks three things ChatGPT needs and most people skip. For more templates beyond strategy, see the [best ChatGPT prompts for 2026](/best-chatgpt-prompts-2026/), and learn the habits behind them in [how to use ChatGPT effectively](/how-to-use-chatgpt-effectively/). Once a framework prompt works, you can [schedule it as a recurring task](/chatgpt-free-automations-guide/).
 
 ### Line 1: Give ChatGPT a role
 
@@ -172,18 +159,8 @@ The three-line upgrade works on every prompt in this guide, not only the six abo
 
 Which framework are you starting with? Tell us in the comments.
 
--   ![How to Use ChatGPT Effectively](./images/How-to-Use-ChatGPT-Effectively-150x150.webp)
-    
-    [How to Use ChatGPT Effectively: 9 Rules That Actually Work \[2026\]](https://techonplay.com/how-to-use-chatgpt-effectively/)
--   ![](./images/o-que-significa-gpt-150x150.webp)
-    
-    [What Does GPT Stand For? The Acronym Everyone Uses but Few Understand](https://techonplay.com/what-does-gpt-stand-for/)
--   ![Perplexity Pro vs ChatGPT Plus](./images/Perplexity-Pro-vs-ChatGPT-Plus-150x150.webp)
-    
-    [Perplexity Pro vs ChatGPT Plus 2026: The Real Fight Is Who Finishes the Work](https://techonplay.com/perplexity-pro-vs-chatgpt-plus-2026/)
--   ![Notebook LM](./images/Google-2-150x150.webp)
-    
-    [Notebook LM Is Now Gemini Notebook: What Changed in 2026](https://techonplay.com/how-to-use-notebooklm/)
--   ![iPhone Duo Review](./images/iPhone-Duo-Review-150x150.webp)
-    
-    [iPhone Duo Review: Is Apple’s First Foldable Worth $1,999?](https://techonplay.com/iphone-duo-review/)
+## Related Reading
+
+- [Best ChatGPT Prompts 2026: 30 Templates for Work, Study, and Creative Projects](/best-chatgpt-prompts-2026/)
+- [How to Use ChatGPT Effectively: 9 Rules That Actually Work [2026]](/how-to-use-chatgpt-effectively/)
+- [ChatGPT Free Automations: 3 Scheduled Tasks You Can Run Today [2026]](/chatgpt-free-automations-guide/)

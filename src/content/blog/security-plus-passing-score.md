@@ -71,7 +71,7 @@ Since you can’t calculate an exact number of allowed misses, the smarter move 
 
 #### Focus on the Highest-Weight Domains First
 
-Security Operations (28%) and Threats/Vulnerabilities (22%) together make up half the exam. Mastering these two areas alone dramatically shifts your odds. ✅
+Security Operations (28%) and Threats/Vulnerabilities (22%) together make up half the exam. Mastering these two areas alone dramatically shifts your odds. ✅ Threat topics stick better with real cases: see [AI ransomware attacks](/ai-ransomware-attacks/). For OS hardening basics, read [macOS vs Windows security](/macos-vs-windows-security/) and [Is Linux more secure than Windows](/is-linux-more-secure-than-windows-2026/).
 
 #### Practice With Timed Simulations, Not Just Question Banks
 
@@ -113,18 +113,8 @@ There’s no secret formula that tells you exactly how many questions you can mi
 
 Instead of chasing a number that doesn’t exist, put your energy into the domains that carry the most weight, especially Security Operations, and practice under real exam conditions. That’s the only strategy that actually moves the needle on test day.
 
--   ![How to Use ChatGPT Effectively](./images/How-to-Use-ChatGPT-Effectively-150x150.webp)
-    
-    [How to Use ChatGPT Effectively: 9 Rules That Actually Work \[2026\]](https://techonplay.com/how-to-use-chatgpt-effectively/)
--   ![](./images/o-que-significa-gpt-150x150.webp)
-    
-    [What Does GPT Stand For? The Acronym Everyone Uses but Few Understand](https://techonplay.com/what-does-gpt-stand-for/)
--   ![Perplexity Pro vs ChatGPT Plus](./images/Perplexity-Pro-vs-ChatGPT-Plus-150x150.webp)
-    
-    [Perplexity Pro vs ChatGPT Plus 2026: The Real Fight Is Who Finishes the Work](https://techonplay.com/perplexity-pro-vs-chatgpt-plus-2026/)
--   ![Notebook LM](./images/Google-2-150x150.webp)
-    
-    [Notebook LM Is Now Gemini Notebook: What Changed in 2026](https://techonplay.com/how-to-use-notebooklm/)
--   ![iPhone Duo Review](./images/iPhone-Duo-Review-150x150.webp)
-    
-    [iPhone Duo Review: Is Apple’s First Foldable Worth $1,999?](https://techonplay.com/iphone-duo-review/)
+## Related Reading
+
+- [Is Linux More Secure Than Windows in 2026? The Honest Answer](/is-linux-more-secure-than-windows-2026/)
+- [macOS vs Windows Security: Which One Actually Keeps You Safer in 2026?](/macos-vs-windows-security/)
+- [AI Ransomware Attacks Now Take Under 10 Hours: How to Protect Yourself](/ai-ransomware-attacks/)

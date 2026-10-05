@@ -66,7 +66,7 @@ The takeaway is straightforward. The Duo wins on battery life and durability rat
 
 ## Is the iPhone Duo Worth It for You?
 
-The honest answer depends entirely on how you use your phone, not on which brand you’re loyal to.
+The honest answer depends entirely on how you use your phone, not on which brand you’re loyal to. Samsung's pricing is moving too, as covered in our [Galaxy S26 price increase](/samsung-galaxy-s26-price-increase/) report.
 
 ### You’re a heavy multitasker or frequent traveler
 
@@ -114,18 +114,7 @@ If you’re a heavy multitasker who values screen space over camera zoom, order 
 
 Thinking about pulling the trigger before the October 23 launch window closes? Compare your storage needs against the price table above first, since jumping a tier costs more here than on any other iPhone Apple sells.
 
--   ![How to Use ChatGPT Effectively](./images/How-to-Use-ChatGPT-Effectively-150x150.webp)
-    
-    [How to Use ChatGPT Effectively: 9 Rules That Actually Work \[2026\]](https://techonplay.com/how-to-use-chatgpt-effectively/)
--   ![](./images/o-que-significa-gpt-150x150.webp)
-    
-    [What Does GPT Stand For? The Acronym Everyone Uses but Few Understand](https://techonplay.com/what-does-gpt-stand-for/)
--   ![Perplexity Pro vs ChatGPT Plus](./images/Perplexity-Pro-vs-ChatGPT-Plus-150x150.webp)
-    
-    [Perplexity Pro vs ChatGPT Plus 2026: The Real Fight Is Who Finishes the Work](https://techonplay.com/perplexity-pro-vs-chatgpt-plus-2026/)
--   ![Notebook LM](./images/Google-2-150x150.webp)
-    
-    [Notebook LM Is Now Gemini Notebook: What Changed in 2026](https://techonplay.com/how-to-use-notebooklm/)
--   ![iPhone Duo Review](./images/iPhone-Duo-Review-150x150.webp)
-    
-    [iPhone Duo Review: Is Apple’s First Foldable Worth $1,999?](https://techonplay.com/iphone-duo-review/)
+## Related Reading
+
+- [Samsung Raises Galaxy S26 Prices by $100 in the US: What to Know](/samsung-galaxy-s26-price-increase/)
+- [Steam Frame Repairability: What iFixit's Teardown Found [2026]](/steam-frame-repairability/)

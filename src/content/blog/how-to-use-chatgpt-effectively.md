@@ -17,7 +17,7 @@ Below you’ll find nine rules, three copy-ready prompts, a plan comparison, and
 
 ## Rule 1: Match the Mode to the Job
 
-Before you write a single word, decide where the job belongs. OpenAI now draws a clear line between two modes.
+Before you write a single word, decide where the job belongs. OpenAI now draws a clear line between two modes. Deciding between plans? See [Perplexity Pro vs ChatGPT Plus](/perplexity-pro-vs-chatgpt-plus-2026/). If you want the basics first, read [what GPT stands for](/what-does-gpt-stand-for/).
 
 -   ⚡ **Chat** handles quick questions, rewording, and short drafts.
 -   💼 **Work** handles tasks that pull from several sources, make changes, or produce bigger deliverables like reports.
@@ -47,7 +47,7 @@ Power users | $100 (5x Plus) or $200 (20x Plus) | GPT-5.6 Sol up to Extra High, 
 
 Prices are US list prices and can change. Check OpenAI’s pricing page before you buy.
 
-Related: [GPT-6 Astra release: what changed and who gets it](https://techonplay.com/gpt-6-astra-release/)
+Related: [GPT-6 Astra release: what changed and who gets it](/gpt-6-astra-release/)
 
 ## Rule 2: How to Use ChatGPT Effectively by Starting With the Result
 
@@ -118,7 +118,7 @@ Three follow-ups fix most disappointing answers:
 
 Stay in the same chat while you iterate. A new chat wipes the context you just built.
 
-Related: [Best ChatGPT prompts for 2026](https://techonplay.com/best-chatgpt-prompts-2026/)
+Related: [Best ChatGPT prompts for 2026](/best-chatgpt-prompts-2026/)
 
 ## Rule 7: Make ChatGPT Check Its Own Work
 
@@ -156,7 +156,7 @@ How I want answers:
 
 ## Rule 9: Refine by Hand, Then Automate
 
-Recurring jobs are where ChatGPT saves the most time. But OpenAI’s advice is to refine the prompt manually first, then automate it. Automating a mediocre prompt just produces mediocre results on a schedule.
+Recurring jobs are where ChatGPT saves the most time. But OpenAI’s advice is to refine the prompt manually first, then automate it. Automating a mediocre prompt just produces mediocre results on a schedule. Ready to automate? Read our guide to [ChatGPT free automations](/chatgpt-free-automations-guide/).
 
 Run the task three or four times by hand. Fix what annoys you each time. Once the output feels right, turn it into a routine.
 
@@ -198,3 +198,13 @@ _Knowing how to use ChatGPT effectively comes down to one habit: define the job 
 Your next step takes two minutes. Copy the four-block prompt above, fill it in for the task you keep putting off, and run it. Then save your favorite defaults in Custom Instructions so you never retype them.
 
 Want to see what the newest model can do? Read our breakdown of GPT-6 Astra next.
+
+## Related Reading
+
+- [Best ChatGPT Prompts 2026: 30 Templates for Work, Study, and Creative Projects](/best-chatgpt-prompts-2026/)
+- [ChatGPT Free Automations: 3 Scheduled Tasks You Can Run Today [2026]](/chatgpt-free-automations-guide/)
+- [Perplexity Pro vs ChatGPT Plus 2026: The Real Fight Is Who Finishes the Work](/perplexity-pro-vs-chatgpt-plus-2026/)
+- [What Does GPT Stand For? The Acronym Everyone Uses but Few Understand](/what-does-gpt-stand-for/)
+- [Artificial Movie: Andrew Garfield Just Became Sam Altman [Trailer Breakdown]](/artificial-movie-andrew-garfield-sam-altman/)
+- [ChatGPT Prompts for Business Strategy: 6 Frameworks That Work in 2026](/chatgpt-prompts-for-business-strategy/)
+- [How to Humanize AI Content: A Writer’s Guide to Sounding Real, Not Robotic](/how-to-humanize-ai-content-guide/)

@@ -73,7 +73,7 @@ Real recordings carry breathing, mouth clicks, and background noise. Cloned voic
 
 Cloned-voice scams almost always push urgency: wire money now, keep this quiet, don’t call back. The FBI notes that attackers also use “minor alterations in contact information and names” to look legitimate.
 
-Related: scammers use the same urgency playbook in the [fake blue screen scam](https://techonplay.com/fake-blue-screen-scam/), and the defense is the same: slow down.
+Related: scammers use the same urgency playbook in the [fake blue screen scam](/fake-blue-screen-scam/), and the defense is the same: slow down.
 
 ## Context Checks That Beat Most Detectors
 
@@ -160,11 +160,11 @@ Older guides keep recommending tools you can’t use. Here’s the reality check
 
 ## Voice Call From “Family”? Use These Steps
 
-Video gets the headlines, but cloned voices on the phone hit more people. The FBI recommends three moves:
+Video gets the headlines, but cloned voices on the phone hit more people. The FBI recommends three moves: Limit what scammers can learn about you by following [how to protect your data from AI chatbots](/how-to-protect-your-data-from-ai-chatbots/).
 
 ✅ Hang up and call back on a number you already know ✅ Agree on a secret word or phrase with family members ✅ Never share one-time codes, even when the request sounds official
 
-Related: voice clones come from the same tech behind [AI voice generators](https://techonplay.com/how-to-use-ai-voice-generators/), so knowing how they work helps you hear their limits.
+Related: voice clones come from the same tech behind [AI voice generators](/how-to-use-ai-voice-generators/), so knowing how they work helps you hear their limits.
 
 ## Your 60-Second Deepfake Checklist
 
@@ -200,20 +200,10 @@ Yes. The Gemini app checks videos under 90 seconds for Google’s SynthID waterm
 
 Learning how to detect deepfakes in 2026 comes down to layers. Your eyes catch the sloppy fakes. Source checks and reverse searches catch the viral ones. Tools like Gemini, Adobe Inspect, and Hive catch some of the rest.
 
-No single step is enough, and that’s fine. Pick two checks from this guide and make them a habit this week. Next time a shocking clip lands in your feed, you’ll be the person who checks before sharing. Want to see what the fakers are working with? Read our guide to the [best AI video generators of 2026](https://techonplay.com/best-ai-video-generators-of-2026/).
+No single step is enough, and that’s fine. Pick two checks from this guide and make them a habit this week. Next time a shocking clip lands in your feed, you’ll be the person who checks before sharing. Want to see what the fakers are working with? Read our guide to the [best AI video generators of 2026](/best-ai-video-generators-of-2026/).
 
--   ![How to Use ChatGPT Effectively](./images/How-to-Use-ChatGPT-Effectively-150x150.webp)
-    
-    [How to Use ChatGPT Effectively: 9 Rules That Actually Work \[2026\]](https://techonplay.com/how-to-use-chatgpt-effectively/)
--   ![](./images/o-que-significa-gpt-150x150.webp)
-    
-    [What Does GPT Stand For? The Acronym Everyone Uses but Few Understand](https://techonplay.com/what-does-gpt-stand-for/)
--   ![Perplexity Pro vs ChatGPT Plus](./images/Perplexity-Pro-vs-ChatGPT-Plus-150x150.webp)
-    
-    [Perplexity Pro vs ChatGPT Plus 2026: The Real Fight Is Who Finishes the Work](https://techonplay.com/perplexity-pro-vs-chatgpt-plus-2026/)
--   ![Notebook LM](./images/Google-2-150x150.webp)
-    
-    [Notebook LM Is Now Gemini Notebook: What Changed in 2026](https://techonplay.com/how-to-use-notebooklm/)
--   ![iPhone Duo Review](./images/iPhone-Duo-Review-150x150.webp)
-    
-    [iPhone Duo Review: Is Apple’s First Foldable Worth $1,999?](https://techonplay.com/iphone-duo-review/)
+## Related Reading
+
+- [AI Voice Generators for Viral Content: The 2026 Guide [ElevenLabs v3]](/how-to-use-ai-voice-generators/)
+- [The Fake Blue Screen Scam: How to Spot the ‘ClickFix’ Trap Before It’s Too Late](/fake-blue-screen-scam/)
+- [How to Protect Your Data From AI Chatbots (2026 Guide)](/how-to-protect-your-data-from-ai-chatbots/)

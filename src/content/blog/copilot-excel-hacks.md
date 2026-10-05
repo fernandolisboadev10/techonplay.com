@@ -41,7 +41,7 @@ It’s built for the jobs that used to mean nesting IF statements or adding a he
 
 ✅ Reads like a real formula, so it updates when the source cell changes ✅ Handles classification, extraction, and standardization without a helper column ❌ Beta status means call limits and row caps apply ❌ Still requires a Copilot license to use
 
-Related: our guide to [ChatGPT’s free automation options](https://techonplay.com/chatgpt-free-automations-guide/) covers a no-license alternative for similar cleanup work.
+Related: our guide to [ChatGPT’s free automation options](/chatgpt-free-automations-guide/) covers a no-license alternative for similar cleanup work.
 
 ## 3\. Run Python Inside the Workbook, No Copy-Paste Required
 
@@ -73,7 +73,7 @@ Skills are reusable automation templates, either built-in or custom text files (
 
 ✅ Turns a recurring five-step prompt into a one-word command ✅ Custom skills are plain text files, easy to edit or share with a team ❌ Building a good custom Skill takes upfront setup time ❌ Works best for tasks you genuinely repeat, not one-off requests
 
-Related: our [ChatGPT productivity cheat sheet](https://techonplay.com/chatgpt-cheat-sheet-productivity/) has more reusable-prompt patterns worth adapting into a Skill.
+Related: our [ChatGPT productivity cheat sheet](/best-chatgpt-prompts-2026/) has more reusable-prompt patterns worth adapting into a Skill.
 
 ## 7\. Pull In Data Copilot Didn’t Already Have
 
@@ -107,7 +107,7 @@ Data as of September 24, 2026. Rollouts land in phases across Windows, Mac, and 
 
 ## Which Copilot in Excel Plan Do You Actually Need?
 
-The free Copilot chat panel still works inside Excel for quick questions, but it skips Agent Mode, the COPILOT function, and Canvas. Those need a paid seat:
+The free Copilot chat panel still works inside Excel for quick questions, but it skips Agent Mode, the COPILOT function, and Canvas. Those need a paid seat: If you are weighing assistants more broadly, our [Perplexity Pro vs ChatGPT Plus](/perplexity-pro-vs-chatgpt-plus-2026/) comparison covers two other big $20 plans.
 
 ✅ Copilot Pro at $20 a month bundles into Microsoft 365 Personal or Family, a fit for individual use ✅ Microsoft 365 Copilot Business runs $21 a month billed annually, or $25 month to month, on top of a qualifying business license ✅ Microsoft 365 Copilot Enterprise starts at $30 a month annually, on top of an E3 or E5 license, and is the tier IT teams need to turn on Agent 365 governance ❌ None of the paid tiers are cheap once the required base license gets added, so plan for roughly $33 to $87 a month per seat depending on the plan
 
@@ -127,7 +127,7 @@ _Agent Mode plans and executes a full multi-step task on its own, building table
 
 ### Does Copilot in Excel work as well as Gemini in Google Sheets?
 
-_Both now offer prompt-driven formulas and multi-step autonomous edits, so the better fit usually comes down to which suite your organization already runs. See our roundup of [the best Google AI tools of 2026](https://techonplay.com/best-google-ai-tools-2026/) if you’re weighing Gemini’s side of that comparison._
+_Both now offer prompt-driven formulas and multi-step autonomous edits, so the better fit usually comes down to which suite your organization already runs. See our roundup of [the best Google AI tools of 2026](/best-google-ai-tools-2026/) if you’re weighing Gemini’s side of that comparison._
 
 ### Do I need to know Python to use the new Python feature?
 
@@ -139,18 +139,8 @@ Copilot in Excel isn’t the “ask a chatbot to write a formula” tool it was 
 
 Pick one feature from this list, most likely Agent Mode or the COPILOT function, and try it on a workbook you touch every week. The upgrade only pays off once it replaces an old habit.
 
--   ![How to Use ChatGPT Effectively](./images/How-to-Use-ChatGPT-Effectively-150x150.webp)
-    
-    [How to Use ChatGPT Effectively: 9 Rules That Actually Work \[2026\]](https://techonplay.com/how-to-use-chatgpt-effectively/)
--   ![](./images/o-que-significa-gpt-150x150.webp)
-    
-    [What Does GPT Stand For? The Acronym Everyone Uses but Few Understand](https://techonplay.com/what-does-gpt-stand-for/)
--   ![Perplexity Pro vs ChatGPT Plus](./images/Perplexity-Pro-vs-ChatGPT-Plus-150x150.webp)
-    
-    [Perplexity Pro vs ChatGPT Plus 2026: The Real Fight Is Who Finishes the Work](https://techonplay.com/perplexity-pro-vs-chatgpt-plus-2026/)
--   ![Notebook LM](./images/Google-2-150x150.webp)
-    
-    [Notebook LM Is Now Gemini Notebook: What Changed in 2026](https://techonplay.com/how-to-use-notebooklm/)
--   ![iPhone Duo Review](./images/iPhone-Duo-Review-150x150.webp)
-    
-    [iPhone Duo Review: Is Apple’s First Foldable Worth $1,999?](https://techonplay.com/iphone-duo-review/)
+## Related Reading
+
+- [ChatGPT Free Automations: 3 Scheduled Tasks You Can Run Today [2026]](/chatgpt-free-automations-guide/)
+- [Best ChatGPT Prompts 2026: 30 Templates for Work, Study, and Creative Projects](/best-chatgpt-prompts-2026/)
+- [Perplexity Pro vs ChatGPT Plus 2026: The Real Fight Is Who Finishes the Work](/perplexity-pro-vs-chatgpt-plus-2026/)

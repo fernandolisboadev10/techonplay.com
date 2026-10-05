@@ -71,7 +71,7 @@ Perplexity Pro still lets you pick a model per question outside of Computer, inc
 
 ChatGPT Plus stays inside OpenAI’s own lineup. GPT-5.6 Sol remains the default in regular chat. GPT-6 Astra shows up for Plus subscribers only inside Work and Codex, with a limited included amount before extra credits are for sale. Full Astra access in the normal chat window, branded GPT-6 Pro, still requires the $100 or $200 Pro tier.
 
-Related: our [GPT-6 Astra release breakdown](https://techonplay.com/gpt-6-astra-release/) covers who gets what across every OpenAI tier.
+Related: our [GPT-6 Astra release breakdown](/gpt-6-astra-release/) covers who gets what across every OpenAI tier.
 
 ## Perplexity Pro vs ChatGPT Plus: Agent Features Side by Side
 
@@ -96,9 +96,9 @@ Related: our [GPT-6 Astra release breakdown](https://techonplay.com/gpt-6-astra-
 
 ✅ **Choose Perplexity Pro if you:** run occasional multi-model research projects and can budget for credit overages on the heaviest weeks ✅ **Choose ChatGPT Plus if you:** want agent access with no separate meter to watch, and mostly need office-ready deliverables ❌ **Skip Computer and Work entirely if you:** only chat and search, since both agents cost more attention than a casual user needs
 
-If your team runs Computer daily, Perplexity Max at $200 a month is the honest price, not Pro plus surprise credit bills. If you need full GPT-6 Astra access in ordinary chat rather than just inside an agent, that also points to OpenAI’s $100 or $200 Pro tier, not Plus.
+If your team runs Computer daily, Perplexity Max at $200 a month is the honest price, not Pro plus surprise credit bills. If you need full GPT-6 Astra access in ordinary chat rather than just inside an agent, that also points to OpenAI’s $100 or $200 Pro tier, not Plus. Whichever plan you pick, [nine rules for using ChatGPT effectively](/how-to-use-chatgpt-effectively/) improve results, and [DeepSeek V4 vs ChatGPT](/deepseek-v4-vs-chatgpt-comparison/) shows the cheaper alternative.
 
-Budget options still exist outside the agent race. Perplexity’s Education Pro costs $10 a month for verified students, and our [Perplexity for students guide](https://techonplay.com/perplexity-for-students/) covers the setup. For a lighter, no-code way to try agent workflows before committing to either subscription, see our guide on building a no-code AI agent.
+Budget options still exist outside the agent race. Perplexity’s Education Pro costs $10 a month for verified students, and our [Perplexity for students guide](/perplexity-for-students-2026/) covers the setup.
 
 ## FAQ
 
@@ -127,3 +127,11 @@ Neither $20 plan is built for heavy daily agent use. Perplexity Pro’s credit s
 Perplexity Pro gives you the more powerful agent on paper, with parallel multi-model research and a growing Skills Marketplace, but the credit meter can outrun the subscription fast. ChatGPT Plus folds Work into a flat price with no visible meter, at the cost of not knowing exactly how much agent time you actually get.
 
 Run one real multi-step task through each this week, track what it costs you in time, credits or guesswork, and keep the plan that matched what you expected to pay. Tell us in the comments which agent actually finished the job.
+
+## Related Reading
+
+- [How to Use ChatGPT Effectively: 9 Rules That Actually Work [2026]](/how-to-use-chatgpt-effectively/)
+- [Perplexity for Students: The Research Tool That Cites Everything](/perplexity-for-students-2026/)
+- [DeepSeek V4 vs ChatGPT: Which Is Better After GPT-6? [Sept 2026]](/deepseek-v4-vs-chatgpt-comparison/)
+- [GPT-6 Astra Release: What OpenAI’s New Model Means for Developers](/gpt-6-astra-release/)
+- [Copilot in Excel: 8 Features That Replaced the Old Hacks [Sept Update]](/copilot-excel-hacks/)

@@ -49,7 +49,7 @@ Midjourney skipped the leaderboard race and kept doing what it does best: style.
 
 ✅ Best for a consistent artistic look across a brand or project 💰 Basic $10, Standard $30, Pro $60, Mega $120 per month
 
-Related: see our full breakdown in [the best AI image generators of 2026](https://techonplay.com/best-ai-image-generators-2026/).
+Related: see our full breakdown in [the best AI image generators of 2026](/best-ai-image-generators-2026/).
 
 ## Video Generation: From Script to Finished Clip
 
@@ -73,7 +73,7 @@ Runway is built for people who want to direct the camera, not just describe a sc
 
 ✅ Best camera and shot-level control 💰 Standard $12/month, Pro $28/month, Max $76/month (billed annually)
 
-Related: our roundup of [the best AI video generators of 2026](https://techonplay.com/best-ai-video-generators-of-2026/) covers three more tools worth testing.
+Related: our roundup of [the best AI video generators of 2026](/best-ai-video-generators-of-2026/) covers three more tools worth testing.
 
 ## Sound, Voice, and Music: Give Your Content an Audio Track
 
@@ -97,11 +97,11 @@ Murf targets business voiceover work rather than music. Word-level emphasis cont
 
 ✅ Best for narration, dubbing, and marketing voiceovers 💰 Free (10 projects), Creator plan $29/month
 
-Related: our guide on [how to use AI voice generators](https://techonplay.com/how-to-use-ai-voice-generators/) walks through setup and prompt tips.
+Related: our guide on [how to use AI voice generators](/how-to-use-ai-voice-generators/) walks through setup and prompt tips.
 
 ## Productivity and Work: The Assistants That Run Your Day
 
-This class covers the general-purpose assistants and workspace agents people open every day, not a single-purpose creative tool.
+This class covers the general-purpose assistants and workspace agents people open every day, not a single-purpose creative tool. Google's lineup deserves its own breakdown, so see our ranking of the [best Google AI tools](/best-google-ai-tools-2026/) for details on Gemini, Flow and Antigravity.
 
 ### ChatGPT
 
@@ -187,18 +187,10 @@ The best artificial intelligence tools in 2026 are specialists, and trying to fo
 
 Test the free plan of one pick from each class this month, and tell us in the comments which combination ended up in your actual workflow.
 
--   ![How to Use ChatGPT Effectively](./images/How-to-Use-ChatGPT-Effectively-150x150.webp)
-    
-    [How to Use ChatGPT Effectively: 9 Rules That Actually Work \[2026\]](https://techonplay.com/how-to-use-chatgpt-effectively/)
--   ![](./images/o-que-significa-gpt-150x150.webp)
-    
-    [What Does GPT Stand For? The Acronym Everyone Uses but Few Understand](https://techonplay.com/what-does-gpt-stand-for/)
--   ![Perplexity Pro vs ChatGPT Plus](./images/Perplexity-Pro-vs-ChatGPT-Plus-150x150.webp)
-    
-    [Perplexity Pro vs ChatGPT Plus 2026: The Real Fight Is Who Finishes the Work](https://techonplay.com/perplexity-pro-vs-chatgpt-plus-2026/)
--   ![Notebook LM](./images/Google-2-150x150.webp)
-    
-    [Notebook LM Is Now Gemini Notebook: What Changed in 2026](https://techonplay.com/how-to-use-notebooklm/)
--   ![iPhone Duo Review](./images/iPhone-Duo-Review-150x150.webp)
-    
-    [iPhone Duo Review: Is Apple’s First Foldable Worth $1,999?](https://techonplay.com/iphone-duo-review/)
+## Related Reading
+
+- [Best AI Image Generators 2026: 7 Tools Leading Right Now [Sept Update]](/best-ai-image-generators-2026/)
+- [Best AI Video Generators After Sora: 6 Tools Ranked [Sept 2026]](/best-ai-video-generators-of-2026/)
+- [AI Voice Generators for Viral Content: The 2026 Guide [ElevenLabs v3]](/how-to-use-ai-voice-generators/)
+- [Best Google AI Tools 2026: 10 Picks After Gemini 3.8 [Sept Update]](/best-google-ai-tools-2026/)
+- [Tripo AI Review: Does H3.1 Fix the Mesh?](/tripo-ai-review/)

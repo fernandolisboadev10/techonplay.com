@@ -72,7 +72,7 @@ Your storage matters here. If you moved files into 5 TB of space and drop back t
 
 ## Is There a Cheaper Bundle for Students?
 
-Yes. Google also offers Google AI Pro bundled with YouTube Premium. MacRumors reported a price of $8.99 a month in the US, a 70 percent discount, and a student can keep the bundle for up to four years. Google requires SheerID verification, and school-issued accounts do not qualify for the YouTube Premium part.
+Yes. Google also offers Google AI Pro bundled with YouTube Premium. MacRumors reported a price of $8.99 a month in the US, a 70 percent discount, and a student can keep the bundle for up to four years. Google requires SheerID verification, and school-issued accounts do not qualify for the YouTube Premium part. Students who want a non-Google option should read [Perplexity for students](/perplexity-for-students-2026/).
 
 Compare that bundle to the free year before you choose. The free year costs nothing for 12 months, but it renews at $19.99. The bundle costs money from day one but stays low for longer.
 
@@ -114,3 +114,9 @@ Use a personal Google Account for the subscription. Google does not accept schoo
 ## Claim It Before the Year Ends
 
 The US student deal is better than the AI Plus offer people search for, but only if you claim it and plan the exit. Go to one.google.com/ai-student, finish the SheerID check, and set your cancel reminder the same day. Tell us in the comments which Gemini study feature you plan to try first.
+
+## Related Reading
+
+- [Gemini Pro for Students: Free Google AI Pro Until Dec 31 [2026]](/google-gemini-pro-students/)
+- [Perplexity for Students: The Research Tool That Cites Everything](/perplexity-for-students-2026/)
+- [Best Google AI Tools 2026: 10 Picks After Gemini 3.8 [Sept Update]](/best-google-ai-tools-2026/)

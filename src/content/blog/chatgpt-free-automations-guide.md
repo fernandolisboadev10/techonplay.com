@@ -90,7 +90,7 @@ Source: OpenAI Help Center and ChatGPT release notes, September 2026. The Go pla
 
 ## Copy-Paste Prompt Automations for Everything Tasks Can’t Do
 
-Scheduled tasks skip voice, files, and GPTs. For those jobs, a reusable prompt still saves hours. Start with a master template so ChatGPT stops guessing.
+Scheduled tasks skip voice, files, and GPTs. For those jobs, a reusable prompt still saves hours. Start with a master template so ChatGPT stops guessing. Prompt quality decides whether a task works, so skim [how to use ChatGPT effectively](/how-to-use-chatgpt-effectively/) first.
 
 ```
 You are [role, e.g., senior project manager].
@@ -105,15 +105,15 @@ Then plug in one of these three workflows:
 
 ⏱️ **Meeting minutes:** “Turn these notes into minutes with decisions, action items (owner and date), and open questions. Keep it under 200 words. \[paste notes\]” ⏱️ **Email triage:** “Reply to this email in three versions: short, neutral, and warm. Keep each under 80 words. \[paste email\]” ⏱️ **SOP builder:** “Turn this rambling explanation into a numbered SOP with prerequisites, steps, and a final checklist. \[paste explanation\]”
 
-Related: our list of the [best ChatGPT prompts for 2026](https://techonplay.com/best-chatgpt-prompts-2026/) and the [ChatGPT cheat sheet for productivity](https://techonplay.com/chatgpt-cheat-sheet-productivity/) give you more templates to reuse.
+Related: our list of the [best ChatGPT prompts for 2026](/best-chatgpt-prompts-2026/) and the [ChatGPT cheat sheet for productivity](/best-chatgpt-prompts-2026/) give you more templates to reuse.
 
 ## When Free Runs Out: Zapier and Make Free Plans
 
-ChatGPT on the Free plan cannot move data between apps. Zapier and Make can, and both offer free tiers.
+ChatGPT on the Free plan cannot move data between apps. Zapier and Make can, and both offer free tiers. If you are deciding whether to pay for an assistant at all, see [Perplexity Pro vs ChatGPT Plus](/perplexity-pro-vs-chatgpt-plus-2026/). Spreadsheet users can also automate work with [Copilot in Excel](/copilot-excel-hacks/).
 
 ✅ **Zapier Free:** 100 tasks per month, unlimited Zaps, two-step Zaps (one trigger and one action), and a 15-minute polling interval. Free versions of Zapier Chatbots and Agents are included. ✅ **Make Free:** 1,000 credits per month, 2 active scenarios, a 15-minute minimum interval, and 3,000+ app integrations. ❌ Both cap volume. A busy inbox can burn through 100 Zapier tasks fast.
 
-A practical split: let ChatGPT do the thinking and let Zapier or Make do the moving. If you want an agent that acts on its own, read our guide to [building a no-code AI agent](https://techonplay.com/how-to-build-no-code-ai-agent/). Vendors change free plans often, so check the pricing pages before you build.
+A practical split: let ChatGPT do the thinking and let Zapier or Make do the moving. Vendors change free plans often, so check the pricing pages before you build.
 
 ## Limits and Risks to Know Before You Build
 
@@ -157,18 +157,10 @@ ChatGPT free automations are small on purpose. Three daily tasks will not run yo
 
 Open Scheduled today, paste the morning briefing, set the window, and let it run for a week. Then tell us in the comments which task earned its slot.
 
--   ![How to Use ChatGPT Effectively](./images/How-to-Use-ChatGPT-Effectively-150x150.webp)
-    
-    [How to Use ChatGPT Effectively: 9 Rules That Actually Work \[2026\]](https://techonplay.com/how-to-use-chatgpt-effectively/)
--   ![](./images/o-que-significa-gpt-150x150.webp)
-    
-    [What Does GPT Stand For? The Acronym Everyone Uses but Few Understand](https://techonplay.com/what-does-gpt-stand-for/)
--   ![Perplexity Pro vs ChatGPT Plus](./images/Perplexity-Pro-vs-ChatGPT-Plus-150x150.webp)
-    
-    [Perplexity Pro vs ChatGPT Plus 2026: The Real Fight Is Who Finishes the Work](https://techonplay.com/perplexity-pro-vs-chatgpt-plus-2026/)
--   ![Notebook LM](./images/Google-2-150x150.webp)
-    
-    [Notebook LM Is Now Gemini Notebook: What Changed in 2026](https://techonplay.com/how-to-use-notebooklm/)
--   ![iPhone Duo Review](./images/iPhone-Duo-Review-150x150.webp)
-    
-    [iPhone Duo Review: Is Apple’s First Foldable Worth $1,999?](https://techonplay.com/iphone-duo-review/)
+## Related Reading
+
+- [How to Use ChatGPT Effectively: 9 Rules That Actually Work [2026]](/how-to-use-chatgpt-effectively/)
+- [Best ChatGPT Prompts 2026: 30 Templates for Work, Study, and Creative Projects](/best-chatgpt-prompts-2026/)
+- [Perplexity Pro vs ChatGPT Plus 2026: The Real Fight Is Who Finishes the Work](/perplexity-pro-vs-chatgpt-plus-2026/)
+- [Copilot in Excel: 8 Features That Replaced the Old Hacks [Sept Update]](/copilot-excel-hacks/)
+- [ChatGPT Prompts for Business Strategy: 6 Frameworks That Work in 2026](/chatgpt-prompts-for-business-strategy/)

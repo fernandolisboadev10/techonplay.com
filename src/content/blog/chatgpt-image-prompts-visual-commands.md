@@ -17,7 +17,7 @@ This guide breaks down 100 visual command codes across 10 categories, from light
 
 ### Why Generic Prompts Produce Generic Images
 
-ChatGPT’s image model responds to specificity. When you write “a person in an office,” it fills in every gap with the most statistically average choice: flat light, centered framing, neutral expression. Nothing wrong, nothing memorable either.
+ChatGPT’s image model responds to specificity. When you write “a person in an office,” it fills in every gap with the most statistically average choice: flat light, centered framing, neutral expression. Nothing wrong, nothing memorable either. If ChatGPT is not the right tool for the job, compare it with the [best AI image generators of 2026](/best-ai-image-generators-2026/). For text prompts, see our [best ChatGPT prompts](/best-chatgpt-prompts-2026/).
 
 The fix isn’t a longer prompt. It’s a structured one. That’s the whole idea behind working with chatgpt image prompts as a system: each command below acts as a single lever, lighting, angle, or composition, that you stack on top of your subject description.
 
@@ -71,7 +71,7 @@ The camera position alone can make a subject feel powerful, vulnerable, or immer
 -   📉 **lowangle** — shooting from below makes the subject feel towering
 -   🎥 **dutchangle** — a tilted horizon injects tension and energy
 
-Related: [Google Flow Camera Commands](https://techonplay.com/google-flow-camera-commands/)
+Related: [Google Flow Camera Commands](/google-flow-camera-commands/)
 
 ### Editorial Photography Commands For Brand Content
 
@@ -132,7 +132,7 @@ For anyone generating product visuals, this category alone can replace an entire
 
 ### How to Combine ChatGPT Image Prompts Without Breaking the Output
 
-The commands aren’t meant to be used one at a time forever. Once you know a handful by heart, layering them is where the real quality jump happens.
+The commands aren’t meant to be used one at a time forever. Once you know a handful by heart, layering them is where the real quality jump happens. Want ready-made scenes? Try the [3D figurine trend](/3d-figurine-ai-trend-chatgpt/) or the [90s AI photo trend](/90s-ai-photo-trend-gemini-prompt/).
 
 A working formula looks like this: subject + 1 lighting command + 1 framing or angle command + optional style command. For example: “a barista pouring coffee, golden hour lighting, close-up, 35mm film grain” produces a warm, tightly framed, film-grain shot instead of a flat product photo.
 
@@ -182,18 +182,10 @@ Nobody needs to memorize 100 commands. What works is picking five or six across 
 
 The creators winning right now are the ones treating chatgpt image prompts as a toolkit, not a lucky guess. They stopped guessing and started directing.
 
--   ![How to Use ChatGPT Effectively](./images/How-to-Use-ChatGPT-Effectively-150x150.webp)
-    
-    [How to Use ChatGPT Effectively: 9 Rules That Actually Work \[2026\]](https://techonplay.com/how-to-use-chatgpt-effectively/)
--   ![](./images/o-que-significa-gpt-150x150.webp)
-    
-    [What Does GPT Stand For? The Acronym Everyone Uses but Few Understand](https://techonplay.com/what-does-gpt-stand-for/)
--   ![Perplexity Pro vs ChatGPT Plus](./images/Perplexity-Pro-vs-ChatGPT-Plus-150x150.webp)
-    
-    [Perplexity Pro vs ChatGPT Plus 2026: The Real Fight Is Who Finishes the Work](https://techonplay.com/perplexity-pro-vs-chatgpt-plus-2026/)
--   ![Notebook LM](./images/Google-2-150x150.webp)
-    
-    [Notebook LM Is Now Gemini Notebook: What Changed in 2026](https://techonplay.com/how-to-use-notebooklm/)
--   ![iPhone Duo Review](./images/iPhone-Duo-Review-150x150.webp)
-    
-    [iPhone Duo Review: Is Apple’s First Foldable Worth $1,999?](https://techonplay.com/iphone-duo-review/)
+## Related Reading
+
+- [Best AI Image Generators 2026: 7 Tools Leading Right Now [Sept Update]](/best-ai-image-generators-2026/)
+- [The 3D Figurine AI Trend on ChatGPT: The Exact Prompt That Works](/3d-figurine-ai-trend-chatgpt/)
+- [90s AI Photo Trend: Exact Prompts for Gemini and ChatGPT](/90s-ai-photo-trend-gemini-prompt/)
+- [Best ChatGPT Prompts 2026: 30 Templates for Work, Study, and Creative Projects](/best-chatgpt-prompts-2026/)
+- [Grok Imagine 2.0 Prompts: The Formula That Actually Works](/grok-imagine-2-0-prompts-guide/)

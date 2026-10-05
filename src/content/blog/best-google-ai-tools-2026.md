@@ -21,7 +21,7 @@ Six moves reshaped Google’s lineup in four months:
 
 📅 **May 19:** Google I/O brings Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Antigravity 2.0, and a new $99.99 Ultra tier 📅 **June 18:** Gemini CLI shuts down for most users, and Antigravity CLI takes its place 📅 **July 16:** NotebookLM becomes Gemini Notebook 📅 **July 21 and August 13:** Gemini 3.6 Flash and 3.7 Flash arrive 📅 **September 2:** Gemini 3.8 Flash reaches the Gemini app, AI Mode, Sheets, and the API 📅 **September 10 and 15:** The Gemini app lands on Windows, and Gemini 3.8 Live upgrades voice conversations
 
-One gap stands out. Gemini 3.1 Pro is still Google’s newest Pro model. Gemini 3.5 Pro has no public release date, so the Flash line now carries most of the upgrades.
+One gap stands out. Gemini 3.1 Pro is still Google’s newest Pro model. Gemini 3.5 Pro has no public release date, so the Flash line now carries most of the upgrades. Google's newest and most powerful model, [Gemini 4 Argon](/gemini-4-argon-release/), is not in this list because it is restricted to vetted cyber defenders for now.
 
 📊 Scale matters here. Google says the Gemini app passed 1 billion monthly users in August, and AI Mode in Search crossed the same mark earlier this year.
 
@@ -33,7 +33,7 @@ Before picking tools, know the subscriptions. Most of the best features sit behi
 
 ✅ Eligible US college students get one year of AI Pro at no cost, a deal Google expanded in August.
 
-Related: see our breakdown of [Google Gemini Pro for students](https://techonplay.com/google-gemini-pro-students/) before you pay full price.
+Related: see our breakdown of [Google Gemini Pro for students](/google-gemini-pro-students/) before you pay full price.
 
 ## 1\. Gemini App: The Hub for Everything Else
 
@@ -61,7 +61,7 @@ The rename brought real upgrades. Notebooks now sync between the Gemini app and 
 
 ✅ Answers grounded in your own files, with citations ✅ Free tier included ❌ Code execution rolled out to Ultra first, with Pro following ❌ Output quality depends on the sources you feed it 💰 Free, with more Audio Overviews on Plus and 5x more on Pro
 
-Related: our [NotebookLM guide](https://techonplay.com/how-to-use-notebooklm/) covers the workflows that still apply after the rename.
+Related: our [NotebookLM guide](/how-to-use-notebooklm/) covers the workflows that still apply after the rename.
 
 ## 4\. Google Flow with Gemini Omni: Best for AI Video
 
@@ -71,7 +71,7 @@ The August release of Omni 1.1 Flash added scene extension, first-and-last-frame
 
 ✅ Conversational video editing, not just generation ✅ Free Omni Flash access through YouTube Shorts Remix (18+) ❌ Credits drain fast: a 10-second clip costs 30 credits, and an edit costs 40 ❌ Heavy creators will need Ultra 💰 200 credits on Plus, 1,000 on Pro, up to 25,000 on Ultra
 
-Related: master shot direction with our [Google Flow camera commands](https://techonplay.com/google-flow-camera-commands/) guide.
+Related: master shot direction with our [Google Flow camera commands](/google-flow-camera-commands/) guide.
 
 ## 5\. Nano Banana 2 and Google Pics: Best for Images
 
@@ -192,3 +192,10 @@ Save Ultra for heavy video work or Gemini Spark. Try two tools from this list on
 | StitchGoogle LabsBest for UI Design | App and web screens from text or voice | Real-time agent: May 20, 2026 | ✅ Yes, no card | Free | [stitch.withgoogle.com](https://stitch.withgoogle.com/) |
 
 Data as of September 23, 2026. Plans: Free $0, AI Plus $4.99, AI Pro $19.99, AI Ultra $99.99 (5x Pro limits) or $199.99 (20x Pro limits) per month in the US. The Gemini 3.8 Flash API price is an introductory rate through December 31, 2026. Features and limits change often, so check Google’s plan page before subscribing.
+
+## Related Reading
+
+- [Notebook LM Is Now Gemini Notebook: What Changed in 2026](/how-to-use-notebooklm/)
+- [Google Flow Camera Commands: 40 Prompts to Steal Right Now](/google-flow-camera-commands/)
+- [Gemini 4 Argon: Google's Most Powerful Model Is Locked to Cyber Defenders](/gemini-4-argon-release/)
+- [Gemini Pro for Students: Free Google AI Pro Until Dec 31 [2026]](/google-gemini-pro-students/)

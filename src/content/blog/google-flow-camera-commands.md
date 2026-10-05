@@ -17,7 +17,7 @@ This guide breaks down all 40 commands, grouped by what they actually do, plus a
 
 ## What Google Flow Camera Commands Actually Do
 
-Camera commands work like a director’s shot list, translated into text. Instead of describing a scene in vague terms, you tell Flow the exact angle, distance, and movement you want.
+Camera commands work like a director’s shot list, translated into text. Instead of describing a scene in vague terms, you tell Flow the exact angle, distance, and movement you want. To see how Flow's video model compares, read our ranking of the [best AI video generators](/best-ai-video-generators-of-2026/), and for the rest of Google's stack see the [best Google AI tools](/best-google-ai-tools-2026/).
 
 Think of it as the difference between telling a photographer “take a nice picture” versus “shoot this from a low angle, close up, with a shallow depth of field.” One gets you a random result. The other gets you a specific look.
 
@@ -118,6 +118,8 @@ A quick note on faces: since you are recreating these shots with your own photo 
 -   ✅ Pairing one angle command with one mood command for the cleanest results
 -   ✅ Testing the same prompt twice, since Flow varies slightly between generations
 
+Still images need different commands, so see the [best AI image generators](/best-ai-image-generators-2026/).
+
 ## FAQ
 
 **Do I need a paid Google Flow plan to use these commands?**
@@ -146,18 +148,8 @@ _Forty commands sounds like a lot, but you really only need five or six in regul
 
 Save this guide, pick your favorite command, and generate your next post today.
 
--   ![How to Use ChatGPT Effectively](./images/How-to-Use-ChatGPT-Effectively-150x150.webp)
-    
-    [How to Use ChatGPT Effectively: 9 Rules That Actually Work \[2026\]](https://techonplay.com/how-to-use-chatgpt-effectively/)
--   ![](./images/o-que-significa-gpt-150x150.webp)
-    
-    [What Does GPT Stand For? The Acronym Everyone Uses but Few Understand](https://techonplay.com/what-does-gpt-stand-for/)
--   ![Perplexity Pro vs ChatGPT Plus](./images/Perplexity-Pro-vs-ChatGPT-Plus-150x150.webp)
-    
-    [Perplexity Pro vs ChatGPT Plus 2026: The Real Fight Is Who Finishes the Work](https://techonplay.com/perplexity-pro-vs-chatgpt-plus-2026/)
--   ![Notebook LM](./images/Google-2-150x150.webp)
-    
-    [Notebook LM Is Now Gemini Notebook: What Changed in 2026](https://techonplay.com/how-to-use-notebooklm/)
--   ![iPhone Duo Review](./images/iPhone-Duo-Review-150x150.webp)
-    
-    [iPhone Duo Review: Is Apple’s First Foldable Worth $1,999?](https://techonplay.com/iphone-duo-review/)
+## Related Reading
+
+- [Best AI Video Generators After Sora: 6 Tools Ranked [Sept 2026]](/best-ai-video-generators-of-2026/)
+- [Best Google AI Tools 2026: 10 Picks After Gemini 3.8 [Sept Update]](/best-google-ai-tools-2026/)
+- [Best AI Image Generators 2026: 7 Tools Leading Right Now [Sept Update]](/best-ai-image-generators-2026/)

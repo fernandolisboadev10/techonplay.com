@@ -64,7 +64,7 @@ The table compares the plans a US student might choose.
 
 ### Build a Backup AI Stack in Case You Miss Out
 
-If you miss the deadline or do not qualify, the free Gemini plan still covers most homework. Many students also pair Gemini with another assistant, then compare prices before paying for any tool.
+If you miss the deadline or do not qualify, the free Gemini plan still covers most homework. Many students also pair Gemini with another assistant, then compare prices before paying for any tool. Good backups include [Perplexity for students](/perplexity-for-students-2026/) and, inside Google's own stack, [Gemini Notebook](/how-to-use-notebooklm/). Teachers can see more in [AI for education](/ai-for-education-2026/).
 
 For coding classes, a tool like Cursor AI or GitHub Copilot can fill gaps. Keep a short list of prompts for each task so you always pick the right model.
 
@@ -92,18 +92,9 @@ _Google AI Pro costs $19.99 a month. The student year removes that cost for 12 m
 
 _Yes. The free Gemini plan includes Deep Research, Gemini Live and Gemini Notebook with lower limits. It covers most everyday homework and study tasks without a subscription._
 
--   ![How to Use ChatGPT Effectively](./images/How-to-Use-ChatGPT-Effectively-150x150.webp)
-    
-    [How to Use ChatGPT Effectively: 9 Rules That Actually Work \[2026\]](https://techonplay.com/how-to-use-chatgpt-effectively/)
--   ![](./images/o-que-significa-gpt-150x150.webp)
-    
-    [What Does GPT Stand For? The Acronym Everyone Uses but Few Understand](https://techonplay.com/what-does-gpt-stand-for/)
--   ![Perplexity Pro vs ChatGPT Plus](./images/Perplexity-Pro-vs-ChatGPT-Plus-150x150.webp)
-    
-    [Perplexity Pro vs ChatGPT Plus 2026: The Real Fight Is Who Finishes the Work](https://techonplay.com/perplexity-pro-vs-chatgpt-plus-2026/)
--   ![Notebook LM](./images/Google-2-150x150.webp)
-    
-    [Notebook LM Is Now Gemini Notebook: What Changed in 2026](https://techonplay.com/how-to-use-notebooklm/)
--   ![iPhone Duo Review](./images/iPhone-Duo-Review-150x150.webp)
-    
-    [iPhone Duo Review: Is Apple’s First Foldable Worth $1,999?](https://techonplay.com/iphone-duo-review/)
+## Related Reading
+
+- [Google AI Plus for Students: US Gets AI Pro Free Instead [2026]](/google-ai-plus-for-students/)
+- [Perplexity for Students: The Research Tool That Cites Everything](/perplexity-for-students-2026/)
+- [Notebook LM Is Now Gemini Notebook: What Changed in 2026](/how-to-use-notebooklm/)
+- [AI for Education: The Teacher Tool Stack Backed by 2026 Data](/ai-for-education-2026/)

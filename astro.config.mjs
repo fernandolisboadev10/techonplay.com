@@ -22,6 +22,9 @@ export default defineConfig({
   site: 'https://techonplay.com',
   // URLs herdadas do WordPress (categorias, autor, feed e sitemaps do Yoast)
   redirects: {
+    // Posts retired in the 2026-10 content audit (outdated or merged into a stronger post)
+    '/free-ai-tools-2026-hidden-gems': '/artificial-intelligence-tools-2026',
+    '/90s-ai-photo-trend-chatgpt': '/90s-ai-photo-trend-gemini-prompt',
     '/about': '/about-us',
     '/contact': '/contact-us',
     '/category/artificial-intelligence': '/blog?category=AI',

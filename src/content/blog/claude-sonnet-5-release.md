@@ -17,7 +17,7 @@ This guide breaks down exactly what changed between 4.6 and 5, the specific benc
 
 ## What Actually Changed Between Sonnet 4.6 and Sonnet 5
 
-Anthropic built Sonnet 5 to close the gap with Opus on agentic work, the kind of task where a model plans multiple steps, calls tools, and checks its own output without hand-holding. [If the term is new, our guide to what agentic AI actually means](https://techonplay.com/agentic-ai-explained-autonomous-systems-2026/) covers the basics first. The benchmark jump backs that up:
+Anthropic built Sonnet 5 to close the gap with Opus on agentic work, the kind of task where a model plans multiple steps, calls tools, and checks its own output without hand-holding. The benchmark jump backs that up:
 
 ✅ **Coding (SWE-Bench Pro):** 63.2%, up from 58.1% on Sonnet 4.6 ✅ **Computer use (OSWorld-Verified):** 81.2%, up from 78.5% ✅ **Reasoning with tools (Humanity’s Last Exam):** 57.4%, up from 46.8%, the single biggest jump in the release ✅ **Knowledge work (GDPval-AA v2):** 1,618 points, edging out Opus 4.8’s 1,615
 
@@ -27,7 +27,7 @@ Anthropic also reports lower rates of hallucination, sycophancy, and deception-a
 
 This is the detail most coverage of the Claude Sonnet 5 release 2026 skipped. On two benchmarks, the cheaper model wins outright.
 
-On **Terminal-Bench 2.1**, Sonnet 5 scores 80.4% against Opus 4.8’s 74.6%, a 5.8-point lead for a model that costs 60% less per token. On **CursorBench**, an IDE-specific coding benchmark, Sonnet 5 hits 57%, up from Sonnet 4.6’s 49%, with no published Opus 4.8 score to compare against. If you already run Claude models inside the editor, our [Cursor AI review 2026](https://techonplay.com/cursor-ai-review-2026/) covers how it holds up day to day, beyond the benchmark number.
+On **Terminal-Bench 2.1**, Sonnet 5 scores 80.4% against Opus 4.8’s 74.6%, a 5.8-point lead for a model that costs 60% less per token. On **CursorBench**, an IDE-specific coding benchmark, Sonnet 5 hits 57%, up from Sonnet 4.6’s 49%, with no published Opus 4.8 score to compare against. If you already run Claude models inside the editor, our [Cursor AI review 2026](/cursor-ai-review-2026/) covers how it holds up day to day, beyond the benchmark number.
 
 Terminal and IDE work is where most developers actually live day to day, not synthetic reasoning exams. That gap is the real story behind why teams are routing agentic coding workloads to Sonnet 5 instead of defaulting to Opus.
 
@@ -76,7 +76,7 @@ None of this replaces Sonnet 5. It sits above it as the expensive, maximum-capab
 
 Sonnet 5 (API model ID: `claude-sonnet-5`) is the default model for Free and Pro plan users, and it is available to Max, Team, and Enterprise accounts through the Claude API and the native Claude Platform. Availability on Amazon Bedrock and Google Vertex AI has not been officially confirmed by Anthropic for Sonnet 5 at general availability.
 
-Developers who want to run Sonnet 5 as an autonomous coding agent from the terminal, rather than through chat, can pair it with Claude Code. Our [Claude Code CLI tutorial](https://techonplay.com/claude-code-cli-tutorial/) walks through installation and setup step by step.
+Developers who want to run Sonnet 5 as an autonomous coding agent from the terminal, rather than through chat, can pair it with Claude Code. Our [Claude Code CLI tutorial](/claude-code-cli-tutorial/) walks through installation and setup step by step.
 
 ## Should You Upgrade from Sonnet 4.6 to Sonnet 5?
 
@@ -88,7 +88,7 @@ Stay on Sonnet 4.6, for now, if you:
 
 ❌ Run on a fixed model version pinned by an internal tool that has not been re-certified yet ❌ Depend on specific Sonnet 4.6 output formatting your pipeline parses in a brittle way ❌ Have not budgeted time to re-test prompts against a new model version
 
-For nearly everyone else, this is a rare case where the newer model costs less and does more. That combination does not show up often in an Anthropic release cycle.
+For nearly everyone else, this is a rare case where the newer model costs less and does more. That combination does not show up often in an Anthropic release cycle. To see how rivals compare, read our breakdown of [GPT-6 Astra](/gpt-6-astra-release/) and Google's restricted [Gemini 4 Argon](/gemini-4-argon-release/).
 
 ## FAQ
 
@@ -118,18 +118,10 @@ The Claude Sonnet 5 release 2026 broke the usual upgrade trade-off: better bench
 
 If you are still running Sonnet 4.6 in production, benchmark Sonnet 5 against your own workload this week. The gap is real, and so is the price cut.
 
--   ![How to Use ChatGPT Effectively](./images/How-to-Use-ChatGPT-Effectively-150x150.webp)
-    
-    [How to Use ChatGPT Effectively: 9 Rules That Actually Work \[2026\]](https://techonplay.com/how-to-use-chatgpt-effectively/)
--   ![](./images/o-que-significa-gpt-150x150.webp)
-    
-    [What Does GPT Stand For? The Acronym Everyone Uses but Few Understand](https://techonplay.com/what-does-gpt-stand-for/)
--   ![Perplexity Pro vs ChatGPT Plus](./images/Perplexity-Pro-vs-ChatGPT-Plus-150x150.webp)
-    
-    [Perplexity Pro vs ChatGPT Plus 2026: The Real Fight Is Who Finishes the Work](https://techonplay.com/perplexity-pro-vs-chatgpt-plus-2026/)
--   ![Notebook LM](./images/Google-2-150x150.webp)
-    
-    [Notebook LM Is Now Gemini Notebook: What Changed in 2026](https://techonplay.com/how-to-use-notebooklm/)
--   ![iPhone Duo Review](./images/iPhone-Duo-Review-150x150.webp)
-    
-    [iPhone Duo Review: Is Apple’s First Foldable Worth $1,999?](https://techonplay.com/iphone-duo-review/)
+## Related Reading
+
+- [How to Install Claude Code CLI: Complete Setup Guide (2026)](/claude-code-cli-tutorial/)
+- [GPT-6 Astra Release: What OpenAI’s New Model Means for Developers](/gpt-6-astra-release/)
+- [Cursor AI Review 2026: Is the $29B Coding Tool Worth It?](/cursor-ai-review-2026/)
+- [Gemini 4 Argon: Google's Most Powerful Model Is Locked to Cyber Defenders](/gemini-4-argon-release/)
+- [Blackbox AI Review 2026: Features, Pricing and the Real Verdict](/blackbox-ai/)

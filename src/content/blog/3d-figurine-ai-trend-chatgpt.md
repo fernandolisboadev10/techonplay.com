@@ -21,8 +21,6 @@ This guide breaks down the exact prompt built for ChatGPT’s image model, why i
 
 Turn this photo into a 1/7 scale collectible figurine. Subject: keep the person’s face, likeness, and proportions from the attached photo, rendered in a smooth toy-like material with visible sculpted detail. Base and packaging: the figurine stands on a round clear acrylic base with no text engraved on it, placed next to a matching display box with clean minimal typography and a plastic window. Setting: a wooden desk with a computer monitor in the background showing a 3D modeling wireframe of the same figure. Lighting: soft studio lighting, subtle shadows under the base, slight reflective sheen on the material. Avoid: real skin texture, human hair strands, blurry edges, distorted hands, visible brand names or logos on the packaging.
 
-Copy Prompt
-
 ✅ Naming the desk, the box, and the wireframe screen first gives ChatGPT a full scene to render, which shifts focus away from the uploaded face ✅ “Keep the person’s face, likeness, and proportions” works better than describing facial features again, since ChatGPT already reads them from the photo ❌ Never write “realistic human” anywhere in the prompt. ChatGPT treats that phrase as a flag for identity manipulation and blocks more often
 
 ### Why ChatGPT Handles This Differently Than Gemini
@@ -31,7 +29,7 @@ Gemini’s Nano Banana model was built for this kind of image-to-image editing f
 
 ChatGPT’s image model applies a stricter layer of review when a prompt combines an uploaded face with heavy physical transformation instructions. The figurine trend counts as heavy transformation, since the whole point is turning a person into plastic.
 
-The fix works the same way it did for the [90s AI photo trend](https://techonplay.com/90s-ai-photo-trend-chatgpt/): describe the environment in detail and let the face carry over as a simple reference, instead of rewriting the face itself. For the original figurine wave and the trend that led into it, the [90s AI photo trend on Gemini](https://techonplay.com/90s-ai-photo-trend-gemini-prompt/) covers how Gemini handles real faces more loosely across the board.
+The fix works the same way it did for the 90s AI photo trend: describe the environment in detail and let the face carry over as a simple reference, instead of rewriting the face itself. For the original figurine wave and the trend that led into it, the [90s AI photo trend on Gemini](/90s-ai-photo-trend-gemini-prompt/) covers how Gemini handles real faces more loosely across the board.
 
 ### Tips to Make the Figurine Look Realistic
 
@@ -39,7 +37,7 @@ The fix works the same way it did for the [90s AI photo trend](https://techonpla
 -   Add “matte finish on the clothing, glossy finish on the base,” since real collectibles mix textures instead of using one uniform sheen
 -   Skip asking for “perfect symmetry.” Real manufactured figurines have tiny asymmetries that make the render look less like a 3D icon
 
-Run the prompt two or three times if the face comes out warped or the hands look off. ChatGPT struggles more with hand detail on figurines than Gemini does, and a second attempt usually fixes it without changing the wording.
+Run the prompt two or three times if the face comes out warped or the hands look off. ChatGPT struggles more with hand detail on figurines than Gemini does, and a second attempt usually fixes it without changing the wording. For more prompt formats beyond figurines, see our list of [100 ChatGPT image prompts](/chatgpt-image-prompts-visual-commands/), and compare the tools in our [best AI image generators of 2026](/best-ai-image-generators-2026/).
 
 ### ChatGPT vs. Gemini for the 3D Figurine AI Trend
 
@@ -74,18 +72,8 @@ _Gemini currently produces sharper, more accurate results on the first try, sinc
 
 Pick a clear, well-lit photo, paste the prompt above into ChatGPT, and lean on the desk-and-packaging details to carry the collectible look. If the hands or face come out warped, run it again before changing any wording.
 
--   ![How to Use ChatGPT Effectively](./images/How-to-Use-ChatGPT-Effectively-150x150.webp)
-    
-    [How to Use ChatGPT Effectively: 9 Rules That Actually Work \[2026\]](https://techonplay.com/how-to-use-chatgpt-effectively/)
--   ![](./images/o-que-significa-gpt-150x150.webp)
-    
-    [What Does GPT Stand For? The Acronym Everyone Uses but Few Understand](https://techonplay.com/what-does-gpt-stand-for/)
--   ![Perplexity Pro vs ChatGPT Plus](./images/Perplexity-Pro-vs-ChatGPT-Plus-150x150.webp)
-    
-    [Perplexity Pro vs ChatGPT Plus 2026: The Real Fight Is Who Finishes the Work](https://techonplay.com/perplexity-pro-vs-chatgpt-plus-2026/)
--   ![Notebook LM](./images/Google-2-150x150.webp)
-    
-    [Notebook LM Is Now Gemini Notebook: What Changed in 2026](https://techonplay.com/how-to-use-notebooklm/)
--   ![iPhone Duo Review](./images/iPhone-Duo-Review-150x150.webp)
-    
-    [iPhone Duo Review: Is Apple’s First Foldable Worth $1,999?](https://techonplay.com/iphone-duo-review/)
+## Related Reading
+
+- [90s AI Photo Trend: Exact Prompts for Gemini and ChatGPT](/90s-ai-photo-trend-gemini-prompt/)
+- [100 ChatGPT Image Prompts I Actually Use Instead of Generic AI Photos](/chatgpt-image-prompts-visual-commands/)
+- [Best AI Image Generators 2026: 7 Tools Leading Right Now [Sept Update]](/best-ai-image-generators-2026/)

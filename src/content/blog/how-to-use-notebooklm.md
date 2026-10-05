@@ -56,7 +56,7 @@ The June upgrade gave notebooks a secure cloud computer with more than 100 curat
 
 Studio also still makes mind maps, flashcards, quizzes, infographics, slide decks and data tables. Teachers and students get the most from those study formats.
 
-Related: [Best Google AI Tools in 2026](https://techonplay.com/best-google-ai-tools-2026/) and [AI for Education in 2026](https://techonplay.com/ai-for-education-2026/)
+Related: [Best Google AI Tools in 2026](/best-google-ai-tools-2026/) and [AI for Education in 2026](/ai-for-education-2026/)
 
 ## How to Use Gemini Notebook in 5 Steps
 
@@ -129,10 +129,10 @@ The tools solve different problems, so the choice is simple.
 
 -   ✅ Use Gemini Notebook when you already have the documents and need cited answers, study aids or overviews.
 -   ✅ Use ChatGPT or another general chatbot for open brainstorming and drafting without source files.
--   ✅ Use Perplexity when you want a live web answer with links.
+-   ✅ Use [Perplexity](/perplexity-for-students-2026/) when you want a live web answer with links.
 -   ❌ Do not expect any of them to replace your own judgment.
 
-Related: [Perplexity Pro vs ChatGPT Plus in 2026](https://techonplay.com/perplexity-pro-vs-chatgpt-plus-2026/)
+Related: [Perplexity Pro vs ChatGPT Plus in 2026](/perplexity-pro-vs-chatgpt-plus-2026/)
 
 ## Where Notebook LM Still Falls Short
 
@@ -142,6 +142,8 @@ Gemini Notebook is strong, but it has real limits.
 -   ❌ **No offline mode.** Your files go to Google’s servers on every plan, so check your privacy rules before uploading sensitive documents.
 -   ❌ **Harder-to-predict limits.** Compute budgets are less clear than the old daily counts.
 -   ❌ **Web research is not its best trick.** One popular reviewer argues that dedicated Deep Research tools in Gemini, ChatGPT and Claude filter low-quality sources better.
+
+US college students can get a free year of Google AI Pro. See [Gemini Pro for students](/google-gemini-pro-students/).
 
 ## FAQ
 
@@ -170,3 +172,10 @@ _Yes. Google set up automatic redirects so shared notebooks and links keep worki
 The name changed, but the winning habit did not: give the tool a small, high-quality set of sources and ask sharp questions. The new cloud computer, the file exports and the Gemini links make that habit more powerful. The compute limits make it worth planning your heavy jobs.
 
 Open Gemini Notebook today, build one notebook around a decision you need to make this month, and run the counter-case prompt. Then tell us what it changed in the comments.
+
+## Related Reading
+
+- [Best Google AI Tools 2026: 10 Picks After Gemini 3.8 [Sept Update]](/best-google-ai-tools-2026/)
+- [AI for Education: The Teacher Tool Stack Backed by 2026 Data](/ai-for-education-2026/)
+- [Perplexity for Students: The Research Tool That Cites Everything](/perplexity-for-students-2026/)
+- [Gemini Pro for Students: Free Google AI Pro Until Dec 31 [2026]](/google-gemini-pro-students/)

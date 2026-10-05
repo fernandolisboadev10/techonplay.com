@@ -55,7 +55,7 @@ That grounding cuts down on the kind of confident-but-wrong answer that makes ad
 
 ✅ Grounds every answer in the material you actually uploaded ✅ Turns a dense curriculum PDF into a study guide in minutes ❌ Only as useful as the documents you feed it ❌ No dedicated education tier, just the free consumer product 💰 Free with a Google account
 
-Related: [How to Use NotebookLM for Teaching and Research](https://techonplay.com/how-to-use-notebooklm/)
+Related: [How to Use NotebookLM for Teaching and Research](/how-to-use-notebooklm/)
 
 ## 5\. Gemini for Education: Built Into Tools You Already Use
 
@@ -114,11 +114,11 @@ Students are not settling on one all-purpose tool either. In 2026, the effective
 
 For research and citations, Perplexity remains the strongest option because it shows its sources instead of just producing an answer.
 
-Related: [Perplexity for Students: The Research Tool That Cites Everything](https://techonplay.com/perplexity-for-students/)
+Related: [Perplexity for Students: The Research Tool That Cites Everything](/perplexity-for-students-2026/)
 
 For visual and multimodal work, like turning a rough outline into a structured slide deck, Gemini is the more natural fit.
 
-Related: [Google Gemini Pro for Students](https://techonplay.com/google-gemini-pro-students/)
+Related: [Google Gemini Pro for Students](/google-gemini-pro-students/)
 
 ## Where AI for Education Delivers Real ROI
 
@@ -130,7 +130,7 @@ The pattern is consistent. The tools work. The training does not exist yet in mo
 
 ## The Risks Teachers Can’t Afford to Ignore
 
-An AI tutor can hallucinate a source that does not exist. A grading assistant can rubber-stamp a rubric it was never actually calibrated for. Neither of those is a reason to avoid AI for Education tools, but both are reasons to keep a human checking the output.
+An AI tutor can hallucinate a source that does not exist. A grading assistant can rubber-stamp a rubric it was never actually calibrated for. Neither of those is a reason to avoid AI for Education tools, but both are reasons to keep a human checking the output. Teachers who use AI to draft feedback or parent emails should also learn [how to humanize AI content](/how-to-humanize-ai-content-guide/) so the final text still sounds like them.
 
 There is also a slower-moving problem: some students spend more effort trying to bypass AI detection than they would spend just doing the assignment, which is a signal to redesign the assignment, not just to buy a better detector.
 
@@ -172,18 +172,10 @@ Start small. Pick one tool from the table above that fits a task you already do 
 
 Tell us in the comments which tool made your stack and what it replaced.
 
--   ![How to Use ChatGPT Effectively](./images/How-to-Use-ChatGPT-Effectively-150x150.webp)
-    
-    [How to Use ChatGPT Effectively: 9 Rules That Actually Work \[2026\]](https://techonplay.com/how-to-use-chatgpt-effectively/)
--   ![](./images/o-que-significa-gpt-150x150.webp)
-    
-    [What Does GPT Stand For? The Acronym Everyone Uses but Few Understand](https://techonplay.com/what-does-gpt-stand-for/)
--   ![Perplexity Pro vs ChatGPT Plus](./images/Perplexity-Pro-vs-ChatGPT-Plus-150x150.webp)
-    
-    [Perplexity Pro vs ChatGPT Plus 2026: The Real Fight Is Who Finishes the Work](https://techonplay.com/perplexity-pro-vs-chatgpt-plus-2026/)
--   ![Notebook LM](./images/Google-2-150x150.webp)
-    
-    [Notebook LM Is Now Gemini Notebook: What Changed in 2026](https://techonplay.com/how-to-use-notebooklm/)
--   ![iPhone Duo Review](./images/iPhone-Duo-Review-150x150.webp)
-    
-    [iPhone Duo Review: Is Apple’s First Foldable Worth $1,999?](https://techonplay.com/iphone-duo-review/)
+## Related Reading
+
+- [Perplexity for Students: The Research Tool That Cites Everything](/perplexity-for-students-2026/)
+- [Gemini Pro for Students: Free Google AI Pro Until Dec 31 [2026]](/google-gemini-pro-students/)
+- [Notebook LM Is Now Gemini Notebook: What Changed in 2026](/how-to-use-notebooklm/)
+- [How to Humanize AI Content: A Writer’s Guide to Sounding Real, Not Robotic](/how-to-humanize-ai-content-guide/)
+- [Google AI Plus for Students: US Gets AI Pro Free Instead [2026]](/google-ai-plus-for-students/)

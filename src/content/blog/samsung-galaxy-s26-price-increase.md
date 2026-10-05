@@ -58,7 +58,7 @@ The headline of 9to5Google's story notes the increase "hasn't changed everywhere
 
 ## What Should You Do Before You Buy a Galaxy S26?
 
-The new prices are live on Samsung.com. These steps can help you avoid paying the full amount:
+The new prices are live on Samsung.com. These steps can help you avoid paying the full amount: Hardware prices are a theme this fall. See the [Steam Frame](/steam-frame-repairability/) headset's price and repairability, or our [iPhone Duo review](/iphone-duo-review/).
 
 - ✅ **Check Amazon and Best Buy first.** Some Amazon listings still showed the old prices after the change. Prices there may not hold, so don't count on it lasting.
 - ✅ **Look for carrier deals.** Verizon, T-Mobile, and AT&T often discount phones with new lines or trade-ins. Compare the final cost after bill credits, not the sticker price.
@@ -100,3 +100,8 @@ The Samsung Galaxy S26 price increase adds $100 to nearly every model, with a $2
 If you need a Galaxy S26, compare Samsung.com, Amazon, and your carrier before you pay, and look at the FE or a Z Fold 8 deal as alternatives. We'll update this page if Samsung or retailers change their pricing.
 
 **Sources:** [Android Authority](https://www.androidauthority.com/samsung-galaxy-s26-series-price-increase-3717926/), [9to5Google](https://9to5google.com/2026/10/01/samsung-galaxy-s26-price-hike/), [Engadget](https://www.engadget.com/2274612/samsung-suddenly-jacks-up-the-prices-of-galaxy-s26-phones/).
+
+## Related Reading
+
+- [iPhone Duo Review: Is Apple’s First Foldable Worth $1,999?](/iphone-duo-review/)
+- [Steam Frame Repairability: What iFixit's Teardown Found [2026]](/steam-frame-repairability/)

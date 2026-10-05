@@ -85,7 +85,7 @@ All of it is free, and it postpones the day you have to face that glued battery.
 
 ## Should Repairability Change Your Buying Decision?
 
-Mostly no, with one exception. The parts that get dirty and worn, the cushions and gaskets, are easy to replace. The lenses and nose bridge are a bonus.
+Mostly no, with one exception. The parts that get dirty and worn, the cushions and gaskets, are easy to replace. The lenses and nose bridge are a bonus. Other hardware news: see [PS5 QSSR](/ps5-qssr-ai-upscaling-explained/) and the [iPhone Duo review](/iphone-duo-review/).
 
 The exception is the battery. If you plan to keep the Steam Frame for four or five years, budget for a battery swap that is harder than it should be, and check whether iFixit or Valve start selling packs. If you upgrade headsets every couple of years, you'll likely never notice.
 
@@ -112,3 +112,11 @@ Yes. iFixit will sell replacement parts and publish repair guides through the Va
 Valve built a headset that opens up like a device meant to last, then glued in the one part that will age first. It is a strong start and a fixable flaw. Keep an eye on the Valve Repair Hub, and if you're buying at $1,059, ask whether you can live with a hard battery swap in a few years.
 
 **Sources:** [vr.org on the iFixit teardown](https://vr.org/articles/steam-frame-ifixit-teardown-battery-glued-fan-2026), [TechPowerUp](https://www.techpowerup.com/353017/ifixit-tears-down-steam-frame-and-confirms-replacement-parts-incoming), [Dexerto on price and release](https://www.dexerto.com/gaming/valve-reveals-steam-frame-price-and-release-date-starting-at-1059-3408909/).
+
+## Related Reading
+
+- [Best Gaming PC for AI and Gaming in 2026: 4 Builds That Deliver](/best-gaming-pc-ai-and-gaming-2026/)
+- [PS5 QSSR Explained: AI Upscaling Comes to the Base PS5](/ps5-qssr-ai-upscaling-explained/)
+- [iPhone Duo Review: Is Apple’s First Foldable Worth $1,999?](/iphone-duo-review/)
+- [Samsung Raises Galaxy S26 Prices by $100 in the US: What to Know](/samsung-galaxy-s26-price-increase/)
+- [NVIDIA Driver Crashing in 2026: The Fix That Actually Works](/fix-nvidia-driver-crashing-2026/)
