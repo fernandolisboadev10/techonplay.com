@@ -136,3 +136,4 @@ Watch for the public launch date and for independent benchmark results. When the
 - [Best Google AI Tools 2026: 10 Picks After Gemini 3.8 [Sept Update]](/best-google-ai-tools-2026/)
 - [Claude Sonnet 5 Release 2026: Full Benchmarks and Upgrade Verdict](/claude-sonnet-5-release/)
 - [AI Ransomware Attacks Now Take Under 10 Hours: How to Protect Yourself](/ai-ransomware-attacks/)
+- [Mistral Large 4 'Le Chonk': 1T-Parameter Open-Weight Model Is Here](/mistral-large-4-le-chonk/)
