@@ -25,7 +25,9 @@ Consult these guides before working on related tasks:
 
 `npm run radar -- --hours=48 --top=30` collects recent headlines from US tech outlets, Hacker News and Google Trends US, ranks the topics, flags which ones the site already covers and suggests post type, category, US angle, search term and a ready-to-paste `date` (America/New_York, DST handled by `Intl`). The report is saved to `radar/radar-YYYY-MM-DD.md` (git-ignored). A failing source never stops the run; it is listed under "Sources FAILED".
 
-Two posts a day (ET): 09:00 news, 18:00 evergreen or tutorial. Run the radar the night before, around 21:00 ET, so the 09:00 slot has fresh topics.
+Two posts a day (ET): 09:00 a hot **News** post (category `News`, topic in `tags`) and 18:00 a hot post for any other category. The radar also writes `radar/picks-YYYY-MM-DD.md` with the top 3 candidates for each slot.
+
+The morning routine is the local Claude scheduled task `techonplay-morning-posts` (every day at 07:00 Brasília time; if the PC was off, it runs when the Claude app opens). It runs the radar, picks the two topics, writes and illustrates both posts, runs the build and audits, then commits and pushes. If the 09:00 ET slot already passed, the News post gets the current time as `date` so it goes live on the push deploy.
 
 Schedule it locally (the scheduler uses the machine's clock, so convert 21:00 ET to local time):
 

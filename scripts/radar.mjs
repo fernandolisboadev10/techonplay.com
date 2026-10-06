@@ -152,7 +152,7 @@ function grams(title) {
     for (let i = 0; i < run.length; i++) {
       for (let n = 1; n <= 3 && i + n <= run.length; n++) {
         const p = run.slice(i, i + n).map(norm);
-        if (/^\d+$/.test(p[0]) || p[0] === 'of') continue;
+        if (/^\d+$/.test(p[0]) || p[0] === 'of' || p[0].startsWith('$')) continue; // numbers and prices are not topics
         if (n === 1 && (p[0].length < 2 || BROAD.has(p[0]) || /^\d+$/.test(p[0]))) continue;
         if (n > 1 && p.every((w) => BROAD.has(w) || /^\d+$/.test(w))) continue;
         out.set(p.join(' '), run.slice(i, i + n).join(' '));
@@ -354,8 +354,33 @@ for (const cat of [...Object.keys(CATEGORIES), FALLBACK_CATEGORY]) {
   }
 }
 
+// ---- daily picks: the hottest uncovered News topic and the hottest topic for another category.
+// The radar ranks; whoever writes the posts makes the final call among the top candidates.
+const cands = Object.values(byCat).flat().filter((c) => !c.own.length && c.s.type !== 'Update').sort((a, b) => b.t.score - a.t.score);
+const pickBlock = (title, list, slotKey) => {
+  const slot = slotInfo(slotKey);
+  const out = [`## ${title}`, '', `Slot: ${slot.label} · \`date: ${slot.date}\``];
+  if (!list.length) out.push('', 'No candidate today.');
+  list.forEach(({ t, s }, i) => {
+    out.push('', `### ${i + 1}. ${t.name} (${t.sources.size} sources, score ${t.score})`, `Type: ${s.type} · category: ${s.category} · working title: "${s.title}" · search: \`${s.search}\` · ${s.note}`, `US angle: ${s.angle}`);
+    for (const it of t.items.slice(0, 5)) out.push(`- ${it.source}: [${it.title}](${it.link})`);
+  });
+  return out;
+};
+const picks = [
+  `# Daily picks ${etDay}`,
+  '',
+  `Generated ${clock(NOW, ET)} / ${clock(NOW, PT)}. Pick 1 News post and 1 post for another category from the top candidates below.`,
+  '',
+  ...pickBlock('News (1 post)', cands.filter((c) => c.s.category === 'News').slice(0, 3), 'news'),
+  '',
+  ...pickBlock('Other category (1 post)', cands.filter((c) => c.s.category !== 'News').slice(0, 3), 'evergreen'),
+];
+
 await mkdir('radar', { recursive: true });
 const out = path.join('radar', `radar-${etDay}.md`);
+const picksOut = path.join('radar', `picks-${etDay}.md`);
 await writeFile(out, lines.join('\n') + '\n');
+await writeFile(picksOut, picks.join('\n') + '\n');
 console.log(lines.join('\n'));
-console.log(`\nSaved to ${out}`);
+console.log(`\nSaved to ${out} and ${picksOut}`);
