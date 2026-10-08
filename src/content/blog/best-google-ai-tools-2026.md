@@ -199,3 +199,4 @@ Data as of September 23, 2026. Plans: Free $0, AI Plus $4.99, AI Pro $19.99, AI 
 - [Google Flow Camera Commands: 40 Prompts to Steal Right Now](/google-flow-camera-commands/)
 - [Gemini 4 Argon: Google's Most Powerful Model Is Locked to Cyber Defenders](/gemini-4-argon-release/)
 - [Gemini Pro for Students: Free Google AI Pro Until Dec 31 [2026]](/google-gemini-pro-students/)
+- [XREAL Aura Android XR Glasses: $1,279 Price, Specs and Release Date](/xreal-aura-android-xr-glasses-price/)

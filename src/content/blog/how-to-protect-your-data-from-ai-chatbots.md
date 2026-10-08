@@ -117,3 +117,4 @@ Take five minutes right now to open your chatbot’s privacy dashboard. That sin
 - [How to Detect Deepfakes in 2026: 12 Checks and 6 Free Tools That Work](/how-to-detect-deepfakes-guide/)
 - [AI Ransomware Attacks Now Take Under 10 Hours: How to Protect Yourself](/ai-ransomware-attacks/)
 - [Moltbook AI Agent Network: Inside the Social Platform Built for Bots](/moltbook-ai-agent-platform-social-network/)
+- [Apple and LG Smart Home Devices: Lock, Doorbell and Thermostat Leak](/apple-lg-smart-home-devices-rumor/)
