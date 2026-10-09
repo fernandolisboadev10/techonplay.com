@@ -42,7 +42,7 @@ Rotate the article categories in proportion to what the site already has (AI, Se
 
 **Cover image.** `npm run image -- --name <slug> --prompt "<editorial photo scene, no logos, no readable text>" --quality medium`. The output is 1200x800 WebP (3:2) and costs about $0.042, paid from the OpenRouter balance reserved for images only. Open the result and check it before using it.
 
-**Scheduling and publishing.** Set `date` to the slot with its offset (for example `2026-10-09T09:00:00-04:00`). A post goes live on the first deploy after its `date` (`isPublished` in `src/utils/posts.ts`). The deploy cron runs in UTC at 13:02, 14:02, 22:02 and 23:02, which covers both US time offsets. Push only after the build and audits pass and the owner has approved.
+**Scheduling and publishing.** Set `date` to the slot with its offset (for example `2026-10-09T09:00:00-04:00`). A post goes live on the first deploy after its `date` (`isPublished` in `src/utils/posts.ts`). The deploy cron runs in UTC every hour from 13:02 to 23:02 (09:02-19:02 EDT), because GitHub often delays or skips scheduled runs; a skipped run then delays a post by at most an hour. If a post is still missing after its slot, push an empty commit to trigger a deploy. Push only after the build and audits pass and the owner has approved.
 
 The old local task `techonplay-morning-posts` (2 posts a day with an automatic push) is disabled. The old `schtasks` radar job pointed at `Desktop\techonplay.com`, a path that no longer exists, so do not recreate it. For a manual run, `npm run radar -- --hours=48 --top=30` still works here and writes `radar/radar-YYYY-MM-DD.md` (git-ignored).
 
