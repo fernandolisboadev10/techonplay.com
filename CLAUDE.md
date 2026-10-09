@@ -21,18 +21,30 @@ Consult these guides before working on related tasks:
 - [Adding styles or using Tailwind](https://docs.astro.build/en/guides/styling/)
 - [Supporting multiple languages](https://docs.astro.build/en/guides/internationalization/)
 
-## Topic radar
+## Editorial routine (since 2026-10-09)
 
-`npm run radar -- --hours=48 --top=30` collects recent headlines from US tech outlets, Hacker News and Google Trends US, ranks the topics, flags which ones the site already covers and suggests post type, category, US angle, search term and a ready-to-paste `date` (America/New_York, DST handled by `Intl`). The report is saved to `radar/radar-YYYY-MM-DD.md` (git-ignored). A failing source never stops the run; it is listed under "Sources FAILED".
+This site is managed from the central project `C:\Users\Fernando\Desktop\Blog Inteligente` (repo `blog-inteligente`), together with techonplay.com.br. Do not publish on your own: the central routine only proposes topics, and a post is written after the owner approves one.
 
-Two posts a day (ET): 09:00 a hot **News** post (category `News`, topic in `tags`) and 18:00 a hot post for any other category. The radar also writes `radar/picks-YYYY-MM-DD.md` with the top 3 candidates for each slot.
+**Weekly calendar (all times America/New_York, DST handled by the date offset).** Quality over volume, 4 posts a week:
 
-The morning routine is the local Claude scheduled task `techonplay-morning-posts` (every day at 07:00 Brasília time; if the PC was off, it runs when the Claude app opens). It runs the radar, picks the two topics, writes and illustrates both posts, runs the build and audits, then commits and pushes. If the 09:00 ET slot already passed, the News post gets the current time as `date` so it goes live on the push deploy.
+| Day | Post | Slot |
+|---|---|---|
+| Monday | **News** (category `News`, topic in `tags`) | 09:00 |
+| Tuesday | **Article**, a hot topic in any other category | 09:00 |
+| Thursday | **Article**, a hot topic in any other category | 09:00 |
+| Saturday | **News** | 09:00 |
 
-Schedule it locally (the scheduler uses the machine's clock, so convert 21:00 ET to local time):
+Rotate the article categories in proportion to what the site already has (AI, Security, Tools, Reviews, Gaming, Guides, Trends). Black Friday is on 2026-11-27, so plan a preparation article the week before. Write each post natively for a US audience, never as a translation of the Brazilian site.
 
-- Windows: `schtasks /Create /SC DAILY /ST 22:00 /TN "techonplay-radar" /TR "cmd /c cd /d C:\Users\Fernando\Desktop\techonplay.com && npm run radar"`
-- macOS/Linux: `crontab -e` and add `0 21 * * * cd /path/to/techonplay.com && npm run radar` (cron uses local time; set `CRON_TZ=America/New_York` on cron versions that support it).
+**How a topic is chosen.** A GitHub Action in the central repo runs the radar every day at 06:30 Brasília time and saves `radar/latest.md` (US feeds, Hacker News and Google Trends US, with a "today's agenda" header). The local Claude scheduled task `radar-pautas-7h` (about 07:12 Brasília time, runs when the Claude app is open) reads it and proposes one main topic and one backup for the post due that day. Pick the biggest story with the most independent sources, a US angle, and no existing coverage on the site; if the topic is already covered, update that post and set `updated` instead of duplicating it.
+
+**Writing.** After the owner approves a topic, write the post in `src/content/blog/<slug>.md` following the rules below. Open every source first and never state an unverified fact. Attribute contested claims to the people or outlets that made them.
+
+**Cover image.** `npm run image -- --name <slug> --prompt "<editorial photo scene, no logos, no readable text>" --quality medium`. The output is 1200x800 WebP (3:2) and costs about $0.042, paid from the OpenRouter balance reserved for images only. Open the result and check it before using it.
+
+**Scheduling and publishing.** Set `date` to the slot with its offset (for example `2026-10-09T09:00:00-04:00`). A post goes live on the first deploy after its `date` (`isPublished` in `src/utils/posts.ts`). The deploy cron runs in UTC at 13:02, 14:02, 22:02 and 23:02, which covers both US time offsets. Push only after the build and audits pass and the owner has approved.
+
+The old local task `techonplay-morning-posts` (2 posts a day with an automatic push) is disabled. The old `schtasks` radar job pointed at `Desktop\techonplay.com`, a path that no longer exists, so do not recreate it. For a manual run, `npm run radar -- --hours=48 --top=30` still works here and writes `radar/radar-YYYY-MM-DD.md` (git-ignored).
 
 ## Internal links and sources (every new post)
 
