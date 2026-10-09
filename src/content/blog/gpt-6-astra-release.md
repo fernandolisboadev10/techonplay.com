@@ -105,3 +105,4 @@ The GPT-6 Astra release raises the ceiling on what a single model can do across 
 - [Artificial Movie: Andrew Garfield Just Became Sam Altman [Trailer Breakdown]](/artificial-movie-andrew-garfield-sam-altman/)
 - [DeepSeek AI 2026 Review: V4.1-Flash, Pricing and Privacy [Sept Update]](/deepseek-ai-2026-review/)
 - [Mistral Large 4 'Le Chonk': 1T-Parameter Open-Weight Model Is Here](/mistral-large-4-le-chonk/)
+- [OpenAI Fired Three Safety Researchers: What We Know So Far](/openai-fires-safety-researchers/)

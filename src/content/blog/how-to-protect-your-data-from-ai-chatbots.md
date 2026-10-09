@@ -118,3 +118,4 @@ Take five minutes right now to open your chatbot’s privacy dashboard. That sin
 - [AI Ransomware Attacks Now Take Under 10 Hours: How to Protect Yourself](/ai-ransomware-attacks/)
 - [Moltbook AI Agent Network: Inside the Social Platform Built for Bots](/moltbook-ai-agent-platform-social-network/)
 - [Apple and LG Smart Home Devices: Lock, Doorbell and Thermostat Leak](/apple-lg-smart-home-devices-rumor/)
+- [OpenAI Fired Three Safety Researchers: What We Know So Far](/openai-fires-safety-researchers/)

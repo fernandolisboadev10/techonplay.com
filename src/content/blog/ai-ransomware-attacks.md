@@ -119,3 +119,4 @@ Pick one item from the checklist and do it today. If you only have five minutes,
 - [How to Protect Your Data From AI Chatbots (2026 Guide)](/how-to-protect-your-data-from-ai-chatbots/)
 - [Gemini 4 Argon: Google's Most Powerful Model Is Locked to Cyber Defenders](/gemini-4-argon-release/)
 - [Security+ Passing Score: How Many Questions Can You Miss?](/security-plus-passing-score/)
+- [OpenAI Fired Three Safety Researchers: What We Know So Far](/openai-fires-safety-researchers/)
