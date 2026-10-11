@@ -34,6 +34,8 @@ This site is managed from the central project `C:\Users\Fernando\Desktop\Blog In
 | Thursday | **Article**, a hot topic in any other category | 09:00 |
 | Saturday | **News** | 09:00 |
 
+**No posts on Sunday.** Never set a `date` that falls on a Sunday (New York time).
+
 Rotate the article categories in proportion to what the site already has (AI, Security, Tools, Reviews, Gaming, Guides, Trends). Black Friday is on 2026-11-27, so plan a preparation article the week before. Write each post natively for a US audience, never as a translation of the Brazilian site.
 
 **How a topic is chosen.** A GitHub Action in the central repo runs the radar every day at 06:30 Brasília time and saves `radar/latest.md` (US feeds, Hacker News and Google Trends US, with a "today's agenda" header). The local Claude scheduled task `radar-pautas-7h` (about 07:12 Brasília time, runs when the Claude app is open) reads it and proposes one main topic and one backup for the post due that day. Pick the biggest story with the most independent sources, a US angle, and no existing coverage on the site; if the topic is already covered, update that post and set `updated` instead of duplicating it.
