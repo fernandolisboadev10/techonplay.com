@@ -107,3 +107,4 @@ If you need a Galaxy S26, compare Samsung.com, Amazon, and your carrier before y
 - [Steam Frame Repairability: What iFixit's Teardown Found [2026]](/steam-frame-repairability/)
 - [Apple and LG Smart Home Devices: Lock, Doorbell and Thermostat Leak](/apple-lg-smart-home-devices-rumor/)
 - [XREAL Aura Android XR Glasses: $1,279 Price, Specs and Release Date](/xreal-aura-android-xr-glasses-price/)
+- [SpaceX Buys 800 MHz Spectrum: Is Starlink Mobile Becoming a US Carrier?](/starlink-mobile-spectrum-deal-carrier/)

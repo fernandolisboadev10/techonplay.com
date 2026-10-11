@@ -116,3 +116,4 @@ Preorder only if you are sure about the trade-offs, and do it through Apple dire
 - [The Fake Blue Screen Scam: How to Spot the ‘ClickFix’ Trap Before It’s Too Late](/fake-blue-screen-scam/)
 - [Apple and LG Smart Home Devices: Lock, Doorbell and Thermostat Leak](/apple-lg-smart-home-devices-rumor/)
 - [XREAL Aura Android XR Glasses: $1,279 Price, Specs and Release Date](/xreal-aura-android-xr-glasses-price/)
+- [SpaceX Buys 800 MHz Spectrum: Is Starlink Mobile Becoming a US Carrier?](/starlink-mobile-spectrum-deal-carrier/)
