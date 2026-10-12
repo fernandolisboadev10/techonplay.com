@@ -52,7 +52,7 @@ The setup that works best for a full semester:
 
 ✅ One Space per class or per major assignment, not one giant catch-all thread ✅ Name it something you will recognize later, like “Bio 201 Midterm Paper” instead of “Untitled” ✅ Upload the syllabus or assigned readings directly into the Space so answers stay grounded in your actual course material ✅ Pin the sources you already verified so you are not re-checking the same citation twice
 
-Related: our breakdown of [Google Gemini Pro for students](/google-gemini-pro-students/) covers a similar workspace approach if your school leans Google Workspace instead.
+Related: our breakdown of [Google Gemini Pro for students](/google-ai-plus-for-students/) covers a similar workspace approach if your school leans Google Workspace instead.
 
 ## Write Prompts That Actually Save You Time
 
@@ -139,6 +139,5 @@ Bookmark the Academic Focus toggle, set up one Space per class, and cite the pri
 
 - [Perplexity Pro vs ChatGPT Plus 2026: The Real Fight Is Who Finishes the Work](/perplexity-pro-vs-chatgpt-plus-2026/)
 - [AI for Education: The Teacher Tool Stack Backed by 2026 Data](/ai-for-education-2026/)
-- [Gemini Pro for Students: Free Google AI Pro Until Dec 31 [2026]](/google-gemini-pro-students/)
 - [Notebook LM Is Now Gemini Notebook: What Changed in 2026](/how-to-use-notebooklm/)
 - [Google AI Plus for Students: US Gets AI Pro Free Instead [2026]](/google-ai-plus-for-students/)

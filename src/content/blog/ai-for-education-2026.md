@@ -118,7 +118,7 @@ Related: [Perplexity for Students: The Research Tool That Cites Everything](/per
 
 For visual and multimodal work, like turning a rough outline into a structured slide deck, Gemini is the more natural fit.
 
-Related: [Google Gemini Pro for Students](/google-gemini-pro-students/)
+Related: [Google Gemini Pro for Students](/google-ai-plus-for-students/)
 
 ## Where AI for Education Delivers Real ROI
 
@@ -181,7 +181,6 @@ Tell us in the comments which tool made your stack and what it replaced.
 ## Related Reading
 
 - [Perplexity for Students: The Research Tool That Cites Everything](/perplexity-for-students-2026/)
-- [Gemini Pro for Students: Free Google AI Pro Until Dec 31 [2026]](/google-gemini-pro-students/)
 - [Notebook LM Is Now Gemini Notebook: What Changed in 2026](/how-to-use-notebooklm/)
 - [How to Humanize AI Content: A Writer’s Guide to Sounding Real, Not Robotic](/how-to-humanize-ai-content-guide/)
 - [Google AI Plus for Students: US Gets AI Pro Free Instead [2026]](/google-ai-plus-for-students/)

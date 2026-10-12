@@ -24,6 +24,7 @@ export default defineConfig({
   redirects: {
     // Posts retired in the 2026-10 content audit (outdated or merged into a stronger post)
     '/free-ai-tools-2026-hidden-gems': '/artificial-intelligence-tools-2026',
+    '/google-gemini-pro-students': '/google-ai-plus-for-students',
     '/90s-ai-photo-trend-chatgpt': '/90s-ai-photo-trend-gemini-prompt',
     '/about': '/about-us',
     '/contact': '/contact-us',

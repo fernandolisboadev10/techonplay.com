@@ -33,7 +33,7 @@ Before picking tools, know the subscriptions. Most of the best features sit behi
 
 ✅ Eligible US college students get one year of AI Pro at no cost, a deal Google expanded in August.
 
-Related: see our breakdown of [Google Gemini Pro for students](/google-gemini-pro-students/) before you pay full price.
+Related: see our breakdown of [Google Gemini Pro for students](/google-ai-plus-for-students/) before you pay full price.
 
 ## 1\. Gemini App: The Hub for Everything Else
 
@@ -198,5 +198,5 @@ Data as of September 23, 2026. Plans: Free $0, AI Plus $4.99, AI Pro $19.99, AI 
 - [Notebook LM Is Now Gemini Notebook: What Changed in 2026](/how-to-use-notebooklm/)
 - [Google Flow Camera Commands: 40 Prompts to Steal Right Now](/google-flow-camera-commands/)
 - [Gemini 4 Argon: Google's Most Powerful Model Is Locked to Cyber Defenders](/gemini-4-argon-release/)
-- [Gemini Pro for Students: Free Google AI Pro Until Dec 31 [2026]](/google-gemini-pro-students/)
+- [Google AI Plus for Students: US Gets AI Pro Free Instead [2026]](/google-ai-plus-for-students/)
 - [XREAL Aura Android XR Glasses: $1,279 Price, Specs and Release Date](/xreal-aura-android-xr-glasses-price/)

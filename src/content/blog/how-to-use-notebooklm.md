@@ -143,7 +143,7 @@ Gemini Notebook is strong, but it has real limits.
 -   ❌ **Harder-to-predict limits.** Compute budgets are less clear than the old daily counts.
 -   ❌ **Web research is not its best trick.** One popular reviewer argues that dedicated Deep Research tools in Gemini, ChatGPT and Claude filter low-quality sources better.
 
-US college students can get a free year of Google AI Pro. See [Gemini Pro for students](/google-gemini-pro-students/).
+US college students can get a free year of Google AI Pro. See [Gemini Pro for students](/google-ai-plus-for-students/).
 
 ## FAQ
 
@@ -182,4 +182,4 @@ Open Gemini Notebook today, build one notebook around a decision you need to mak
 - [Best Google AI Tools 2026: 10 Picks After Gemini 3.8 [Sept Update]](/best-google-ai-tools-2026/)
 - [AI for Education: The Teacher Tool Stack Backed by 2026 Data](/ai-for-education-2026/)
 - [Perplexity for Students: The Research Tool That Cites Everything](/perplexity-for-students-2026/)
-- [Gemini Pro for Students: Free Google AI Pro Until Dec 31 [2026]](/google-gemini-pro-students/)
+- [Google AI Plus for Students: US Gets AI Pro Free Instead [2026]](/google-ai-plus-for-students/)

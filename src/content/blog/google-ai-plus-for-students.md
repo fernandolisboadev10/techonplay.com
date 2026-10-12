@@ -25,7 +25,7 @@ The two plans sit at different levels, and your country decides which one you ca
 
 ❌ **Not included in the AI Plus offer:** the US, Canada, Albania, Bolivia, Hong Kong, Macau and Tunisia.
 
-If you are in the US, ignore any guide that tells you to hunt for the AI Plus student deal. Go straight to the Pro offer. Our earlier breakdown of [Gemini Pro for students](/google-gemini-pro-students/) covers how the program evolved. This guide focuses on the plan comparison and the claim steps.
+If you are in the US, ignore any guide that tells you to hunt for the AI Plus student deal. Go straight to the Pro offer. This guide focuses on the plan comparison and the claim steps.
 
 ## What the Free Google AI Pro Student Plan Includes
 
@@ -122,6 +122,5 @@ The US student deal is better than the AI Plus offer people search for, but only
 
 ## Related Reading
 
-- [Gemini Pro for Students: Free Google AI Pro Until Dec 31 [2026]](/google-gemini-pro-students/)
 - [Perplexity for Students: The Research Tool That Cites Everything](/perplexity-for-students-2026/)
 - [Best Google AI Tools 2026: 10 Picks After Gemini 3.8 [Sept Update]](/best-google-ai-tools-2026/)
