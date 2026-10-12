@@ -131,3 +131,4 @@ If you are still running Sonnet 4.6 in production, benchmark Sonnet 5 against yo
 - [Cursor AI Review 2026: Is the $29B Coding Tool Worth It?](/cursor-ai-review-2026/)
 - [Gemini 4 Argon: Google's Most Powerful Model Is Locked to Cyber Defenders](/gemini-4-argon-release/)
 - [Blackbox AI Review 2026: Features, Pricing and the Real Verdict](/blackbox-ai/)
+- [Nadella Says AI Models Need an 'Emergency Brake'](/nadella-ai-models-emergency-brake/)

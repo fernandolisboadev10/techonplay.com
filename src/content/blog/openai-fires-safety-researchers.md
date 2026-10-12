@@ -132,3 +132,4 @@ Keep an eye on OpenAI's answer to the open letter and on any move from regulator
 - [AI Ransomware Attacks Now Take Under 10 Hours: How to Protect Yourself](/ai-ransomware-attacks/)
 - [Claude Sonnet 5 Release 2026: Full Benchmarks and Upgrade Verdict](/claude-sonnet-5-release/)
 - [Artificial Movie: Andrew Garfield Just Became Sam Altman [Trailer Breakdown]](/artificial-movie-andrew-garfield-sam-altman/)
+- [Nadella Says AI Models Need an 'Emergency Brake'](/nadella-ai-models-emergency-brake/)
