@@ -3,10 +3,13 @@ import { getCollection } from 'astro:content';
 import { isPublished } from '../utils/posts';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PostCard from '../components/PostCard.astro';
+import FeaturedGrid from '../components/FeaturedGrid.astro';
 
 const posts = (await getCollection('blog', isPublished))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  .slice(0, 6);
+  .slice(0, 9);
+const featured = posts.slice(0, 3);
+const rest = posts.slice(3);
 ---
 <BaseLayout title="AI, Gaming, Security and Tech">
   <section class="hero container">
@@ -14,16 +17,26 @@ const posts = (await getCollection('blog', isPublished))
     <p class="eyebrow">techonplay.com<span class="eyebrow-cursor">_</span></p>
   </section>
 
+  <section class="container featured-wrap">
+    <div class="recent-header">
+      <div>
+        <h2>Featured</h2>
+        <span class="underline"></span>
+      </div>
+    </div>
+    <FeaturedGrid posts={featured} />
+  </section>
+
   <section class="container recent">
     <div class="recent-header">
       <div>
-        <h2>Recent articles</h2>
+        <h2>Latest posts</h2>
         <span class="underline"></span>
       </div>
       <a href="/blog">See all →</a>
     </div>
     <div class="grid">
-      {posts.map((post, i) => (
+      {rest.map((post, i) => (
         <PostCard
           slug={post.id}
           title={post.data.title}
@@ -83,6 +96,10 @@ const posts = (await getCollection('blog', isPublished))
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border: 0;
+  }
+
+  .featured-wrap {
+    padding-block: 32px 8px;
   }
 
   .recent {
