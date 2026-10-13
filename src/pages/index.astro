@@ -4,19 +4,26 @@ import { isPublished } from '../utils/posts';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PostCard from '../components/PostCard.astro';
 import FeaturedGrid from '../components/FeaturedGrid.astro';
+import Pagination from '../components/Pagination.astro';
 
-const posts = (await getCollection('blog', isPublished))
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
-  .slice(0, 9);
-const featured = posts.slice(0, 3);
-const rest = posts.slice(3);
+const PER_PAGE = 9;
+const page = Number(Astro.props.page ?? 1);
+const all = (await getCollection('blog', isPublished))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const featured = page === 1 ? all.slice(0, 3) : [];
+const gridAll = all.slice(3);
+const totalPages = Math.max(1, Math.ceil(gridAll.length / PER_PAGE));
+const rest = gridAll.slice((page - 1) * PER_PAGE, page * PER_PAGE);
 ---
-<BaseLayout title="AI, Gaming, Security and Tech">
+<BaseLayout title={page > 1 ? `AI, Gaming, Security and Tech - Page ${page}` : "AI, Gaming, Security and Tech"}>
+  {page === 1 && (
   <section class="hero container">
     <h1 class="sr-only">Tech worth pressing play on.</h1>
     <p class="eyebrow">techonplay.com<span class="eyebrow-cursor">_</span></p>
   </section>
+  )}
 
+  {page === 1 && (
   <section class="container featured-wrap">
     <div class="recent-header">
       <div>
@@ -26,6 +33,7 @@ const rest = posts.slice(3);
     </div>
     <FeaturedGrid posts={featured} />
   </section>
+  )}
 
   <section class="container recent">
     <div class="recent-header">
@@ -50,9 +58,7 @@ const rest = posts.slice(3);
         />
       ))}
     </div>
-    <div class="more">
-      <a class="more-btn" href="/blog">See more posts</a>
-    </div>
+    <Pagination current={page} total={totalPages} />
   </section>
 </BaseLayout>
 
