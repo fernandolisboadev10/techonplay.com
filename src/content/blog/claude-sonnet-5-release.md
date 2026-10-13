@@ -126,6 +126,7 @@ If you are still running Sonnet 4.6 in production, benchmark Sonnet 5 against yo
 
 ## Related Reading
 
+- [Meta's Muse Wonder: What Meta's First Frontier Model Means for You](/meta-muse-wonder-frontier-model/)
 - [How to Install Claude Code CLI: Complete Setup Guide (2026)](/claude-code-cli-tutorial/)
 - [GPT-6 Astra Release: What OpenAI’s New Model Means for Developers](/gpt-6-astra-release/)
 - [Cursor AI Review 2026: Is the $29B Coding Tool Worth It?](/cursor-ai-review-2026/)
