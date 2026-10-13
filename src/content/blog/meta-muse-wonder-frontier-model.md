@@ -39,7 +39,7 @@ Meta says Wonder and Wonder Full are comparable to OpenAI's GPT-6 Astra, Claude 
 
 Two caveats matter:
 
-1. **The scores are Meta's own.** Neither TechCrunch nor The Verge verified them. [The Verge notes](https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model) the claims come from internal testing, and that it is unclear how Wonder stacks up against Google's [Gemini 4 Argon](/gemini-4-argon-release/).
+1. **The scores are Meta's own.** Neither TechCrunch nor The Verge verified them. [The Verge notes](https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model) the claims come from internal testing, and that it is unclear how Wonder stacks up against Google's Gemini 4 Argon.
 2. **The best numbers may belong to the version you cannot call.** Wonder Full is gated behind Muse Code, so the API model may not match every chart.
 
 For context on the rivals, see our breakdowns of the [GPT-6 Astra release](/gpt-6-astra-release/) and of [Claude's lineup after Sonnet 5](/claude-sonnet-5-release/).
@@ -76,7 +76,7 @@ Muse Wonder is a new option on the price-performance curve, and it matters mostl
 
 - **Price:** $4 per million input tokens and $20 per million output tokens is well under Astra and Fable.
 - **Missing details:** the launch coverage does not mention a context window, rate limits or modalities, and Meta's post gives no pricing or open-weights plans. Check the Meta Model API docs before you plan around it.
-- **Hosted only:** Wonder is reached through Meta's API and Muse Code. If you want weights you can run yourself, look at open-weight models such as [Mistral Large 4](/mistral-large-4-le-chonk/) instead. One Hacker News commenter noted Meta had previously promised open weights for Muse Spark and people are still waiting.
+- **Hosted only:** Wonder is reached through Meta's API and Muse Code. If you want weights you can run yourself, look at open-weight models such as Mistral Large 4 instead. One Hacker News commenter noted Meta had previously promised open weights for Muse Spark and people are still waiting.
 - **Safety:** Meta calls Wonder its "most aligned model to date" and says it has its strongest safeguards yet against chemical, biological, radiological, nuclear and cyber misuse. A full safety report is promised later.
 
 A sensible approach: run Wonder against your own evals next to your current model and compare cost per finished task, not cost per token.
@@ -102,7 +102,5 @@ Muse Wonder confirms that Meta is back in the frontier race, and its price is co
 ## Related Reading
 
 - [GPT-6 Astra Release: What OpenAI's New Model Means for Developers](/gpt-6-astra-release/)
-- [Gemini 4 Argon: Google's Most Powerful Model Is Locked to Cyber Defenders](/gemini-4-argon-release/)
 - [Claude Sonnet 5 Release 2026: Full Benchmarks and Upgrade Verdict](/claude-sonnet-5-release/)
-- [Mistral Large 4 'Le Chonk': 1T-Parameter Open-Weight Model Is Here](/mistral-large-4-le-chonk/)
 - [DeepSeek V4 vs ChatGPT: Which Is Better After GPT-6? [Sept 2026]](/deepseek-v4-vs-chatgpt-comparison/)

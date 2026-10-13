@@ -124,6 +124,5 @@ Tell us in the comments which build tier matches your setup, or which AI tools y
 - [GTA 6 System Requirements 2026: What Your PC Actually Needs](/gta-6-system-requirements/)
 - [Steam Frame Repairability: What iFixit's Teardown Found [2026]](/steam-frame-repairability/)
 - [Tripo AI Review: Does H3.1 Fix the Mesh?](/tripo-ai-review/)
-- [Samsung Raises Galaxy S26 Prices by $100 in the US: What to Know](/samsung-galaxy-s26-price-increase/)
 - [iPhone Duo Review: Is Apple’s First Foldable Worth $1,999?](/iphone-duo-review/)
 - [PS5 QSSR Explained: AI Upscaling Comes to the Base PS5](/ps5-qssr-ai-upscaling-explained/)

@@ -90,7 +90,7 @@ Stay on Sonnet 4.6, for now, if you:
 
 ❌ Run on a fixed model version pinned by an internal tool that has not been re-certified yet ❌ Depend on specific Sonnet 4.6 output formatting your pipeline parses in a brittle way ❌ Have not budgeted time to re-test prompts against a new model version
 
-For nearly everyone else, this is a rare case where the newer model costs less and does more. That combination does not show up often in an Anthropic release cycle. To see how rivals compare, read our breakdown of [GPT-6 Astra](/gpt-6-astra-release/) and Google's restricted [Gemini 4 Argon](/gemini-4-argon-release/).
+For nearly everyone else, this is a rare case where the newer model costs less and does more. That combination does not show up often in an Anthropic release cycle. To see how rivals compare, read our breakdown of [GPT-6 Astra](/gpt-6-astra-release/) and Google's restricted Gemini 4 Argon.
 
 ## FAQ
 
@@ -130,6 +130,4 @@ If you are still running Sonnet 4.6 in production, benchmark Sonnet 5 against yo
 - [How to Install Claude Code CLI: Complete Setup Guide (2026)](/claude-code-cli-tutorial/)
 - [GPT-6 Astra Release: What OpenAI’s New Model Means for Developers](/gpt-6-astra-release/)
 - [Cursor AI Review 2026: Is the $29B Coding Tool Worth It?](/cursor-ai-review-2026/)
-- [Gemini 4 Argon: Google's Most Powerful Model Is Locked to Cyber Defenders](/gemini-4-argon-release/)
 - [Blackbox AI Review 2026: Features, Pricing and the Real Verdict](/blackbox-ai/)
-- [Nadella Says AI Models Need an 'Emergency Brake'](/nadella-ai-models-emergency-brake/)

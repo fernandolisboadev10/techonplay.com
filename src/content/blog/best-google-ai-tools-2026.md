@@ -21,7 +21,7 @@ Six moves reshaped Google’s lineup in four months:
 
 📅 **May 19:** Google I/O brings Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Antigravity 2.0, and a new $99.99 Ultra tier 📅 **June 18:** Gemini CLI shuts down for most users, and Antigravity CLI takes its place 📅 **July 16:** NotebookLM becomes Gemini Notebook 📅 **July 21 and August 13:** Gemini 3.6 Flash and 3.7 Flash arrive 📅 **September 2:** Gemini 3.8 Flash reaches the Gemini app, AI Mode, Sheets, and the API 📅 **September 10 and 15:** The Gemini app lands on Windows, and Gemini 3.8 Live upgrades voice conversations
 
-One gap stands out. Gemini 3.1 Pro is still Google’s newest Pro model. Gemini 3.5 Pro has no public release date, so the Flash line now carries most of the upgrades. Google's newest and most powerful model, [Gemini 4 Argon](/gemini-4-argon-release/), is not in this list because it is restricted to vetted cyber defenders for now.
+One gap stands out. Gemini 3.1 Pro is still Google’s newest Pro model. Gemini 3.5 Pro has no public release date, so the Flash line now carries most of the upgrades. Google's newest and most powerful model, Gemini 4 Argon, is not in this list because it is restricted to vetted cyber defenders for now.
 
 📊 Scale matters here. Google says the Gemini app passed 1 billion monthly users in August, and AI Mode in Search crossed the same mark earlier this year.
 
@@ -197,6 +197,4 @@ Data as of September 23, 2026. Plans: Free $0, AI Plus $4.99, AI Pro $19.99, AI 
 
 - [Notebook LM Is Now Gemini Notebook: What Changed in 2026](/how-to-use-notebooklm/)
 - [Google Flow Camera Commands: 40 Prompts to Steal Right Now](/google-flow-camera-commands/)
-- [Gemini 4 Argon: Google's Most Powerful Model Is Locked to Cyber Defenders](/gemini-4-argon-release/)
 - [Google AI Plus for Students: US Gets AI Pro Free Instead [2026]](/google-ai-plus-for-students/)
-- [XREAL Aura Android XR Glasses: $1,279 Price, Specs and Release Date](/xreal-aura-android-xr-glasses-price/)

@@ -187,7 +187,7 @@ const CATEGORIES = {
   Guides: ['how', 'guide', 'tutorial', 'tips', 'fix', 'setup', 'install', 'explained', 'enable', 'disable'],
   Trends: ['viral', 'trend', 'trending', 'meme', 'challenge'],
 };
-const FALLBACK_CATEGORY = 'News';
+const FALLBACK_CATEGORY = 'Trends';
 
 // Returns the reason a US reader cares, or null when the headlines show none.
 const US_ANGLES = [
@@ -309,11 +309,11 @@ function suggest(t, detected, isCovered) {
   const base = { angle: angle ?? 'what it means for US users' };
 
   if (isCovered) return { ...base, type: 'Update', slot: 'quick', category: detected, title: `Update the existing post on ${name}`, search: `${t.term} update`, note: 'edit the post and set `updated`' };
-  if (howTo || detected === 'Guides') return { ...base, type: 'Quick tutorial', slot: 'quick', category: detected === 'News' ? 'Guides' : detected, title: `How to Use ${name}: Step-by-Step Guide`, search: `how to ${t.term}`, note: `${range(800, 1200)}, numbered steps` };
-  if (review) return { ...base, type: 'Evergreen', slot: 'evergreen', category: detected === 'News' ? 'Reviews' : detected, title: `Is ${name} Worth It? What Changed and Who It's For`, search: `${t.term} worth it`, note: `${range(1000, 1800)}, verdict up top` };
-  if (price) return { ...base, angle: angle ?? 'US price in dollars and availability', type: 'News', slot: 'news', category: 'News', title: `${name}: US Price, Release Date and Where to Buy`, search: `${t.term} price us`, note: `${range(500, 800)}, price in the first paragraph, topic in tags` };
+  if (howTo || detected === 'Guides') return { ...base, type: 'Quick tutorial', slot: 'quick', category: detected, title: `How to Use ${name}: Step-by-Step Guide`, search: `how to ${t.term}`, note: `${range(800, 1200)}, numbered steps` };
+  if (review) return { ...base, type: 'Evergreen', slot: 'evergreen', category: detected, title: `Is ${name} Worth It? What Changed and Who It's For`, search: `${t.term} worth it`, note: `${range(1000, 1800)}, verdict up top` };
+  if (price) return { ...base, angle: angle ?? 'US price in dollars and availability', type: 'Article', slot: 'news', category: detected, title: `${name}: US Price, Release Date and Where to Buy`, search: `${t.term} price us`, note: `${range(500, 800)}, price in the first paragraph, topic in tags` };
   if (explainer) return { ...base, type: 'Evergreen', slot: 'evergreen', category: detected, title: `${name}: What It Is and What It Means for US Readers`, search: `what is ${t.term}`, note: range(1000, 1800) };
-  return { ...base, type: 'News', slot: 'news', category: 'News', title: `${name}: What We Know So Far`, search: t.term, note: `${range(300, 500)}, topic in tags` };
+  return { ...base, type: 'Article', slot: 'news', category: detected, title: `${name}: What We Know So Far`, search: t.term, note: `${range(800, 1200)}, pick the category by topic` };
 }
 
 // ---- report
@@ -322,7 +322,7 @@ const etDay = (() => {
   return `${p.year}-${p.month}-${p.day}`;
 })();
 const lines = [`# Topic radar ${etDay}`, '', `Now: ${clock(NOW, ET)} / ${clock(NOW, PT)}`, '', 'Next publishing slots (ET / PT):'];
-for (const [key, label] of [['news', 'Morning (news)'], ['evergreen', 'Evening (evergreen or tutorial)']]) {
+for (const [key, label] of [['news', 'Morning (hot topic)'], ['evergreen', 'Evening (evergreen or tutorial)']]) {
   const s = slotInfo(key);
   lines.push(`- ${label}: ${s.label} → \`date: ${s.date}\``);
 }
@@ -354,7 +354,7 @@ for (const cat of [...Object.keys(CATEGORIES), FALLBACK_CATEGORY]) {
   }
 }
 
-// ---- daily picks: the hottest uncovered News topic and the hottest topic for another category.
+// ---- daily picks: the two hottest uncovered topics.
 // The radar ranks; whoever writes the posts makes the final call among the top candidates.
 const cands = Object.values(byCat).flat().filter((c) => !c.own.length && c.s.type !== 'Update').sort((a, b) => b.t.score - a.t.score);
 const pickBlock = (title, list, slotKey) => {
@@ -370,11 +370,11 @@ const pickBlock = (title, list, slotKey) => {
 const picks = [
   `# Daily picks ${etDay}`,
   '',
-  `Generated ${clock(NOW, ET)} / ${clock(NOW, PT)}. Pick 1 News post and 1 post for another category from the top candidates below.`,
+  `Generated ${clock(NOW, ET)} / ${clock(NOW, PT)}. Pick 2 posts from the top candidates below.`,
   '',
-  ...pickBlock('News (1 post)', cands.filter((c) => c.s.category === 'News').slice(0, 3), 'news'),
+  ...pickBlock('Slot 1 (morning)', cands.slice(0, 3), 'news'),
   '',
-  ...pickBlock('Other category (1 post)', cands.filter((c) => c.s.category !== 'News').slice(0, 3), 'evergreen'),
+  ...pickBlock('Slot 2 (evening)', cands.slice(3, 6), 'evergreen'),
 ];
 
 await mkdir('radar', { recursive: true });

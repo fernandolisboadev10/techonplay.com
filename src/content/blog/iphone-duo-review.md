@@ -72,7 +72,7 @@ It depends on what you need from a phone, and no independent testing exists yet.
 ❌ **Skip it for now** if you rely on Face ID, want a proven design, or care most about camera zoom.
 ⏱️ **Wait for reviews** if you can. Real battery tests, crease durability and camera comparisons will land within days of October 23.
 
-Android alternatives also keep getting pricier, as our report on the [Galaxy S26 price increase](/samsung-galaxy-s26-price-increase/) shows, so compare total cost, not just the sticker price.
+Android alternatives also keep getting pricier, as our report on the Galaxy S26 price increase shows, so compare total cost, not just the sticker price.
 
 ## FAQ
 
@@ -111,9 +111,5 @@ Preorder only if you are sure about the trade-offs, and do it through Apple dire
 
 ## Related Reading
 
-- [Samsung Raises Galaxy S26 Prices by $100 in the US: What to Know](/samsung-galaxy-s26-price-increase/)
 - [Steam Frame Repairability: What iFixit's Teardown Found [2026]](/steam-frame-repairability/)
 - [The Fake Blue Screen Scam: How to Spot the ‘ClickFix’ Trap Before It’s Too Late](/fake-blue-screen-scam/)
-- [Apple and LG Smart Home Devices: Lock, Doorbell and Thermostat Leak](/apple-lg-smart-home-devices-rumor/)
-- [XREAL Aura Android XR Glasses: $1,279 Price, Specs and Release Date](/xreal-aura-android-xr-glasses-price/)
-- [SpaceX Buys 800 MHz Spectrum: Is Starlink Mobile Becoming a US Carrier?](/starlink-mobile-spectrum-deal-carrier/)

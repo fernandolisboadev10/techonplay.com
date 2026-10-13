@@ -29,10 +29,10 @@ This site is managed from the central project `C:\Users\Fernando\Desktop\Blog In
 
 | Day | Post | Slot |
 |---|---|---|
-| Monday | **News** (category `News`, topic in `tags`) | 09:00 |
-| Tuesday | **Article**, a hot topic in any other category | 09:00 |
-| Thursday | **Article**, a hot topic in any other category | 09:00 |
-| Saturday | **News** | 09:00 |
+| Monday | **Article**, a hot topic in any category | 09:00 |
+| Tuesday | **Article**, a hot topic in any category | 09:00 |
+| Thursday | **Article**, a hot topic in any category | 09:00 |
+| Saturday | **Article**, a hot topic in any category | 09:00 |
 
 **No posts on Sunday.** Never set a `date` that falls on a Sunday (New York time).
 

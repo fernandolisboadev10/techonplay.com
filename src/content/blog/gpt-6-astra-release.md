@@ -68,7 +68,7 @@ Astra also supports Zero Data Retention for eligible API customers, a detail tha
 
 ## Should You Switch After the GPT-6 Astra Release?
 
-For teams already deep in the OpenAI ecosystem, especially those using Codex for agentic coding, Astra’s speed and coding gains make it worth testing immediately. The pricing is competitive with Anthropic’s top tier, and the benchmark gap on coding and computer-use tasks is not small. For a price-focused comparison, see [DeepSeek V4 vs ChatGPT](/deepseek-v4-vs-chatgpt-comparison/). Rivals include [Claude Sonnet 5](/claude-sonnet-5-release/) and Google's restricted [Gemini 4 Argon](/gemini-4-argon-release/).
+For teams already deep in the OpenAI ecosystem, especially those using Codex for agentic coding, Astra’s speed and coding gains make it worth testing immediately. The pricing is competitive with Anthropic’s top tier, and the benchmark gap on coding and computer-use tasks is not small. For a price-focused comparison, see [DeepSeek V4 vs ChatGPT](/deepseek-v4-vs-chatgpt-comparison/). Rivals include [Claude Sonnet 5](/claude-sonnet-5-release/) and Google's restricted Gemini 4 Argon.
 
 For teams running cost-sensitive workloads, the calculation is less obvious. Claude Opus 5 still undercuts both Astra and GPT-5.6 Sol on price, and for tasks that do not need frontier-level reasoning, it may remain the better default.
 
@@ -101,9 +101,6 @@ The GPT-6 Astra release raises the ceiling on what a single model can do across 
 - [Meta's Muse Wonder: What Meta's First Frontier Model Means for You](/meta-muse-wonder-frontier-model/)
 - [DeepSeek V4 vs ChatGPT: Which Is Better After GPT-6? [Sept 2026]](/deepseek-v4-vs-chatgpt-comparison/)
 - [Claude Sonnet 5 Release 2026: Full Benchmarks and Upgrade Verdict](/claude-sonnet-5-release/)
-- [Gemini 4 Argon: Google's Most Powerful Model Is Locked to Cyber Defenders](/gemini-4-argon-release/)
 - [What Does GPT Stand For? The Acronym Everyone Uses but Few Understand](/what-does-gpt-stand-for/)
 - [Artificial Movie: Andrew Garfield Just Became Sam Altman [Trailer Breakdown]](/artificial-movie-andrew-garfield-sam-altman/)
 - [DeepSeek AI 2026 Review: V4.1-Flash, Pricing and Privacy [Sept Update]](/deepseek-ai-2026-review/)
-- [Mistral Large 4 'Le Chonk': 1T-Parameter Open-Weight Model Is Here](/mistral-large-4-le-chonk/)
-- [OpenAI Fired Three Safety Researchers: What We Know So Far](/openai-fires-safety-researchers/)

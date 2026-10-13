@@ -17,7 +17,7 @@ Below you'll see what the attack looked like step by step, what Nvidia's OpenShe
 
 ## What Unit 42 Found: A Full Breach in Under 10 Hours
 
-Unit 42 investigated an intrusion in which AI agents did most of the work. According to [CSO Online's coverage](https://www.csoonline.com/article/4217976/ai-agents-help-compress-ransomware-intrusion-to-under-10-hours-raising-stakes-for-cisos.html), the whole break-in took less than 10 hours. A human-led team would need roughly two weeks. Defenders are getting new AI tools too. Google's [Gemini 4 Argon](/gemini-4-argon-release/) is restricted to vetted cyber defenders for exactly this reason.
+Unit 42 investigated an intrusion in which AI agents did most of the work. According to [CSO Online's coverage](https://www.csoonline.com/article/4217976/ai-agents-help-compress-ransomware-intrusion-to-under-10-hours-raising-stakes-for-cisos.html), the whole break-in took less than 10 hours. A human-led team would need roughly two weeks. Defenders are getting new AI tools too. Google's Gemini 4 Argon is restricted to vetted cyber defenders for exactly this reason.
 
 The report does not name the group. During negotiations, though, the attacker told the victim it used "frontier AI models and attack-specific agentic frameworks."
 
@@ -117,6 +117,4 @@ Pick one item from the checklist and do it today. If you only have five minutes,
 - [The Fake Blue Screen Scam: How to Spot the ‘ClickFix’ Trap Before It’s Too Late](/fake-blue-screen-scam/)
 - [Moltbook AI Agent Network: Inside the Social Platform Built for Bots](/moltbook-ai-agent-platform-social-network/)
 - [How to Protect Your Data From AI Chatbots (2026 Guide)](/how-to-protect-your-data-from-ai-chatbots/)
-- [Gemini 4 Argon: Google's Most Powerful Model Is Locked to Cyber Defenders](/gemini-4-argon-release/)
 - [Security+ Passing Score: How Many Questions Can You Miss?](/security-plus-passing-score/)
-- [OpenAI Fired Three Safety Researchers: What We Know So Far](/openai-fires-safety-researchers/)

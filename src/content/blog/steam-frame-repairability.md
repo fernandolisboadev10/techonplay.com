@@ -118,5 +118,4 @@ Valve built a headset that opens up like a device meant to last, then glued in t
 - [Best Gaming PC for AI and Gaming in 2026: 4 Builds That Deliver](/best-gaming-pc-ai-and-gaming-2026/)
 - [PS5 QSSR Explained: AI Upscaling Comes to the Base PS5](/ps5-qssr-ai-upscaling-explained/)
 - [iPhone Duo Review: Is Apple’s First Foldable Worth $1,999?](/iphone-duo-review/)
-- [Samsung Raises Galaxy S26 Prices by $100 in the US: What to Know](/samsung-galaxy-s26-price-increase/)
 - [NVIDIA Driver Crashing in 2026: The Fix That Actually Works](/fix-nvidia-driver-crashing-2026/)
