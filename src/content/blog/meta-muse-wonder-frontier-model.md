@@ -87,7 +87,7 @@ A sensible approach: run Wonder against your own evals next to your current mode
 - **The Muse app rollout.** Meta has not said when Wonder reaches non-subscribers.
 - **The safety report and model card details**, including pricing and access for Wonder Full.
 - **Open weights.** Meta has not said whether Wonder will ever be released that way.
-- **Gemini 4 Argon.** Once Google opens it up, the frontier comparison gets a fourth serious entrant. If you are weighing Chinese alternatives too, see our [DeepSeek V4 vs ChatGPT comparison](/deepseek-v4-vs-chatgpt-comparison/).
+- **Gemini 4 Argon.** Once Google opens it up, the frontier comparison gets a fourth serious entrant.
 
 ## Bottom Line
 
@@ -103,4 +103,3 @@ Muse Wonder confirms that Meta is back in the frontier race, and its price is co
 
 - [GPT-6 Astra Release: What OpenAI's New Model Means for Developers](/gpt-6-astra-release/)
 - [Claude Sonnet 5 Release 2026: Full Benchmarks and Upgrade Verdict](/claude-sonnet-5-release/)
-- [DeepSeek V4 vs ChatGPT: Which Is Better After GPT-6? [Sept 2026]](/deepseek-v4-vs-chatgpt-comparison/)

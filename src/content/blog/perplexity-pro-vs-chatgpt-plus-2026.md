@@ -96,7 +96,7 @@ Related: our [GPT-6 Astra release breakdown](/gpt-6-astra-release/) covers who g
 
 ✅ **Choose Perplexity Pro if you:** run occasional multi-model research projects and can budget for credit overages on the heaviest weeks ✅ **Choose ChatGPT Plus if you:** want agent access with no separate meter to watch, and mostly need office-ready deliverables ❌ **Skip Computer and Work entirely if you:** only chat and search, since both agents cost more attention than a casual user needs
 
-If your team runs Computer daily, Perplexity Max at $200 a month is the honest price, not Pro plus surprise credit bills. If you need full GPT-6 Astra access in ordinary chat rather than just inside an agent, that also points to OpenAI’s $100 or $200 Pro tier, not Plus. Whichever plan you pick, [nine rules for using ChatGPT effectively](/how-to-use-chatgpt-effectively/) improve results, and [DeepSeek V4 vs ChatGPT](/deepseek-v4-vs-chatgpt-comparison/) shows the cheaper alternative.
+If your team runs Computer daily, Perplexity Max at $200 a month is the honest price, not Pro plus surprise credit bills. If you need full GPT-6 Astra access in ordinary chat rather than just inside an agent, that also points to OpenAI’s $100 or $200 Pro tier, not Plus. Whichever plan you pick, [nine rules for using ChatGPT effectively](/how-to-use-chatgpt-effectively/) improve results.
 
 Budget options still exist outside the agent race. Perplexity’s Education Pro costs $10 a month for verified students, and our [Perplexity for students guide](/perplexity-for-students-2026/) covers the setup.
 
@@ -137,6 +137,5 @@ Run one real multi-step task through each this week, track what it costs you in 
 
 - [How to Use ChatGPT Effectively: 9 Rules That Actually Work [2026]](/how-to-use-chatgpt-effectively/)
 - [Perplexity for Students: The Research Tool That Cites Everything](/perplexity-for-students-2026/)
-- [DeepSeek V4 vs ChatGPT: Which Is Better After GPT-6? [Sept 2026]](/deepseek-v4-vs-chatgpt-comparison/)
 - [GPT-6 Astra Release: What OpenAI’s New Model Means for Developers](/gpt-6-astra-release/)
 - [Copilot in Excel: 8 Features That Replaced the Old Hacks [Sept Update]](/copilot-excel-hacks/)

@@ -81,7 +81,7 @@ One wrinkle: DeepSeek’s September 10 notice said V4-Pro requests would route t
 
 Both OpenAI-style and Anthropic-style endpoints work, so tools built for those formats can point at DeepSeek by changing the base URL and model name.
 
-Related: our DeepSeek V4 coding guide shows how to wire it into your editor, and our [DeepSeek V4 vs ChatGPT comparison](/deepseek-v4-vs-chatgpt-comparison/) puts it head to head with OpenAI’s chatbot.
+Related: our DeepSeek V4 coding guide shows how to wire it into your editor,.
 
 ## Four Ways to Use DeepSeek, Compared
 
@@ -150,6 +150,5 @@ Run one real task through the free chat this week, then send the same prompt to 
 
 ## Related Reading
 
-- [DeepSeek V4 vs ChatGPT: Which Is Better After GPT-6? [Sept 2026]](/deepseek-v4-vs-chatgpt-comparison/)
 - [How to Protect Your Data From AI Chatbots (2026 Guide)](/how-to-protect-your-data-from-ai-chatbots/)
 - [GPT-6 Astra Release: What OpenAI’s New Model Means for Developers](/gpt-6-astra-release/)

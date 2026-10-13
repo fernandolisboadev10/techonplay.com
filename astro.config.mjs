@@ -26,6 +26,8 @@ export default defineConfig({
     '/free-ai-tools-2026-hidden-gems': '/artificial-intelligence-tools-2026',
     '/google-gemini-pro-students': '/google-ai-plus-for-students',
     '/90s-ai-photo-trend-chatgpt': '/90s-ai-photo-trend-gemini-prompt',
+    '/deepseek-v4-vs-chatgpt-comparison': '/deepseek-ai-2026-review',
+    '/artificial-movie-andrew-garfield-sam-altman': '/blog?category=AI',
     '/about': '/about-us',
     '/contact': '/contact-us',
     '/category/artificial-intelligence': '/blog?category=AI',
