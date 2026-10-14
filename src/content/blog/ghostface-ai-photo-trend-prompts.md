@@ -3,6 +3,7 @@ title: "Ghostface AI Photo Trend: Exact ChatGPT and Gemini Prompts"
 description: "Copy the exact ChatGPT and Gemini prompts for the Ghostface AI photo trend, plus six Halloween variations and tips to avoid refusals."
 category: "Trends"
 date: 2026-10-14T13:30:00-04:00
+updated: 2026-10-14
 readingTime: "7 min"
 image: "./images/ghostface-ai-photo-trend.webp"
 imageAlt: "Person taking a flash selfie at a dark Halloween party wearing a white ghost sheet with two black eyeholes"
@@ -35,6 +36,10 @@ Turn the attached photo into a candid late-1990s horror movie still. Keep the pe
 ✅ "Keep the person's face from the attached photo" works better than re-describing your face  
 ❌ Leave out gore, blood and weapons. Suspense reads as scarier than violence and gets blocked far less often
 
+![A selfie in a dim 1990s hallway with a faint pale-masked figure standing in the doorway behind the subject](./images/ghostface-chatgpt-hallway.webp)
+
+*AI-generated example (fictional person, text-to-image). Results from your own photo will differ.*
+
 ## The Exact Gemini Prompt
 
 Gemini is usually more permissive with real faces, so you can be more specific about the person and the photo style.
@@ -49,6 +54,10 @@ Recreate this photo as a Y2K horror-movie flash photograph. Subject: [adult man 
 ✅ "Keep the face identical" prevents the model from "improving" your features  
 ❌ Do not add brand names or movie titles, generic descriptions work better and are safer
 
+![Y2K-style flash portrait in a 90s bedroom with a bedsheet ghost standing in the dark doorway](./images/ghostface-gemini-y2k-bedroom.webp)
+
+*AI-generated example (fictional person, text-to-image). Results from your own photo will differ.*
+
 ## Six Variations to Try
 
 Swap one line of either prompt for any of these. Change only one thing at a time so you can see what worked.
@@ -61,6 +70,10 @@ Swap one line of either prompt for any of these. Change only one thing at a time
 6. **Costume version.** Replace the background figure with the subject: "The person wears a black robe and a white ghost-style mask, hood up, standing on a dark porch with a carved pumpkin lit beside them."
 
 If you want more formats to borrow from, our list of [100 ChatGPT image prompts](/chatgpt-image-prompts-visual-commands/) covers lighting and framing, and the [3D figurine trend](/3d-figurine-ai-trend-chatgpt/) uses the same scene-first idea.
+
+![VHS frame-grab style horror still with scan lines and a bedsheet ghost in the background doorway](./images/ghostface-vhs-frame-grab.webp)
+
+*AI-generated example (fictional person, text-to-image). Results from your own photo will differ.*
 
 ## Tips to Avoid Refusals and Make It Look Real
 

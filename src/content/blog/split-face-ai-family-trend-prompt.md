@@ -2,7 +2,7 @@
 title: "Split-Face AI Family Trend: The Prompt That Works"
 description: "Copy the exact ChatGPT and Gemini prompts for the split-face AI family trend, plus photo tips, variations and the privacy rules to follow first."
 category: "Trends"
-date: 2026-10-15T09:00:00-04:00
+date: 2026-10-14T18:00:00-04:00
 readingTime: "7 min"
 image: "./images/split-face-ai-family-trend.webp"
 imageAlt: "Portrait of two adult relatives with faces joined down the middle to show a family resemblance"
@@ -45,6 +45,10 @@ Using the two attached photos, create one square portrait with a clean vertical 
 ✅ "Keep both people's faces exactly as in their photos" works better than describing eyes, nose or hair again  
 ❌ Skip words like "photorealistic deepfake" or "swap faces." Say "split portrait" or "side-by-side blend" instead
 
+![Black-and-white split-face portrait blending a younger woman and an older woman with matching features](./images/split-face-mom-chatgpt.webp)
+
+*AI-generated example (fictional person, text-to-image). Results from your own photo will differ.*
+
 ## The Exact Split-Face Prompt for Gemini
 
 Gemini's image editing handles multi-photo prompts well, so you can ask for a bit more control over the details.
@@ -58,6 +62,10 @@ Combine the two attached photos into a single split-face portrait. Layout: a ver
 ✅ Labeling each side (left, right) and who it belongs to stops Gemini from swapping the halves  
 ✅ "Preserve each person's real age" keeps a parent from being quietly de-aged to match you  
 ❌ If one photo is low quality, add one line such as "the second photo is an older print, keep its grain" instead of asking Gemini to "enhance" it
+
+![Color split-face portrait blending a younger man and an older man with matching features](./images/split-face-dad-gemini.webp)
+
+*AI-generated example (fictional person, text-to-image). Results from your own photo will differ.*
 
 ## Tips to Make the Result Look Natural
 
@@ -80,6 +88,10 @@ Swap a few fields in either prompt and you get a different take on the same form
 - **Couple "meet in the middle":** Two adults who both agreed to take part, one photo each, blended along the center line as a playful "our future blend" portrait.
 
 A note on "you and your kid": only use this if you are the adult in the photo and the image is of you. Do not upload photos of children (see the next section).
+
+![Two split-face portraits comparing one woman with her mother on the left and her father on the right](./images/split-face-mom-vs-dad-vote.webp)
+
+*AI-generated example (fictional person, text-to-image). Results from your own photo will differ.*
 
 ## Avoiding Refusals
 
