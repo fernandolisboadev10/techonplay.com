@@ -114,7 +114,7 @@ Related: read our guide on [how to protect your data from AI chatbots](/how-to-p
 
 ✅ **Developers on a budget:** Flash output at $1.20 per 1M tokens ($0.60 off-peak) keeps agent bills low ✅ **Curious users:** free chat with reasoning, search and image input ✅ **Teams that want control:** MIT-licensed weights you can host yourself ❌ **Anyone handling regulated or confidential data** on the hosted service ❌ **Users who need peak reasoning scores:** GPT-5.6 Sol leads on GPQA Diamond ❌ **Teams running long terminal agents:** Opus 5.0 leads on Terminal-Bench 4.0
 
-To see how it stacks up against OpenAI's top model, read our [GPT-6 Astra breakdown](/gpt-6-astra-release/).
+To see how it stacks up against OpenAI's top model, read our [GPT-6 Astra breakdown](/gpt-6-astra-release/). For a closed, hosted rival from Meta, see our look at the [Muse Wonder frontier model](/meta-muse-wonder-frontier-model/).
 
 ## FAQ
 

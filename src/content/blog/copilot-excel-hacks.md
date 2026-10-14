@@ -69,7 +69,7 @@ Use Personalization for how you generally like Copilot to work, and Workbook Rul
 
 ## 6\. Save a Prompt Once as a Copilot Skill
 
-Skills are reusable automation templates, either built-in or custom text files (SKILL.md) stored in OneDrive. Instead of rewriting the same five-step prompt every Monday for the same weekly report, save it once as a Skill and call it by name or @mention.
+Skills are reusable automation templates, either built-in or custom text files (SKILL.md) stored in OneDrive. Instead of rewriting the same five-step prompt every Monday for the same weekly report, save it once as a Skill and call it by name or @mention. Good Skills start with good prompts, and our guide on [how to use ChatGPT effectively](/how-to-use-chatgpt-effectively/) covers principles that carry over.
 
 ✅ Turns a recurring five-step prompt into a one-word command ✅ Custom skills are plain text files, easy to edit or share with a team ❌ Building a good custom Skill takes upfront setup time ❌ Works best for tasks you genuinely repeat, not one-off requests
 

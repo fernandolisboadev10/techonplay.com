@@ -194,3 +194,4 @@ The creators winning right now are the ones treating chatgpt image prompts as a 
 - [90s AI Photo Trend: Exact Prompts for Gemini and ChatGPT](/90s-ai-photo-trend-gemini-prompt/)
 - [Best ChatGPT Prompts 2026: 30 Templates for Work, Study, and Creative Projects](/best-chatgpt-prompts-2026/)
 - [Grok Imagine 2.0 Prompts: The Formula That Actually Works](/grok-imagine-2-0-prompts-guide/)
+- [Ghostface AI Photo Trend: Exact ChatGPT and Gemini Prompts](/ghostface-ai-photo-trend-prompts/)

@@ -47,9 +47,9 @@
   "cat": " \"Security",
   "date": " 2026-08-29",
   "updated": " 2026-08-29",
-  "words": 1411,
+  "words": 1435,
   "draft": "",
-  "internal": 7,
+  "internal": 8,
   "external": 3,
   "domains": [
    "cnbc.com",
@@ -124,7 +124,7 @@
   "cat": " \"AI",
   "date": " 2026-09-06",
   "updated": " 2026-09-06",
-  "words": 1284,
+  "words": 1276,
   "draft": "",
   "internal": 8,
   "external": 3,
@@ -140,9 +140,9 @@
   "cat": " \"Security",
   "date": " 2026-09-08",
   "updated": " 2026-09-08",
-  "words": 1350,
+  "words": 1385,
   "draft": "",
-  "internal": 6,
+  "internal": 7,
   "external": 2,
   "domains": [
    "engadget.com",
@@ -170,9 +170,9 @@
   "cat": " \"Gaming",
   "date": " 2026-09-09",
   "updated": " 2026-09-09",
-  "words": 1515,
+  "words": 1529,
   "draft": "",
-  "internal": 6,
+  "internal": 7,
   "external": 2,
   "domains": [
    "pcgamer.com"
@@ -184,9 +184,9 @@
   "cat": " \"Trends",
   "date": " 2026-09-12",
   "updated": " 2026-09-12",
-  "words": 1011,
+  "words": 1031,
   "draft": "",
-  "internal": 5,
+  "internal": 6,
   "external": 3,
   "domains": [
    "techcrunch.com",
@@ -195,28 +195,12 @@
   ]
  },
  {
-  "slug": "artificial-movie-andrew-garfield-sam-altman",
-  "title": " \"Artificial Movie: Andrew Garfield Just Became Sam Altman [Trailer Breakdown]",
-  "cat": " \"AI",
-  "date": " 2026-09-12",
-  "updated": " 2026-09-13",
-  "words": 1390,
-  "draft": "",
-  "internal": 5,
-  "external": 3,
-  "domains": [
-   "variety.com",
-   "deadline.com",
-   "engadget.com"
-  ]
- },
- {
   "slug": "best-gaming-pc-ai-and-gaming-2026",
   "title": " \"Best Gaming PC for AI and Gaming in 2026: 4 Builds That Deliver",
   "cat": " \"Gaming",
   "date": " 2026-09-14",
   "updated": " 2026-09-14",
-  "words": 1659,
+  "words": 1668,
   "draft": "",
   "internal": 9,
   "external": 2,
@@ -245,7 +229,7 @@
   "cat": " \"AI",
   "date": " 2026-09-18",
   "updated": " 2026-10-04",
-  "words": 1835,
+  "words": 1857,
   "draft": "",
   "internal": 9,
   "external": 4,
@@ -320,9 +304,9 @@
   "cat": " \"AI",
   "date": " 2026-09-21",
   "updated": " 2026-10-04",
-  "words": 2012,
+  "words": 2023,
   "draft": "",
-  "internal": 6,
+  "internal": 7,
   "external": 3,
   "domains": [
    "openai.com",
@@ -350,27 +334,12 @@
   "cat": " \"Reviews",
   "date": " 2026-09-21",
   "updated": " 2026-09-21",
-  "words": 2105,
+  "words": 2094,
   "draft": "",
   "internal": 5,
   "external": 1,
   "domains": [
    "cnbc.com"
-  ]
- },
- {
-  "slug": "google-gemini-pro-students",
-  "title": " \"Gemini Pro for Students: Free Google AI Pro Until Dec 31 [2026]",
-  "cat": " \"Tools",
-  "date": " 2026-09-21",
-  "updated": " 2026-10-02T14:00:00-04:00",
-  "words": 1109,
-  "draft": "",
-  "internal": 7,
-  "external": 2,
-  "domains": [
-   "engadget.com",
-   "9to5google.com"
   ]
  },
  {
@@ -409,9 +378,9 @@
   "cat": " \"Tools",
   "date": " 2026-09-23",
   "updated": " 2026-09-23",
-  "words": 3436,
+  "words": 3423,
   "draft": "",
-  "internal": 7,
+  "internal": 5,
   "external": 32,
   "domains": [
    "gemini.google",
@@ -423,21 +392,6 @@
    "antigravity.google",
    "aistudio.google.com",
    "stitch.withgoogle.com"
-  ]
- },
- {
-  "slug": "deepseek-v4-vs-chatgpt-comparison",
-  "title": " \"DeepSeek V4 vs ChatGPT: Which Is Better After GPT-6? [Sept 2026]",
-  "cat": " \"AI",
-  "date": " 2026-09-23",
-  "updated": " 2026-09-23",
-  "words": 2233,
-  "draft": "",
-  "internal": 7,
-  "external": 2,
-  "domains": [
-   "cnbc.com",
-   "techcrunch.com"
   ]
  },
  {
@@ -493,9 +447,9 @@
   "cat": " \"Guides",
   "date": " 2026-09-24",
   "updated": " 2026-09-24",
-  "words": 2256,
+  "words": 2276,
   "draft": "",
-  "internal": 6,
+  "internal": 7,
   "external": 2,
   "domains": [
    "techcrunch.com",
@@ -508,9 +462,9 @@
   "cat": " \"Gaming",
   "date": " 2026-09-24",
   "updated": " 2026-09-24",
-  "words": 1543,
+  "words": 1561,
   "draft": "",
-  "internal": 5,
+  "internal": 6,
   "external": 2,
   "domains": [
    "pcgamer.com",
@@ -554,7 +508,7 @@
   "cat": " \"Tools",
   "date": " 2026-09-24",
   "updated": " 2026-09-24",
-  "words": 1926,
+  "words": 1913,
   "draft": "",
   "internal": 8,
   "external": 1,
@@ -568,9 +522,9 @@
   "cat": " \"AI",
   "date": " 2026-09-25",
   "updated": " 2026-09-25",
-  "words": 2519,
+  "words": 2514,
   "draft": "",
-  "internal": 7,
+  "internal": 8,
   "external": 3,
   "domains": [
    "cnbc.com",
@@ -583,9 +537,9 @@
   "cat": " \"Reviews",
   "date": " 2026-09-27",
   "updated": " 2026-10-04",
-  "words": 1086,
+  "words": 1072,
   "draft": "",
-  "internal": 4,
+  "internal": 2,
   "external": 8,
   "domains": [
    "engadget.com",
@@ -599,7 +553,7 @@
   "cat": " \"AI",
   "date": " 2026-09-28",
   "updated": " 2026-09-28",
-  "words": 1962,
+  "words": 1951,
   "draft": "",
   "internal": 10,
   "external": 2,
@@ -629,7 +583,7 @@
   "cat": " \"AI",
   "date": " 2026-09-28",
   "updated": " 2026-09-28",
-  "words": 1966,
+  "words": 1963,
   "draft": "",
   "internal": 6,
   "external": 2,
@@ -644,9 +598,9 @@
   "cat": " \"AI",
   "date": " 2026-09-28",
   "updated": " 2026-09-28",
-  "words": 810,
+  "words": 778,
   "draft": "",
-  "internal": 6,
+  "internal": 5,
   "external": 4,
   "domains": [
    "arxiv.org",
@@ -660,9 +614,9 @@
   "cat": " \"Security",
   "date": " 2026-09-29",
   "updated": "",
-  "words": 1390,
+  "words": 1377,
   "draft": "",
-  "internal": 9,
+  "internal": 7,
   "external": 6,
   "domains": [
    "csoonline.com",
@@ -676,9 +630,9 @@
   "cat": " \"Gaming",
   "date": " 2026-09-29",
   "updated": "",
-  "words": 1321,
+  "words": 1307,
   "draft": "",
-  "internal": 8,
+  "internal": 7,
   "external": 4,
   "domains": [
    "vr.org",
@@ -687,48 +641,14 @@
   ]
  },
  {
-  "slug": "gemini-4-argon-release",
-  "title": " \"Gemini 4 Argon: Google's Most Powerful Model Is Locked to Cyber Defenders",
-  "cat": " \"News",
-  "date": " 2026-10-01T09:00:00-04:00",
-  "updated": "",
-  "words": 1448,
-  "draft": "",
-  "internal": 7,
-  "external": 8,
-  "domains": [
-   "techcrunch.com",
-   "securityweek.com",
-   "engadget.com",
-   "blog.google",
-   "thehackernews.com"
-  ]
- },
- {
-  "slug": "samsung-galaxy-s26-price-increase",
-  "title": " \"Samsung Raises Galaxy S26 Prices by $100 in the US: What to Know",
-  "cat": " \"News",
-  "date": " 2026-10-02T09:00:00-04:00",
-  "updated": "",
-  "words": 1177,
-  "draft": "",
-  "internal": 4,
-  "external": 5,
-  "domains": [
-   "androidauthority.com",
-   "9to5google.com",
-   "engadget.com"
-  ]
- },
- {
   "slug": "google-ai-plus-for-students",
   "title": " \"Google AI Plus for Students: US Gets AI Pro Free Instead [2026]",
   "cat": " \"Tools",
   "date": " 2026-10-02T14:00:00-04:00",
   "updated": " 2026-10-02T14:00:00-04:00",
-  "words": 1552,
+  "words": 1526,
   "draft": "",
-  "internal": 5,
+  "internal": 4,
   "external": 2,
   "domains": [
    "engadget.com",
@@ -741,14 +661,60 @@
   "cat": " \"Gaming",
   "date": " 2026-10-02T18:00:00-04:00",
   "updated": "",
-  "words": 1200,
+  "words": 1246,
   "draft": "",
-  "internal": 5,
+  "internal": 7,
   "external": 4,
   "domains": [
    "blog.playstation.com",
    "engadget.com",
    "theverge.com"
+  ]
+ },
+ {
+  "slug": "surface-laptop-ultra-rtx-spark-price",
+  "title": " \"Surface Laptop Ultra: Is the $2,599 RTX Spark Laptop Worth It?",
+  "cat": " \"Reviews",
+  "date": " 2026-10-08T18:00:00-04:00",
+  "updated": "",
+  "words": 1519,
+  "draft": "",
+  "internal": 9,
+  "external": 7,
+  "domains": [
+   "engadget.com",
+   "microsoft.com"
+  ]
+ },
+ {
+  "slug": "meta-muse-wonder-frontier-model",
+  "title": " \"Meta's Muse Wonder: What Meta's First Frontier Model Means for You",
+  "cat": " \"AI",
+  "date": " 2026-10-13T09:00:00-04:00",
+  "updated": "",
+  "words": 1333,
+  "draft": "",
+  "internal": 6,
+  "external": 6,
+  "domains": [
+   "techcrunch.com",
+   "research.meta.ai",
+   "theverge.com"
+  ]
+ },
+ {
+  "slug": "split-face-ai-family-trend-prompt",
+  "title": " \"Split-Face AI Family Trend: The Prompt That Works",
+  "cat": " \"Trends",
+  "date": " 2026-10-15T09:00:00-04:00",
+  "updated": "",
+  "words": 1755,
+  "draft": "",
+  "internal": 11,
+  "external": 2,
+  "domains": [
+   "miraflow.ai",
+   "dreamina.capcut.com"
   ]
  }
 ]

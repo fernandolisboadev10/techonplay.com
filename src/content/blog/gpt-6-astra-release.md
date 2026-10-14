@@ -68,9 +68,9 @@ Astra also supports Zero Data Retention for eligible API customers, a detail tha
 
 ## Should You Switch After the GPT-6 Astra Release?
 
-For teams already deep in the OpenAI ecosystem, especially those using Codex for agentic coding, Astra’s speed and coding gains make it worth testing immediately. The pricing is competitive with Anthropic’s top tier, and the benchmark gap on coding and computer-use tasks is not small. Rivals include [Claude Sonnet 5](/claude-sonnet-5-release/) and Google's restricted Gemini 4 Argon.
+For teams already deep in the OpenAI ecosystem, especially those using Codex for agentic coding, Astra’s speed and coding gains make it worth testing immediately. The pricing is competitive with Anthropic’s top tier, and the benchmark gap on coding and computer-use tasks is not small. Rivals include [Claude Sonnet 5](/claude-sonnet-5-release/) and Google's restricted Gemini 4 Argon. Meta's new [Muse Wonder frontier model](/meta-muse-wonder-frontier-model/) joins that field as well.
 
-For teams running cost-sensitive workloads, the calculation is less obvious. Claude Opus 5 still undercuts both Astra and GPT-5.6 Sol on price, and for tasks that do not need frontier-level reasoning, it may remain the better default.
+For teams running cost-sensitive workloads, the calculation is less obvious. Claude Opus 5 still undercuts both Astra and GPT-5.6 Sol on price, and for tasks that do not need frontier-level reasoning, it may remain the better default. If price is the main concern, [DeepSeek's V4.1-Flash](/deepseek-ai-2026-review/) costs far less per token still.
 
 The honest answer: the **GPT-6 Astra release** sets a new ceiling on raw capability, but it is not automatically the new default for every workload.
 

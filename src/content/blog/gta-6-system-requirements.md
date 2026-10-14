@@ -113,7 +113,7 @@ _No. Rockstar has only confirmed PlayStation 5 and Xbox Series X|S for the Novem
 
 **Can I run GTA 6 on a laptop?**
 
-_A gaming laptop with an RTX 4060 or better, 16 GB of RAM, and an NVMe SSD should handle minimum to recommended settings once a PC version ships. Thermal throttling on thin laptops may limit sustained performance versus a desktop with the same GPU._
+_A gaming laptop with an RTX 4060 or better, 16 GB of RAM, and an NVMe SSD should handle minimum to recommended settings once a PC version ships. Thermal throttling on thin laptops may limit sustained performance versus a desktop with the same GPU. Microsoft's [Surface Laptop Ultra](/surface-laptop-ultra-rtx-spark-price/) costs $2,599 but is aimed at developers rather than gamers._
 
 **Does GTA 6 support ray tracing on minimum settings?**
 

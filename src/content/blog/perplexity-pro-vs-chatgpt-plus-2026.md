@@ -67,7 +67,7 @@ Agent mode failures cost more than a bad chat answer, because the agent already 
 
 The agent layer sits on top of the same model choice that always separated these two plans.
 
-Perplexity Pro still lets you pick a model per question outside of Computer, including GPT-6 Astra, Claude Sonnet 5, Grok 4.5 and Gemini 3.1 Pro alongside its own Sonar. Inside Computer, eligible Pro and Max accounts can now route tasks through GPT-6 Astra specifically, which is new as of September 21.
+Perplexity Pro still lets you pick a model per question outside of Computer, including GPT-6 Astra, Claude Sonnet 5, Grok 4.5 and Gemini 3.1 Pro alongside its own Sonar. Inside Computer, eligible Pro and Max accounts can now route tasks through GPT-6 Astra specifically, which is new as of September 21. If you care more about cost than brand names, our [DeepSeek review](/deepseek-ai-2026-review/) covers a much cheaper open-weight alternative.
 
 ChatGPT Plus stays inside OpenAI’s own lineup. GPT-5.6 Sol remains the default in regular chat. GPT-6 Astra shows up for Plus subscribers only inside Work and Codex, with a limited included amount before extra credits are for sale. Full Astra access in the normal chat window, branded GPT-6 Pro, still requires the $100 or $200 Pro tier.
 

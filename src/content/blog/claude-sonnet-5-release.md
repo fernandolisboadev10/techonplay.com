@@ -72,7 +72,7 @@ Fable 5.1 and Mythos 5.1 launched in September 2026 as an entirely new tier that
 
 Reported scores include 52.6% on Terminal-Bench-Science, 55.8% on agentic coding, and 73.4% on CursorBench, ahead of everything below it. Fable 5.1 is live now across AWS, Google Cloud, Azure, the Claude API, and Claude.ai. Mythos 5.1 remains limited to approved US organizations for now.
 
-None of this replaces Sonnet 5. It sits above it as the expensive, maximum-capability option, the same role Opus played before Fable and Mythos existed.
+None of this replaces Sonnet 5. It sits above it as the expensive, maximum-capability option, the same role Opus played before Fable and Mythos existed. Anthropic is not the only lab moving up the stack, either: Meta has entered the frontier race with its hosted [Muse Wonder model](/meta-muse-wonder-frontier-model/).
 
 ## How to Access Claude Sonnet 5 Today
 

@@ -27,7 +27,7 @@ Turn this photo into a 1/7 scale collectible figurine. Subject: keep the person�
 
 Gemini’s Nano Banana model was built for this kind of image-to-image editing from the start, so it accepts a real face plus a full styling prompt in one shot without much friction.
 
-ChatGPT’s image model applies a stricter layer of review when a prompt combines an uploaded face with heavy physical transformation instructions. The figurine trend counts as heavy transformation, since the whole point is turning a person into plastic.
+ChatGPT’s image model applies a stricter layer of review when a prompt combines an uploaded face with heavy physical transformation instructions. The figurine trend counts as heavy transformation, since the whole point is turning a person into plastic. If ChatGPT keeps refusing, our [Grok Imagine 2.0 prompts guide](/grok-imagine-2-0-prompts-guide/) shows how a different image model wants its prompts structured.
 
 The fix works the same way it did for the 90s AI photo trend: describe the environment in detail and let the face carry over as a simple reference, instead of rewriting the face itself. For the original figurine wave and the trend that led into it, the [90s AI photo trend on Gemini](/90s-ai-photo-trend-gemini-prompt/) covers how Gemini handles real faces more loosely across the board.
 
@@ -83,3 +83,5 @@ Pick a clear, well-lit photo, paste the prompt above into ChatGPT, and lean on t
 - [90s AI Photo Trend: Exact Prompts for Gemini and ChatGPT](/90s-ai-photo-trend-gemini-prompt/)
 - [100 ChatGPT Image Prompts I Actually Use Instead of Generic AI Photos](/chatgpt-image-prompts-visual-commands/)
 - [Best AI Image Generators 2026: 7 Tools Leading Right Now [Sept Update]](/best-ai-image-generators-2026/)
+- [Ghostface AI Photo Trend: Exact ChatGPT and Gemini Prompts](/ghostface-ai-photo-trend-prompts/)
+- [Split-Face AI Family Trend: The Prompt That Works](/split-face-ai-family-trend-prompt/)

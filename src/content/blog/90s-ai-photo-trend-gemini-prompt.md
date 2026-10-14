@@ -98,3 +98,5 @@ Grab a recent selfie, copy the prompt for your tool into Gemini or ChatGPT, and 
 - [100 ChatGPT Image Prompts I Actually Use Instead of Generic AI Photos](/chatgpt-image-prompts-visual-commands/)
 - [Grok Imagine 2.0 Prompts: The Formula That Actually Works](/grok-imagine-2-0-prompts-guide/)
 - [Best AI Image Generators 2026: 7 Tools Leading Right Now [Sept Update]](/best-ai-image-generators-2026/)
+- [Ghostface AI Photo Trend: Exact ChatGPT and Gemini Prompts](/ghostface-ai-photo-trend-prompts/)
+- [Split-Face AI Family Trend: The Prompt That Works](/split-face-ai-family-trend-prompt/)

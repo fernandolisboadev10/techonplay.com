@@ -19,7 +19,7 @@ This guide breaks down working prompts by the three situations readers ask about
 
 Most prompt lists floating around the internet were written for GPT-4o. That model is gone from the consumer app entirely.
 
-ChatGPT now runs on the GPT-6 family, with Astra arriving on September 3 and Sol and Luna on September 22. The prompts below were written and tested on the GPT-5.6 generation, and the same structure carries over. The reasoning modes also changed names: Instant, Medium, High, Extra High, Pro Standard, and Pro Extended replaced the old “Thinking” labels. If your prompt tells ChatGPT to “think step by step like o3,” it is talking to a model that no longer exists in the interface.
+ChatGPT now runs on the GPT-6 family, with Astra arriving on September 3 and Sol and Luna on September 22. The prompts below were written and tested on the GPT-5.6 generation, and the same structure carries over. The reasoning modes also changed names: Instant, Medium, High, Extra High, Pro Standard, and Pro Extended replaced the old “Thinking” labels. If your prompt tells ChatGPT to “think step by step like o3,” it is talking to a model that no longer exists in the interface. New to the acronym? Our explainer covers [what GPT stands for](/what-does-gpt-stand-for/).
 
 Memory Sources is the other quiet shift. ChatGPT now shows you exactly which saved memories and past chats shaped a response, and prompts can deliberately reference that context instead of repeating background information every time.
 

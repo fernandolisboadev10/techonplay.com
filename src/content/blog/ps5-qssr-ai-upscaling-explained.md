@@ -17,11 +17,11 @@ Below you'll see what QSSR is, how it compares with PSSR on the PS5 Pro, which g
 
 ## What Is PS5 QSSR?
 
-QSSR is a performance tier of AI upscaling. According to [the PlayStation Blog](https://blog.playstation.com/2026/10/01/ai-upscaling-is-coming-to-ps5/), it analyzes game images pixel by pixel and uses AI to improve detail and stability.
+QSSR is a performance tier of AI upscaling. According to [the PlayStation Blog](https://blog.playstation.com/2026/10/01/ai-upscaling-is-coming-to-ps5/), it analyzes game images pixel by pixel and uses AI to improve detail and stability. If you are curious how AI creates images from scratch instead of upscaling them, see our guide to the [best AI image generators of 2026](/best-ai-image-generators-2026/).
 
 It comes out of Project Amethyst, an AI graphics collaboration between Sony Interactive Entertainment and AMD. Engadget reports Sony built QSSR on "a streamlined neural network architecture" and "a hand-tuned implementation that maximizes performance" on the PS5.
 
-The "quick" part matters. QSSR asks less of the console than PSSR does. That is how Sony can run AI upscaling on hardware that is less powerful than the PS5 Pro.
+The "quick" part matters. QSSR asks less of the console than PSSR does. That is how Sony can run AI upscaling on hardware that is less powerful than the PS5 Pro. For a wider look at the AI software behind features like this, browse our roundup of [artificial intelligence tools in 2026](/artificial-intelligence-tools-2026/).
 
 ## PS5 QSSR vs PSSR: What's the Difference?
 

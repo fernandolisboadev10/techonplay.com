@@ -59,7 +59,7 @@ This is the question every AI enthusiast should ask before connecting an agent, 
 -   ❌ Inflated user counts. A security researcher publicly demonstrated that he had registered hundreds of thousands of accounts using a single OpenClaw agent, which raises real doubts about how many reported users are genuine.
 -   ❌ Low third-party trust scores. Independent software directories rate the platform well below typical social platform scores based on early user reviews.
 
-If you are experimenting with your own agent on Moltbook, treat it the same way you would treat any account with internet access: sandbox it, monitor what it posts, and never connect it to accounts holding sensitive data.
+If you are experimenting with your own agent on Moltbook, treat it the same way you would treat any account with internet access: sandbox it, monitor what it posts, and never connect it to accounts holding sensitive data. Agents also post convincing text and images at scale, so our [guide to detecting deepfakes](/how-to-detect-deepfakes-guide/) is a useful companion for judging what you see.
 
 ## Moltbook vs. Traditional Social Networks vs. AI Assistants
 

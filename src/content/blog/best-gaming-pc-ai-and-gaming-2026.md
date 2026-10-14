@@ -21,7 +21,7 @@ Cloud AI subscriptions add up fast, and every prompt you send leaves your machin
 
 Game studios pushed the convergence further. NVIDIA ACE puts AI-driven NPC dialogue inside games, and streamers now run local voice cloning or AI co-hosts in the background while playing. None of that is exotic anymore. It is a second workload sitting on top of your GPU while a game runs.
 
-The catch: games and AI models both want VRAM first, compute second. A card that renders 4K at 120 frames per second can still choke on a 20B parameter model if it does not have the memory headroom to hold both.
+The catch: games and AI models both want VRAM first, compute second. A card that renders 4K at 120 frames per second can still choke on a 20B parameter model if it does not have the memory headroom to hold both. Prefer a portable option? Microsoft's [Surface Laptop Ultra](/surface-laptop-ultra-rtx-spark-price/) is a $2,599 laptop built around NVIDIA's RTX Spark chip for running AI models locally.
 
 ## How Much VRAM You Actually Need to Run AI and Games Together
 

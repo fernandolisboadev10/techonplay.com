@@ -91,7 +91,7 @@ NVIDIA officially replaced GeForce Experience with the NVIDIA App in 2026. If yo
 
 ## How to Avoid Installing a Bad Driver in the First Place
 
-This is the part most guides skip entirely. You don’t have to install every driver the day it drops. Shopping for a new rig? See our [best gaming PC for AI and gaming](/best-gaming-pc-ai-and-gaming-2026/) builds.
+This is the part most guides skip entirely. You don’t have to install every driver the day it drops. Shopping for a new rig? See our [best gaming PC for AI and gaming](/best-gaming-pc-ai-and-gaming-2026/) builds, or look at Microsoft's [Surface Laptop Ultra](/surface-laptop-ultra-rtx-spark-price/) if you want NVIDIA's new RTX Spark chip in a laptop.
 
 Check GPU forums or NVIDIA’s own release notes before updating, especially for a new Game Ready release. If a version is causing widespread crash reports, waiting a week almost always saves you the headache, even if it means skipping a launch-day optimization.
 

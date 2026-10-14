@@ -35,7 +35,7 @@ What a VPN does well is break the link between your IP address and your account 
 
 For logged-out or trial use, a VPN also stops chatbots from silently profiling you by location, something several 2026 privacy audits flagged as common practice among smaller AI platforms.
 
-Think of it as one layer in a stack, not a magic shield. Pair it with private or temporary chat modes, and you close most of the easy tracking angles.
+Think of it as one layer in a stack, not a magic shield. Pair it with private or temporary chat modes, and you close most of the easy tracking angles. A VPN will not help if you connect an AI agent to a network like Moltbook, where the risk is prompt injection rather than IP exposure; our [Moltbook safety breakdown](/moltbook-ai-agent-platform-social-network/) explains how to sandbox it.
 
 ### The Best VPN for AI Browsing: 3 Options Worth Paying For
 

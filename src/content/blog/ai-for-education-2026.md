@@ -17,7 +17,7 @@ This guide ranks eight tools teachers are standardizing on in 2026, what each on
 
 ## Why AI for Education Is No Longer Optional
 
-Adoption did not happen because AI got smarter overnight. It happened because the tools finally moved from generic chatbots into systems built for classrooms: grading rubrics, IEP support, lesson sequencing, and curriculum-aware tutors.
+Adoption did not happen because AI got smarter overnight (for the vocabulary, see [what GPT stands for](/what-does-gpt-stand-for/)). It happened because the tools finally moved from generic chatbots into systems built for classrooms: grading rubrics, IEP support, lesson sequencing, and curriculum-aware tutors.
 
 📊 83% of K-12 teachers use generative AI tools for school or personal tasks (NEA, 2025) ⏱️ 5.9 hours saved per week by teachers who use AI regularly (Gallup) 📈 Up to 10% higher exam scores for students who practiced with AI tutors (Macquarie University, via Microsoft study, 2025) 🚀 92% of students now use AI for their studies, up from 66% in 2024 (Hepi Survey, 2025) 🚫 71% of K-12 teachers say they never received formal AI training (NEA, 2025)
 

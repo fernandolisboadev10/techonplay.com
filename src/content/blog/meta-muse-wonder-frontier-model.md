@@ -76,7 +76,7 @@ Muse Wonder is a new option on the price-performance curve, and it matters mostl
 
 - **Price:** $4 per million input tokens and $20 per million output tokens is well under Astra and Fable.
 - **Missing details:** the launch coverage does not mention a context window, rate limits or modalities, and Meta's post gives no pricing or open-weights plans. Check the Meta Model API docs before you plan around it.
-- **Hosted only:** Wonder is reached through Meta's API and Muse Code. If you want weights you can run yourself, look at open-weight models such as Mistral Large 4 instead. One Hacker News commenter noted Meta had previously promised open weights for Muse Spark and people are still waiting.
+- **Hosted only:** Wonder is reached through Meta's API and Muse Code. If you want weights you can run yourself, look at open-weight models such as Mistral Large 4 instead, or at [DeepSeek's MIT-licensed weights](/deepseek-ai-2026-review/). One Hacker News commenter noted Meta had previously promised open weights for Muse Spark and people are still waiting.
 - **Safety:** Meta calls Wonder its "most aligned model to date" and says it has its strongest safeguards yet against chemical, biological, radiological, nuclear and cyber misuse. A full safety report is promised later.
 
 A sensible approach: run Wonder against your own evals next to your current model and compare cost per finished task, not cost per token.
