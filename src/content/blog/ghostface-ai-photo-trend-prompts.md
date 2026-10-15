@@ -26,6 +26,10 @@ Several tool blogs describe the format as circulating for Halloween, and Google 
 
 ChatGPT is stricter when a real face and a detailed description of that face show up together, so this prompt leads with the scene and tells the model to carry over the face from your photo.
 
+![A selfie in a dim 1990s hallway with a faint pale-masked figure standing in the doorway behind the subject](./images/ghostface-chatgpt-hallway.webp)
+
+*AI-generated example (fictional person, text-to-image). Results from your own photo will differ.*
+
 **Attach a clear, front-facing selfie, then paste this:**
 
 ```prompt
@@ -36,13 +40,13 @@ Turn the attached photo into a candid late-1990s horror movie still. Keep the pe
 ✅ "Keep the person's face from the attached photo" works better than re-describing your face  
 ❌ Leave out gore, blood and weapons. Suspense reads as scarier than violence and gets blocked far less often
 
-![A selfie in a dim 1990s hallway with a faint pale-masked figure standing in the doorway behind the subject](./images/ghostface-chatgpt-hallway.webp)
-
-*AI-generated example (fictional person, text-to-image). Results from your own photo will differ.*
-
 ## The Exact Gemini Prompt
 
 Gemini is usually more permissive with real faces, so you can be more specific about the person and the photo style.
+
+![Y2K-style flash portrait in a 90s bedroom with a bedsheet ghost standing in the dark doorway](./images/ghostface-gemini-y2k-bedroom.webp)
+
+*AI-generated example (fictional person, text-to-image). Results from your own photo will differ.*
 
 **Attach a clear, front-facing selfie, then paste this:**
 
@@ -53,10 +57,6 @@ Recreate this photo as a Y2K horror-movie flash photograph. Subject: [adult man 
 ✅ Naming the lit and unlit parts of the room (lamp on, rest dark) gives the masked figure a believable place to hide  
 ✅ "Keep the face identical" prevents the model from "improving" your features  
 ❌ Do not add brand names or movie titles, generic descriptions work better and are safer
-
-![Y2K-style flash portrait in a 90s bedroom with a bedsheet ghost standing in the dark doorway](./images/ghostface-gemini-y2k-bedroom.webp)
-
-*AI-generated example (fictional person, text-to-image). Results from your own photo will differ.*
 
 ## Six Variations to Try
 
