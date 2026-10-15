@@ -1,5 +1,6 @@
 ---
 title: "GTA 6 System Requirements 2026: What Your PC Actually Needs"
+seoTitle: "GTA 6 System Requirements 2026: PC Specs You Need"
 description: "GTA 6 system requirements for 2026, including predicted minimum, recommended, and enthusiast PC specs before Rockstar's official announcement."
 category: "Gaming"
 date: 2026-09-09

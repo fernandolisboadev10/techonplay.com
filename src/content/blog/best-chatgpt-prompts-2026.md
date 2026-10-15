@@ -1,5 +1,6 @@
 ---
 title: "Best ChatGPT Prompts 2026: 30 Templates for Work, Study, and Creative Projects"
+seoTitle: "Best ChatGPT Prompts 2026: 30 Templates That Work"
 description: "Discover the best ChatGPT prompts 2026 for work, study, and creativity, updated for GPT-6 and ChatGPT Work."
 category: "AI"
 date: 2026-09-21

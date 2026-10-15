@@ -1,5 +1,6 @@
 ---
 title: "GPT-6 Astra Release: What OpenAI’s New Model Means for Developers"
+seoTitle: "GPT-6 Astra Release: What It Means for Developers"
 description: "Get the full GPT-6 Astra release breakdown: pricing, benchmarks, rollout timeline, and how it compares to Claude and GPT-5.6 Sol."
 category: "AI"
 date: 2026-09-06

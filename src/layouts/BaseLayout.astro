@@ -113,7 +113,7 @@ const organizationSchema = {
     </script>
     <link rel="canonical" href={canonicalURL} />
     <link rel="alternate" type="application/rss+xml" title={siteName} href={new URL('/rss.xml', Astro.site)} />
-    <title>{title} · TechOnPlay</title>
+    <title>{title.length + 13 <= 60 ? `${title} · TechOnPlay` : title}</title>
 
     <meta property="og:site_name" content={siteName} />
     <meta property="og:type" content={type} />

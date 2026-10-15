@@ -1,5 +1,6 @@
 ---
 title: "Artificial Intelligence Tools 2026: The Best Pick for Every Job"
+seoTitle: "Artificial Intelligence Tools 2026: Best Pick per Job"
 description: "Compare top artificial intelligence tools of 2026 across images, video, sound and productivity, with prices and free options in every class."
 category: "Tools"
 date: 2026-09-21

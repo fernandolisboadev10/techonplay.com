@@ -1,5 +1,6 @@
 ---
 title: "AI Ransomware Attacks Now Take Under 10 Hours: How to Protect Yourself"
+seoTitle: "AI Ransomware Attacks: Under 10 Hours, How to Protect"
 description: "Learn how AI ransomware attacks now finish in under 10 hours, what Nvidia's OpenShell and Sentry do about it, and how to protect your data."
 category: "Security"
 date: 2026-09-29

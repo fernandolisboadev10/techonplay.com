@@ -1,5 +1,6 @@
 ---
 title: "Steam Frame Repairability: What iFixit's Teardown Found [2026]"
+seoTitle: "Steam Frame Repairability: What iFixit Found"
 description: "See how repairable Valve's Steam Frame really is: magnetic lenses and a modular nose bridge, but a glued battery and a fan buried deep inside."
 category: "Gaming"
 date: 2026-09-29

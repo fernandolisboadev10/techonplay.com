@@ -8,6 +8,7 @@ import PostNav from '../components/PostNav.astro';
 
 interface Props {
   title: string;
+  seoTitle?: string;
   description: string;
   category: string;
   date: Date;
@@ -18,7 +19,7 @@ interface Props {
   prev?: { slug: string; title: string };
   next?: { slug: string; title: string };
 }
-const { title, description, category, date, updated, readingTime, image, imageAlt, prev, next } = Astro.props;
+const { title, seoTitle, description, category, date, updated, readingTime, image, imageAlt, prev, next } = Astro.props;
 
 const formattedDate = date.toLocaleDateString('en-US', {
   day: '2-digit',
@@ -53,7 +54,7 @@ const articleSchema = {
   },
 };
 ---
-<BaseLayout title={title} description={description} image={image?.src} type="article">
+<BaseLayout title={seoTitle ?? title} description={description} image={image?.src} type="article">
   <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
   <article class="container post">
     <p class="category">{category}</p>

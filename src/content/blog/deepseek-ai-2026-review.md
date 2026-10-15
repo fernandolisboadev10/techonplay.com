@@ -1,9 +1,10 @@
 ---
 title: "DeepSeek AI 2026 Review: V4.1-Flash, Pricing and Privacy [Sept Update]"
-description: "DeepSeek AI changed its lineup again on September 10. The Chinese lab released V4.1-Flash, an open-weight model it says beats its own V4-Pro while costing three to four times less at peak rates. Twenty months ago, DeepSeek’s app topped the US iOS free chart and knocked roughly 17% off Nvidia’s stock in a single day. […]"
+seoTitle: "DeepSeek AI 2026 Review: V4.1-Flash, Pricing, Privacy"
+description: "DeepSeek V4.1-Flash is an open-weight model that costs three to four times less than V4-Pro. See pricing, benchmarks and the privacy risks for US users."
 category: "Reviews"
 date: 2026-09-21
-updated: 2026-09-21
+updated: 2026-10-15
 readingTime: "11 min"
 image: "./images/deepseek.webp"
 imageAlt: "DeepSeek AI Explained: What It Is, How It Works, and Why Developers Are Switching [2026 Review]"
@@ -147,6 +148,9 @@ Run one real task through the free chat this week, then send the same prompt to 
 ## Sources
 
 - [CNBC: China’s DeepSeek releases preview of long-awaited V4 model as AI race intensifies](https://www.cnbc.com/2026/04/24/deepseek-v4-llm-preview-open-source-ai-competition-china.html)
+
+- [The Next Web: DeepSeek launches V4.1-Flash and retires V4-Pro](https://thenextweb.com/news/deepseek-v4-1-flash-launch-v4-pro-retired-price-cut)
+- [SiliconANGLE: DeepSeek releases V4.1-Flash, says it outperforms flagship V4-Pro](https://siliconangle.com/2026/09/10/deepseek-releases-v4-1-flash-says-it-outperforms-flagship-v4-pro/)
 
 ## Related Reading
 

@@ -1,5 +1,6 @@
 ---
 title: "The Fake Blue Screen Scam: How to Spot the ‘ClickFix’ Trap Before It’s Too Late"
+seoTitle: "Fake Blue Screen Scam: Spot the ClickFix Trap"
 description: "Fake Blue Screen Scam alert: Hackers use fake Google Meet errors to steal data. Learn the warning signs and how to protect your PC now."
 category: "Security"
 date: 2026-09-23

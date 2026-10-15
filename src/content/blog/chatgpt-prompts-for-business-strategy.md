@@ -1,5 +1,6 @@
 ---
 title: "ChatGPT Prompts for Business Strategy: 6 Frameworks That Work in 2026"
+seoTitle: "ChatGPT Prompts for Business Strategy: 6 Frameworks"
 description: "Copy 6 ChatGPT prompts for business strategy built on frameworks: Porter's Five Forces, SWOT, PESTEL and more. Get sharper answers today."
 category: "AI"
 date: 2026-09-22

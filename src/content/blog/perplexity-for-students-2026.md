@@ -1,5 +1,6 @@
 ---
 title: "Perplexity for Students: The Research Tool That Cites Everything"
+seoTitle: "Perplexity for Students: Research Tool That Cites"
 description: "How to use Perplexity for students: get the Education Pro discount, Academic Focus mode, Spaces, and Comet browser for real coursework."
 category: "Tools"
 date: 2026-09-24

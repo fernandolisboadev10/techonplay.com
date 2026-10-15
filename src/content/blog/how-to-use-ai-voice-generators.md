@@ -1,5 +1,6 @@
 ---
 title: "AI Voice Generators for Viral Content: The 2026 Guide [ElevenLabs v3]"
+seoTitle: "AI Voice Generators 2026: ElevenLabs and Alternatives"
 description: "Compare the best AI voice generators for 2026, from ElevenLabs v3 Audio Tags to budget alternatives that cost a tenth of the price."
 category: "Guides"
 date: 2026-09-24

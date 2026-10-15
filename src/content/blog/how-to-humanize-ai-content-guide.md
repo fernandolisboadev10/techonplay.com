@@ -1,5 +1,6 @@
 ---
 title: "How to Humanize AI Content: A Writer’s Guide to Sounding Real, Not Robotic"
+seoTitle: "How to Humanize AI Content: Sound Real, Not Robotic"
 description: "Learn how to humanize AI content with active voice fixes, natural US English transitions, and sentence rhythm tips that actually work."
 category: "Guides"
 date: 2026-09-23

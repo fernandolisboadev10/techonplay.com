@@ -1,5 +1,6 @@
 ---
 title: "Surface Laptop Ultra: Is the $2,599 RTX Spark Laptop Worth It?"
+seoTitle: "Surface Laptop Ultra: Is the $2,599 Price Worth It?"
 description: "Microsoft's Surface Laptop Ultra starts at $2,599 with NVIDIA's RTX Spark chip. See specs, Microsoft's speed claims, the Dev Box and who should wait."
 category: "Reviews"
 date: 2026-10-08T18:00:00-04:00

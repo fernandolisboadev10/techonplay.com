@@ -1,5 +1,6 @@
 ---
 title: "Meta's Muse Wonder: What Meta's First Frontier Model Means for You"
+seoTitle: "Meta Muse Wonder: What the Frontier Model Means"
 description: "Meta's Muse Wonder is its first frontier model. See how it compares with GPT-6 Astra, Claude and Gemini 4 Argon, what it costs, and who should care."
 category: "AI"
 date: 2026-10-13T09:00:00-04:00

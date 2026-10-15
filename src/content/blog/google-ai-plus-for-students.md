@@ -1,5 +1,6 @@
 ---
 title: "Google AI Plus for Students: US Gets AI Pro Free Instead [2026]"
+seoTitle: "Google AI Plus for Students: US Gets AI Pro Free"
 description: "Searching Google AI Plus for students? In the US, the free year is Google AI Pro. See what it includes, who qualifies, and how to avoid the $19.99 charge."
 category: "Tools"
 date: 2026-10-02T14:00:00-04:00

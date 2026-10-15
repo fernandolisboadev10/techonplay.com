@@ -1,5 +1,6 @@
 ---
 title: "AI for Education: The Teacher Tool Stack Backed by 2026 Data"
+seoTitle: "AI for Education 2026: Tools Teachers Actually Use"
 description: "AI for Education tools teachers actually use in 2026 to save 5.9 hours a week, boost grades up to 10%, and cut lesson prep in half."
 category: "AI"
 date: 2026-09-25

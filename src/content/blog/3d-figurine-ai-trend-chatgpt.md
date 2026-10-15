@@ -1,5 +1,6 @@
 ---
 title: "The 3D Figurine AI Trend on ChatGPT: The Exact Prompt That Works"
+seoTitle: "3D Figurine AI Trend: The ChatGPT Prompt That Works"
 description: "Copy the exact ChatGPT prompt for the 3D figurine AI trend and turn any photo into a convincing collectible-style figure."
 category: "Trends"
 date: 2026-09-12

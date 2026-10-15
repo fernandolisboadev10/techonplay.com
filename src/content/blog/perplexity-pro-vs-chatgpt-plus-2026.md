@@ -1,5 +1,6 @@
 ---
 title: "Perplexity Pro vs ChatGPT Plus 2026: The Real Fight Is Who Finishes the Work"
+seoTitle: "Perplexity Pro vs ChatGPT Plus 2026: Which $20 Plan?"
 description: "Compare Perplexity Pro vs ChatGPT Plus as AI agents in 2026: Computer vs Work, credit costs, GPT-6 Astra access and which $20 plan fits you."
 category: "AI"
 date: 2026-09-28

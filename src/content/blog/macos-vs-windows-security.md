@@ -1,5 +1,6 @@
 ---
 title: "macOS vs Windows Security: Which One Actually Keeps You Safer in 2026?"
+seoTitle: "macOS vs Windows Security 2026: Which Is Safer?"
 description: "Discover which OS actually wins the macos vs windows security debate, and why the real answer isn't the one most people expect"
 category: "Security"
 date: 2026-08-27

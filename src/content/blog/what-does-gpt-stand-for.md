@@ -1,5 +1,6 @@
 ---
 title: "What Does GPT Stand For? The Acronym Everyone Uses but Few Understand"
+seoTitle: "What Does GPT Stand For? Plain-English Explainer"
 description: "Find out what GPT stands for, how it differs from ChatGPT, and how this AI technology works, explained in plain English."
 category: "AI"
 date: 2026-09-28

@@ -1,5 +1,6 @@
 ---
 title: "How to Detect Deepfakes in 2026: 12 Checks and 6 Free Tools That Work"
+seoTitle: "How to Detect Deepfakes 2026: 12 Checks, 6 Free Tools"
 description: "Learn how to detect deepfakes in 2026 with 12 visual, audio and context checks plus 6 free tools, including Gemini SynthID and Adobe Inspect."
 category: "Security"
 date: 2026-09-23

@@ -1,5 +1,6 @@
 ---
 title: "Best AI Video Generators After Sora: 6 Tools Ranked [Sept 2026]"
+seoTitle: "Best AI Video Generators After Sora: 6 Ranked (2026)"
 description: "Compare the best AI video generators after Sora's shutdown. See Gemini Omni Flash, Kling 3.0, Runway and more with prices and free options."
 category: "Tools"
 date: 2026-09-19

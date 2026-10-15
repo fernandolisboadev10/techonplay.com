@@ -1,5 +1,6 @@
 ---
 title: "Best Gaming PC for AI and Gaming in 2026: 4 Builds That Deliver"
+seoTitle: "Best Gaming PC for AI and Gaming 2026: 4 Builds"
 description: "Find the best gaming PC for AI and gaming in 2026, with four builds matched to VRAM tiers for local LLMs, Stable Diffusion, and 4K play."
 category: "Gaming"
 date: 2026-09-14

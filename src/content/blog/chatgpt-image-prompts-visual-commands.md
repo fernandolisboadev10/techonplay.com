@@ -1,5 +1,6 @@
 ---
 title: "100 ChatGPT Image Prompts I Actually Use Instead of Generic AI Photos"
+seoTitle: "100 ChatGPT Image Prompts for Pro-Looking Visuals"
 description: "Turn generic ChatGPT images into professional visuals with 100 tested image prompts covering lighting, framing, and camera angles"
 category: "AI"
 date: 2026-09-01

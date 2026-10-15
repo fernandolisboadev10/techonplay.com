@@ -1,5 +1,6 @@
 ---
 title: "Best Google AI Tools 2026: 10 Picks After Gemini 3.8 [Sept Update]"
+seoTitle: "Best Google AI Tools 2026: 10 Picks After Gemini 3.8"
 description: "Google AI tools of 2026, from Gemini 3.8 Flash and Omni video to Gemini Notebook and Antigravity. See prices and free options."
 category: "Tools"
 date: 2026-09-23

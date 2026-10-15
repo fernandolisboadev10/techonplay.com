@@ -1,5 +1,6 @@
 ---
 title: "ChatGPT Free Automations: 3 Scheduled Tasks You Can Run Today [2026]"
+seoTitle: "ChatGPT Free Automations: 3 Scheduled Tasks to Run"
 description: "ChatGPT free automations with 3 scheduled tasks, copy-paste prompts and free Zapier or Make backups. See what Free users get since Aug 25."
 category: "AI"
 date: 2026-09-19
