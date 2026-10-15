@@ -20,7 +20,9 @@ This guide breaks down the exact prompt built for ChatGPT’s image model, why i
 
 **Attach a clear, full-body or waist-up photo of yourself, then paste this:**
 
+```prompt
 Turn this photo into a 1/7 scale collectible figurine. Subject: keep the person’s face, likeness, and proportions from the attached photo, rendered in a smooth toy-like material with visible sculpted detail. Base and packaging: the figurine stands on a round clear acrylic base with no text engraved on it, placed next to a matching display box with clean minimal typography and a plastic window. Setting: a wooden desk with a computer monitor in the background showing a 3D modeling wireframe of the same figure. Lighting: soft studio lighting, subtle shadows under the base, slight reflective sheen on the material. Avoid: real skin texture, human hair strands, blurry edges, distorted hands, visible brand names or logos on the packaging.
+```
 
 ✅ Naming the desk, the box, and the wireframe screen first gives ChatGPT a full scene to render, which shifts focus away from the uploaded face ✅ “Keep the person’s face, likeness, and proportions” works better than describing facial features again, since ChatGPT already reads them from the photo ❌ Never write “realistic human” anywhere in the prompt. ChatGPT treats that phrase as a flag for identity manipulation and blocks more often
 

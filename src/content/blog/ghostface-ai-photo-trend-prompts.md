@@ -28,7 +28,7 @@ ChatGPT is stricter when a real face and a detailed description of that face sho
 
 **Attach a clear, front-facing selfie, then paste this:**
 
-```
+```prompt
 Turn the attached photo into a candid late-1990s horror movie still. Keep the person's face, features and pose from the attached photo. Setting: [a dim suburban hallway / a teenage bedroom / a kitchen at night], warm lamp light, wood paneling, a landline phone on a table. Wardrobe: [casual 90s clothing, e.g. an oversized flannel shirt]. In the background, a figure in a long black robe and a plain white ghost-style mask stands still in the doorway, slightly out of focus, as if it is watching. Camera and film quality: harsh on-camera flash, visible film grain, slightly underexposed, warm color cast, soft focus, 4:5 portrait crop. Avoid: gore, blood, weapons, logos, readable text, modern phones, studio lighting, airbrushed skin.
 ```
 
@@ -46,7 +46,7 @@ Gemini is usually more permissive with real faces, so you can be more specific a
 
 **Attach a clear, front-facing selfie, then paste this:**
 
-```
+```prompt
 Recreate this photo as a Y2K horror-movie flash photograph. Subject: [adult man / adult woman / adult], [skin tone and hair description], natural expression, [sitting on the edge of a bed / standing at a kitchen counter], holding [a corded landline phone / a cup of coffee]. Setting: [90s bedroom with posters and string lights / a quiet house at night], one lamp on, the rest dark. Background: a tall figure in a black hooded robe and a white ghost-style mask stands in the dark doorway behind the subject, only faintly lit. Camera and film quality: direct flash, grainy film texture, slightly soft focus, warm amber cast, small imperfections like dust and light leaks. Keep the face identical to the attached photo. Avoid: gore, logos, readable text, modern devices, airbrushed skin.
 ```
 

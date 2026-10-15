@@ -37,7 +37,7 @@ ChatGPT is generally stricter than Gemini with real faces, so this version leads
 
 **Attach both photos (yours first, then your family member's), then paste this:**
 
-```text
+```prompt
 Using the two attached photos, create one square portrait with a clean vertical split down the center. Left half: the face of the person in the first photo. Right half: the face of the person in the second photo. Keep both people's faces, features and skin tones exactly as in their photos so each is clearly recognizable. Align the eyes, nose and mouth along the center line so the two halves read as one continuous face. Use the same soft, even studio lighting on both sides, with a plain [neutral gray / warm beige] background and matching head size and angle. Style: natural photograph, [black and white / color], subtle film grain. Leave the center seam slightly visible and straight. Avoid: logos, text, watermarks, extra people, heavy retouching, smoothed skin.
 ```
 
@@ -55,7 +55,7 @@ Gemini's image editing handles multi-photo prompts well, so you can ask for a bi
 
 **Attach both photos, then paste this:**
 
-```text
+```prompt
 Combine the two attached photos into a single split-face portrait. Layout: a vertical split exactly down the center of the face. Left side: [your name or "me"], from the first photo. Right side: [your mom / dad / sibling / grandparent], from the second photo. Preserve each person's real facial features, hair, skin tone and age. Match head angle, scale and eye line so the halves align. Lighting: soft, even, front-facing light on both halves. Background: plain [color] studio backdrop. Format: [square 1:1 / vertical 4:5]. Mood: calm, neutral expression, looking at the camera. Camera quality: sharp focus, natural skin texture, light film grain. Avoid: text, logos, watermarks, cartoon styling, plastic skin, extra faces.
 ```
 

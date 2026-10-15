@@ -19,7 +19,9 @@ Below are both prompts, structured the way a prompt engineer would build them, p
 
 **Attach a clear, front-facing photo of yourself, then paste this:**
 
+```prompt
 Recreate this photo as a real 1990s point-and-shoot snapshot (not 1980s). Subject: an adult man with brown/tan skin tone, natural candid expression, sitting on a couch. Action: playing a classic gray home video game console, holding a boxy controller with both hands, eyes focused on the TV. Setting: 1990s living room, wood paneled walls, a warm yellow lamp, a bowl of popcorn and a mug nearby, generic vintage video game posters on the wall. Wardrobe: bold patterned knit sweater typical of the early-to-mid 1990s. Camera and film quality: visible film grain, warm amber-orange color cast, harsh direct on-camera flash, natural skin texture, slightly soft focus, minor motion blur, small timestamp in the corner. Avoid: modern consoles, modern furniture, digital sharpness, studio lighting, airbrushed skin, visible logos or brand names, anything from the 1980s specifically.
+```
 
 ✅ Breaking the prompt into Subject, Action, Setting, and Wardrobe blocks keeps Gemini from skipping details buried in a long paragraph  
 ✅ “Not 1980s” locks the decade, since Gemini sometimes blends neighboring eras when you only say “90s”  
@@ -33,7 +35,9 @@ ChatGPT’s image model runs a stricter check on prompts that combine a real upl
 
 **Attach a clear, front-facing photo of yourself, then paste this:**
 
+```prompt
 Turn this photo into a candid snapshot taken inside a 1990s American video rental store. Subject: keep the person’s face and features from the attached photo, natural unposed expression, standing in one of the aisles. Setting: rows of VHS tapes on shelving, hand-written cardboard genre signs, checkered tile floor, fluorescent overhead lighting, a return bin near the counter. Wardrobe: casual early-to-mid 1990s clothing, an oversized graphic tee or a windbreaker jacket. Camera and film quality: visible film grain, slightly warm color cast, on-camera flash with mild red-eye, soft focus, small corner timestamp reading 1994. Avoid: modern signage, digital displays, smartphones, airbrushed skin, studio lighting, visible store brand names or logos.
+```
 
 ✅ Naming the location first gives ChatGPT a scene to build around instead of a face to scrutinize, which lowers the chance of a refusal  
 ✅ “Keep the person’s face and features from the attached photo” works better than re-describing the face, since ChatGPT already has the reference image  
@@ -100,3 +104,4 @@ Grab a recent selfie, copy the prompt for your tool into Gemini or ChatGPT, and 
 - [Best AI Image Generators 2026: 7 Tools Leading Right Now [Sept Update]](/best-ai-image-generators-2026/)
 - [Ghostface AI Photo Trend: Exact ChatGPT and Gemini Prompts](/ghostface-ai-photo-trend-prompts/)
 - [Split-Face AI Family Trend: The Prompt That Works](/split-face-ai-family-trend-prompt/)
+- [Trend dos anos 80 com IA: como fazer sua foto e o prompt pronto](https://techonplay.com.br/trend-anos-80-ia-foto-prompt/) (the same idea in Portuguese, for the 1980s, on our Brazilian site)

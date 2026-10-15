@@ -46,3 +46,7 @@ Added after the 2026-10 content audit (`audit/REPORT.md`). Before publishing a p
 - Never state a future event as past. If the product is not on sale yet, write a pre-release guide.
 - After editing, run `node scripts/audit-links.mjs` (broken links, inbound counts), `npm run build`, then `node audit/check-built-links.mjs`. Run `node audit/check-external.mjs` now and then to catch dead external links.
 - When a post's facts go stale (new model, new price), update it and set `updated`; the JSON-LD `dateModified` now follows that field.
+
+## Prompts in posts
+
+Every prompt you give the reader goes in a fenced block with the language `prompt` (three backticks + prompt). The plugin `src/plugins/remark-prompt-box.mjs` renders it as a box with a copy button and the text in italics. Never leave a prompt as a loose paragraph.

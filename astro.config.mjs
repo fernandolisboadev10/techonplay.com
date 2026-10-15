@@ -4,6 +4,7 @@ import { defineConfig, fontProviders } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import { unified } from '@astrojs/markdown-remark';
 import rehypeExternalLinks from 'rehype-external-links';
+import remarkPromptBox from './src/plugins/remark-prompt-box.mjs';
 
 const blogDir = new URL('./src/content/blog/', import.meta.url);
 const dateBySlug = new Map();
@@ -65,6 +66,7 @@ export default defineConfig({
   ],
   markdown: {
     processor: unified({
+      remarkPlugins: [[remarkPromptBox, { button: '📋 Copy prompt' }]],
       rehypePlugins: [
         [rehypeExternalLinks, { target: '_blank', rel: ['noopener', 'noreferrer'] }],
       ],

@@ -100,6 +100,7 @@ const articleSchema = {
     return ok;
   }
 
+
   document.addEventListener('click', (event) => {
     const button = (event.target as HTMLElement).closest<HTMLButtonElement>('.copy-btn');
     if (!button) return;
@@ -259,5 +260,46 @@ const articleSchema = {
   :global(.prompt-card pre) {
     margin: 0;
     border-radius: 0;
+  }
+
+  :global(.prompt-box) {
+    margin: 24px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 16px 32px -20px rgba(91, 33, 182, 0.35);
+    background: var(--ink-deep);
+  }
+
+  :global(.prompt-box-bar) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 10px 14px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    color: rgba(255, 255, 255, 0.55);
+  }
+
+  :global(.prompt-box pre) {
+    margin: 0;
+    padding: 16px;
+    border: 0;
+    border-radius: 0;
+    background: transparent !important;
+    color: #ece7fb;
+    font-style: italic;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    overflow-x: visible;
+  }
+
+  :global(.prompt-box pre code),
+  :global(.prompt-box pre span) {
+    font-style: italic;
+    color: inherit !important;
+    white-space: pre-wrap;
   }
 </style>
