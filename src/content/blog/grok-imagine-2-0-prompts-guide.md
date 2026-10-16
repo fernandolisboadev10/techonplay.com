@@ -120,3 +120,4 @@ Try the three prompts above, then push your own edits through the region tool. T
 - [100 ChatGPT Image Prompts I Actually Use Instead of Generic AI Photos](/chatgpt-image-prompts-visual-commands/)
 - [The 3D Figurine AI Trend on ChatGPT: The Exact Prompt That Works](/3d-figurine-ai-trend-chatgpt/)
 - [90s AI Photo Trend: Exact Prompts for Gemini and ChatGPT](/90s-ai-photo-trend-gemini-prompt/)
+- [Tesla Roadster: What We Know About Price, Specs and Release Date](/tesla-roadster-price-specs-release-date/)

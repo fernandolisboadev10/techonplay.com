@@ -103,3 +103,4 @@ The GPT-6 Astra release raises the ceiling on what a single model can do across 
 - [Claude Sonnet 5 Release 2026: Full Benchmarks and Upgrade Verdict](/claude-sonnet-5-release/)
 - [What Does GPT Stand For? The Acronym Everyone Uses but Few Understand](/what-does-gpt-stand-for/)
 - [DeepSeek AI 2026 Review: V4.1-Flash, Pricing and Privacy [Sept Update]](/deepseek-ai-2026-review/)
+- [Tesla Roadster: What We Know About Price, Specs and Release Date](/tesla-roadster-price-specs-release-date/)
