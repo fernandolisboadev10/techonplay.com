@@ -46,67 +46,18 @@ const organizationSchema = {
     <link rel="icon" type="image/png" sizes="512x512" href="/favicon.png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <meta name="description" content={description} />
-    <meta name="google-adsense-account" content="ca-pub-2842913185476217" />
     <meta name="msvalidate.01" content="F04E2D779DB6A8BB49F3A3817EFBF74F" />
-    <meta name="google-site-verification" content="YUGAi5Km1HM9xujfPEHmEkev43C75gjETjzUEyOLaSo" />
 
     <script is:inline>
-      // Consent: EU/UK-style timezones start denied (opt-in); everywhere else starts granted (opt-out).
-      // The visitor's choice is stored in localStorage under "cookie-consent".
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+      // Consent choice (localStorage "cookie-consent"); no analytics or ad tags are loaded here.
       (function () {
-        var tz = '';
-        try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone || ''; } catch (e) {}
-        var strict = tz.indexOf('Europe/') === 0 ||
-          ['Atlantic/Canary','Atlantic/Madeira','Atlantic/Azores','Atlantic/Faroe','Atlantic/Reykjavik','Asia/Nicosia','Asia/Famagusta'].indexOf(tz) !== -1;
         var stored = null;
         try { stored = localStorage.getItem('cookie-consent'); } catch (e) {}
-        var state = (stored === 'granted' || stored === 'denied') ? stored : (strict ? 'denied' : 'granted');
-        var adsLoaded = false;
-
-        function loadAds() {
-          if (adsLoaded) return;
-          adsLoaded = true;
-          var s = document.createElement('script');
-          s.async = true;
-          s.crossOrigin = 'anonymous';
-          s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2842913185476217';
-          document.head.appendChild(s);
-        }
-
-        gtag('consent', 'default', {
-          ad_storage: state, analytics_storage: state, ad_user_data: state, ad_personalization: state
-        });
-        gtag('js', new Date());
-        gtag('config', 'G-XKTXW9L66D');
-
-        // Third-party scripts (analytics and ads) load on the first interaction, or a few seconds
-        // after the page finished loading, so they never compete with the first paint.
-        var thirdPartyLoaded = false;
-        function loadThirdParty() {
-          if (thirdPartyLoaded) return;
-          thirdPartyLoaded = true;
-          var g = document.createElement('script');
-          g.async = true;
-          g.src = 'https://www.googletagmanager.com/gtag/js?id=G-XKTXW9L66D';
-          document.head.appendChild(g);
-          if (state === 'granted') loadAds();
-        }
-        ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (ev) {
-          window.addEventListener(ev, loadThirdParty, { once: true, passive: true });
-        });
-        window.addEventListener('load', function () { setTimeout(loadThirdParty, 3500); });
-
         window.techonplayConsent = {
           hasChoice: function () { return stored === 'granted' || stored === 'denied'; },
           set: function (value) {
             stored = value;
             try { localStorage.setItem('cookie-consent', value); } catch (e) {}
-            gtag('consent', 'update', {
-              ad_storage: value, analytics_storage: value, ad_user_data: value, ad_personalization: value
-            });
-            if (value === 'granted' && thirdPartyLoaded) loadAds();
           }
         };
       })();
