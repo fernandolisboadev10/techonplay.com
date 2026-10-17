@@ -3,95 +3,81 @@ import { getCollection } from 'astro:content';
 import { isPublished } from '../utils/posts';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PostCard from '../components/PostCard.astro';
-import FeaturedGrid from '../components/FeaturedGrid.astro';
+import HomeLead from '../components/HomeLead.astro';
+import LatestList from '../components/LatestList.astro';
+import CategoryBlock from '../components/CategoryBlock.astro';
+import SectionHead from '../components/SectionHead.astro';
 import Pagination from '../components/Pagination.astro';
 
+// Page 1: lead (3 posts) + "Latest" (the next 9). Pages 2+ continue from there as a card grid,
+// so /page/2/ starts exactly where the "Latest" column ends.
 const PER_PAGE = 9;
 const page = Number(Astro.props.page ?? 1);
 const all = (await getCollection('blog', isPublished))
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
-const featured = page === 1 ? all.slice(0, 3) : [];
+const lead = all.slice(0, 3);
 const gridAll = all.slice(3);
 const totalPages = Math.max(1, Math.ceil(gridAll.length / PER_PAGE));
 const rest = gridAll.slice((page - 1) * PER_PAGE, page * PER_PAGE);
+
+// One block per category with at least 4 posts outside the lead, biggest categories first.
+// There are no category pages here, so "See all" opens the blog filtered by that category.
+const blocks = [...new Set(all.map((p) => p.data.category))]
+  .map((name) => ({
+    name,
+    href: `/blog?category=${encodeURIComponent(name)}`,
+    total: all.filter((p) => p.data.category === name).length,
+    posts: gridAll.filter((p) => p.data.category === name).slice(0, 4),
+  }))
+  .filter((b) => b.posts.length >= 4)
+  .sort((a, b) => b.total - a.total);
 ---
 <BaseLayout title={page > 1 ? `AI, Gaming, Security and Tech - Page ${page}` : "AI, Gaming, Security and Tech"}>
-  {page === 1 && (
-  <section class="hero container">
-    <h1 class="sr-only">Tech worth pressing play on.</h1>
-    <p class="eyebrow">techonplay.com<span class="eyebrow-cursor">_</span></p>
-  </section>
-  )}
+  <h1 class="sr-only">Tech worth pressing play on.</h1>
 
-  {page === 1 && (
-  <section class="container featured-wrap">
-    <div class="recent-header">
-      <div>
-        <h2>Trending now</h2>
-        <span class="underline"></span>
-      </div>
-    </div>
-    <FeaturedGrid posts={featured} />
-  </section>
-  )}
+  {page === 1 ? (
+    <>
+      <section class="container top">
+        <div class="top-lead">
+          <HomeLead posts={lead} />
+        </div>
+        <aside class="top-latest" aria-labelledby="latest-title">
+          <SectionHead title="Latest" id="latest-title" />
+          <LatestList posts={rest} />
+          {totalPages > 1 && <a class="more-posts" href="/page/2/">More posts</a>}
+        </aside>
+      </section>
 
-  <section class="container recent">
-    <div class="recent-header">
-      <div>
-        <h2>Fresh off the press</h2>
-        <span class="underline"></span>
+      {blocks.length > 0 && (
+        <div class="container blocks">
+          {blocks.map((b) => <CategoryBlock {...b} />)}
+        </div>
+      )}
+    </>
+  ) : (
+    <section class="container recent">
+      <SectionHead title={`All posts, page ${page}`} />
+      <div class="grid">
+        {rest.map((post, i) => (
+          <PostCard
+            slug={post.id}
+            title={post.data.title}
+            description={post.data.description}
+            category={post.data.category}
+            date={post.data.date}
+            readingTime={post.data.readingTime}
+            image={post.data.image}
+            imageAlt={post.data.imageAlt}
+            priority={i === 0}
+          />
+        ))}
       </div>
-      <a href="/blog">See all →</a>
-    </div>
-    <div class="grid">
-      {rest.map((post, i) => (
-        <PostCard
-          slug={post.id}
-          title={post.data.title}
-          description={post.data.description}
-          category={post.data.category}
-          date={post.data.date}
-          readingTime={post.data.readingTime}
-          image={post.data.image}
-          imageAlt={post.data.imageAlt}
-          priority={i === 0}
-        />
-      ))}
-    </div>
-    <Pagination current={page} total={totalPages} />
-  </section>
+      <Pagination current={page} total={totalPages} />
+    </section>
+  )}
 </BaseLayout>
 
 <style>
-  .hero {
-    padding-block: 48px 0;
-  }
-
-  .eyebrow {
-    font-family: var(--font-mono);
-    font-size: 0.8rem;
-    font-weight: 600;
-    letter-spacing: 0.02em;
-    margin: 0;
-    background: linear-gradient(135deg, var(--violet), var(--rose));
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-  }
-
-  .eyebrow-cursor {
-    display: inline-block;
-    margin-left: 2px;
-    color: var(--rose);
-    animation: blink 1.1s steps(1) infinite;
-  }
-
-  @keyframes blink {
-    50% {
-      opacity: 0;
-    }
-  }
-
   .sr-only {
     position: absolute;
     width: 1px;
@@ -104,76 +90,71 @@ const rest = gridAll.slice((page - 1) * PER_PAGE, page * PER_PAGE);
     border: 0;
   }
 
-  .featured-wrap {
-    padding-block: 32px 8px;
+  .top {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 340px;
+    gap: 40px;
+    padding-block: 36px 48px;
+  }
+
+  .more-posts {
+    display: block;
+    margin-top: 12px;
+    padding: 11px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--ink-strong);
+    text-decoration: none;
+  }
+
+  .more-posts:hover {
+    border-color: var(--violet);
+    color: var(--violet);
+  }
+
+  .blocks {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 48px 40px;
+    padding-block: 16px 64px;
   }
 
   .recent {
     padding-block: 40px;
   }
 
-  .recent-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin-bottom: 28px;
-  }
-
-  .underline {
-    display: block;
-    width: 48px;
-    height: 4px;
-    margin-top: 10px;
-    border-radius: 2px;
-    background: linear-gradient(135deg, var(--violet), var(--rose));
-  }
-
-  .recent-header a {
-    text-decoration: none;
-    color: var(--teal);
-    font-size: 0.9rem;
-    white-space: nowrap;
-  }
-
   .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 24px;
   }
 
-  .more {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-  }
-
-  .more-btn {
-    display: inline-block;
-    padding: 16px 40px;
-    border-radius: 999px;
-    background: linear-gradient(135deg, var(--violet), var(--rose));
-    color: #fff;
-    font-weight: 700;
-    font-size: 1.05rem;
-    text-decoration: none;
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
-  }
-
-  .more-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(160, 40, 160, 0.3);
+  @media (max-width: 960px) {
+    .top {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 32px;
+    }
   }
 
   @media (max-width: 860px) {
     .grid {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 720px) {
+    .blocks {
+      grid-template-columns: minmax(0, 1fr);
     }
   }
 
   @media (max-width: 600px) {
     .grid {
-      grid-template-columns: 1fr;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 0;
     }
   }
 </style>
-
