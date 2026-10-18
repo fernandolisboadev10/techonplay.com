@@ -50,3 +50,10 @@ Added after the 2026-10 content audit (`audit/REPORT.md`). Before publishing a p
 ## Prompts in posts
 
 Every prompt you give the reader goes in a fenced block with the language `prompt` (three backticks + prompt). The plugin `src/plugins/remark-prompt-box.mjs` renders it as a box with a copy button and the text in italics. Never leave a prompt as a loose paragraph.
+
+## Link rules in posts
+
+- **Internal links first.** Open with internal links (at least 2 in the body, descriptive anchors, only existing slugs). No external link in the first third of the body.
+- **At most 3 external links in the body**, from the middle onward, only for the source behind a fact or the tool's official site. The same URL repeated counts once.
+- **References at the end have no limit**: anything beyond 3 goes to the closing block (`Sources: [A](url) | [B](url)`). In the body, the source becomes plain text ("according to Reuters").
+- The official tool link (e.g. deepseek.com) is one of the 3 external links, placed mid-article, never in the opening.

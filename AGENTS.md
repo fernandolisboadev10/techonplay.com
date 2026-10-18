@@ -43,3 +43,10 @@ Added after the 2026-10 content audit (`audit/REPORT.md`). Before publishing a p
 - Never state a future event as past. If the product is not on sale yet, write a pre-release guide.
 - After editing, run `node scripts/audit-links.mjs` (broken links, inbound counts), `npm run build`, then `node audit/check-built-links.mjs`. Run `node audit/check-external.mjs` now and then to catch dead external links.
 - When a post's facts go stale (new model, new price), update it and set `updated`; the JSON-LD `dateModified` now follows that field.
+
+## Link rules in posts
+
+- **Internal links first.** Open with internal links (at least 2 in the body, descriptive anchors, only existing slugs). No external link in the first third of the body.
+- **At most 3 external links in the body**, from the middle onward, only for the source behind a fact or the tool's official site. The same URL repeated counts once.
+- **References at the end have no limit**: anything beyond 3 goes to the closing block (`Sources: [A](url) | [B](url)`). In the body, the source becomes plain text ("according to Reuters").
+- The official tool link (e.g. deepseek.com) is one of the 3 external links, placed mid-article, never in the opening.
