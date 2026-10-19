@@ -4,11 +4,6 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
-  schedule:
-    # Posts go live at 09:00 America/New_York. GitHub cron is UTC, ignores DST (EDT: 13, EST: 14) and often
-    # delays or skips scheduled runs, so run every hour from 13:02 to 23:02 UTC (09:02-19:02 EDT). A skipped
-    # run then delays a post by at most an hour. Posts dated in the future go live on the next run after their date.
-    - cron: '2 13-23 * * *'
 
 permissions:
   contents: read
