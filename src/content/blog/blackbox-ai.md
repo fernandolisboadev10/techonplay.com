@@ -2,7 +2,7 @@
 title: "Blackbox AI Review 2026: Features, Pricing and the Real Verdict"
 seoTitle: "Blackbox AI Review 2026: Features, Pricing, Verdict"
 description: "See what Blackbox AI actually does, its real pricing tiers, and how the Chairman multi-agent workflow compares to GitHub Copilot in 2026."
-category: "AI"
+category: "Reviews"
 date: 2026-09-21
 updated: 2026-09-22
 readingTime: "8 min"

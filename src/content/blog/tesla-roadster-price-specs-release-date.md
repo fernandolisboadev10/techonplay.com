@@ -2,7 +2,7 @@
 title: "Tesla Roadster: What We Know About Price, Specs and Release Date"
 seoTitle: "Tesla Roadster: Price, Specs and Release Date"
 description: "Tesla unveiled the new Roadster in three trims. Here is what is confirmed on specs, the $50,000 reservation, range and the 2028 production hint, and what is not."
-category: "Trends"
+category: "Reviews"
 date: 2026-10-16T13:45:00-04:00
 readingTime: "5 min"
 tags: ["Tesla Roadster", "Tesla", "Electric Vehicles", "Elon Musk", "Google Trends"]

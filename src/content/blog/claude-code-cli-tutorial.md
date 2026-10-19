@@ -2,7 +2,7 @@
 title: "How to Install Claude Code CLI: Complete Setup Guide (2026)"
 seoTitle: "How to Install Claude Code CLI: Setup Guide (2026)"
 description: "Install Claude Code CLI the right way: prerequisites, CLAUDE.md setup, and the new Auto Mode permission system explained for 2026."
-category: "Tools"
+category: "Guides"
 date: 2026-09-18
 updated: 2026-09-18
 readingTime: "8 min"

@@ -2,7 +2,7 @@
 title: "Moltbook AI Agent Network: Inside the Social Platform Built for Bots"
 seoTitle: "Moltbook AI Agent Network: The Social Platform for Bots"
 description: "Discover what the Moltbook AI agent network is, how OpenClaw powers it, and why security experts warn about prompt injection risks in 2026"
-category: "Security"
+category: "AI"
 date: 2026-08-29
 updated: 2026-08-29
 readingTime: "7 min"

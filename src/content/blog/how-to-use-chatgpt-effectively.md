@@ -2,7 +2,7 @@
 title: "How to Use ChatGPT Effectively: 9 Rules That Actually Work [2026]"
 seoTitle: "How to Use ChatGPT Effectively: 9 Rules That Work"
 description: "Learn how to use ChatGPT effectively with 9 proven rules, copy-ready prompts, and 2026 model tips for GPT-6 Astra, Sol, and Luna."
-category: "AI"
+category: "Guides"
 date: 2026-09-28
 updated: 2026-09-28
 readingTime: "9 min"
