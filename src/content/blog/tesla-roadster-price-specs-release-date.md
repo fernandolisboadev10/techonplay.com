@@ -1,18 +1,29 @@
 ---
-title: "Tesla Roadster: What We Know About Price, Specs and Release Date"
-seoTitle: "Tesla Roadster: Price, Specs and Release Date"
-description: "Tesla unveiled the new Roadster in three trims. Here is what is confirmed on specs, the $50,000 reservation, range and the 2028 production hint, and what is not."
+title: "Elon Musk's Tesla Roadster Can \"Fly\" With SpaceX Thrusters"
+seoTitle: "Tesla Roadster: SpaceX Thrusters, Price and Release Date"
+description: "Tesla's new Roadster flipped in the air and jumped over a Cybertruck. Here is what Musk showed, the $50,000 reservation, and when it might ship."
 category: "Reviews"
 date: 2026-10-16T13:45:00-04:00
+updated: 2026-10-19T17:50:00-04:00
 readingTime: "5 min"
-tags: ["Tesla Roadster", "Tesla", "Electric Vehicles", "Elon Musk", "Google Trends"]
-image: "./images/tesla-roadster-price-specs-release-date.webp"
-imageAlt: "White electric sports car seen from behind on a race track at dawn, with a faint mist of gas drifting from the rear"
+tags: ["Tesla Roadster", "Tesla", "Elon Musk", "SpaceX", "Electric Vehicles"]
+image: "./images/tesla-roadster-spacex-thrusters-jump.webp"
+imageAlt: "White electric sports car flipping through the air above a pickup truck and a semi-truck at a desert test range at dusk, with white thruster jets trailing behind"
 ---
 
-The **Tesla Roadster** is one of the most-searched names online this week, and for once the buzz has a clear trigger. Tesla finally unveiled the car in a livestream on October 15, 2026, after several postponed dates, and the details raise as many questions as they answer.
+A car that drives upside down, flips through the air and jumps over a Cybertruck. That is what Elon Musk showed on October 15, 2026, when Tesla finally unveiled the new **Tesla Roadster** in a livestream after years of delays. It is one of the most-searched names online this week, and the question everyone is asking is whether it can really fly. The short answer: not like a drone, but cold-gas thrusters borrowed from SpaceX technology let it jump and spin in the air.
 
-Here is what Tesla has actually confirmed about the Tesla Roadster's price, specs and release date, plus the parts that remain claims or blanks. Most of the details below come from [Electrek's report on the unveiling](https://electrek.co/2026/10/15/tesla-unveils-cyberfied-new-roadster-kickflip/). If you read Portuguese, there is also a [Portuguese-language version for Brazilian readers](https://techonplay.com.br/tesla-roadster-novo-carro-preco-lancamento/) written for that audience.
+Here is what Tesla and the press have actually confirmed about the Roadster, including the price, specs and release date, plus the parts that remain claims or blanks. Most details come from Electrek's report on the unveiling and from Ubergizmo's rundown of the demo, both linked in the sources at the end. Every performance figure below is Tesla's own and has not been independently verified.
+
+## What the Roadster Did on Stage
+
+The demo took place at SpaceX's test site in McGregor, Texas, and had three highlights:
+
+- **Upside down:** the car sat inverted on a ramp. Tesla says its suction fans and ground seal create enough pull to hold it there, even when stopped.
+- **Mid-air flips:** using the thrusters, the Roadster performed flips and corkscrew spins, and Electrek describes it kickflipping through the air.
+- **Jumping over cars:** the prototype leapt over a Cybercab, a Cybertruck, a Semi, a Model Y and a Model 3.
+
+Tesla also published a live 0-60 mph run of 0.81 seconds, with thruster assistance. It was timed on Tesla's own clock, and Musk said he expects an even better figure from the production car. So, to be clear: the Roadster jumps and spins, but it does not truly fly. Tesla did not disclose how high the jumps went, and everything shown was a prototype.
 
 ## Three Trims, Very Different Cars
 
@@ -84,10 +95,13 @@ Viral moments tend to blur the line between a product and a promise. If you like
 ## Sources
 
 - [Electrek: Tesla unveils the cyberfied new Roadster](https://electrek.co/2026/10/15/tesla-unveils-cyberfied-new-roadster-kickflip/)
+- [Ubergizmo: Tesla Roadster demo, upside-down suction, mid-air corkscrews and a thruster-assisted 0-60](https://www.ubergizmo.com/2026/10/tesla-roadster-demo-upside-down-suction-mid-air-corkscrews-and-a-thruster-assisted-0-81s-0-60/)
 
 ## Related Reading
 
+- [Portuguese-language version for Brazilian readers](https://techonplay.com.br/tesla-roadster-novo-carro-preco-lancamento/)
 - [The 3D Figurine AI Trend on ChatGPT: The Exact Prompt That Works](/3d-figurine-ai-trend-chatgpt/)
 - [Split-Face AI Family Trend: The Prompt That Works](/split-face-ai-family-trend-prompt/)
 - [Grok Imagine 2.0 Prompts Guide](/grok-imagine-2-0-prompts-guide/)
 - [GPT-6 Astra Release: What OpenAI’s New Model Means for Developers](/gpt-6-astra-release/)
+- [Portuguese-language version for Brazilian readers](https://techonplay.com.br/tesla-roadster-novo-carro-preco-lancamento/)
