@@ -38,3 +38,4 @@ Watch list from audit/REPORT.md: decide merge/delete only with GSC data.
 ## Log
 (append: date, slug, what changed, build result)
 - 2026-10-25 | iphone-duo-review | Converted pre-launch guide to post-launch: on sale Oct 23, added early-review section (Engadget hands-on, The National), weight/thickness/crease/battery findings, supply note, trimmed body to 3 external links (rest in Sources), set `updated`. Facts checked against Engadget and The National; Tom's Guide and Cult of Mac were not readable. Build OK, audit-links ran, check-built-links 0 unresolved.
+- 2026-10-25 | claude-sonnet-5-release | Minor: added Sonnet 5.5 pricing note ($2/$10, Sonnet 5 now legacy per claude.com/pricing), dated the pricing check, fixed a garbled sentence; `updated` unchanged (not substantial). Image alt/name still says Sonnet 4.6 (not touched). Verified vs TechCrunch, Engadget, claude.com/pricing. Build OK, audit-links ran, check-built-links 0 unresolved.
