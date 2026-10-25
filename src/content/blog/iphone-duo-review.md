@@ -1,84 +1,93 @@
 ---
 title: "iPhone Duo: Price, Specs and Release Date (Worth $1,999?)"
-description: "iPhone Duo price starts at $1,999. See specs, battery, Touch ID, preorder date Oct 16 and release Oct 23, plus what to check before you buy."
+description: "iPhone Duo is on sale now from $1,999. See specs, battery, Touch ID, what early reviews say about the crease and weight, and who should buy."
 category: "Reviews"
 date: 2026-09-27
-updated: 2026-10-04
+updated: 2026-10-25T10:00:00-04:00
 readingTime: "5 min"
 image: "./images/iPhone-Duo-Review.webp"
 imageAlt: "iPhone Duo price, specs and release date"
 ---
 
-Apple's first foldable is official, and the **iPhone Duo** costs $1,999 before you add storage. It goes up for preorder on October 16 and reaches stores on October 23, so nobody outside Apple has lived with one yet.
+Apple's first foldable, the **iPhone Duo**, went on sale October 23 and starts at $1,999 for 256GB. Preorders opened October 16, and the phone is available in more than 70 countries, including the US.
 
-That changes how to read the early coverage. This guide sticks to what Apple announced and what TechCrunch, Engadget and 9to5Mac confirmed, then tells you what to check before you spend $2,000 or more. [Editorial note: this is a pre-release guide, not a hands-on review. We will update it with real-world testing after launch.]
+Early hands-on reviews are now out, and they agree on a few things: the inner screen is the star, the crease is faint, and the phone is heavier and thicker than its rivals. This guide combines Apple's announced specs with what reviewers found. [Editorial note: we have not tested a Duo ourselves, so this is a roundup of published specs and outside reviews, not our own hands-on review.]
 
-Here is what the iPhone Duo offers, what it leaves out, how supply may play out, and how to avoid the fake preorder pages already circulating.
+Here is what the iPhone Duo offers, what it gives up, how supply looks, and how to avoid the fake preorder pages that circulated before launch.
 
 ## iPhone Duo Price and Release Date
 
-The iPhone Duo starts at $1,999 for 256GB, according to [Engadget's coverage of the announcement](https://www.engadget.com/2254027/apple-iphone-duo-announced-specs-price/). Higher storage tiers climb from there, and the 2TB model tops out at $3,199.
+The iPhone Duo starts at $1,999 for 256GB. Higher storage tiers climb from there, and the 2TB model tops out at $3,199.
 
-📅 **Preorders:** Friday, October 16 at 5 a.m. PT
-📅 **Release:** Friday, October 23, in more than 70 countries, including the US
+📅 **Preorders:** opened Friday, October 16
+📅 **In stores:** Friday, October 23, in more than 70 countries, including the US
 🎨 **Colors:** Night Sky and Star White
 💰 **Starting price:** $1,999 for 256GB, up to $3,199 for 2TB
 
-If you plan to preorder, decide on storage before the sale opens. Jumping a tier costs more on this phone than on any other iPhone.
+Jumping a storage tier costs more on this phone than on any other iPhone, so pick your capacity carefully.
 
 ## iPhone Duo Specs: What Apple Confirmed
 
-Apple built the Duo around two screens and a hinge made of more than 100 components, per [TechCrunch's launch report](https://techcrunch.com/2026/09/09/apple-unveils-its-first-foldable-the-iphone-duo/).
+Apple built the Duo around two screens and a hinge made of more than 100 components.
 
 | 📱 Feature | ✅ What Apple announced |
 | --- | --- |
 | 🖥️ Inner display | 7.6-inch Retina, with a nanotexture finish to hide the crease |
 | 📲 Outer display | 5.4-inch |
 | ⚙️ Chip | A20 Pro with Apple's C2 modem |
+| 📷 Rear cameras | 48MP main (with 2x telephoto crop) and 48MP ultra-wide |
 | 🔓 Unlock | Touch ID in the side button, plus Apple Watch unlock, and no Face ID |
 | 🔋 Battery | Up to 31 hours of video on the inner display, up to 44 hours on the outer display |
 | 📶 SIM | eSIM only |
-| 💻 Software | iOS 27 with foldable-specific changes, Apple Pencil support later in 2026 |
+| 🧱 Frame | Titanium |
+| 💻 Software | iOS 27 with foldable-specific changes, Apple Pencil support |
 
-Apple lists a titanium frame. Camera details differ between early reports, so check Apple's official spec page for the exact lens lineup before you decide.
+## What Early Reviews Say
+
+Reviewers were generally positive but not unanimous about the $1,999 price. According to [Engadget's hands-on](https://engadget.com/2254389/iphone-duo-hands-on-apple-s-most-exciting-device-in-a-decade/):
+
+- **Crease:** faint, easier to feel than to see, and still visible up close.
+- **Weight and thickness:** 254 grams and 11.3mm closed, versus 201 grams and 9.7mm for the Galaxy Z Fold 8.
+- **Cameras:** capable, but the reviewer wanted a longer dedicated zoom lens.
+- **Touch ID:** the reviewer preferred it to Face ID for unlocking and payments.
+
+A review from The National in the UAE reached similar conclusions: a sturdy hinge with no wobble, a "virtually invisible" crease, and battery life that matched the iPhone 18 Pro in a one-hour video test and beat it in daily use. Apple has not published a fold durability rating, so long-term hinge wear is still unknown.
 
 ## What the iPhone Duo Gives Up
 
-A foldable always trades something for the second screen, and the Duo makes three trade-offs worth weighing.
+A foldable always trades something for the second screen, and the Duo makes a few trade-offs worth weighing.
 
-❌ **No Face ID.** Apple chose Touch ID in the side button. It works, but anyone upgrading from a standard iPhone loses the hands-free unlock they use all day.
+❌ **No Face ID.** Apple chose Touch ID in the side button. It works well, but anyone upgrading from a standard iPhone loses the hands-free unlock they use all day.
 
 ❌ **eSIM only.** Travelers who swap physical SIM cards abroad need to plan around eSIM plans.
 
-❌ **First-generation risk.** Hinges and creases are where foldables age. Wait for durability tests and teardowns before you treat any claim about the crease as settled.
+❌ **Heavy and thick.** At 254 grams it is noticeably heavier than rival foldables, which matters if you carry it in a pocket all day.
 
-## Will You Be Able to Buy One?
+❌ **First-generation risk.** Hinges and creases are where foldables age. Wait for durability tests and teardowns before you treat any claim as settled.
 
-Supply may be tight. [9to5Mac reported](https://9to5mac.com/2026/09/15/iphone-duo-could-be-very-hard-to-get-at-launch-per-report/) that the Duo could be hard to get at launch, with hinge constraints slowing production and shipments in 2026 expected to be limited. Apple has not confirmed any production figure.
+## Can You Actually Buy One?
 
-If you want one on day one, set a reminder for 5 a.m. PT on October 16 and sign in to the Apple Store app before the sale starts.
+Supply is tight. 9to5Mac reported before launch that hinge constraints could slow production and limit 2026 shipments, and one launch-week review noted that shipping times were extending because demand outran supply. Apple has not confirmed any production figure. If you order now, expect a wait rather than a same-day pickup.
 
 ## Beware of Fake iPhone Duo Preorder Pages
 
 Scammers move fast around hyped launches. [9to5Mac reported](https://9to5mac.com/2026/09/30/fake-iphone-duo-preorder-page-can-steal-crypto-wallet-data-and-more/) a fake iPhone Duo preorder page that can steal crypto wallet data and more.
 
-Only preorder through Apple's own site or app, or a carrier or retailer you already use. If a page asks you to paste a command, connect a wallet or install something to "reserve" a phone, close it. The same social-engineering pattern shows up in the [fake blue screen scam](/fake-blue-screen-scam/), and it is just as easy to avoid once you know the tell.
+Only order through Apple's own site or app, or a carrier or retailer you already use. If a page asks you to paste a command, connect a wallet or install something to "reserve" a phone, close it. The same social-engineering pattern shows up in the [fake blue screen scam](/fake-blue-screen-scam/), and it is just as easy to avoid once you know the tell.
 
 ## Is the iPhone Duo Worth It?
 
-It depends on what you need from a phone, and no independent testing exists yet.
-
-✅ **Consider it** if you want a 7.6-inch screen that fits in a pocket and you are comfortable with Touch ID.
+✅ **Buy it** if you want a 7.6-inch screen that fits in a pocket, you are comfortable with Touch ID, and you can tolerate the extra weight.
 ❌ **Skip it for now** if you rely on Face ID, want a proven design, or care most about camera zoom.
-⏱️ **Wait for reviews** if you can. Real battery tests, crease durability and camera comparisons will land within days of October 23.
+⏱️ **Wait** if you can. Long-term crease and hinge durability only show up after months of use.
 
-Android alternatives also keep getting pricier, as our report on the Galaxy S26 price increase shows, so compare total cost, not just the sticker price.
+Android foldables also keep getting pricier, as our report on the Galaxy S26 price increase shows, so compare total cost, not just the sticker price. For another expensive hardware bet, see how [iFixit's Steam Frame teardown](/steam-frame-repairability/) judged repairability.
 
 ## FAQ
 
-### When can you preorder the iPhone Duo?
+### When did the iPhone Duo go on sale?
 
-_Preorders open Friday, October 16, at 5 a.m. PT, and the phone is available Friday, October 23, in more than 70 countries including the US._
+_Preorders opened Friday, October 16, and the phone went on sale Friday, October 23, in more than 70 countries including the US._
 
 ### How much does the iPhone Duo cost?
 
@@ -90,24 +99,26 @@ _No. It uses Touch ID in the side button and can also unlock with a paired Apple
 
 ### How long does the iPhone Duo battery last?
 
-_Apple rates it at up to 31 hours of video playback on the inner display and up to 44 hours on the outer display. Real-world results will differ, and independent tests are still pending._
+_Apple rates it at up to 31 hours of video playback on the inner display and up to 44 hours on the outer display. One early review found it matched the iPhone 18 Pro in a short video test and lasted longer in daily use._
 
-### Is there an iPhone Duo review from real users yet?
+### Is the crease visible?
 
-_Not yet. The phone is not on sale until October 23, so any claim of long-term testing before then is guesswork. We will update this page after launch._
+_Reviewers describe it as faint. Engadget says it is easier to feel than to see but still visible up close, while another early review called it virtually invisible._
 
 ## The Bottom Line
 
-The iPhone Duo is an ambitious first foldable with a big inner screen, long battery ratings and a $1,999 price tag. It also drops Face ID and carries the usual first-generation risks.
+The iPhone Duo is an ambitious first foldable with a big inner screen, long battery ratings and a $1,999 price tag. It also drops Face ID, weighs 254 grams and carries the usual first-generation risks.
 
-Preorder only if you are sure about the trade-offs, and do it through Apple directly. If you can wait two weeks, independent reviews will tell you far more than any spec sheet.
+Buy it if the trade-offs suit you, and order through Apple directly. If you can wait a few months, long-term durability reports will tell you more than any launch-week review.
 
 ## Sources
 
+- [Engadget: iPhone Duo hands-on](https://engadget.com/2254389/iphone-duo-hands-on-apple-s-most-exciting-device-in-a-decade/)
 - [Engadget: Apple announces the iPhone Duo, the company's first foldable phone](https://www.engadget.com/2254027/apple-iphone-duo-announced-specs-price/)
 - [TechCrunch: Apple unveils its first foldable, the iPhone Duo](https://techcrunch.com/2026/09/09/apple-unveils-its-first-foldable-the-iphone-duo/)
 - [9to5Mac: iPhone Duo could be very hard to get at launch, per report](https://9to5mac.com/2026/09/15/iphone-duo-could-be-very-hard-to-get-at-launch-per-report/)
 - [9to5Mac: Fake iPhone Duo preorder page can steal crypto wallet data](https://9to5mac.com/2026/09/30/fake-iphone-duo-preorder-page-can-steal-crypto-wallet-data-and-more/)
+- [The National: UAE iPhone Duo review](https://www.thenationalnews.com/future/technology/2026/10/21/uae-iphone-duo-reviews-colors/)
 
 ## Related Reading
 
