@@ -4,7 +4,7 @@ seoTitle: "Claude Sonnet 5 Release: Benchmarks and Verdict"
 description: "See the full Claude Sonnet 5 release 2026 breakdown: pricing, benchmarks vs Opus 4.8, and whether upgrading from 4.6 is worth it."
 category: "AI"
 date: 2026-09-18
-updated: 2026-10-04
+updated: 2026-10-25T17:30:00-04:00
 readingTime: "9 min"
 image: "./images/Claude-Sonnet-4.6-Release-2026.webp"
 imageAlt: "Claude Sonnet 4.6 Release 2026"
