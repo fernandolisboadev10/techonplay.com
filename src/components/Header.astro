@@ -1,4 +1,5 @@
 ---
+import Logo from './Logo.astro';
 const categories = [
   { label: 'AI', category: 'AI' },
   { label: 'Gaming', category: 'Gaming' },
@@ -30,7 +31,7 @@ const currentHref = Astro.url.pathname + Astro.url.search;
       </svg>
     </button>
     <a href="/" class="brand" aria-label="TechOnPlay - Home">
-      <img class="brand-logo" src="/images/logo.webp" alt="TechOnPlay" width="197" height="30" />
+      <Logo />
     </a>
     <nav class="nav">
       {nav.map((item) => (
@@ -134,8 +135,8 @@ const currentHref = Astro.url.pathname + Astro.url.search;
 
 <style>
   .site-header {
-    border-bottom: 1px solid color-mix(in srgb, var(--line) 55%, transparent);
-    background: color-mix(in srgb, var(--bg) 84%, transparent);
+    border-bottom: 1px solid var(--line);
+    background: color-mix(in srgb, var(--bg) 90%, transparent);
     -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
     position: sticky;
@@ -177,7 +178,7 @@ const currentHref = Astro.url.pathname + Astro.url.search;
     gap: 20px;
     height: 64px;
     padding-block: 0;
-    max-width: 1200px;
+    max-width: var(--container);
   }
 
   .brand {
@@ -210,13 +211,11 @@ const currentHref = Astro.url.pathname + Astro.url.search;
     display: flex;
     align-items: center;
     text-decoration: none;
-    font-family: var(--font-mono);
-    font-weight: 500;
-    font-size: 0.68rem;
-    letter-spacing: 0.07em;
-    text-transform: uppercase;
-    color: var(--ink-soft);
-    padding: 0 9px;
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--ink);
+    padding: 0 10px;
     white-space: nowrap;
     transition: color var(--dur-fast) ease;
   }
@@ -224,11 +223,11 @@ const currentHref = Astro.url.pathname + Astro.url.search;
   .nav a::after {
     content: '';
     position: absolute;
-    left: 9px;
-    right: 9px;
-    bottom: -1px;
+    left: 10px;
+    right: 10px;
+    bottom: 12px;
     height: 2px;
-    background: linear-gradient(90deg, var(--violet), var(--rose));
+    background: var(--rose);
     transform: scaleX(0);
     transform-origin: left;
     transition: transform var(--dur-normal) var(--ease-standard);
@@ -268,8 +267,7 @@ const currentHref = Astro.url.pathname + Astro.url.search;
     gap: 0;
     background: var(--surface);
     border: 1px solid var(--line);
-    border-top: 2px solid var(--violet);
-    border-radius: 0 0 var(--radius-md) var(--radius-md);
+    border-radius: var(--radius-lg);
     box-shadow: var(--shadow-md);
     z-index: 20;
   }
@@ -449,7 +447,7 @@ const currentHref = Astro.url.pathname + Astro.url.search;
     font-size: 0.78rem;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: var(--ink-soft);
+    color: var(--ink);
     padding: 14px 24px;
     min-height: 48px;
     border-bottom: 1px solid var(--line);

@@ -189,7 +189,7 @@ const articleSchema = {
   .post-shell {
     padding-block: 40px 56px;
     display: grid;
-    grid-template-columns: minmax(0, 720px) 260px;
+    grid-template-columns: minmax(0, 760px) 280px;
     grid-template-areas: 'post aside';
     justify-content: space-between;
     column-gap: 48px;
@@ -273,18 +273,18 @@ const articleSchema = {
   }
 
   h1 {
-    font-size: clamp(2rem, 4.6vw, 3rem);
-    font-weight: 700;
-    letter-spacing: -0.04em;
-    line-height: 1.05;
+    font-size: clamp(2.2rem, 4.6vw, 3.4rem);
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    line-height: 1.02;
     text-wrap: balance;
     margin-bottom: 18px;
   }
 
   .meta {
     margin: 0 0 20px;
-    padding-top: 16px;
-    border-top: 1px solid var(--line);
+    padding-block: 16px;
+    border-block: 1px solid var(--line);
     font-family: var(--font-mono);
     font-size: 0.7rem;
     letter-spacing: 0.06em;
@@ -304,10 +304,10 @@ const articleSchema = {
 
   .hero-image {
     aspect-ratio: 3 / 2;
-    border: 1px solid var(--line);
-    border-radius: 6px;
+    border-radius: var(--radius-md);
     overflow: hidden;
     margin-bottom: 40px;
+    background: var(--surface-2);
   }
 
   .hero-image img {
@@ -321,7 +321,6 @@ const articleSchema = {
     border-radius: 6px;
     overflow: hidden;
     border: 1px solid rgba(255, 255, 255, 0.08);
-    box-shadow: 0 16px 32px -20px rgba(91, 33, 182, 0.35);
   }
 
   :global(.prompt-card-bar) {

@@ -1,4 +1,5 @@
 ---
+import Logo from './Logo.astro';
 const categories = [
   { label: 'Home', href: '/' },
   { label: 'AI', href: '/blog?category=AI' },
@@ -20,7 +21,7 @@ const quickLinks = [
   <div class="container grid">
     <div class="about-col">
       <a href="/" class="brand" aria-label="TechOnPlay - Home">
-        <img class="brand-logo" src="/images/logo.webp" alt="TechOnPlay" width="171" height="26" />
+        <Logo onDark />
       </a>
       <p class="tagline">
         TechOnPlay covers AI, gaming, security and tech: tested tools, honest reviews and practical guides to help you get more out of the technology you use every day.
@@ -63,8 +64,8 @@ const quickLinks = [
 <style>
   .site-footer {
     margin-top: 80px;
-    border-top: 1px solid var(--line);
-    background: var(--surface);
+    background: var(--inverse);
+    color: #cfc7ea;
   }
 
   .grid {
@@ -89,8 +90,8 @@ const quickLinks = [
   }
 
   .tagline {
-    color: var(--ink-soft);
-    font-size: 0.9rem;
+    color: #cfc7ea;
+    font-size: 0.95rem;
     max-width: 38ch;
     margin: 0 0 20px;
   }
@@ -100,11 +101,11 @@ const quickLinks = [
     margin: 0 0 18px;
     padding-bottom: 12px;
     font-family: var(--font-mono);
-    font-size: 0.7rem;
-    font-weight: 500;
-    letter-spacing: 0.14em;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: var(--ink-strong);
+    color: #a99fd0;
   }
 
   .col-title::after {
@@ -114,7 +115,7 @@ const quickLinks = [
     bottom: 0;
     width: 28px;
     height: 2px;
-    background: linear-gradient(90deg, var(--violet), var(--rose));
+    background: var(--rose-soft);
   }
 
 
@@ -137,12 +138,14 @@ const quickLinks = [
 
   ul a {
     text-decoration: none;
-    color: var(--ink-soft);
-    font-size: 0.9rem;
+    color: #e9e4fb;
+    font-size: 0.95rem;
   }
 
   ul a:hover {
-    color: var(--link-text);
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 4px;
   }
 
   .bottom {
