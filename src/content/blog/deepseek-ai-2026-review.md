@@ -1,10 +1,10 @@
 ---
-title: "DeepSeek AI 2026 Review: V4.1-Flash, Pricing and Privacy [Sept Update]"
+title: "DeepSeek AI 2026 Review: V4.1-Flash, Pricing and Privacy [Oct Update]"
 seoTitle: "DeepSeek AI 2026 Review: V4.1-Flash, Pricing, Privacy"
 description: "DeepSeek V4.1-Flash is an open-weight model that costs three to four times less than V4-Pro. See pricing, benchmarks and the privacy risks for US users."
 category: "Reviews"
 date: 2026-09-21
-updated: 2026-10-15
+updated: 2026-10-26T08:32:19-04:00
 readingTime: "11 min"
 image: "./images/deepseek.webp"
 imageAlt: "DeepSeek AI Explained: What It Is, How It Works, and Why Developers Are Switching [2026 Review]"
@@ -14,13 +14,15 @@ imageAlt: "DeepSeek AI Explained: What It Is, How It Works, and Why Developers A
 
 Twenty months ago, DeepSeek’s app topped the US iOS free chart and knocked roughly 17% off Nvidia’s stock in a single day. Since April 2026, the company has shipped five model releases, so any review written before summer is already out of date.
 
-This guide covers what is new, what DeepSeek costs today, how to try it for free, and where the privacy risks sit. Every figure comes from DeepSeek’s own docs or a named outside source, and vendor benchmark claims are labeled as such. Data is current as of September 21, 2026.
+This guide covers what is new, what DeepSeek costs today, how to try it for free, and where the privacy risks sit. Every figure comes from DeepSeek’s own docs or a named outside source, and vendor benchmark claims are labeled as such. Prices and model names were rechecked on October 26, 2026; benchmark figures date from the September 10 release.
 
 ## What Changed: DeepSeek’s 2026 Timeline
 
 Seven dates explain the current lineup:
 
-📅 **April 24:** V4 launches as V4-Pro and V4-Flash, both with a 1M-token context window and MIT-licensed open weights 📅 **July 24:** The legacy names deepseek-chat and deepseek-reasoner shut down and route to V4-Flash 📅 **July 31:** V4-Flash gets its official release after re-post-training 📅 **August 13:** The V4-Pro update adds low, high and max reasoning effort, plus native Responses API support for Codex 📅 **August 16:** Peak and off-peak pricing begins 📅 **August 21:** V4-Flash-Vision-Exp, an experimental vision model, appears 📅 **September 10:** V4.1-Flash arrives with native image understanding
+📅 **April 24:** V4 launches as V4-Pro and V4-Flash, both with a 1M-token context window and MIT-licensed open weights 📅 **July 24:** The legacy names deepseek-chat and deepseek-reasoner shut down and route to V4-Flash 📅 **July 31:** V4-Flash gets its official release after re-post-training 📅 **August 13:** The V4-Pro update adds low, high and max reasoning effort, plus native Responses API support for Codex 📅 **August 16:** Peak and off-peak pricing begins 📅 **August 21:** V4-Flash-Vision-Exp, an experimental vision model, appears 📅 **September 10:** V4.1-Flash arrives with native image understanding 📅 **October 17:** The site, app and API move to a refreshed build, V4.1-Flash-1017, according to CometAPI
+
+DeepSeek’s API docs now say the `deepseek-flash` name is served by DeepSeek-V4.1-Flash-1017, and that the older `deepseek-v4-flash` and `deepseek-v4-flash-vision-exp` names are retired and route to it at the Flash price. The docs do not describe what changed in the 1017 build, so treat the September benchmark numbers below as belonging to the original V4.1-Flash release.
 
 The April launch set the scale. According to WinBuzzer’s launch coverage, V4-Pro has 1.6 trillion total parameters (49 billion active), and V4-Flash has 284 billion (13 billion active). It landed hours after OpenAI’s GPT-5.5.
 
@@ -66,7 +68,7 @@ At its August update, DeepSeek also put V4-Pro into the web and app under “Exp
 
 ## DeepSeek API Pricing After the September Cut
 
-The API serves two models today, both with a 1M-token context window and up to 384K tokens of output: deepseek-flash (V4.1-Flash) and deepseek-v4-pro. Prices below are per 1M tokens, straight from DeepSeek’s pricing page.
+The API serves two models today, both with a 1M-token context window and up to 384K tokens of output: deepseek-flash (V4.1-Flash) and deepseek-v4-pro. Prices below are per 1M tokens, straight from [DeepSeek’s pricing page](https://api-docs.deepseek.com/quick_start/pricing). They were unchanged when we rechecked on October 26. The docs list deepseek-flash as V4.1-Flash-1017 and deepseek-v4-pro as V4-Pro-0813, and only Flash accepts image input.
 
 💰 **deepseek-flash, peak:** $0.30 input (cache miss), $1.20 output, $0.006 cache hit 💰 **deepseek-flash, off-peak:** $0.15 input, $0.60 output, $0.003 cache hit 💰 **deepseek-v4-pro, peak:** $1.32 input, $3.96 output, $0.044 cache hit 💰 **deepseek-v4-pro, off-peak:** $0.66 input, $1.98 output, $0.022 cache hit
 
@@ -78,7 +80,9 @@ Peak hours run 01:00 to 04:00 and 06:00 to 10:00 UTC, Monday through Friday, exc
 
 ![DeepSeek API pricing table with peak and off-peak rates, vision support and concurrency limits for both models](./images/deepseek-ai-2026-review-api-pricing-1024x683.webp)
 
-One wrinkle: DeepSeek’s September 10 notice said V4-Pro requests would route to V4.1-Flash from September 14 until V4.1-Pro ships. DeepSeek’s changelog says V4-Pro continues after that date, and OrcaRouter reports the plan was withdrawn after user pushback. As of September 16, V4.1-Pro had no model card, price or launch date. Confirm your model ID before you ship anything.
+One wrinkle: DeepSeek’s September 10 notice said V4-Pro requests would route to V4.1-Flash from September 14 until V4.1-Pro ships. DeepSeek’s changelog says V4-Pro continues after that date, and OrcaRouter reports the plan was withdrawn after user pushback. As of October 26, V4.1-Pro still had no official model card, price or launch date, and deepseek-v4-pro is still listed in the docs. Confirm your model ID before you ship anything.
+
+DeepSeek’s docs also say its Search and Fetch tools cost $0.75 per 1,000 successful requests, free for now when called through DeepSeek Harness, Claude Code or Codex, with billing starting November 1, 2026 (00:00 Beijing time).
 
 Both OpenAI-style and Anthropic-style endpoints work, so tools built for those formats can point at DeepSeek by changing the base URL and model name.
 
@@ -94,10 +98,10 @@ The table below matches each access route to a use case, a cost and a catch.
 | API: deepseek-flashBest Value | V4.1-Flash, 552B MoE, 1M context, 384K max output | Coding agents, long prompts, high-volume workloads | Peak: $0.30 in / $1.20 out  
 Off-peak: $0.15 in / $0.60 out | Benchmarks are vendor-reported. Trails Opus 5.0 on Terminal-Bench 4.0. |
 | API: deepseek-v4-proPremium Tier | V4-Pro (August 13 update), low, high and max reasoning effort | Complex agent workflows, Codex integration via Responses API | Peak: $1.32 in / $3.96 out  
-Off-peak: $0.66 in / $1.98 out | 3.3x to 4.4x pricier than Flash at peak. V4.1-Pro has no launch date. |
+Off-peak: $0.66 in / $1.98 out | 3.3x to 4.4x pricier than Flash at peak. V4.1-Pro still has no launch date. |
 | Self-Hosted Open WeightsMost Control | V4.1-Flash weights on Hugging Face, MIT license | Teams that need data on their own infrastructure | Your own GPU, power and ops costs | 552B parameters need data-center-class hardware. Local builds can drop the hosted app’s content moderation. |
 
-Data as of September 21, 2026. API prices come from DeepSeek’s official pricing page. Peak hours are 01:00 to 04:00 and 06:00 to 10:00 UTC, Monday through Friday, excluding Chinese public holidays. Off-peak rates are half of peak. Prices and model availability change often, so check DeepSeek’s docs before you build.
+Data as of October 26, 2026. API prices come from DeepSeek’s official pricing page. Peak hours are 01:00 to 04:00 and 06:00 to 10:00 UTC, Monday through Friday, excluding Chinese public holidays. Off-peak rates are half of peak. Prices and model availability change often, so check DeepSeek’s docs before you build.
 
 ## Is DeepSeek Safe? Privacy, Censorship and Bans
 
@@ -125,7 +129,7 @@ Yes. The DeepSeek web app and mobile apps are free, with no ads or in-app purcha
 
 ### What is the latest DeepSeek model?
 
-DeepSeek-V4.1-Flash, released September 10, 2026. It is a 552B-parameter mixture-of-experts model with native image understanding, a 1M-token context window and MIT-licensed open weights on Hugging Face. V4-Pro remains available in the API, and V4.1-Pro had no announced launch date as of mid-September.
+DeepSeek-V4.1-Flash, released September 10, 2026 and refreshed as V4.1-Flash-1017 in mid-October. It is a 552B-parameter mixture-of-experts model with native image understanding, a 1M-token context window and MIT-licensed open weights on Hugging Face. V4-Pro remains available in the API, and V4.1-Pro had no announced launch date as of October 26.
 
 ### How much does the DeepSeek API cost?
 
@@ -150,9 +154,13 @@ Run one real task through the free chat this week, then send the same prompt to 
 - [CNBC: China’s DeepSeek releases preview of long-awaited V4 model as AI race intensifies](https://www.cnbc.com/2026/04/24/deepseek-v4-llm-preview-open-source-ai-competition-china.html)
 
 - [The Next Web: DeepSeek launches V4.1-Flash and retires V4-Pro](https://thenextweb.com/news/deepseek-v4-1-flash-launch-v4-pro-retired-price-cut)
+- [DeepSeek API Docs: Models & Pricing](https://api-docs.deepseek.com/quick_start/pricing)
+- [CometAPI: DeepSeek V4.1 Pro release date and Flash-1017](https://www.cometapi.com/deepseek-v4-1-pro-release-date/)
 - [SiliconANGLE: DeepSeek releases V4.1-Flash, says it outperforms flagship V4-Pro](https://siliconangle.com/2026/09/10/deepseek-releases-v4-1-flash-says-it-outperforms-flagship-v4-pro/)
 
 ## Related Reading
 
 - [How to Protect Your Data From AI Chatbots (2026 Guide)](/how-to-protect-your-data-from-ai-chatbots/)
 - [GPT-6 Astra Release: What OpenAI’s New Model Means for Developers](/gpt-6-astra-release/)
+- [Meta’s Muse Wonder: What Meta’s First Frontier Model Means for You](/meta-muse-wonder-frontier-model/)
+- [Artificial Intelligence Tools 2026: The Best Pick for Every Job](/artificial-intelligence-tools-2026/)
