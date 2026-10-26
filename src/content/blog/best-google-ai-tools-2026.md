@@ -1,10 +1,10 @@
 ---
-title: "Best Google AI Tools 2026: 10 Picks After Gemini 3.8 [Sept Update]"
-seoTitle: "Best Google AI Tools 2026: 10 Picks After Gemini 3.8"
-description: "Google AI tools of 2026, from Gemini 3.8 Flash and Omni video to Gemini Notebook and Antigravity. See prices and free options."
+title: "Best Google AI Tools 2026: 10 Picks After Gemini 4 Argon [Oct Update]"
+seoTitle: "Best Google AI Tools 2026: 10 Picks After Gemini 4 Argon"
+description: "Google AI tools of 2026, from Gemini 4 Argon and Omni video to Gemini Notebook and Antigravity. See prices and free options."
 category: "Tools"
 date: 2026-09-23
-updated: 2026-09-23
+updated: 2026-10-26T09:00:00-04:00
 readingTime: "17 min"
 image: "./images/AI-Google.webp"
 imageAlt: "Best Google AI Tools 2026:"
@@ -12,51 +12,53 @@ imageAlt: "Best Google AI Tools 2026:"
 
 Google shipped three Gemini Flash models in six weeks, renamed NotebookLM, and put a Gemini app on Windows. If you are hunting for the **best Google AI** tools right now, most lists written before summer point you to products that changed names, switched models, or shut down.
 
-The pace picked up after Google I/O on May 19. Gemini Omni turned video into a conversation, Gemini Spark became a 24/7 agent, and Antigravity replaced Gemini CLI. Then came Gemini 3.8 Flash on September 2 and Gemini 3.8 Live on September 15.
+The pace picked up after Google I/O on May 19. Gemini Omni turned video into a conversation, Gemini Spark became a 24/7 agent, and Antigravity replaced Gemini CLI. Gemini 3.8 Flash followed on September 2 and Gemini 3.8 Live on September 15, and on October 13 Gemini 4 Argon reached paying subscribers.
 
-This guide ranks the 10 Google AI tools worth your time in September 2026. You get what each one does, what it costs, who should skip it, and the official link to start. Features and prices reflect what Google published as of September 23, 2026.
+This guide ranks the 10 Google AI tools worth your time in September 2026. You get what each one does, what it costs, who should skip it, and the official link to start. Features and prices reflect what Google published as of October 26, 2026.
 
 ## What Changed in Google AI Since May
 
-Six moves reshaped Google’s lineup in four months:
+Eight moves reshaped Google’s lineup in five months:
 
-📅 **May 19:** Google I/O brings Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Antigravity 2.0, and a new $99.99 Ultra tier 📅 **June 18:** Gemini CLI shuts down for most users, and Antigravity CLI takes its place 📅 **July 16:** NotebookLM becomes Gemini Notebook 📅 **July 21 and August 13:** Gemini 3.6 Flash and 3.7 Flash arrive 📅 **September 2:** Gemini 3.8 Flash reaches the Gemini app, AI Mode, Sheets, and the API 📅 **September 10 and 15:** The Gemini app lands on Windows, and Gemini 3.8 Live upgrades voice conversations
+📅 **May 19:** Google I/O brings Gemini 3.5 Flash, Gemini Omni, Gemini Spark, Antigravity 2.0, and a new $99.99 Ultra tier 📅 **June 18:** Gemini CLI shuts down for most users, and Antigravity CLI takes its place 📅 **July 16:** NotebookLM becomes Gemini Notebook 📅 **July 21 and August 13:** Gemini 3.6 Flash and 3.7 Flash arrive 📅 **September 2:** Gemini 3.8 Flash reaches the Gemini app, AI Mode, Sheets, and the API 📅 **September 10 and 15:** The Gemini app lands on Windows, and Gemini 3.8 Live upgrades voice conversations 📅 **October 9:** Google changes which models personal accounts get by tier, so free users are mostly served by Flash-Lite 📅 **October 13:** Gemini 4 Argon arrives in the Gemini app for AI Pro and Ultra subscribers
 
-One gap stands out. Gemini 3.1 Pro is still Google’s newest Pro model. Gemini 3.5 Pro has no public release date, so the Flash line now carries most of the upgrades. Google's newest and most powerful model, Gemini 4 Argon, is not in this list because it is restricted to vetted cyber defenders for now.
+The biggest change is Gemini 4 Argon. Google announced it at the end of September and made it available in the Gemini app on October 13, according to Android Police and Google’s own blog. It is for Google AI Pro and Ultra subscribers, and free and AI Plus users do not have it yet. Google says it answers more directly, repeats itself less and follows style instructions more reliably. Rollout is gradual, so not every subscriber sees it at once.
 
 📊 Scale matters here. Google says the Gemini app passed 1 billion monthly users in August, and AI Mode in Search crossed the same mark earlier this year.
 
 ## Google AI Plans at a Glance: What You Pay in 2026
 
-Before picking tools, know the subscriptions. Most of the best features sit behind one of four [Google AI plans](https://gemini.google/subscriptions/):
+Before picking tools, know the subscriptions. Most of the best features sit behind one of four Google AI plans:
 
-💰 **Free ($0):** Gemini 3.6 Flash, limited Gemini 3.1 Pro, Deep Research, Gemini Live, Gemini Notebook, 15 GB storage 💰 **AI Plus ($4.99/month):** 2x the Free limits, video generation, Daily Brief, 200 Flow credits, 400 GB storage 💰 **AI Pro ($19.99/month):** 4x the Free limits, Gemini 3.8 Flash, 1,000 Flow credits, Jules, Antigravity, Chrome auto browse, YouTube Premium Lite, 5 TB storage 💰 **AI Ultra ($99.99 or $199.99/month):** 5x or 20x the Pro limits, Deep Think, Gemini Spark, up to 25,000 Flow credits, Project Genie on the top tier, 20 TB or more of storage
+💰 **Free ($0):** Flash-Lite as the main model, Deep Research, Gemini Live, Canvas, Gems, limited Flow access, 15 GB storage 💰 **AI Plus ($4.99/month):** Flash model access, 2x the Free limits, video generation, Daily Brief, 200 Flow credits, 400 GB storage 💰 **AI Pro ($19.99/month):** Gemini 4 Argon, Pro and Flash models, 4x the Free limits, 1,000 Flow credits, higher Jules and Antigravity limits, Chrome auto browse, YouTube Premium Lite, 5 TB storage 💰 **AI Ultra ($99.99 or $199.99/month):** highest access to Gemini 4 Argon, 5x or 20x the Pro limits, Deep Think, Gemini Spark, 10,000 or 25,000 Flow credits, Project Genie, 20 TB or more of storage
 
 ✅ Eligible US college students get one year of AI Pro at no cost, a deal Google expanded in August.
+
+Note that on October 9 Google moved personal accounts without a subscription to automatic model selection, where most prompts go to Flash-Lite. AI Plus keeps Flash but loses Pro on dates Google emails to each subscriber. Usage limits refresh every five hours until a weekly cap.
 
 Related: see our breakdown of [Google Gemini Pro for students](/google-ai-plus-for-students/) before you pay full price.
 
 ## 1\. Gemini App: The Hub for Everything Else
 
-The [Gemini app](https://gemini.google.com/) is where most of Google’s AI lives. Free users run Gemini 3.6 Flash. AI Pro and Ultra subscribers get Gemini 3.8 Flash, which Google says beats 3.7 Flash in coding, agentic tasks, and multi-step reasoning, with a 54.9% score on HLE-Verified.
+The Gemini app is where most of Google’s AI lives. Free users are served mostly by Flash-Lite, and AI Plus adds Flash. AI Pro and Ultra subscribers get Gemini 4 Argon, which Google says is more direct and less repetitive. Gemini 3.8 Flash, which Google said beat 3.7 Flash in coding and multi-step reasoning, arrived in September.
 
-The September 10 [Windows app](https://gemini.google/desktop) makes it faster to use. Press Alt + Space and Gemini opens over whatever you are doing, with Gmail, Drive, Nano Banana, and Omni video built in. It runs on Windows 10 and 11 and costs nothing to install.
+The September 10 Windows app makes it faster to use. Press Alt + Space and Gemini opens over whatever you are doing, with Gmail, Drive, Nano Banana, and Omni video built in. It runs on Windows 10 and 11 and costs nothing to install.
 
 Voice got smarter too. Gemini 3.8 Live, released September 15, can reason while it talks and keep working on background tasks mid-conversation. It is available to Pro and Ultra subscribers.
 
-✅ Free tier covers Deep Research, Canvas, Gems, and Gemini Live ✅ Native Windows app with a global shortcut ❌ Gemini 3.8 Flash requires AI Pro or Ultra ❌ No new Pro model since Gemini 3.1 Pro 💰 Free, or $4.99 to $199.99 per month for higher limits
+✅ Free tier covers Deep Research, Canvas, Gems, and Gemini Live ✅ Native Windows app with a global shortcut ❌ Gemini 4 Argon requires AI Pro or Ultra ❌ Free users now default to Flash-Lite 💰 Free, or $4.99 to $199.99 per month for higher limits
 
 ## 2\. AI Mode in Google Search: Free Answers That Replace 10 Tabs
 
-[AI Mode](https://www.google.com/search?udm=50) turns Search into a conversation. You ask a long, messy question, and Google breaks it down, searches for you, and returns one cited answer with follow-ups. It passed 1 billion monthly users within a year of launch and stays free worldwide.
+AI Mode turns Search into a conversation. You ask a long, messy question, and Google breaks it down, searches for you, and returns one cited answer with follow-ups. It passed 1 billion monthly users within a year of launch and stays free worldwide.
 
-Google upgraded the default model to Gemini 3.5 Flash at I/O. Pro and Ultra subscribers can pick Gemini 3.8 Flash from the plus menu in the search bar since September 2. Google also promised generative UI, which builds charts, tables, and simulations inside results, free for everyone.
+Google upgraded the default model to Gemini 3.5 Flash at I/O. Pro and Ultra subscribers can pick Gemini 3.8 Flash from the plus menu in the search bar since September 2, and reports say Gemini 4 Argon is coming to AI Mode for paid subscribers too. Google also promised generative UI, which builds charts, tables, and simulations inside results, free for everyone.
 
 ✅ Free, no login required ✅ Cited sources you can verify ❌ Free users cannot choose the model ❌ Search agents that watch the web 24/7 launch first for paid subscribers 💰 Free, with model choice on AI Pro and Ultra
 
 ## 3\. Gemini Notebook: Best Google AI for Research and Study
 
-[Gemini Notebook](https://notebook.google/), known as NotebookLM until July 16, answers questions using only the sources you upload. Drop in PDFs, Docs, slides, links, or YouTube videos, and it cites the exact passage behind every claim. That grounding makes it the best Google AI pick for students, analysts, and anyone who cannot afford a made-up fact.
+Gemini Notebook, known as NotebookLM until July 16, answers questions using only the sources you upload. Drop in PDFs, Docs, slides, links, or YouTube videos, and it cites the exact passage behind every claim. That grounding makes it the best Google AI pick for students, analysts, and anyone who cannot afford a made-up fact.
 
 The rename brought real upgrades. Notebooks now sync between the Gemini app and the standalone product, and a secure cloud computer runs code for data analysis. Google says more than 30 million people and 600,000 organizations use it. Audio Overviews, the podcast-style summaries, remain its signature feature.
 
@@ -66,7 +68,7 @@ Related: our [NotebookLM guide](/how-to-use-notebooklm/) covers the workflows th
 
 ## 4\. Google Flow with Gemini Omni: Best for AI Video
 
-[Google Flow](https://labs.google/flow/) is Google’s AI filmmaking studio, and Gemini Omni Flash is now its headline model. Omni accepts any mix of text, images, audio, and video as input, then lets you edit the result by chatting. Tell it to swap a background or extend a scene, and it keeps characters and physics consistent.
+Google Flow is Google’s AI filmmaking studio, and Gemini Omni Flash is now its headline model. Omni accepts any mix of text, images, audio, and video as input, then lets you edit the result by chatting. Tell it to swap a background or extend a scene, and it keeps characters and physics consistent.
 
 The August release of Omni 1.1 Flash added scene extension, first-and-last-frame control, and 4K upscaling. Flow also gained an agent that plans multi-step creative jobs, plus Flow Music for music videos. Every clip carries an invisible SynthID watermark.
 
@@ -78,13 +80,13 @@ Related: master shot direction with our [Google Flow camera commands](/google-fl
 
 Nano Banana 2, officially Gemini 3.1 Flash Image, powers image generation across the Gemini app, Search, and Flow. It renders up to 4K and keeps up to five characters consistent in a scene. Google says users create more than 150 million images a day in the Gemini app alone.
 
-The newer piece is [Google Pics](https://pics.new/), a Workspace design tool built on Nano Banana that started rolling out in September. It isolates single objects for edits, rewrites or translates text inside an image without breaking the layout, and works directly in Docs and Slides.
+The newer piece is Google Pics, a Workspace design tool built on Nano Banana that started rolling out in September. It isolates single objects for edits, rewrites or translates text inside an image without breaking the layout, and works directly in Docs and Slides.
 
 ✅ Nano Banana 2 is free in the Gemini app ✅ Pics edits text inside images cleanly ❌ Pics requires AI Pro, Ultra, or an eligible Workspace plan ❌ Closed model with no local option 💰 Free in Gemini, Pics from $19.99 per month
 
 ## 6\. Gemini in Chrome: Best for Hands-Off Browsing
 
-[Gemini in Chrome](https://www.google.com/chrome/ai-innovations/) summarizes the page you are reading, answers questions about it, and edits images with Nano Banana. On August 18, it finished rolling out to Android users in the US, with a toolbar button next to the address bar.
+Gemini in Chrome summarizes the page you are reading, answers questions about it, and edits images with Nano Banana. On August 18, it finished rolling out to Android users in the US, with a toolbar button next to the address bar.
 
 Auto browse is the paid part. Pro and Ultra subscribers can hand Chrome a chore, like booking parking or organizing a trip, and it clicks through the sites for you. Purchases and other sensitive steps still require your confirmation.
 
@@ -92,7 +94,7 @@ Auto browse is the paid part. Pro and Ultra subscribers can hand Chrome a chore,
 
 ## 7\. Gemini Spark: Google’s 24/7 Personal Agent
 
-[Gemini Spark](https://gemini.google/overview/agent/spark/) is the most ambitious tool on this list. It runs around the clock on Google Cloud virtual machines, so it keeps working when your laptop is closed. It drafts emails from your Docs and Sheets, watches your inbox, browses through Chrome, and connects to outside services through MCP.
+Gemini Spark is the most ambitious tool on this list. It runs around the clock on Google Cloud virtual machines, so it keeps working when your laptop is closed. It drafts emails from your Docs and Sheets, watches your inbox, browses through Chrome, and connects to outside services through MCP.
 
 Google built Spark on Gemini models and the Antigravity agent framework. It launched in beta for AI Ultra subscribers the week after I/O and is limited to select countries.
 
@@ -110,13 +112,13 @@ It also replaced Gemini CLI, which Google retired on June 18 for everyone except
 
 [Google AI Studio](https://aistudio.google.com/) is where you test Gemini models and turn prompts into working apps. Since I/O, it builds native Android apps and publishes them through Google Play Console. It also generates custom images with Nano Banana and exports projects straight into Antigravity.
 
-It is the cheapest place to try Gemini 3.8 Flash. The API costs $0.75 per million input tokens and $3.75 per million output tokens through December 31, 2026, and your first two app deployments to Google Cloud are free with no credit card.
+It is a low-cost place to try Gemini models. When Google launched Gemini 3.8 Flash in September, the API cost $0.75 per million input tokens and $3.75 per million output tokens as an introductory rate through December 31, 2026 (check Google’s current pricing, since newer models have their own rates), and your first two app deployments to Google Cloud are free with no credit card.
 
 ✅ Free to use in the browser ✅ Android app building with Play Console publishing ❌ Introductory API price ends December 31 ❌ Built for builders, not casual chat 💰 Free, with pay-as-you-go API pricing
 
 ## 10\. Stitch: Free UI Design From a Prompt
 
-[Stitch](https://stitch.withgoogle.com/) from Google Labs turns a text or voice prompt into app and web screens. Its May update replaced turn-based generation with a real-time agent, so the canvas changes while you type or talk. Multiplayer editing now lets a team work on the same file at once.
+Stitch from Google Labs turns a text or voice prompt into app and web screens. Its May update replaced turn-based generation with a real-time agent, so the canvas changes while you type or talk. Multiplayer editing now lets a team work on the same file at once.
 
 Designs export to AI Studio, Antigravity, and Netlify. The open DESIGN.md format carries your typography, colors, and spacing between projects.
 
@@ -128,19 +130,19 @@ Here is how the 10 tools compare on best use, free access, paid price, and offic
 
 | 🏆 Tool | 🎯 Best For | 📅 Latest Update | 🆓 Free Access | 💰 Paid Access | 🔗 Official Link |
 | --- | --- | --- | --- | --- | --- |
-| Gemini AppGemini 3.8 Flash / 3.6 FlashBest Overall | Chat, Deep Research, images, video, voice | Windows app: Sep 10, 2026  
-3.8 Live: Sep 15 | ✅ Yes (3.6 Flash) | 3.8 Flash on AI Pro $19.99/mo | [gemini.google.com](https://gemini.google.com/) |
-| AI Mode in SearchGemini 3.5 Flash defaultBest Free Pick | Complex questions with cited answers | 3.8 Flash option: Sep 2, 2026 | ✅ Yes, worldwide | Model choice on AI Pro and Ultra | [Open AI Mode](https://www.google.com/search?udm=50) |
+| Gemini AppGemini 4 Argon / FlashBest Overall | Chat, Deep Research, images, video, voice | Windows app: Sep 10, 2026  
+3.8 Live: Sep 15 | ✅ Yes (Flash-Lite) | Gemini 4 Argon on AI Pro $19.99/mo | gemini.google.com |
+| AI Mode in SearchGemini 3.5 Flash defaultBest Free Pick | Complex questions with cited answers | 3.8 Flash option: Sep 2, 2026 | ✅ Yes, worldwide | Model choice on AI Pro and Ultra | Open AI Mode |
 | Gemini NotebookFormerly NotebookLMBest for Research | Source-grounded answers, Audio Overviews, study | Renamed: Jul 16, 2026 | ✅ Yes | More Audio Overviews on Plus $4.99 and Pro | [notebook.google](https://notebook.google/) |
-| Google FlowGemini Omni 1.1 FlashBest for Video | Video from any input, chat-based editing, 4K upscaling | Omni 1.1 Flash: Aug 2026 | ⚠️ Omni Flash free in YouTube Shorts Remix | 200 credits (Plus), 1,000 (Pro), up to 25,000 (Ultra) | [labs.google/flow](https://labs.google/flow/) |
-| Nano Banana 2 + Google PicsGemini 3.1 Flash ImageBest for Images | Image generation up to 4K, in-image text edits | Pics rollout: Sep 2026 | ✅ Nano Banana 2 in Gemini | Pics on AI Pro, Ultra, Workspace | [pics.new](https://pics.new/) |
-| Gemini in ChromeWith auto browseBest Browser AI | Page summaries, Q&A, automated web tasks | Android US rollout: Aug 18, 2026 | ✅ Assistant only | Auto browse on AI Pro and Ultra | [Chrome AI](https://www.google.com/chrome/ai-innovations/) |
-| Gemini Spark24/7 cloud agent (beta)Best Agent | Background tasks, inbox, Workspace, MCP | Announced: May 19, 2026 | ❌ No | AI Ultra from $99.99/mo (select countries) | [Gemini Spark](https://gemini.google/overview/agent/spark/) |
-| Google Antigravity2.0 desktop, CLI, SDKBest for Developers | Multi-agent coding, replaces Gemini CLI | Sandboxing update: Sep 2026 | ✅ Individual tier, weekly quota | Higher limits on Pro, Ultra $99.99 and $199.99 | [antigravity.google](https://antigravity.google/) |
-| Google AI StudioGemini API playgroundBest for Builders | Prototyping, Android apps, API testing | 3.8 Flash API: Sep 2, 2026 | ✅ Yes, 2 free Cloud deployments | API $0.75 in / $3.75 out per 1M tokens (intro) | [aistudio.google.com](https://aistudio.google.com/) |
-| StitchGoogle LabsBest for UI Design | App and web screens from text or voice | Real-time agent: May 20, 2026 | ✅ Yes, no card | Free | [stitch.withgoogle.com](https://stitch.withgoogle.com/) |
+| Google FlowGemini Omni 1.1 FlashBest for Video | Video from any input, chat-based editing, 4K upscaling | Omni 1.1 Flash: Aug 2026 | ⚠️ Omni Flash free in YouTube Shorts Remix | 200 credits (Plus), 1,000 (Pro), up to 25,000 (Ultra) | labs.google/flow |
+| Nano Banana 2 + Google PicsGemini 3.1 Flash ImageBest for Images | Image generation up to 4K, in-image text edits | Pics rollout: Sep 2026 | ✅ Nano Banana 2 in Gemini | Pics on AI Pro, Ultra, Workspace | pics.new |
+| Gemini in ChromeWith auto browseBest Browser AI | Page summaries, Q&A, automated web tasks | Android US rollout: Aug 18, 2026 | ✅ Assistant only | Auto browse on AI Pro and Ultra | Chrome AI |
+| Gemini Spark24/7 cloud agent (beta)Best Agent | Background tasks, inbox, Workspace, MCP | Announced: May 19, 2026 | ❌ No | AI Ultra from $99.99/mo (select countries) | Gemini Spark |
+| Google Antigravity2.0 desktop, CLI, SDKBest for Developers | Multi-agent coding, replaces Gemini CLI | Sandboxing update: Sep 2026 | ✅ Individual tier, weekly quota | Higher limits on Pro, Ultra $99.99 and $199.99 | antigravity.google |
+| Google AI StudioGemini API playgroundBest for Builders | Prototyping, Android apps, API testing | 3.8 Flash API: Sep 2, 2026 | ✅ Yes, 2 free Cloud deployments | API $0.75 in / $3.75 out per 1M tokens (intro) | aistudio.google.com |
+| StitchGoogle LabsBest for UI Design | App and web screens from text or voice | Real-time agent: May 20, 2026 | ✅ Yes, no card | Free | stitch.withgoogle.com |
 
-Data as of September 23, 2026. Plans: Free $0, AI Plus $4.99, AI Pro $19.99, AI Ultra $99.99 (5x Pro limits) or $199.99 (20x Pro limits) per month in the US. The Gemini 3.8 Flash API price is an introductory rate through December 31, 2026. Features and limits change often, so check Google’s plan page before subscribing.
+Data as of October 26, 2026. Plans: Free $0, AI Plus $4.99, AI Pro $19.99, AI Ultra $99.99 (5x Pro limits) or $199.99 (20x Pro limits) per month in the US. The Gemini 3.8 Flash API price is an introductory rate through December 31, 2026. Features and limits change often, so check Google’s plan page before subscribing.
 
 ## Which Google AI Tool Should You Use?
 
@@ -148,17 +150,17 @@ The best Google AI setup depends on the job, so match the tool to the task:
 
 ✅ **Best overall:** Gemini app with AI Pro ✅ **Best free pick:** AI Mode in Search, or Gemini Notebook for research ✅ **Best for video:** Google Flow with Gemini Omni Flash ✅ **Best for images:** Nano Banana 2 in Gemini, or Google Pics for design work ✅ **Best agent:** Gemini Spark on Ultra, or Chrome auto browse on Pro ✅ **Best for developers:** Antigravity, with AI Studio for quick prototypes ✅ **Best for UI design:** Stitch
 
-⏱️ For most people, AI Pro at $19.99 a month delivers the most value. It adds Gemini 3.8 Flash, 1,000 Flow credits, Chrome auto browse, and higher Antigravity limits in one bill.
+⏱️ For most people, AI Pro at $19.99 a month delivers the most value. It adds Gemini 4 Argon, 1,000 Flow credits, Chrome auto browse, and higher Antigravity limits in one bill.
 
 ## FAQ
 
 ### What is the best Google AI tool in 2026?
 
-_The Gemini app is the best starting point because it connects Gemini 3.8 Flash, Nano Banana, Omni video, and Gemini Notebook in one place. For research, Gemini Notebook wins. For coding, use Antigravity. Free users get strong results from AI Mode in Google Search and the Free Gemini plan._
+_The Gemini app is the best starting point because it connects Gemini 4 Argon, Nano Banana, Omni video, and Gemini Notebook in one place. For research, Gemini Notebook wins. For coding, use Antigravity. Free users get strong results from AI Mode in Google Search and the Free Gemini plan._
 
 ### Is Google Gemini free?
 
-_Yes. The Free plan includes Gemini 3.6 Flash, limited Gemini 3.1 Pro, Deep Research, Gemini Live, Canvas, and Gemini Notebook. Paid plans raise usage limits and add Gemini 3.8 Flash, video generation, and agents. AI Plus costs $4.99 per month, and AI Pro costs $19.99 per month._
+_Yes. The Free plan includes Deep Research, Gemini Live, Canvas, Gems and image generation, but since October 9 most prompts are served by Flash-Lite. Paid plans raise usage limits and add better models (Gemini 4 Argon on Pro and Ultra), video generation, and agents. AI Plus costs $4.99 per month, and AI Pro costs $19.99 per month._
 
 ### What happened to NotebookLM?
 
@@ -174,25 +176,15 @@ _Google AI Ultra starts at $99.99 per month for 5x the AI Pro usage limits. The 
 
 ## The Bottom Line: Start Free, Upgrade With a Reason
 
-The best Google AI lineup in 2026 is wider than Gemini chat. Start free with the Gemini app, AI Mode, Gemini Notebook, and Stitch. Upgrade to AI Pro once you hit limits or need Gemini 3.8 Flash, Flow video, or Chrome auto browse.
+The best Google AI lineup in 2026 is wider than Gemini chat. Start free with the Gemini app, AI Mode, Gemini Notebook, and Stitch. Upgrade to AI Pro once you hit limits or need Gemini 4 Argon, Flow video, or Chrome auto browse.
 
 Save Ultra for heavy video work or Gemini Spark. Try two tools from this list on a real task this week, and tell us in the comments which Google AI tool earned a spot in your workflow.
 
-| 🏆 Tool | 🎯 Best For | 📅 Latest Update | 🆓 Free Access | 💰 Paid Access | 🔗 Official Link |
-| --- | --- | --- | --- | --- | --- |
-| Gemini AppGemini 3.8 Flash / 3.6 FlashBest Overall | Chat, Deep Research, images, video, voice | Windows app: Sep 10, 2026  
-3.8 Live: Sep 15 | ✅ Yes (3.6 Flash) | 3.8 Flash on AI Pro $19.99/mo | [gemini.google.com](https://gemini.google.com/) |
-| AI Mode in SearchGemini 3.5 Flash defaultBest Free Pick | Complex questions with cited answers | 3.8 Flash option: Sep 2, 2026 | ✅ Yes, worldwide | Model choice on AI Pro and Ultra | [Open AI Mode](https://www.google.com/search?udm=50) |
-| Gemini NotebookFormerly NotebookLMBest for Research | Source-grounded answers, Audio Overviews, study | Renamed: Jul 16, 2026 | ✅ Yes | More Audio Overviews on Plus $4.99 and Pro | [notebook.google](https://notebook.google/) |
-| Google FlowGemini Omni 1.1 FlashBest for Video | Video from any input, chat-based editing, 4K upscaling | Omni 1.1 Flash: Aug 2026 | ⚠️ Omni Flash free in YouTube Shorts Remix | 200 credits (Plus), 1,000 (Pro), up to 25,000 (Ultra) | [labs.google/flow](https://labs.google/flow/) |
-| Nano Banana 2 + Google PicsGemini 3.1 Flash ImageBest for Images | Image generation up to 4K, in-image text edits | Pics rollout: Sep 2026 | ✅ Nano Banana 2 in Gemini | Pics on AI Pro, Ultra, Workspace | [pics.new](https://pics.new/) |
-| Gemini in ChromeWith auto browseBest Browser AI | Page summaries, Q&A, automated web tasks | Android US rollout: Aug 18, 2026 | ✅ Assistant only | Auto browse on AI Pro and Ultra | [Chrome AI](https://www.google.com/chrome/ai-innovations/) |
-| Gemini Spark24/7 cloud agent (beta)Best Agent | Background tasks, inbox, Workspace, MCP | Announced: May 19, 2026 | ❌ No | AI Ultra from $99.99/mo (select countries) | [Gemini Spark](https://gemini.google/overview/agent/spark/) |
-| Google Antigravity2.0 desktop, CLI, SDKBest for Developers | Multi-agent coding, replaces Gemini CLI | Sandboxing update: Sep 2026 | ✅ Individual tier, weekly quota | Higher limits on Pro, Ultra $99.99 and $199.99 | [antigravity.google](https://antigravity.google/) |
-| Google AI StudioGemini API playgroundBest for Builders | Prototyping, Android apps, API testing | 3.8 Flash API: Sep 2, 2026 | ✅ Yes, 2 free Cloud deployments | API $0.75 in / $3.75 out per 1M tokens (intro) | [aistudio.google.com](https://aistudio.google.com/) |
-| StitchGoogle LabsBest for UI Design | App and web screens from text or voice | Real-time agent: May 20, 2026 | ✅ Yes, no card | Free | [stitch.withgoogle.com](https://stitch.withgoogle.com/) |
+## Sources
 
-Data as of September 23, 2026. Plans: Free $0, AI Plus $4.99, AI Pro $19.99, AI Ultra $99.99 (5x Pro limits) or $199.99 (20x Pro limits) per month in the US. The Gemini 3.8 Flash API price is an introductory rate through December 31, 2026. Features and limits change often, so check Google’s plan page before subscribing.
+Checked October 26, 2026: [Google Gemini plans](https://gemini.google/subscriptions/) | [Google blog: Gemini 4 Argon availability](https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/) | [Android Police on Gemini 4 Argon](https://www.androidpolice.com/gemini-4-argon-available-pro-ultra-subscribers/) | [9to5Google on Argon in Antigravity](https://9to5google.com/2026/10/15/gemini-4-argon-is-now-rolling-out-to-googles-antigravity-for-ai-pro-subscribers/)
+
+Official tool links: [Gemini app](https://gemini.google.com/) | [AI Mode](https://www.google.com/search?udm=50) | [Google Flow](https://labs.google/flow/) | [Google Pics](https://pics.new/) | [Gemini in Chrome](https://www.google.com/chrome/ai-innovations/) | [Gemini Spark](https://gemini.google/overview/agent/spark/) | [Stitch](https://stitch.withgoogle.com/)
 
 ## Related Reading
 
