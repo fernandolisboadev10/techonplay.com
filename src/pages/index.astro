@@ -7,6 +7,7 @@ import HomeLead from '../components/HomeLead.astro';
 import LatestList from '../components/LatestList.astro';
 import CategoryBlock from '../components/CategoryBlock.astro';
 import SectionHead from '../components/SectionHead.astro';
+import TrendBar from '../components/TrendBar.astro';
 import Pagination from '../components/Pagination.astro';
 
 // Page 1: lead (3 posts) + "Latest" (the next 9). Pages 2+ continue from there as a card grid,
@@ -37,7 +38,9 @@ const blocks = [...new Set(all.map((p) => p.data.category))]
 
   {page === 1 ? (
     <>
-      <section class="container top">
+      <TrendBar posts={all.slice(0, 6)} />
+
+      <section class="container top grid-bg">
         <div class="top-lead">
           <HomeLead posts={lead} />
         </div>
@@ -103,9 +106,12 @@ const blocks = [...new Set(all.map((p) => p.data.category))]
     margin-top: 12px;
     padding: 11px;
     border: 1px solid var(--line);
-    border-radius: 8px;
+    border-radius: 4px;
     text-align: center;
-    font-size: 0.9rem;
+    font-family: var(--font-mono);
+    font-size: 0.74rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
     font-weight: 600;
     color: var(--ink-strong);
     text-decoration: none;
@@ -113,7 +119,7 @@ const blocks = [...new Set(all.map((p) => p.data.category))]
 
   .more-posts:hover {
     border-color: var(--violet);
-    color: var(--violet);
+    color: var(--link-text);
   }
 
   .blocks {
