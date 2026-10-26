@@ -9,12 +9,13 @@ interface Props {
   description: string;
   category: string;
   date?: Date;
+  updated?: Date;
   readingTime?: string;
   image?: ImageMetadata;
   imageAlt?: string;
   priority?: boolean;
 }
-const { slug, title, description, category, date, readingTime, image, imageAlt, priority = false } = Astro.props;
+const { slug, title, description, category, date, updated, readingTime, image, imageAlt, priority = false } = Astro.props;
 
 const formattedDate = date?.toLocaleDateString('en-US', {
   month: 'long',
@@ -22,6 +23,15 @@ const formattedDate = date?.toLocaleDateString('en-US', {
   year: 'numeric',
   timeZone: 'UTC',
 });
+
+// Same rule as the post header: only when edited on a later day than published.
+const formattedUpdated = updated?.toLocaleDateString('en-US', {
+  month: 'short',
+  day: 'numeric',
+  timeZone: 'UTC',
+});
+const showUpdated =
+  !!date && !!updated && updated.getTime() > date.getTime() && updated.toISOString().slice(0, 10) !== date.toISOString().slice(0, 10);
 ---
 <a href={`/${slug}`} class="card">
   <span class="thumb">
@@ -34,12 +44,18 @@ const formattedDate = date?.toLocaleDateString('en-US', {
     {(formattedDate || readingTime) && (
       <span class="meta">
         {formattedDate}{formattedDate && readingTime && ', '}{readingTime && `${readingTime} read`}
+        {showUpdated && <span class="updated"> | Updated {formattedUpdated}</span>}
       </span>
     )}
   </span>
 </a>
 
 <style>
+  .updated {
+    color: var(--violet);
+    font-weight: 600;
+  }
+
   .card {
     display: flex;
     flex-direction: column;
