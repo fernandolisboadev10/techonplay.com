@@ -1,12 +1,12 @@
 ---
 import { getCollection } from 'astro:content';
-import { isPublished } from '../../utils/posts';
+import { isPublished, lastTouched } from '../../utils/posts';
 import Home from '../index.astro';
 
 export async function getStaticPaths() {
   const PER_PAGE = 9;
   const all = (await getCollection('blog', isPublished))
-    .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+    .sort((a, b) => lastTouched(b) - lastTouched(a));
   const total = Math.ceil((all.length - 3) / PER_PAGE);
   return Array.from({ length: Math.max(0, total - 1) }, (_, i) => ({
     params: { page: String(i + 2) },

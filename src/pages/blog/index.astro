@@ -1,11 +1,11 @@
 ---
 import { getCollection } from 'astro:content';
-import { isPublished } from '../../utils/posts';
+import { isPublished, lastTouched } from '../../utils/posts';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PostCard from '../../components/PostCard.astro';
 
 const posts = (await getCollection('blog', isPublished)).sort(
-  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+  (a, b) => lastTouched(b) - lastTouched(a)
 );
 
 // Filters come from the categories the posts actually use, most used first.

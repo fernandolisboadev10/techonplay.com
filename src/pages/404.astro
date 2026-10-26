@@ -1,11 +1,11 @@
 ---
 import { getCollection } from 'astro:content';
-import { isPublished } from '../utils/posts';
+import { isPublished, lastTouched } from '../utils/posts';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PostCard from '../components/PostCard.astro';
 
 const posts = (await getCollection('blog', isPublished))
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .sort((a, b) => lastTouched(b) - lastTouched(a))
   .slice(0, 3);
 ---
 <BaseLayout title="Page not found" description="The page you are looking for does not exist.">

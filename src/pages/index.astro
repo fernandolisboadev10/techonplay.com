@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import { isPublished } from '../utils/posts';
+import { isPublished, lastTouched } from '../utils/posts';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PostCard from '../components/PostCard.astro';
 import HomeLead from '../components/HomeLead.astro';
@@ -14,7 +14,7 @@ import Pagination from '../components/Pagination.astro';
 const PER_PAGE = 9;
 const page = Number(Astro.props.page ?? 1);
 const all = (await getCollection('blog', isPublished))
-  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+  .sort((a, b) => lastTouched(b) - lastTouched(a));
 const lead = all.slice(0, 3);
 const gridAll = all.slice(3);
 const totalPages = Math.max(1, Math.ceil(gridAll.length / PER_PAGE));
