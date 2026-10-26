@@ -44,7 +44,7 @@ const blocks = [...new Set(all.map((p) => p.data.category))]
         <div class="top-lead">
           <HomeLead posts={lead} />
         </div>
-        <aside class="top-latest" aria-labelledby="latest-title">
+        <aside class="top-latest" aria-labelledby="latest-title" data-reveal="fade">
           <SectionHead title="Latest" id="latest-title" />
           <LatestList posts={rest} />
           {totalPages > 1 && <a class="more-posts" href="/page/2/">More posts</a>}
@@ -53,14 +53,14 @@ const blocks = [...new Set(all.map((p) => p.data.category))]
 
       {blocks.length > 0 && (
         <div class="container blocks">
-          {blocks.map((b) => <CategoryBlock {...b} />)}
+          {blocks.map((b) => <div data-reveal="up"><CategoryBlock {...b} /></div>)}
         </div>
       )}
     </>
   ) : (
     <section class="container recent">
       <SectionHead title={`All posts, page ${page}`} />
-      <div class="grid">
+      <div class="grid" data-reveal="group">
         {rest.map((post, i) => (
           <PostCard
             slug={post.id}
@@ -106,8 +106,9 @@ const blocks = [...new Set(all.map((p) => p.data.category))]
     margin-top: 12px;
     padding: 11px;
     border: 1px solid var(--line);
-    border-radius: 4px;
+    border-radius: var(--radius-sm);
     text-align: center;
+    transition: border-color var(--dur-normal) ease, color var(--dur-normal) ease;
     font-family: var(--font-mono);
     font-size: 0.74rem;
     letter-spacing: 0.08em;
