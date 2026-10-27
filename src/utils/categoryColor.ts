@@ -1,6 +1,7 @@
 // Cor do chip por categoria (texto branco por cima: todas passam de 4.5:1).
 const COLORS: Record<string, string> = {
   "AI": '#6d28d9',
+  "Apps": '#0369a1',
   "Gaming": '#be123c',
   "Reviews": '#b45309',
   "Tools": '#2563eb',

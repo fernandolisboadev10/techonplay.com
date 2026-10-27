@@ -1,7 +1,7 @@
 ---
 title: "Cursor AI Review 2026: Is the $60B Coding Tool Worth It?"
 description: "Compare Cursor AI pricing, features, and 2026 updates against GitHub Copilot and Windsurf before you subscribe."
-category: "Reviews"
+category: "Apps"
 date: 2026-09-22
 updated: 2026-10-04
 readingTime: "9 min"

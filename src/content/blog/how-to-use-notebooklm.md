@@ -1,7 +1,7 @@
 ---
 title: "Notebook LM Is Now Gemini Notebook: What Changed in 2026"
 description: "Learn what notebook lm is called now, what Gemini Notebook can do, how to start in 5 steps and what each plan costs after the Sept 2 limit change."
-category: "Tools"
+category: "Apps"
 date: 2026-09-28
 updated: 2026-09-28
 readingTime: "9 min"

@@ -2,7 +2,7 @@
 title: "Copilot in Excel: 8 Features That Replaced the Old Hacks [Sept Update]"
 seoTitle: "Copilot in Excel 2026: 8 Features Replacing Old Hacks"
 description: "See what changed in Copilot in Excel for 2026, from Agent Mode and the COPILOT function to Python support and self-updating Canvas dashboards."
-category: "Guides"
+category: "Apps"
 date: 2026-09-24
 updated: 2026-09-24
 readingTime: "11 min"
