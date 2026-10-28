@@ -4,6 +4,7 @@ seoTitle: "Meta Muse Wonder: What the Frontier Model Means"
 description: "Meta's Muse Wonder is its first frontier model. See how it compares with GPT-6 Astra, Claude and Gemini 4 Argon, what it costs, and who should care."
 category: "AI"
 date: 2026-10-13T09:00:00-04:00
+updated: 2026-10-28T12:25:00-04:00
 readingTime: "7 min"
 tags: ["Meta", "Muse Wonder", "AI models", "frontier models"]
 image: "./images/meta-muse-wonder-frontier-model.webp"
@@ -21,9 +22,9 @@ Muse Wonder is the newest model from Meta Superintelligence Labs, the division M
 There are two versions:
 
 - **Muse Wonder:** the standard model, available through the Meta Model API and in Muse Code.
-- **Muse Wonder Full:** a stronger variant limited to Muse Code subscribers. It is not offered through the API.
+- **Muse Wonder Full:** a stronger variant limited to Muse Code subscribers, priced at $50 a month according to DeepLearning.AI's *The Batch*. It is not offered through the API.
 
-Meta says it trained the models at its Prometheus data center in central Ohio, which came online earlier this year.
+Per *The Batch*, both accept up to 1 million input tokens across text, image, video and audio, with output capped at 128,000 tokens. Meta says it trained the models at its Prometheus data center in central Ohio, which came online earlier this year.
 
 ## The Two Ideas Meta Is Selling: Memory and Focus
 
@@ -51,9 +52,15 @@ For context on the rivals, see our breakdowns of the [GPT-6 Astra release](/gpt-
 | Muse Wonder Full | Not published | Muse Code subscribers only |
 | GPT-6 Astra | $10 / $50 | OpenAI API and apps |
 | Claude Fable 5.1 | $10 / $50 | Claude API and apps |
-| Gemini 4 Argon | $2 / $10 introductory, $4 / $20 standard | Vetted cyber defenders only for now |
+| Gemini 4 Argon | $2 / $10 introductory, $4 / $20 standard (earlier reporting) | Gemini app (AI Pro/Ultra); API pricing not rechecked |
 
 Prices for Astra and Fable come from our earlier coverage; Wonder's price is from TechCrunch. TechCrunch compares Wonder's rate to GPT-6 Sol and Opus 5.5, so it is a mid-to-upper price tier rather than a bargain bin, but well under half of Astra's rate.
+
+## What Independent Benchmarks Say
+
+Since launch, Artificial Analysis has scored both models, as summarized by *The Batch* on October 23. On its Intelligence Index, Muse Wonder Full scored 56 (tied for second) and Muse Wonder scored 52 (seventh). Wonder costs about $4.52 per task on that index, the fifth-highest among current models, so its low per-token price does not make it cheap in practice. The models also show low knowledge scores but low hallucination rates on the AA-Omniscience Index (Wonder Full 30, Wonder 25).
+
+That is strong, but it is not the clear win Meta's own charts implied.
 
 ## What Early Users Are Saying
 
@@ -76,8 +83,8 @@ The more interesting idea is Active Memory. An assistant that remembers your pre
 Muse Wonder is a new option on the price-performance curve, and it matters mostly because it is one more serious API to route work to.
 
 - **Price:** $4 per million input tokens and $20 per million output tokens is well under Astra and Fable.
-- **Missing details:** the launch coverage does not mention a context window, rate limits or modalities, and Meta's post gives no pricing or open-weights plans. Check the Meta Model API docs before you plan around it.
-- **Hosted only:** Wonder is reached through Meta's API and Muse Code. If you want weights you can run yourself, look at open-weight models such as Mistral Large 4 instead, or at [DeepSeek's MIT-licensed weights](/deepseek-ai-2026-review/). One Hacker News commenter noted Meta had previously promised open weights for Muse Spark and people are still waiting.
+- **Context and cost per task:** inputs up to 1 million tokens and outputs up to 128,000 (per *The Batch*), but Artificial Analysis puts the real cost per task well above what the token price suggests. Rate limits were not covered; check the Meta Model API docs before you plan around it.
+- **Hosted only:** Wonder is reached through Meta's API and Muse Code. If you want weights you can run yourself, look at open-weight models such as Mistral Large 4 instead, or at [DeepSeek's MIT-licensed weights](/deepseek-ai-2026-review/). Meta did release Muse Spark Open the same week, an open-weight model under the Muse Model license (commercial use allowed up to $20 million in revenue, with a "Built with Muse Spark Open" credit required). It scored 39 on the Artificial Analysis index, first among U.S. open models. Wonder itself remains hosted-only.
 - **Safety:** Meta calls Wonder its "most aligned model to date" and says it has its strongest safeguards yet against chemical, biological, radiological, nuclear and cyber misuse. A full safety report is promised later.
 
 A sensible approach: run Wonder against your own evals next to your current model and compare cost per finished task, not cost per token.
@@ -87,8 +94,8 @@ A sensible approach: run Wonder against your own evals next to your current mode
 - **Independent benchmarks.** Third-party results will show how Wonder holds up outside Meta's charts.
 - **The Muse app rollout.** Meta has not said when Wonder reaches non-subscribers.
 - **The safety report and model card details**, including pricing and access for Wonder Full.
-- **Open weights.** Meta has not said whether Wonder will ever be released that way.
-- **Gemini 4 Argon.** Once Google opens it up, the frontier comparison gets a fourth serious entrant.
+- **Open weights.** Spark is now open, but Meta has not said whether Wonder will ever be released that way.
+- **Gemini 4 Argon.** Google's model is now generally available in the Gemini app for AI Pro and Ultra, so the frontier comparison has a fourth serious entrant; see our [Google AI tools guide](/best-google-ai-tools-2026/).
 
 ## Bottom Line
 
@@ -99,8 +106,11 @@ Muse Wonder confirms that Meta is back in the frontier race, and its price is co
 - [TechCrunch: Meta releases its first frontier model, Muse Wonder](https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/)
 - [The Verge: Meta has some Wonder Full new AI models](https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model)
 - [Meta AI Research: Muse Wonder](https://research.meta.ai/blog/muse-wonder)
+- [DeepLearning.AI, The Batch: Meta releases Wonder, opens Spark](https://www.deeplearning.ai/the-batch/meta-releases-wonder-opens-spark/)
 
 ## Related Reading
 
 - [GPT-6 Astra Release: What OpenAI's New Model Means for Developers](/gpt-6-astra-release/)
 - [Claude Sonnet 5 Release 2026: Full Benchmarks and Upgrade Verdict](/claude-sonnet-5-release/)
+- [DeepSeek AI 2026 Review](/deepseek-ai-2026-review/)
+- [Best Google AI Tools in 2026](/best-google-ai-tools-2026/)
