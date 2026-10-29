@@ -3,7 +3,7 @@ title: "Notebook LM Is Now Gemini Notebook: What Changed in 2026"
 description: "Learn what notebook lm is called now, what Gemini Notebook can do, how to start in 5 steps and what each plan costs after the Sept 2 limit change."
 category: "Apps"
 date: 2026-09-28
-updated: 2026-09-28
+updated: 2026-10-29T08:30:00-04:00
 readingTime: "9 min"
 image: "./images/Google-2.webp"
 imageAlt: "Notebook LM"
@@ -13,7 +13,7 @@ If you still search for **notebook lm**, you are not lost. Google renamed its AI
 
 The rename landed in a busy summer. In June, Google upgraded the tool to Gemini 3.5 and started giving notebooks a secure cloud computer that writes and runs code. On September 2, it replaced fixed daily caps with compute-based limits. Search results still mix all three names, and many guides still quote outdated prices.
 
-This guide sorts it out. You will learn what the tool is called today, what it can do, how to build your first notebook in five steps, and what each plan costs after the September changes. \[Editorial note: prices and limits were checked against Google’s announcements and third-party trackers on September 28, 2026. Google changes them often, so confirm before you pay.\]
+This guide sorts it out. You will learn what the tool is called today, what it can do, how to build your first notebook in five steps, and what each plan costs after the September changes. \[Editorial note: prices and limits were first checked on September 28, 2026, and the plan prices rechecked against Google’s subscriptions page on October 29, 2026. Google changes them often, so confirm before you pay.\]
 
 ## Notebook LM vs Gemini Notebook: What Actually Changed
 
@@ -23,7 +23,7 @@ The “LM” stood for language model, a suffix borrowed from Google Labs naming
 
 ✅ **What stayed the same:** your notebooks, your sources, your shared links, the standalone app and the free plan.
 
-🆕 **What is new:** Gemini branding, tighter links to the Gemini app (notebooks have lived inside it since April 2026), and a promised arrival in AI Mode in Google Search.
+🆕 **What is new:** Gemini branding, tighter links to the Gemini app (notebooks have lived inside it since April 2026), and a promised arrival in AI Mode in Google Search. In August, 9to5Google reported that notebooks are coming to AI Mode as a side-panel feature, so check whether it has reached your account.
 
 📊 **What changed under the hood:** Gemini 3.5 models, a cloud computer for code, more file exports and a new usage system.
 
@@ -52,7 +52,7 @@ The June upgrade gave notebooks a secure cloud computer with more than 100 curat
 -   🗂️ Data files (CSV, JSON, XLSX)
 -   🎞️ PowerPoint decks (PPTX)
 
-\[Editorial note: the rollout started with Google AI Ultra and eligible Workspace business accounts. Google said Pro users on the web would follow. Check your own Studio panel to see what you have.\]
+\[Editorial note: the rollout started with Google AI Ultra and eligible Workspace business accounts, and Google said Pro users on the web would follow “over the coming weeks.” The Gemini Notebook account said on August 4 that the upgrade had reached all Pro accounts, but we found no Google blog post confirming it, and Google has not said whether free users will get code execution. Check your own Studio panel to see what you have.\]
 
 Studio also still makes mind maps, flashcards, quizzes, infographics, slide decks and data tables. Teachers and students get the most from those study formats.
 
@@ -104,7 +104,7 @@ Since September 2, Google measures usage by compute, not by fixed daily counts. 
 
  Gemini Notebook Pricing Table 
 
-💰 Gemini Notebook (Notebook LM) pricing and limits, checked September 28, 2026. Google updates prices often, confirm before buying.
+💰 Gemini Notebook (Notebook LM) pricing and limits. Prices rechecked October 29, 2026; limits from September 28. Google updates prices often, confirm before buying.
 | Plan | 💵 Monthly price | 📓 Notebooks | 📚 Sources / notebook | ⏱️ Compute quota vs. Free | 🎬 Cinematic Video Overview |
 | --- | --- | --- | --- | --- | --- |
 | Free | $0 | 100 | 50 | 1x (baseline) | ❌ Not available |
@@ -113,11 +113,11 @@ via Google AI Plus | 200 | 100 | ~2x | ❌ Not available |
 | Pro | $19.99  
 via Google AI Pro | 500 | 300 | ~4x | ✅ 2 / day |
 | Ultra 20TB | $99.99  
-via Google AI Ultra | 500+ | 500 | ~5x-10x | ✅ 10 / day |
+via Google AI Ultra | 500+ | 500 | ~5x+ | ✅ 10 / day |
 | Ultra 30TB | $199.99  
-via Google AI Ultra | 500+ | 600 | ~10x-20x | ✅ 20 / day |
+via Google AI Ultra | 500+ | 600 | ~20x | ✅ 20 / day |
 
-Google publishes relative limits, not exact counts. Third-party trackers describe the compute quota as roughly 2x on Plus, 4x on Pro and 5x to 20x on Ultra compared with the free plan. Treat those multipliers as estimates.
+Google’s subscriptions page lists the monthly prices but gives no numeric caps for notebooks, sources or Audio Overviews, and it describes Plus as 2x and Pro as 4x the free usage. The notebook and source counts in the table come from our September check, so confirm them in the app. Third-party trackers describe the compute quota as roughly 2x on Plus, 4x on Pro and higher still on Ultra (Google lists the $99.99 tier as 5x and the $199.99 tier as 20x). Google’s page does not make the baseline for the Ultra figures clear, so treat all multipliers as estimates.
 
 The structural limits do not reset. Every tier caps a single source at 500,000 words or 200 MB.
 
@@ -176,6 +176,8 @@ Open Gemini Notebook today, build one notebook around a decision you need to mak
 ## Sources
 
 - [9to5Google: Gemini Live adds Deep Research as Notebooks come to AI Mode](https://9to5google.com/2026/08/19/gemini-app-ai-mode-study-tools/)
+- [Google Gemini subscriptions and plan prices](https://gemini.google/subscriptions/)
+- [The Next Web: Google renames NotebookLM to Gemini Notebook](https://thenextweb.com/news/google-notebooklm-gemini-notebook-rebrand)
 
 ## Related Reading
 
