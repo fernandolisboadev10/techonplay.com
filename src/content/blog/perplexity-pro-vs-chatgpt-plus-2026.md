@@ -4,7 +4,7 @@ seoTitle: "Perplexity Pro vs ChatGPT Plus 2026: Which $20 Plan?"
 description: "Compare Perplexity Pro vs ChatGPT Plus as AI agents in 2026: Computer vs Work, credit costs, GPT-6 Astra access and which $20 plan fits you."
 category: "AI"
 date: 2026-09-28
-updated: 2026-09-28
+updated: 2026-10-29T12:30:00-04:00
 readingTime: "9 min"
 image: "./images/Perplexity-Pro-vs-ChatGPT-Plus.webp"
 imageAlt: "Perplexity Pro vs ChatGPT Plus"
@@ -25,6 +25,12 @@ Three shifts moved the ground under this comparison in the past few weeks.
 🆕 **ChatGPT Work replaced Agent Mode.** The old Agent Mode, with its documented 40 tasks a month, retired on July 9. Work now draws from a shared agent-usage credit pool with Codex, and OpenAI has not published a clean number for how many tasks a Plus subscriber gets.
 
 🆕 **Credits became the real price tag.** Perplexity Pro includes Computer but only a one-time 4,000-credit bonus, then $1 per 100 credits. A single competitive-analysis report can burn 810 credits. ChatGPT Work stays inside the Plus subscription with no separate meter that OpenAI publishes.
+
+## Updated October 29: What Perplexity Changed Since
+
+Perplexity's [public changelog](https://www.perplexity.ai/changelog) lists two Computer updates after the September 21 release this guide was built around. On October 5 it added Automations for ongoing work, inline visualizations in threads and new models including GPT-6.1 Sol and Claude Opus 5.5. On October 19 it added Ultrafast Computer models, a Decisions API and role-based connector controls. None of the entries states new Pro credit allowances, so the credit math below still rests on the figures reviewers reported in September.
+
+On the OpenAI side, we could not find an official page that publishes Plus limits for Work. Third-party coverage of OpenAI's DevDay (September 29) says GPT-6.1 Sol is available in ChatGPT Work and Codex, which means the Astra and Sol names in this article may shift again. Treat model labels as moving and check your own account.
 
 ## Perplexity Computer vs ChatGPT Work: What Each Agent Actually Does
 
@@ -78,7 +84,7 @@ Related: our [GPT-6 Astra release breakdown](/gpt-6-astra-release/) covers who g
 
  Perplexity Pro vs ChatGPT Plus Agent Comparison 
 
-🤖 Perplexity Pro vs ChatGPT Plus, agent features checked September 28, 2026. Credit costs and task limits change often, confirm in your own account before budgeting.
+🤖 Perplexity Pro vs ChatGPT Plus, agent features checked September 28, 2026 (Perplexity changelog rechecked October 29). Credit costs and task limits change often, confirm in your own account before budgeting.
 | Feature | Perplexity Pro | ChatGPT Plus |
 | --- | --- | --- |
 | 💵 Monthly price | $20 | $20 |
@@ -132,6 +138,7 @@ Run one real multi-step task through each this week, track what it costs you in 
 ## Sources
 
 - [TechCrunch: Perplexity’s Personal Computer is now available to everyone on Mac](https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/)
+- [Perplexity changelog](https://www.perplexity.ai/changelog)
 - [Engadget: Perplexity’s Hybrid Compute splits sensitive tasks between cloud and local AI](https://www.engadget.com/2248548/perplexitys-hybrid-compute-splits-sensitive-tasks-between-cloud-and-local-ai/)
 
 ## Related Reading
