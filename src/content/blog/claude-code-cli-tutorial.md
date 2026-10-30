@@ -4,7 +4,7 @@ seoTitle: "How to Install Claude Code CLI: Setup Guide (2026)"
 description: "Install Claude Code CLI the right way: prerequisites, CLAUDE.md setup, and the new Auto Mode permission system explained for 2026."
 category: "Guides"
 date: 2026-09-18
-updated: 2026-09-18
+updated: 2026-10-29T20:16:02-04:00
 readingTime: "8 min"
 image: "./images/Claude-Code-CLI.webp"
 imageAlt: "Claude Code CLI"
@@ -12,37 +12,51 @@ imageAlt: "Claude Code CLI"
 
 It is 2026, and most developers still install AI coding tools the same way they did two years ago: one npm command, then guesswork. The **Claude Code CLI** deserves better than that. It is not a chatbot living in your terminal, it is an agent that plans, edits, and debugs multi-file projects with very little hand-holding. If the term “agentic” is still fuzzy, it means the tool plans multi-step work, uses tools on its own and checks the result with minimal supervision.
 
-The bigger story this year is not the install command itself. Anthropic quietly changed how much autonomy the CLI gets by default, moving paid accounts away from a binary “ask every time” or “skip every check” choice and into a middle ground built around a safety classifier. Most install guides published before mid-2026 never mention this, and readers following them are running an outdated permission setup without knowing it.
+The bigger story this year is not the install command itself. Anthropic changed how much autonomy the CLI gets by default, replacing the binary “ask every time” or “skip every check” choice with a middle ground built around a safety classifier. Most install guides published before mid-2026 never mention this, and the install method itself has changed too: the recommended route is now a native installer, not npm.
 
-This guide covers the real prerequisites, the one-line install, the CLAUDE.md file that gives the agent project context, and every permission mode you can choose between today, including the one that is now the default. It ends with an honest comparison against GitHub Copilot CLI, which caught up on autonomy faster than most people realize.
+This guide covers the real prerequisites, the install commands, the CLAUDE.md file that gives the agent project context, and every permission mode you can choose between today, including the one that is now the default. It ends with an honest comparison against GitHub Copilot CLI, which caught up on autonomy faster than most people realize.
 
 ## What You Need Before You Install Claude Code CLI
 
-Most installation failures trace back to a missing dependency, not the tool itself. Claude Code CLI leans on your local environment to read and search your project.
+Less than you might expect. Per Anthropic's setup documentation, Claude Code runs on macOS 13+, Windows 10 (1809+), and recent Ubuntu, Debian, and Alpine releases, with at least 4 GB of RAM and an internet connection.
 
-✅ **Node.js 18 or later** – the runtime the CLI runs on. ✅ **Git** – required for the agent to track changes and produce diffs. ✅ **Ripgrep (`rg`)** – powers the fast codebase search the agent relies on for context.
+✅ **A paid account** – Claude Code requires a Pro, Max, Team, Enterprise, or Console account. The free claude.ai plan does not include it. ✅ **Git (recommended)** – the agent works best in a git repository, and on native Windows Git for Windows gives it a Bash shell (otherwise it uses PowerShell). ✅ **Node.js only for the npm route** – the native installer does not need it. Ripgrep is normally bundled.
 
 ⏱️ **Quick check**
 
-Run these three commands in your terminal before anything else:
-
 ```
-node -v
 git --version
-rg --version
 ```
 
-If any of them error out, fix that first. Skipping this step is the single most common reason people think the CLI is “broken” on first run.
+If Git is missing, install it first. You do not need to install Node.js or ripgrep separately for the recommended install.
 
-## Install Claude Code CLI With One npm Command
+## Install Claude Code CLI With the Native Installer
 
-Once the prerequisites check out, installation is a single line using the official Anthropic package:
+Anthropic now lists the native installer as the recommended method. It also auto-updates in the background.
+
+On macOS, Linux, or WSL:
+
+```
+curl -fsSL https://claude.ai/install.sh | bash
+```
+
+On Windows PowerShell:
+
+```
+irm https://claude.ai/install.ps1 | iex
+```
+
+Homebrew (`brew install --cask claude-code`) and WinGet (`winget install Anthropic.ClaudeCode`) also work, but those installs do not auto-update. When the installer finishes, open a new terminal and run `claude --version` to confirm it worked.
+
+### Prefer npm?
+
+npm is still supported. It installs the same native binary and needs Node.js 22 or later:
 
 ```
 npm install -g @anthropic-ai/claude-code
 ```
 
-If you hit a “permission denied” error, do not reach for `sudo`. Fix your npm global-install permissions instead, or switch to a version manager like `nvm`, which sidesteps the problem entirely.
+If you hit a “permission denied” error, do not use `sudo`. Fix your npm global-install permissions or use a version manager like `nvm`.
 
 ### Authenticate the CLI
 
@@ -52,7 +66,7 @@ From your project directory, start the agent:
 claude
 ```
 
-This opens a browser window for login with your Anthropic account. Once authenticated, the CLI runs on [Claude Sonnet 5](/claude-sonnet-5-release/) \[verify this is the live published URL before publishing, the slug may still be mid-migration\], Anthropic’s current mid-tier model tuned specifically for this kind of agentic, multi-step work. \[Pro tip: a Pro, Max, or Team plan removes the rate-limit friction that a free account runs into fast once the agent starts working autonomously.\]
+This opens a browser window for login with your Anthropic account. Once authenticated, you can pick the model with `/model`. For how the current Sonnet generation performs on coding work, see our [Claude Sonnet 5 release breakdown](/claude-sonnet-5-release/). A Pro, Max, or Team plan is what lets you run the agent through longer autonomous tasks.
 
 ## Give Claude Code Real Project Context With CLAUDE.md
 
@@ -76,7 +90,7 @@ Once this file exists, every session you start in that folder automatically pick
 
 ## Choose the Right Permission Mode (This Changed in 2026)
 
-Older guides describe Claude Code CLI as having two modes: a safe one that asks before every action, and a “YOLO” flag that skips all checks. That description is no longer accurate, and using it today means missing the mode most paid accounts now start in automatically.
+Older guides describe Claude Code CLI as having two modes: a safe one that asks before every action, and a “YOLO” flag that skips all checks. That description is no longer accurate. Anthropic's permission-modes documentation now lists six: Manual (`default`), Edit automatically (`acceptEdits`), Plan, Auto, `dontAsk` for locked-down CI, and Bypass permissions.
 
 ### Manual Mode: Review Every Action
 
@@ -90,11 +104,11 @@ You: approve, and it executes.
 
 Good for sensitive codebases or when you are still learning what the agent tends to do.
 
-### Auto Mode: The New Default on Pro, Max, and Team Plans
+### Auto Mode: The New Default
 
-Since Anthropic rolled this out, paid accounts now start sessions in Auto Mode by default instead of Manual. A second model, a classifier, reviews each action instead of stopping to ask you. It runs a fast filter on every tool call, then a deeper chain-of-thought review on anything flagged as risky, while a separate input-side check screens file reads, web fetches, and shell output for injected instructions before they reach the agent’s context.
+Anthropic turned auto mode on by default for Pro, Max, and Team accounts from August 14, according to TechCrunch. Anthropic's docs now say that from Claude Code v2.1.283, Auto is the starting mode for interactive terminal and VS Code sessions on every plan and provider (HIPAA-configured organizations start in Manual), so check your version if yours opens differently. A second model, a classifier, reviews each action instead of stopping to ask you. It runs a fast filter on every tool call, then a deeper chain-of-thought review on anything flagged as risky, while a separate input-side check screens file reads, web fetches, and shell output for injected instructions before they reach the agent’s context.
 
-The result is far fewer interruptions without the blind trust that full permission-skipping requires. You can switch to it, or out of it, mid-session by pressing `Shift+Tab` to cycle permission modes.
+The result is far fewer interruptions without the blind trust that full permission-skipping requires. Press `Shift+Tab` to cycle modes mid-session: Auto, Manual, Edit automatically, Plan, then back to Auto. Auto mode needs a supported model (for the Anthropic API: Opus 4.6+, Sonnet 4.6+, Haiku 5.5, or a Fable model), and admins on Team and Enterprise can turn it off.
 
 ### Bypass Permissions: Full Autonomy, Container Only
 
@@ -104,25 +118,25 @@ The flag many people call “YOLO mode” still exists:
 claude --dangerously-skip-permissions
 ```
 
-This removes every guardrail, including the classifier. It belongs inside an isolated container or VM only, never on a machine with credentials or production access nearby. For most day-to-day work, Auto Mode now covers the “let it run” use case more safely than this flag ever did.
+This removes the guardrails, including the classifier. The docs say to use it only in isolated environments such as containers or VMs, and it cannot be switched on mid-session: you must start the session with it. It never belongs on a machine with credentials or production access nearby. For most day-to-day work, Auto Mode now covers the “let it run” use case more safely than this flag ever did.
 
 ## Claude Code CLI vs GitHub Copilot CLI: How They Really Compare Now
 
-Developers keep asking whether switching from Copilot is worth it. The honest answer changed in 2026: GitHub Copilot CLI reached general availability and became genuinely agentic too, with its own plan mode (also on `Shift+Tab`, coincidentally), an autopilot mode, and specialized sub-agents for exploring code, running builds, and reviewing diffs. Prefer an editor to a terminal? See how [Blackbox AI](/blackbox-ai/) compares.
+Developers keep asking whether switching from Copilot is worth it. The honest answer changed in 2026: GitHub Copilot CLI became generally available on February 25, 2026 and is genuinely agentic too, with a plan mode (also on `Shift+Tab`), an autopilot mode, and built-in sub-agents for exploring code, running builds, and reviewing diffs, per GitHub's changelog. Prefer an editor to a terminal? See how [Blackbox AI](/blackbox-ai/) compares.
 
-The real difference today is less about “can it act on its own” and more about where each tool fits in your workflow. Claude Code CLI is terminal-first and model-agnostic about your stack. GitHub Copilot CLI leans into the GitHub ecosystem, including a `&` prefix that hands a task to a background cloud agent while your terminal stays free.
+The real difference today is less about “can it act on its own” and more about where each tool fits in your workflow. Claude Code CLI is terminal-first and works with any language or stack. GitHub Copilot CLI leans into the GitHub ecosystem, including a `&` prefix that hands a task to a background cloud agent while your terminal stays free.
 
 | Feature | 🤖 Claude Code CLI | 🐙 GitHub Copilot CLI |
 | --- | --- | --- |
 | Core Function | Agentic: plans, edits, and executes across your whole repo | Agentic: plans, edits, and executes via specialized sub-agents |
-| ⏱️ Default Autonomy (2026) | Auto Mode with safety classifierPro / Max / Team | Manual approval by defaultAutopilot optional |
+| ⏱️ Autonomy (2026) | Auto Mode with a safety classifier | You choose how much control to keep, from approving every action to autopilot |
 | File Access | Reads and edits the full working directory | Reads and edits the full working directory |
 | Terminal Control | ✅ Runs shell commands, tests, and git workflows | ✅ Runs shell commands, tests, and git workflows |
-| ☁️ Cloud Delegation | Switch permission mode mid-session (\`Shift+Tab\`) | \`&\` prefix hands a task to a background cloud agent |
+| ☁️ Mode Switching | Cycle permission modes mid-session with \`Shift+Tab\` | \`&\` prefix hands a task to a background cloud agent, plan mode on \`Shift+Tab\` |
 | 📊 Best For | Terminal-first, platform-agnostic workflows | Teams already built around the GitHub ecosystem |
 | 💰 Pricing Model | Usage-based via Anthropic plans | Bundled with GitHub Copilot subscription tiers |
 
-Feature availability changes fast on both tools. Verify current plan limits and default permission behavior directly in each product’s docs before publishing time-sensitive claims.
+Features change fast on both tools, so check each product’s docs for current plan limits and defaults.
 
 If your team already lives inside GitHub Issues and pull requests, Copilot CLI’s cloud delegation fits naturally into that flow. If you want a terminal-first agent that is not tied to any single platform, Claude Code CLI is the more direct fit. If you would rather stay inside an IDE than a terminal, [our Cursor AI review 2026](/cursor-ai-review-2026/) covers how Claude models perform there day to day.
 
@@ -130,7 +144,7 @@ If your team already lives inside GitHub Issues and pull requests, Copilot CLI�
 
 **Do I need a paid plan to use Claude Code CLI?**
 
-_No, a free account works, but it hits rate limits fast once the agent runs multi-step tasks. A Pro, Max, or Team plan removes most of that friction and unlocks Auto Mode by default._
+_Yes. Anthropic's docs say Claude Code requires a Pro, Max, Team, Enterprise, or Console account (or a third-party provider such as Amazon Bedrock); the free claude.ai plan does not include it._
 
 **What does Auto Mode actually check before running a command?**
 
@@ -138,7 +152,7 @@ _A classifier model reviews each action in two passes, a quick filter and a deep
 
 **Is `--dangerously-skip-permissions` still necessary in 2026?**
 
-_Rarely. Auto Mode now covers most “let it run” scenarios with an active safety layer. Reach for the skip-permissions flag only inside an isolateda container, never on a machine with real credentials nearby._
+_Rarely. Auto Mode now covers most “let it run” scenarios with an active safety layer. Reach for the skip-permissions flag only inside an isolated container, never on a machine with real credentials nearby._
 
 **Does CLAUDE.md work automatically, or do I need to load it manually?**
 
@@ -146,18 +160,21 @@ _It loads automatically. Any session started inside a folder containing a `CLAUD
 
 **Is GitHub Copilot CLI a real alternative to Claude Code CLI now?**
 
-_Yes, for teams built around GitHub. Copilot CLI reached general availability in 2026 with its own agentic execution and cloud delegation. Claude Code CLI remains the more terminal-first, platform-agnostic option._
+_Yes, for teams built around GitHub. Copilot CLI reached general availability in February 2026 with its own agentic execution and cloud delegation. Claude Code CLI remains the more terminal-first, platform-agnostic option._
 
 ## The Real Skill Is Managing the Agent, Not Installing It
 
 Running the install command takes thirty seconds. Getting real value out of Claude Code CLI means writing a CLAUDE.md file that actually describes your project, and picking a permission mode that matches how much you trust the task in front of you.
 
-**Your next step:** create a CLAUDE.md file in your current project root today, and start your next session paying attention to which permission mode it opens in. That one detail tells you more about how the agent will behave than any flag you could set manually.
+**Your next step:** create a CLAUDE.md file in your current project root today, and note which permission mode your next session opens in. That one detail tells you more about how the agent will behave than any flag you could set manually.
 
 ## Sources
 
 - [TechCrunch: Anthropic is turning Claude Code’s auto mode on by default](https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/)
 - [Engadget: Anthropic releases safer Claude Code auto mode](https://www.engadget.com/ai/anthropic-releases-safer-claude-code-auto-mode-to-avoid-mass-file-deletions-and-other-ai-snafus-142500615.html)
+- [Claude Code docs: Advanced setup](https://code.claude.com/docs/en/setup)
+- [Claude Code docs: Permission modes](https://code.claude.com/docs/en/permission-modes)
+- [GitHub changelog: Copilot CLI is now generally available](https://github.blog/changelog/2026-02-25-github-copilot-cli-is-now-generally-available/)
 - [TechCrunch: Anthropic hands Claude Code more control, but keeps it on a leash](https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/)
 
 ## Related Reading
