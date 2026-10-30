@@ -3,6 +3,7 @@ title: "PS5 QSSR Explained: AI Upscaling Comes to the Base PS5"
 description: "PS5 QSSR brings AI upscaling to the standard PlayStation 5. See how it differs from PSSR, which games support it now, and how to turn it on."
 category: "Gaming"
 date: 2026-10-02T18:00:00-04:00
+updated: 2026-10-30T08:35:00-04:00
 readingTime: "6 min"
 tags: ["PS5", "QSSR", "PSSR", "Sony", "AI upscaling"]
 image: "./images/ps5-qssr-ai-upscaling-explained.webp"
@@ -17,7 +18,7 @@ Below you'll see what QSSR is, how it compares with PSSR on the PS5 Pro, which g
 
 ## What Is PS5 QSSR?
 
-QSSR is a performance tier of AI upscaling. According to [the PlayStation Blog](https://blog.playstation.com/2026/10/01/ai-upscaling-is-coming-to-ps5/), it analyzes game images pixel by pixel and uses AI to improve detail and stability. If you are curious how AI creates images from scratch instead of upscaling them, see our guide to the [best AI image generators of 2026](/best-ai-image-generators-2026/).
+QSSR is a performance tier of AI upscaling. According to the PlayStation Blog, it analyzes game images pixel by pixel and uses AI to improve detail and stability. If you are curious how AI creates images from scratch instead of upscaling them, see our guide to the [best AI image generators of 2026](/best-ai-image-generators-2026/).
 
 It comes out of Project Amethyst, an AI graphics collaboration between Sony Interactive Entertainment and AMD. Engadget reports Sony built QSSR on "a streamlined neural network architecture" and "a hand-tuned implementation that maximizes performance" on the PS5.
 
@@ -51,6 +52,8 @@ Sony says QSSR "will be offered broadly to all PlayStation developers," so more 
 
 ## How to Turn On QSSR on Your PS5
 
+There is no console-wide switch. QSSR is an option inside each supported game, so a PS5 system update will not enable it across your library. Dexerto notes that developers have to implement it themselves, and Insider Gaming, relaying a Digital Foundry Q&A, reports it may not be usable in games built on older SDKs (unconfirmed by Sony).
+
 Sony says supported games get a patch that adds QSSR as "an additional graphics option on PS5." Here's the practical path:
 
 1. 🔄 **Update the game.** Download the latest patch for Marvel's Wolverine or Ghost of Yōtei.
@@ -65,7 +68,7 @@ I'm describing the menu from Sony's wording. The exact label and layout can diff
 Quite a lot, and it matters before you rearrange your setup:
 
 - ❓ **Performance cost:** no published frame rates or resolution numbers.
-- ❓ **Game list:** only two titles so far, with no roadmap.
+- ❓ **Game list:** still only two titles as of October 30, 2026, with no roadmap.
 - ❓ **Third-party adoption:** developers can add it, but no studio beyond Sony's own has been named.
 - ❓ **How close it gets to PSSR:** Sony says PSSR remains the best on PS5 Pro, and has not measured the gap publicly.
 
@@ -105,7 +108,7 @@ PS5 QSSR is a real step for standard PS5 owners: AI upscaling that improves imag
 
 If you own either game, update it tonight and compare the new graphics option against your usual mode. We'll add testing results and new supported games here as they appear.
 
-**Sources:** [PlayStation Blog](https://blog.playstation.com/2026/10/01/ai-upscaling-is-coming-to-ps5/), [Engadget](https://www.engadget.com/2274744/sony-brings-ai-upscaling-to-the-base-ps5/), [The Verge](https://www.theverge.com/games/1003549/sony-ps5-quick-spectral-super-resolution-qssr).
+**Sources:** [PlayStation Blog](https://blog.playstation.com/2026/10/01/ai-upscaling-is-coming-to-ps5/), [Engadget](https://www.engadget.com/2274744/sony-brings-ai-upscaling-to-the-base-ps5/), [The Verge](https://www.theverge.com/games/1003549/sony-ps5-quick-spectral-super-resolution-qssr), [Dexerto](https://www.dexerto.com/gaming/ps5-pros-ai-upscaling-comes-to-base-ps5-but-theres-a-catch-3414940/), [Insider Gaming](https://insider-gaming.com/ps5s-qssr-might-not-run-on-games-with-older-sdks/).
 
 ## Related Reading
 
