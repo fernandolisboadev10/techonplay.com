@@ -4,7 +4,7 @@ seoTitle: "Perplexity for Students: Research Tool That Cites"
 description: "How to use Perplexity for students: get the Education Pro discount, Academic Focus mode, Spaces, and Comet browser for real coursework."
 category: "Apps"
 date: 2026-09-24
-updated: 2026-09-24
+updated: 2026-10-31T08:20:00-04:00
 readingTime: "10 min"
 image: "./images/perplexity-for-students-2026.webp"
 imageAlt: "College student taking notes at a library desk with a laptop, textbooks and highlighted research papers, illustrating Perplexity for students"
@@ -24,11 +24,11 @@ Verified students get [Perplexity Pro](/perplexity-pro-vs-chatgpt-plus-2026/) at
 
 ### What the discount actually unlocks
 
-✅ Access to frontier models (GPT-5.4, Gemini 3.1 Pro, Claude Sonnet 4.6) instead of the base free-tier model ✅ Deep Research for longer, multi-source reports ✅ Unlimited file uploads, so you can drop in a PDF of the assigned reading and ask questions against it ✅ Custom Spaces for organizing each class or project separately ✅ Comet Plus bundled in, which unlocks paywalled reporting from outlets like The New Yorker and Wired
+✅ Access to frontier models from OpenAI, Anthropic and Google instead of the base free-tier model (Perplexity's changelog added GPT-6 Astra on Sept 21, then GPT-6.1 Sol and Claude Opus 5.5 on Oct 5, so the exact lineup keeps changing) ✅ Deep Research for longer, multi-source reports ✅ Unlimited file uploads, so you can drop in a PDF of the assigned reading and ask questions against it ✅ Custom Spaces for organizing each class or project separately ✅ Comet Plus bundled in, which unlocks paywalled reporting from outlets like The New Yorker and Wired
 
-❌ It does not include image, video, or music generation ❌ Free-year promotions exist but rotate by school and region, so check Perplexity’s student page before assuming you qualify
+❌ It does not include image, video, or music generation ❌ The old free-year student promotion ("Race to Infinity") ended Dec. 31, 2024, per a guide updated Oct. 1, 2026, and we found no current US free-year offer; older deal pages are stale. Check Perplexity’s student page before assuming you qualify
 
-⏱️ Setup takes about five minutes: sign up with your school email, verify through SheerID if asked, and the discount applies automatically to your next billing cycle.
+⏱️ Setup takes about five minutes: sign up with your school email, verify through SheerID if asked, and the discount applies automatically to your next billing cycle. Verification happens at checkout on the desktop site and a card is required, and the plan renews at the standard rate when the discount ends, so note your renewal date (per the same guide; Perplexity publishes no eligibility rules).
 
 ## Turn On Academic Focus Before You Start a Literature Review
 
@@ -79,14 +79,14 @@ Related: for a deeper side-by-side, see our full [Perplexity Pro vs. ChatGPT Plu
 Free Start | $0/month | Quick facts, light homework, occasional citations | Base model, Comet Assistant, limited daily searches | None |
 | Education ProStudent-only tier  
 Best For Most Students | ~$10/month  
-(50% off Pro) | A full course load: papers, lit reviews, exam prep | GPT-5.4, Gemini 3.1 Pro, Claude Sonnet 4.6, Deep Research, unlimited uploads, custom Spaces, Comet Plus | SheerID or .edu email |
+(50% off Pro) | A full course load: papers, lit reviews, exam prep | Frontier models from OpenAI, Anthropic and Google, Deep Research, unlimited uploads, custom Spaces, Comet Plus | SheerID or .edu email |
 | ProStandard tier  
 Full Price | $20/month  
 ($17/mo annual) | Non-students who want the same feature set | Same core features as Education Pro, 300+ daily searches | None |
 | MaxPower-user tier  
 Overkill For Coursework | $200/month | Heavy researchers running many long reports daily | Unlimited Deep Research, Background Assistants, Model Council, 10K + 35K bonus credits | None |
 
-Prices and verification methods reflect Perplexity’s published plans as of September 2026 and can change. Some schools and regions have had rotating free-year promotions on top of the standard Education Pro discount, so check Perplexity’s own student page before you subscribe.
+Prices and verification methods reflect Perplexity’s published plans as of September 2026, cross-checked against a third-party guide on Oct. 31, 2026 (Perplexity's own pricing pages were not readable) and can change. Free-year promotions have mostly ended, so check Perplexity’s own student page before you subscribe.
 
 ## Comet: The Browser That Reads the Page So You Do Not Have To
 
@@ -112,7 +112,7 @@ _Yes, the free tier is available to anyone and includes cited answers, the Comet
 
 ### How much is Perplexity Education Pro?
 
-_Verified students get about 50% off the standard $20 a month Pro plan, landing near $10 a month, through SheerID or school email verification. Some universities have had rotating free-year promotions, so check Perplexity’s own student page for what is currently live at your school._
+_Verified students get about 50% off the standard $20 a month Pro plan, landing near $10 a month, through SheerID or school email verification. The earlier free-year promotion has ended, so check Perplexity’s own student page for anything currently live at your school._
 
 ### Is Perplexity better than ChatGPT for schoolwork?
 
@@ -134,6 +134,8 @@ Bookmark the Academic Focus toggle, set up one Space per class, and cite the pri
 
 ## Sources
 
+- [Perplexity changelog](https://www.perplexity.ai/changelog)
+- [Layer3 Labs: Perplexity student discount guide (updated Oct 1, 2026)](https://www.layer3labs.io/guides/perplexity-student-discount)
 - [TechCrunch: Perplexity’s Comet AI browser now free](https://techcrunch.com/2025/10/02/perplexitys-comet-ai-browser-now-free-max-users-get-new-background-assistant/)
 
 ## Related Reading
