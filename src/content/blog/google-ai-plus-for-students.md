@@ -4,7 +4,7 @@ seoTitle: "Google AI Plus for Students: US Gets AI Pro Free"
 description: "Searching Google AI Plus for students? In the US, the free year is Google AI Pro. See what it includes, who qualifies, and how to avoid the $19.99 charge."
 category: "Tools"
 date: 2026-10-02T14:00:00-04:00
-updated: 2026-10-02T14:00:00-04:00
+updated: 2026-10-31T12:20:00-04:00
 readingTime: "8 min"
 image: "./images/google-ai-plus-for-students.webp"
 imageAlt: "College student smiling at a library table with a laptop, headphones, smartphone and notebook, illustrating the Google AI student plan"
@@ -14,7 +14,7 @@ If you searched for **Google AI Plus for students**, you probably expected a fre
 
 The confusion is easy to explain. Google announced two student deals on August 19, 2026, and both carry the same deadline. Students in more than 140 other markets get AI Plus. Students in the US get AI Pro instead, a plan Google values at $19.99 a month.
 
-This guide explains what the US plan includes, who qualifies, how to claim it in a few minutes, and the one step that keeps a surprise charge off your card. [Editorial note: Google changes student terms often. Details below follow Google's August 19 announcement and its help page, checked on October 2, 2026.]
+This guide explains what the US plan includes, who qualifies, how to claim it in a few minutes, and the one step that keeps a surprise charge off your card. Google changes student terms often, so details below follow Google's August 19 announcement and were rechecked against Google's plans page on October 31, 2026. The offer closes on December 31, 2026, so you have about two months left.
 
 ## Google AI Plus vs Google AI Pro: Which Student Deal Do You Get?
 
@@ -35,12 +35,12 @@ Google lists these benefits for US students:
 - 📊 **4x higher usage limits** in Gemini than the free plan
 - 💾 **5 TB of storage** across Google Photos, Drive and Gmail
 - 🤖 **Gemini in Gmail and Google Docs**, so you can draft and summarize inside the apps you already use
-- ⚡ **Access to Gemini Spark**, Google's background agent [rollout is staged, so check your own app]
+- ⚡ **Access to Gemini Spark**, Google's background agent (rollout is staged, so check your own app)
 - 🩺 **Google Health Premium**, listed by Google as part of the plan
 
-Google's plan page adds more for Pro subscribers in general, including 1,000 Flow credits for video, Jules and Antigravity for coding, and Chrome auto browse. Treat those as plan features that can roll out at different times rather than guaranteed day-one perks.
+Google's plans page adds more for Pro subscribers in general: access to the Gemini 4 Argon model and the Pro model, 1,000 Flow credits for video, and YouTube Premium Lite. Earlier announcements also listed Jules and Antigravity for coding and Chrome auto browse. Treat those as plan features that can roll out at different times rather than guaranteed day-one perks.
 
-The study tools matter most for coursework. Google is adding a student hub to the Gemini app with study notebooks that quiz you to find gaps, flashcards, practice quizzes, interactive 3D visualizations and automatic calendar entries built from a syllabus. Google said these features roll out over the coming weeks to users who meet the age requirements.
+The study tools matter most for coursework. Google is adding a student hub to the Gemini app with study notebooks that quiz you to find gaps, flashcards, practice quizzes, interactive 3D visualizations and automatic calendar entries built from a syllabus. Google said in August that some of these features, such as graphs, images and calendar entries, would arrive over the coming weeks, so check which ones your account already shows.
 
 ## Who Qualifies for the Google AI Pro Student Offer
 
@@ -86,13 +86,13 @@ Compare that bundle to the free year before you choose. The free year costs noth
 | Google AI Pro | $19.99 a month | 5 TB | About 4x | ✅ Free for 12 months, until Dec 31 |
 | AI Pro + YouTube Premium | $8.99 a month | 5 TB | About 4x | ✅ Student bundle, up to 4 years |
 
-Prices and limits as of October 2, 2026. Usage multipliers are Google's relative figures, not exact counts.
+Prices and limits as of October 31, 2026, per Google's plans page. Usage multipliers are Google's relative figures, not exact counts.
 
 ## Should You Claim It?
 
 Claim it if you use Gemini for papers, study guides or coding, or if you fill your Drive and Photos. The free year removes the main cost, and 5 TB of storage alone is worth far more than the free tier's 15 GB.
 
-Skip it only if you will forget to cancel and cannot absorb a $19.99 charge. In that case, stick with the free Gemini plan, which still includes Deep Research, Gemini Live and Gemini Notebook. Our [Gemini Notebook guide](/how-to-use-notebooklm/) shows how to build study materials without paying, and our list of the [best Google AI tools of 2026](/best-google-ai-tools-2026/) shows which paid features are worth it after the trial.
+Skip it only if you will forget to cancel and cannot absorb a $19.99 charge. In that case, stick with the free Gemini plan. It is limited to the lighter Flash-Lite model and the baseline usage cap, but it costs nothing. Google also lets Gemini Live run Deep Research and offers study tools in the Gemini app. Our [Gemini Notebook guide](/how-to-use-notebooklm/) shows how to build study materials without paying, and our list of the [best Google AI tools of 2026](/best-google-ai-tools-2026/) shows which paid features are worth it after the trial.
 
 ## FAQ
 
@@ -120,8 +120,11 @@ The US student deal is better than the AI Plus offer people search for, but only
 
 - [Engadget: Google is offering college students a year of its AI Pro plan for free](https://www.engadget.com/2240161/google-is-offering-college-students-a-year-of-ai-pro-for-free/)
 - [9to5Google: Gemini Live adds Deep Research as Notebooks come to AI Mode](https://9to5google.com/2026/08/19/gemini-app-ai-mode-study-tools/)
+- [Google Gemini subscriptions and plans](https://gemini.google/subscriptions/)
 
 ## Related Reading
 
+- [Notebook LM Is Now Gemini Notebook: What Changed in 2026](/how-to-use-notebooklm/)
+- [AI for Education: The Teacher Tool Stack Backed by 2026 Data](/ai-for-education-2026/)
 - [Perplexity for Students: The Research Tool That Cites Everything](/perplexity-for-students-2026/)
 - [Best Google AI Tools 2026: 10 Picks After Gemini 3.8 [Sept Update]](/best-google-ai-tools-2026/)
