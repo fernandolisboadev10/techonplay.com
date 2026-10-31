@@ -4,7 +4,7 @@ seoTitle: "GTA 6 System Requirements 2026: PC Specs You Need"
 description: "GTA 6 system requirements for 2026, including predicted minimum, recommended, and enthusiast PC specs before Rockstar's official announcement."
 category: "Gaming"
 date: 2026-09-09
-updated: 2026-09-09
+updated: 2026-10-30T20:30:00-04:00
 readingTime: "8 min"
 image: "./images/gta6.webp"
 imageAlt: "GTA 6 System Requirements: Can Your PC Handle It? (Hardware Analysis)"
@@ -12,7 +12,7 @@ imageAlt: "GTA 6 System Requirements: Can Your PC Handle It? (Hardware Analysis)
 
 Your PC handled Cyberpunk 2077 on high settings. It chewed through Alan Wake 2. But **GTA 6 system requirements** are the question keeping PC gamers up at night, and the honest answer is more complicated than any spec sheet floating around right now.
 
-Rockstar drops GTA 6 on November 19, 2026, and the hype has reached a fever pitch few games ever touch. The catch nobody talks about enough: as of today, the game is confirmed only for PlayStation 5 and Xbox Series X|S. There is no PC release date, and there are no official PC specs from Rockstar. Every “confirmed” chart you’ve seen online is a guess dressed up as fact.
+Rockstar drops GTA 6 on November 19, 2026, and the hype has reached a fever pitch few games ever touch. The catch nobody talks about enough: as of today, the game is confirmed only for PlayStation 5 and Xbox Series X|S, and as of October 30, with launch about three weeks away, Rockstar has still announced no PC release date and no official PC specs. Every “confirmed” chart you’ve seen online is a guess dressed up as fact.
 
 By the end of this guide, you’ll know exactly what’s real, what’s prediction, and how to build or upgrade a PC that’s ready the moment Rockstar finally announces the PC version.
 
@@ -22,7 +22,7 @@ No. Rockstar’s official GTA 6 page lists PlayStation 5 and Xbox Series X|S onl
 
 History backs this up. GTA V hit PC about 18 months after its console debut. Red Dead Redemption 2 took roughly 13 months. If GTA 6 follows the same pattern, a PC launch lands sometime in 2027, with official system requirements arriving three to six months before that.
 
-None of this means you should stop planning. It means every GTA 6 system requirements chart online right now, including ours, is an educated estimate built from console hardware, Rockstar’s engine history, and comparable AAA titles. Treat it as a planning tool, not a guarantee.
+Some outlets, citing GamesBeat-sourced reports, have pointed to a PC release in the first quarter of 2027, but neither Rockstar nor Take-Two has confirmed that window, so treat it as a rumor. None of this means you should stop planning. It means every GTA 6 system requirements chart online right now, including ours, is an educated estimate built from console hardware, Rockstar’s engine history, and comparable AAA titles. Treat it as a planning tool, not a guarantee.
 
 ### GTA 6 System Requirements: The Three Predicted Tiers
 
