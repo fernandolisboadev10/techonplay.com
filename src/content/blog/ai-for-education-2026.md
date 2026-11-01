@@ -4,7 +4,7 @@ seoTitle: "AI for Education 2026: Tools Teachers Actually Use"
 description: "AI for Education tools teachers actually use in 2026 to save 5.9 hours a week, boost grades up to 10%, and cut lesson prep in half."
 category: "AI"
 date: 2026-09-25
-updated: 2026-09-25
+updated: 2026-10-31T20:16:00-04:00
 readingTime: "12 min"
 image: "./images/AI-for-education.webp"
 imageAlt: "AI for Education 2026: Must-Have Tools for Students & Teachers [Examples + Links]"
@@ -28,21 +28,21 @@ Adoption did not happen because AI got smarter overnight (for the vocabulary, se
 
 Brisk works inside Google Docs, Slides, YouTube, and Canvas instead of asking teachers to learn a new platform, which explains why it shows up on nearly every “best AI tools for teachers” list this year.
 
-It holds a 93% Common Sense Privacy rating and is FERPA and COPPA compliant, a detail that matters more than any feature list once a district’s legal team gets involved.
+Brisk's own site cites a 95% Common Sense Privacy Rating (an earlier 93% figure is outdated), and it is FERPA and COPPA compliant, a detail that matters more than any feature list once a district’s legal team gets involved.
 
-✅ Free Educator plan covers lesson planning, feedback, and differentiation ✅ Works inside tools your school already licenses, no new login to teach ❌ Deeper rubrics and analytics sit behind the Pro tier ❌ Best suited to schools already using Google or Microsoft tools 💰 Free Educator plan, Pro at $14.99/month
+✅ Free plan for teachers covers lesson planning, feedback, and differentiation ✅ Works inside tools your school already licenses, no new login to teach ❌ School and district features (Premium, Intelligence) require a custom quote ❌ Best suited to schools already using Google or Microsoft tools 💰 Free for teachers; school and district plans on custom pricing (no public price list)
 
 ## 2\. MagicSchool AI: The Widest Toolbox
 
-MagicSchool AI ships with 80-plus teacher tools and 50-plus student tools, covering everything from rubric makers to parent communication drafts, all inside one dashboard.
+MagicSchool AI ships with 80-plus teacher tools (on its free plan too) and 50-plus student tools (Plus and Enterprise only), covering everything from rubric makers to parent communication drafts, all inside one dashboard.
 
 It is FERPA, COPPA, and SOC 2 certified, and the company states that student and teacher data is not used to train its models. New teachers, though, often describe the sheer number of tools as overwhelming at first.
 
-✅ 80+ teacher tools and 50+ student tools in one place ✅ FERPA, COPPA, and SOC 2 certified, with a stated no-training-on-data policy ❌ Independent reviews are mixed, from 4.7/5 on G2 to far lower on Trustpilot ❌ The breadth of options adds a learning curve most rivals skip 💰 $8.33/month billed yearly, $12.99/month billed monthly, custom Enterprise pricing
+✅ 80+ teacher tools free, 50+ student tools on Plus ✅ FERPA, COPPA, and SOC 2 certified, with a stated no-training-on-data policy ❌ Independent reviews are mixed, from 4.7/5 on G2 to far lower on Trustpilot ❌ The 50+ student tools and unlimited generations sit on the paid Plus tier ❌ The breadth of options adds a learning curve most rivals skip 💰 Free forever plan with the 80+ teacher tools; Plus $8.33/month billed yearly or $12.99/month billed monthly; custom Enterprise pricing
 
 ## 3\. Khanmigo: Free and Built for Speed
 
-Khanmigo is free for teachers and backed by Khan Academy’s curriculum library, and it is built around a small set of curated tools: lesson hooks, exit tickets, and differentiated tasks.
+Khanmigo's teacher tools are free to sign up for (adults 18+ in supported countries; learners and parents pay for a subscription) and are backed by Khan Academy’s curriculum library, and it is built around a small set of curated tools: lesson hooks, exit tickets, and differentiated tasks.
 
 Most teachers are productive with it inside minutes, which makes it a safer default for a first-year teacher than a platform with 80 tools to sort through.
 
@@ -60,11 +60,11 @@ Related: [How to Use NotebookLM for Teaching and Research](/how-to-use-notebookl
 
 ## 5\. Gemini for Education: Built Into Tools You Already Use
 
-If a school runs on Google Workspace, Gemini is close to a free upgrade. It sits inside Gmail, Docs, and Slides, so lesson drafts and parent emails get a head start without leaving the app.
+If a school runs on Google Workspace, Gemini is close to a free upgrade: per Google's admin documentation, the Gemini app and Gemini Notebook (formerly NotebookLM) are free of charge in all Google Workspace for Education editions, with stricter content policies for users under 18. It sits inside Gmail, Docs, and Slides, so lesson drafts and parent emails get a head start without leaving the app.
 
 Its large context window also makes it useful for processing dense curriculum materials in one pass, without switching tools.
 
-✅ Built directly into Gmail, Docs, and Slides ✅ Large context window handles dense curriculum documents ❌ Full value depends on a school already using Google Workspace ❌ Advanced tier pricing varies by region and plan 💰 Free with a Google account, Advanced tier available
+✅ Built directly into Gmail, Docs, and Slides ✅ Large context window handles dense curriculum documents ❌ Full value depends on a school already using Google Workspace ❌ Premium model access sits in a paid add-on (Google Workspace with Gemini) 💰 Gemini app and Gemini Notebook free in all Google Workspace for Education editions; paid add-on for more
 
 ## 6\. Canva for Education: Making Materials Look Professional
 
@@ -96,16 +96,16 @@ Here is how the eight tools compare on price, best use case, and the one feature
 
 | 🏆 Tool | 🎯 Best For | 🆓 Free Access | 💰 Paid Pricing | ⭐ Standout Feature |
 | --- | --- | --- | --- | --- |
-| Brisk TeachingAll-in-One | Lesson planning, feedback, and differentiation inside tools you already use | Free Educator plan | $14.99/month Pro | 93% Common Sense Privacy rating, FERPA/COPPA compliant |
-| MagicSchool AIWidest Range | Schools that want every teacher tool in one dashboard | No free plan listed | $8.33 to $12.99/month, custom Enterprise | 80+ teacher tools and 50+ student tools |
-| KhanmigoFree & Focused | Teachers who want a curated toolkit with zero learning curve | Free for teachers | Not applicable | Backed by Khan Academy’s curriculum library |
+| Brisk TeachingAll-in-One | Lesson planning, feedback, and differentiation inside tools you already use | Free plan for teachers | Custom pricing for schools and districts | 95% Common Sense Privacy rating (per Brisk), FERPA/COPPA compliant |
+| MagicSchool AIWidest Range | Schools that want every teacher tool in one dashboard | Free forever plan (80+ teacher tools) | Plus $8.33 to $12.99/month, custom Enterprise | 80+ teacher tools and 50+ student tools |
+| KhanmigoFree & Focused | Teachers who want a curated toolkit with zero learning curve | Free for teachers | Paid for parents and learners | Backed by Khan Academy’s curriculum library |
 | Google NotebookLMGrounded Answers | Turning dense curriculum PDFs into summaries and study guides | Free with a Google account | No paid tier | Answers grounded only in your uploaded documents |
-| Gemini for EducationBuilt-In | Teachers already living inside Google Workspace | Free with a Google account | Advanced tier available | Built directly into Gmail, Docs, and Slides |
+| Gemini for EducationBuilt-In | Teachers already living inside Google Workspace | Free in Workspace for Education editions | Paid add-on for premium models | Built directly into Gmail, Docs, and Slides |
 | Canva for EducationVisual Content | Worksheets, posters, and slide decks that look professional | Free for verified K-12 teachers | Paid tiers for stock and brand kits | Thousands of education templates plus text-to-image |
 | Kahoot!Live Engagement | Real-time formative assessment and review sessions | Free plan for regular classroom use | EDU plans from $17/month | Live leaderboard format drives participation instantly |
 | NearpodLive Engagement | Interactive lessons with embedded checks for understanding | Free plan with limited lessons and reports | Gold and Platinum tiers | Polls and drawing activities built into the lesson itself |
 
-Pricing and features reflect vendor pages and independent reviews as of September 2026. Plans and limits change often, confirm current pricing before recommending a paid tier to your school.
+Pricing and features reflect vendor pages and independent reviews as of September 2026, with Brisk, MagicSchool, Khanmigo and Gemini pricing rechecked against vendor pages on October 31, 2026. Plans and limits change often, confirm current pricing before recommending a paid tier to your school.
 
 ## AI Study Copilots: What Actually Helps Students
 
@@ -155,7 +155,7 @@ _Both, according to current research. Gallup measured 5.9 hours saved per week f
 
 ### How much do AI tools for teachers cost?
 
-_Costs vary widely. Khanmigo and the Brisk Educator plan are free. MagicSchool AI starts around $8 to $13 a month depending on billing, and Canva for Education is free for verified K-12 teachers._
+_Costs vary widely. Khanmigo's teacher tools, Brisk's teacher plan and MagicSchool AI's free plan cost nothing. MagicSchool Plus is about $8 to $13 a month depending on billing, and Canva for Education is free for verified K-12 teachers._
 
 ### Do teachers need training to use AI in the classroom effectively?
 
@@ -177,6 +177,10 @@ Tell us in the comments which tool made your stack and what it replaced.
 
 - [CNBC: Microsoft, Khan Academy provide free AI assistant for all educators in US](https://www.cnbc.com/2024/05/21/microsoft-khan-academy-launch-free-ai-assistant-for-all-us-teachers.html)
 - [TechCrunch: Google adds Gemini to its Education suite](https://techcrunch.com/2024/05/16/google-adds-gemini-to-its-education-suite/)
+- [MagicSchool AI pricing](https://www.magicschool.ai/pricing)
+- [Brisk plans](https://briskteaching.com/plans)
+- [Khanmigo for teachers](https://www.khanmigo.ai/)
+- [Google Workspace for Education admin guide: Gemini and Gemini Notebook](https://knowledge.workspace.google.com/admin/getting-started/editions/quickstart-guide-to-gemini-and-gemini-notebook-for-education)
 - [CNBC: AI is getting very popular among students and teachers, very quickly](https://www.cnbc.com/2024/06/11/ai-is-getting-very-popular-among-students-and-teachers-very-quickly.html)
 
 ## Related Reading
