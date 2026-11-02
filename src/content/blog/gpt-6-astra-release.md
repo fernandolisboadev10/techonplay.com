@@ -22,7 +22,7 @@ Astra is not a minor version bump. OpenAI reports it saturates ARC-AGI-3 at 99.9
 
 For day-to-day engineering work, three areas stand out:
 
-✅ **Computer use** — Astra completes OSWorld 2.0 tasks in roughly 47% less time than GPT-5.6 Sol. ✅ **Coding** — Astra scores 57.9% on Terminal-Bench 4.0, up from 37.3% for the previous model. ✅ **Long context** — Astra hits 96.3% on an 8-needle retrieval test across 512K to 1M tokens, versus 73.8% for Sol.
+✅ **Computer use**: Astra completes OSWorld 2.0 tasks in roughly 47% less time than GPT-5.6 Sol. ✅ **Coding**: Astra scores 57.9% on Terminal-Bench 4.0, up from 37.3% for the previous model. ✅ **Long context**: Astra hits 96.3% on an 8-needle retrieval test across 512K to 1M tokens, versus 73.8% for Sol.
 
 The model ships under the API name `gpt-6-astra`, and OpenAI is also updating the Codex harness alongside it, which the company says produces a 1.9x faster task completion rate on the Mind2Web benchmark.
 
@@ -46,7 +46,7 @@ If you are deciding whether to migrate workloads, price and performance matter m
 | --- | --- | --- | --- | --- |
 | 🚀 GPT-6 Astra | $10 / $50 | 57.9% ✅ | 72.6% ✅ | 97.6% ✅ |
 | GPT-5.6 Sol | $5 / $30 | 37.3% ❌ | 65.7% | 83.0% |
-| Claude Fable 5.1 | $10 / $50 | 55.8% | — \* | 87.8% |
+| Claude Fable 5.1 | $10 / $50 | 55.8% | n/a \* | 87.8% |
 | Claude Opus 5 | $5 / $25 💰 | 52.6% | 70.2% | 73.2% |
 
 \* Not reported in OpenAI’s published OSWorld 2.0 offline comparison. Benchmark scores per OpenAI’s GPT-6 Astra launch announcement (Sept 2026); pricing per Anthropic and OpenAI API rate cards. Scores from different labs may use different harnesses.

@@ -31,46 +31,46 @@ The fix isn’t a longer prompt. It’s a structured one. That’s the whole ide
 
 Lighting decides whether an image reads as a stock photo or an editorial shot. These ten commands control where the light comes from and how hard it hits the subject.
 
--   💡 **spotlight** — carves the subject out of darkness, theater-style
--   🌅 **goldenhour** — warm, late-day sun with stretched shadows
--   🌙 **silhouette** — clean dark shape against a bright backdrop
--   🔦 **rimlight** — a thin bright outline lifts the subject off the background
--   🎨 **chiaroscuro** — painterly extremes of light and shadow
+-   💡 **spotlight**: carves the subject out of darkness, theater-style
+-   🌅 **goldenhour**: warm, late-day sun with stretched shadows
+-   🌙 **silhouette**: clean dark shape against a bright backdrop
+-   🔦 **rimlight**: a thin bright outline lifts the subject off the background
+-   🎨 **chiaroscuro**: painterly extremes of light and shadow
 
 ### Surreal Commands For Scroll-Stopping Concepts
 
 When a normal photo won’t cut it, these commands push the scene into impossible territory while keeping it visually coherent, ideal for thumbnails and social hooks.
 
--   🌀 **portal** — a doorway linking two different worlds in one frame
--   🪶 **gravityoff** — everything floats, as if gravity quit its job
--   🔁 **infinite** — one element repeats into a hypnotic distance
--   🏙️ **giantobject** — an everyday item becomes a monument-sized landmark
+-   🌀 **portal**: a doorway linking two different worlds in one frame
+-   🪶 **gravityoff**: everything floats, as if gravity quit its job
+-   🔁 **infinite**: one element repeats into a hypnotic distance
+-   🏙️ **giantobject**: an everyday item becomes a monument-sized landmark
 
 ### Framing Commands That Control Focus
 
 Framing decides what the eye lands on first. These ten commands are the difference between a cluttered image and one with clear visual hierarchy.
 
--   🖼️ **negativeSpace** — generous empty space, great for adding text overlays
--   🔍 **closeup** — lets face, texture, or product detail carry the frame
--   ⚖️ **symmetry** — mirrored halves for maximum graphic punch
--   📐 **ruleofthirds** — subject on a third line for a relaxed, editorial balance
+-   🖼️ **negativeSpace**: generous empty space, great for adding text overlays
+-   🔍 **closeup**: lets face, texture, or product detail carry the frame
+-   ⚖️ **symmetry**: mirrored halves for maximum graphic punch
+-   📐 **ruleofthirds**: subject on a third line for a relaxed, editorial balance
 
 ### Behind-the-Scenes Commands For Authenticity
 
 BTS-style images perform well because they feel unstaged, even when fully generated. These commands expose the “production” around the shot.
 
--   🎬 **BTS** — the polished shot steps back to reveal the crew and gear
--   📹 **camerarig** — camera body, lens, and monitor become visible props
--   🔀 **beforeafter** — raw setup and finished frame side by side
+-   🎬 **BTS**: the polished shot steps back to reveal the crew and gear
+-   📹 **camerarig**: camera body, lens, and monitor become visible props
+-   🔀 **beforeafter**: raw setup and finished frame side by side
 
 ### Camera Angle Commands For Instant Drama
 
 The camera position alone can make a subject feel powerful, vulnerable, or immersive without changing anything else in the scene.
 
--   🦅 **birdsview** — straight-down framing that flattens the scene into shapes
--   👤 **POV** — first-person framing that drops the viewer into the moment
--   📉 **lowangle** — shooting from below makes the subject feel towering
--   🎥 **dutchangle** — a tilted horizon injects tension and energy
+-   🦅 **birdsview**: straight-down framing that flattens the scene into shapes
+-   👤 **POV**: first-person framing that drops the viewer into the moment
+-   📉 **lowangle**: shooting from below makes the subject feel towering
+-   🎥 **dutchangle**: a tilted horizon injects tension and energy
 
 Related: [Google Flow Camera Commands](/google-flow-camera-commands/)
 
@@ -78,36 +78,36 @@ Related: [Google Flow Camera Commands](/google-flow-camera-commands/)
 
 These ten commands borrow directly from fashion and magazine photography, useful when a brand needs to look established rather than experimental.
 
--   📸 **lookbook** — consistent styling, presented like a fashion catalog
--   🎞️ **35mm** — honest grain and timeless lens character
--   📰 **coverstory** — a magazine-cover portrait with space for a masthead
--   📷 **polaroid** — instant-film softness and casual snapshot framing
+-   📸 **lookbook**: consistent styling, presented like a fashion catalog
+-   🎞️ **35mm**: honest grain and timeless lens character
+-   📰 **coverstory**: a magazine-cover portrait with space for a masthead
+-   📷 **polaroid**: instant-film softness and casual snapshot framing
 
 ### Creative Experiment Commands For Unique Visuals
 
 When every competitor is using the same three styles, these commands add a technical or conceptual twist that’s hard to replicate with a basic prompt.
 
--   🌡️ **thermal** — heat-map coloring turns temperature into design
--   🪞 **reflection** — the composition is built around mirrors or water
--   📐 **blueprint** — technical drawing treatment with measured lines and labels
--   🌐 **tinyplanet** — the environment curls into a surreal spherical world
+-   🌡️ **thermal**: heat-map coloring turns temperature into design
+-   🪞 **reflection**: the composition is built around mirrors or water
+-   📐 **blueprint**: technical drawing treatment with measured lines and labels
+-   🌐 **tinyplanet**: the environment curls into a surreal spherical world
 
 ### Cinematic Commands For a Movie-Still Look
 
 These commands pull from film stocks and genres, useful for anything meant to feel like a story rather than a static photo.
 
--   🌃 **neonnoir** — rain-slick darkness cut by saturated neon glows
--   🎬 **cinematic** — a polished movie-still look with controlled depth
--   📼 **vintagefilm** — gentle grain and faded color from an analog past
--   🎭 **filmstill** — a frame that feels lifted mid-story from a film
+-   🌃 **neonnoir**: rain-slick darkness cut by saturated neon glows
+-   🎬 **cinematic**: a polished movie-still look with controlled depth
+-   📼 **vintagefilm**: gentle grain and faded color from an analog past
+-   🎭 **filmstill**: a frame that feels lifted mid-story from a film
 
 ### Action Commands For Energy and Motion
 
 Static images undersell movement. These commands make ChatGPT render motion in a way that feels physically real, not blurry or broken.
 
--   🤸 **midair** — the subject hangs suspended at the peak of a leap
--   💨 **windblown** — wind whips hair, fabric, and dust believably
--   💥 **impactframe** — the exact instant of impact, debris and force lines
+-   🤸 **midair**: the subject hangs suspended at the peak of a leap
+-   💨 **windblown**: wind whips hair, fabric, and dust believably
+-   💥 **impactframe**: the exact instant of impact, debris and force lines
 
 ### Product Commands For E-Commerce and Ads
 
@@ -126,10 +126,10 @@ Static images undersell movement. These commands make ChatGPT render motion in a
 
 For anyone generating product visuals, this category alone can replace an entire studio photography session.
 
--   📦 **packshot** — clean studio presentation ready for e-commerce
--   ✨ **luxuryad** — restrained, immaculate composition that whispers premium
--   🍏 **applestyle** — minimal, airy presentation with clean hierarchy
--   🎈 **floatingproduct** — the product hovers with soft controlled shadows
+-   📦 **packshot**: clean studio presentation ready for e-commerce
+-   ✨ **luxuryad**: restrained, immaculate composition that whispers premium
+-   🍏 **applestyle**: minimal, airy presentation with clean hierarchy
+-   🎈 **floatingproduct**: the product hovers with soft controlled shadows
 
 ### How to Combine ChatGPT Image Prompts Without Breaking the Output
 
@@ -143,7 +143,7 @@ A working formula looks like this: subject + 1 lighting command + 1 framing or a
 
 ### Try All 100 Commands Below
 
-001 — 100
+001 to 100
 
 ## ChatGPT Image Prompt Commands
 

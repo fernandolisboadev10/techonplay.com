@@ -96,7 +96,7 @@ Give your daily user account only the privileges it needs. A compromised low-pri
 
 Stick to official repositories and verified sources. The XZ Utils incident happened inside the trusted supply chain, not from some sketchy download site, so vigilance matters even with “official” packages.
 
-Related: macOS vs Windows Security: Which One Actually Protects You Better? — [https://techonplay.com/macos-vs-windows-security/](/macos-vs-windows-security/)
+Related: macOS vs Windows Security: Which One Actually Protects You Better?: [https://techonplay.com/macos-vs-windows-security/](/macos-vs-windows-security/)
 
 ### FAQ
 

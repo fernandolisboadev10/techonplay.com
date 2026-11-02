@@ -29,17 +29,17 @@ This first group controls the vertical position of the camera relative to you. T
 
 ✅ **Best for:** hero shots, profile pictures, anything that needs to feel bigger than a phone selfie ❌ **Avoid for:** casual, everyday posts where a dramatic angle feels out of place
 
--   `/DRONEVIEW` — High aerial view from above
--   `/TOPDOWN` — Directly above the subject
--   `/BIRDSEYE` — Bird’s-eye perspective
--   `/OVERHEAD` — Camera directly overhead
--   `/EXTREMETOPDOWN` — Ultra-high aerial view straight down
--   `/DRONE3Q` — High drone view at an angle
--   `/LOWANGLE` — Camera looking upward, makes the subject feel powerful
--   `/HIGHANGLE` — Camera looking downward
--   `/GROUNDLEVEL` — Camera close to the ground
--   `/WORMSVIEW` — Extremely low-angle perspective, dramatic and unusual
--   `/LOWUP` — Low-angle close-up built for a strong, confident look
+-   `/DRONEVIEW`: High aerial view from above
+-   `/TOPDOWN`: Directly above the subject
+-   `/BIRDSEYE`: Bird’s-eye perspective
+-   `/OVERHEAD`: Camera directly overhead
+-   `/EXTREMETOPDOWN`: Ultra-high aerial view straight down
+-   `/DRONE3Q`: High drone view at an angle
+-   `/LOWANGLE`: Camera looking upward, makes the subject feel powerful
+-   `/HIGHANGLE`: Camera looking downward
+-   `/GROUNDLEVEL`: Camera close to the ground
+-   `/WORMSVIEW`: Extremely low-angle perspective, dramatic and unusual
+-   `/LOWUP`: Low-angle close-up built for a strong, confident look
 
 📊 **Data point:** angle-based prompts are the single biggest lever for making an AI-generated photo feel professional instead of AI-generated. A slight low angle alone can change how authoritative a portrait looks.
 
@@ -49,15 +49,15 @@ Static shots are fine, but movement commands are what make people stop scrolling
 
 ⏱️ These work especially well for short video generations, not just single images.
 
--   `/TRACKING` — Cinematic moving-camera feel
--   `/ORBIT` — Camera circling the subject
--   `/ORBITCLOSE` — Camera circling closer around the subject
--   `/PUSHIN` — Camera moving toward the subject
--   `/PULLOUT` — Camera moving away from the subject
--   `/CRANEUP` — Low to high rising shot
--   `/DRONEREVEAL` — Camera pulls back to reveal the full scene
--   `/MOTIONBLUR` — Subject in motion with a blur effect
--   `/AERIALTRACK` — Drone tracking the subject from above
+-   `/TRACKING`: Cinematic moving-camera feel
+-   `/ORBIT`: Camera circling the subject
+-   `/ORBITCLOSE`: Camera circling closer around the subject
+-   `/PUSHIN`: Camera moving toward the subject
+-   `/PULLOUT`: Camera moving away from the subject
+-   `/CRANEUP`: Low to high rising shot
+-   `/DRONEREVEAL`: Camera pulls back to reveal the full scene
+-   `/MOTIONBLUR`: Subject in motion with a blur effect
+-   `/AERIALTRACK`: Drone tracking the subject from above
 
 If you only try three commands from this whole list, make it `/PUSHIN`, `/ORBIT`, and `/DRONEREVEAL`. They consistently produce the most shareable results.
 
@@ -65,31 +65,31 @@ If you only try three commands from this whole list, make it `/PUSHIN`, `/ORBIT`
 
 This group is about distance and composition rather than angle. These are the commands that separate a snapshot from something that looks intentional.
 
--   `/CLOSEUP` — Face-focused close-up
--   `/MEDIUMSHOT` — Upper-body or half-body shot
--   `/FULLBODY` — Full subject visible
--   `/PORTRAIT` — Portrait-focused framing
--   `/WIDEANGLE` — Wide environmental shot
--   `/LONGSHOT` — Subject small, environment large
--   `/PROFILE` — Side profile shot
--   `/CLOSEPROFILE` — Tight profile close-up
--   `/OVERSHOULDER` — Shot from behind the shoulder toward the subject
--   `/POV` — Subject looking directly into the camera
--   `/BEHIND` — Camera positioned behind the subject
--   `/EYELEVEL` — Natural, eye-level shot with no distortion
+-   `/CLOSEUP`: Face-focused close-up
+-   `/MEDIUMSHOT`: Upper-body or half-body shot
+-   `/FULLBODY`: Full subject visible
+-   `/PORTRAIT`: Portrait-focused framing
+-   `/WIDEANGLE`: Wide environmental shot
+-   `/LONGSHOT`: Subject small, environment large
+-   `/PROFILE`: Side profile shot
+-   `/CLOSEPROFILE`: Tight profile close-up
+-   `/OVERSHOULDER`: Shot from behind the shoulder toward the subject
+-   `/POV`: Subject looking directly into the camera
+-   `/BEHIND`: Camera positioned behind the subject
+-   `/EYELEVEL`: Natural, eye-level shot with no distortion
 
 ## Mood and Effect Commands for a Cinematic Finish
 
 The last group adds atmosphere. These commands do not change where the camera sits, they change how the shot feels once it is framed.
 
--   `/CINEMATIC` — Adds cinematic composition and depth
--   `/DUTCHANGLE` — Dramatic tilted camera
--   `/DUTCHTILT` — Tilted camera for a similar dramatic effect
--   `/SILHOUETTE` — Backlit silhouette shot
--   `/REFLECTION` — Shot including a natural reflection
--   `/FRAMED` — Subject framed by the surrounding environment
--   `/THROUGHOBJECT` — Shot through a foreground element
--   `/THROUGHNET` — Shot through a net, fence, or similar frame
+-   `/CINEMATIC`: Adds cinematic composition and depth
+-   `/DUTCHANGLE`: Dramatic tilted camera
+-   `/DUTCHTILT`: Tilted camera for a similar dramatic effect
+-   `/SILHOUETTE`: Backlit silhouette shot
+-   `/REFLECTION`: Shot including a natural reflection
+-   `/FRAMED`: Subject framed by the surrounding environment
+-   `/THROUGHOBJECT`: Shot through a foreground element
+-   `/THROUGHNET`: Shot through a net, fence, or similar frame
 
 ## Google Flow Camera Commands Comparison Table
 

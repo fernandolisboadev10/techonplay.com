@@ -142,10 +142,10 @@ Drop your pick in the comments: Windows, macOS, or are you Team Linux now that y
 
 ### Sources
 
--   [Apple: About System Integrity Protection on your Mac](https://support.apple.com/en-qa/102149) — official Apple support documentation on SIP
--   [Apple: Gatekeeper and runtime protection](https://support.apple.com/en-kz/guide/platform-support/review-gatekeeper-security-technology-runtime-supbb8762b42/26/web/28) — how Gatekeeper verifies apps before they run
--   [StatCounter: OS Market Share Worldwide](https://gs.statcounter.com/os-market-share/desktop/worldwide) — real-time desktop OS market share data
--   [Microsoft Security Response Center Update Guide](https://msrc.microsoft.com/update-guide) — official record of Patch Tuesday releases and CVE fixes
+-   [Apple: About System Integrity Protection on your Mac](https://support.apple.com/en-qa/102149): official Apple support documentation on SIP
+-   [Apple: Gatekeeper and runtime protection](https://support.apple.com/en-kz/guide/platform-support/review-gatekeeper-security-technology-runtime-supbb8762b42/26/web/28): how Gatekeeper verifies apps before they run
+-   [StatCounter: OS Market Share Worldwide](https://gs.statcounter.com/os-market-share/desktop/worldwide): real-time desktop OS market share data
+-   [Microsoft Security Response Center Update Guide](https://msrc.microsoft.com/update-guide): official record of Patch Tuesday releases and CVE fixes
 
 ## Related Reading
 
