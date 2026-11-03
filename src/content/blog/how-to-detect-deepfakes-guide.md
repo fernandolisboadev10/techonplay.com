@@ -4,7 +4,7 @@ seoTitle: "How to Detect Deepfakes 2026: 12 Checks, 6 Free Tools"
 description: "Learn how to detect deepfakes in 2026 with 12 visual, audio and context checks plus 6 free tools, including Gemini SynthID and Adobe Inspect."
 category: "Security"
 date: 2026-09-23
-updated: 2026-09-23
+updated: 2026-11-03T11:30:00-05:00
 readingTime: "12 min"
 image: "./images/How-to-Detect-Deepfakes.webp"
 imageAlt: "How to Detect Deepfakes"
@@ -100,9 +100,9 @@ No detector is 100% accurate, and most only catch certain types of fakes. Use th
 
 ### Gemini app (SynthID + Content Credentials)
 
-Upload a file to Gemini and ask, “Was this generated using Google AI?” Gemini scans for Google’s invisible SynthID watermark in images, video, and audio, and since December 2025 it can tell you which segments of a video carry it. It also reads C2PA Content Credentials.
+Upload a file to Gemini and ask, “Was this generated using Google AI?” Gemini scans for Google’s invisible SynthID watermark in images, video, and audio, and since December 2025 it can tell you which segments of a video carry it. It also reads C2PA Content Credentials (version 2.2 or later from conforming products; credentials stored remotely aren’t supported). Per Google’s help page, the Content Credentials check works on the web and in the Android app, with iOS listed as coming soon.
 
-✅ Free, and it points to specific seconds of a clip ❌ SynthID only catches content from Google AI tools ⏱️ Videos under 90 seconds, files up to 100 MB, about 10 checks per type per day
+✅ Free, and it points to specific seconds of a clip ❌ SynthID only catches content from Google AI tools ⏱️ One file at a time, up to 100 MB; videos under 90 seconds, audio under 1 hour; about 10 image, 10 video (up to 5 minutes total) and 10 audio (up to 3 hours total) checks per rolling 24 hours
 
 ### Adobe Content Authenticity (Inspect)
 
@@ -151,7 +151,7 @@ Best for Developers | Enterprise deepfake models via API | 🖼️ 🎧 (video a
 | Sensity AIWeb app, API, SDK  
 Best Forensics | Pixel, voice, and metadata forensics with reports | 🖼️ 🎬 🎧 | Cloud or on-premise | Custom quote | No free or consumer plan listed |
 
-Data as of September 2026, from each vendor’s official pages. Sensity’s 98% figure is a vendor claim on public datasets. No detector is 100% accurate, so combine tools with source checks and reverse image searches.
+Gemini limits rechecked on Google’s help page on November 3, 2026; other rows are from vendors’ pages as of September 2026. Sensity’s 98% figure is a vendor claim on public datasets. No detector is 100% accurate, so combine tools with source checks and reverse image searches.
 
 ## What Happened to the Tools You’ve Heard Of
 
@@ -164,6 +164,8 @@ Older guides keep recommending tools you can’t use. Here’s the reality check
 Video gets the headlines, but cloned voices on the phone hit more people. The FBI recommends three moves: Limit what scammers can learn about you by following [how to protect your data from AI chatbots](/how-to-protect-your-data-from-ai-chatbots/).
 
 ✅ Hang up and call back on a number you already know ✅ Agree on a secret word or phrase with family members ✅ Never share one-time codes, even when the request sounds official
+
+One new layer on Android: according to TechCrunch, Google announced fake call detection for Phone by Google on June 2, 2026, rolling out globally that month on Android 12 and later, starting with Pixel. It is on by default. When a saved contact who also uses Phone by Google calls you, their phone sends a silent confirmation signal. If a scammer is spoofing that contact, the signal is missing and you get a warning to hang up. It only covers calls from contacts on the same system, so the call-back and safe-word steps still matter.
 
 Related: voice clones come from the same tech behind [AI voice generators](/how-to-use-ai-voice-generators/), so knowing how they work helps you hear their limits.
 
@@ -207,10 +209,11 @@ No single step is enough, and that’s fine. Pick two checks from this guide and
 
 - [TechCrunch: Google rolls out fake call detection to protect against AI deepfake impersonation scams](https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/)
 - [BleepingComputer: Google adds Android protection against AI deepfake scam calls](https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/)
+- [Google Gemini help: Verify AI-generated images, videos, and audio](https://support.google.com/gemini/answer/16722517)
 
 ## Related Reading
 
-- [AI Voice Generators for Viral Content: The 2026 Guide [ElevenLabs v3]](/how-to-use-ai-voice-generators/)
+- [AI Voice Generators for Viral Content: The 2026 Guide [ElevenLabs v4]](/how-to-use-ai-voice-generators/)
 - [The Fake Blue Screen Scam: How to Spot the ‘ClickFix’ Trap Before It’s Too Late](/fake-blue-screen-scam/)
 - [How to Protect Your Data From AI Chatbots (2026 Guide)](/how-to-protect-your-data-from-ai-chatbots/)
 - [Split-Face AI Family Trend: The Prompt That Works](/split-face-ai-family-trend-prompt/)
