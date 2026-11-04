@@ -4,7 +4,7 @@ seoTitle: "Copilot in Excel 2026: 8 Features Replacing Old Hacks"
 description: "See what changed in Copilot in Excel for 2026, from Agent Mode and the COPILOT function to Python support and self-updating Canvas dashboards."
 category: "Apps"
 date: 2026-09-24
-updated: 2026-09-24
+updated: 2026-11-03T19:20:00-05:00
 readingTime: "11 min"
 image: "./images/copilot.webp"
 imageAlt: "Copilot in Excel"
@@ -38,7 +38,7 @@ You can still switch back to the older suggestion-based mode from the Copilot pa
 
 The new `=COPILOT()` function turns a plain instruction into a working formula. Type `=COPILOT("classify these as positive, neutral, or negative", B2:B50)` and it returns a value or a spilled range, the same way FILTER or UNIQUE would.
 
-It’s built for the jobs that used to mean nesting IF statements or adding a helper column: standardizing company names, pulling one detail out of a messy text field, or scoring feedback for sentiment. Microsoft has it in beta with hourly call limits and a cap on rows per request, so it isn’t meant for processing an entire dataset in one formula yet.
+It’s built for the jobs that used to mean nesting IF statements or adding a helper column: standardizing company names, pulling one detail out of a messy text field, or scoring feedback for sentiment. Microsoft has it in beta with call limits and a cap on rows per request, so it isn’t meant for processing an entire dataset in one formula yet. According to Office Watch (January 2026), the limit is 100 calls per 10 minutes or 300 per hour, and going over returns a `#CONNECT!` error with “Too many requests.” Because every cell with its own `=COPILOT()` formula counts as a separate call, pass a whole range in one formula instead of filling a formula down a column, and convert results to static values once you’re happy with them.
 
 ✅ Reads like a real formula, so it updates when the source cell changes ✅ Handles classification, extraction, and standardization without a helper column ❌ Beta status means call limits and row caps apply ❌ Still requires a Copilot license to use
 
@@ -94,7 +94,7 @@ Here’s how the eight features stack up on what they do, what they require, and
 
 | 🛠 Feature | 📅 Shipped | 🎯 Best For | 🔓 Requires | 📊 Status |
 | --- | --- | --- | --- | --- |
-| Agent ModeDefault experience | Jun 2, 2026 | Full multi-step builds: tables, formulas, and charts together | Copilot Pro / Business / Enterprise | Generally Available |
+| Agent ModeDefault experience | Jun 2, 2026 | Full multi-step builds: tables, formulas, and charts together | Microsoft 365 Premium / Copilot Business / Enterprise | Generally Available |
 | COPILOT Function\=COPILOT(prompt, range) | 2026 | Classifying, extracting, or standardizing data in one cell | Copilot license | Beta (call/row limits) |
 | Python in Edit with CopilotWindows, Mac, Web | Aug 25, 2026 | Data cleaning, stats, and custom charts beyond native formulas | Copilot license | Generally Available |
 | CanvasAI dashboard builder | Sep 5, 2026 | Auto-updating dashboards from a raw table | Copilot license | Rolling Out (by Oct) |
@@ -110,7 +110,7 @@ Data as of September 24, 2026. Rollouts land in phases across Windows, Mac, and 
 
 The free Copilot chat panel still works inside Excel for quick questions, but it skips Agent Mode, the COPILOT function, and Canvas. Those need a paid seat: If you are weighing assistants more broadly, our [Perplexity Pro vs ChatGPT Plus](/perplexity-pro-vs-chatgpt-plus-2026/) comparison covers two other big $20 plans.
 
-✅ Copilot Pro at $20 a month bundles into Microsoft 365 Personal or Family, a fit for individual use ✅ Microsoft 365 Copilot Business runs $21 a month billed annually, or $25 month to month, on top of a qualifying business license ✅ Microsoft 365 Copilot Enterprise starts at $30 a month annually, on top of an E3 or E5 license, and is the tier IT teams need to turn on Agent 365 governance ❌ None of the paid tiers are cheap once the required base license gets added, so plan for roughly $33 to $87 a month per seat depending on the plan
+✅ For individuals, Microsoft 365 Premium costs $19.99 a month and replaced Copilot Pro, which Microsoft stopped selling; per [The Decoder](https://the-decoder.com/microsoft-365-premium-promises-more-office-ai-features-than-chatgpt-plus-for-one-cent-less/), it covers what the old Family and Copilot Pro plans offered ✅ Microsoft 365 Copilot Business stays at $21 per user per month (billed annually) after the July 1, 2026 price changes, per [Microsoft’s Tech Community post](https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/act-now-lock-in-current-pricing-on-microsoft-365-copilot/ba-p/4502628), on top of a qualifying business license ✅ Microsoft 365 Copilot Enterprise starts at $30 a month annually, on top of an E3 or E5 license, and is the tier IT teams need to turn on Agent 365 governance ❌ None of the paid tiers are cheap once the required base license gets added; check Microsoft’s pricing page for your exact bundle, since prices and promotions changed on July 1, 2026
 
 ## FAQ
 
@@ -120,7 +120,7 @@ _It’s a worksheet function, `=COPILOT(prompt, range)`, that turns a plain-lang
 
 ### Is Copilot in Excel free to use?
 
-_A basic chat panel is free, but Agent Mode, the COPILOT function, Python execution, and Canvas all require a paid Copilot seat, either Copilot Pro for individuals or Microsoft 365 Copilot Business or Enterprise for organizations._
+_A basic chat panel is free, but Agent Mode, the COPILOT function, Python execution, and Canvas all require a paid Copilot seat, either Microsoft 365 Premium for individuals or Microsoft 365 Copilot Business or Enterprise for organizations._
 
 ### What’s the difference between Agent Mode and the COPILOT function?
 
@@ -143,6 +143,7 @@ Pick one feature from this list, most likely Agent Mode or the COPILOT function,
 ## Sources
 
 - [TechCrunch: Microsoft says it has over 20M paid Copilot users](https://techcrunch.com/2026/04/29/microsoft-says-it-has-over-20m-paid-copilot-users-and-they-really-are-using-it/)
+- [Office Watch: How to fix Excel Copilot “#Connect” errors](https://office-watch.com/2026/excel-copilot-connect-error/)
 - [Engadget: Microsoft’s Copilot app adds Office, natural coding and automation](https://www.engadget.com/2268096/microsofts-copilot-app-adds-office-natural-coding-and-automation/)
 
 ## Related Reading
