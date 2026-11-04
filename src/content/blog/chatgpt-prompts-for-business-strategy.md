@@ -4,7 +4,7 @@ seoTitle: "ChatGPT Prompts for Business Strategy: 6 Frameworks"
 description: "Copy 6 ChatGPT prompts for business strategy built on frameworks: Porter's Five Forces, SWOT, PESTEL and more. Get sharper answers today."
 category: "AI"
 date: 2026-09-22
-updated: 2026-09-22
+updated: 2026-11-04T11:20:00-05:00
 readingTime: "9 min"
 image: "./images/ChatGPT-Prompts-for-Business-Strategy.webp"
 imageAlt: "ChatGPT Prompts for Business Strategy"
@@ -12,7 +12,7 @@ imageAlt: "ChatGPT Prompts for Business Strategy"
 
 **ChatGPT prompts for business strategy** usually fail for one reason. They ask the model for an opinion instead of a framework, so ChatGPT falls back on the same five bullet points every LinkedIn post already gives you.
 
-That gap matters more now that ChatGPT runs on GPT-5.6 and the newer **[GPT-6 Astra](/gpt-6-astra-release/)** models, with Projects and stronger memory that can hold an entire strategy thread across weeks of work. The tool got smarter. Most prompts did not catch up.
+That gap matters more now that OpenAI has shipped **[GPT-6 Astra](/gpt-6-astra-release/)**, which it launched on September 3, 2026 and which TechCrunch reports was rolling out to paid ChatGPT plans over the following week. Projects can keep an entire strategy thread in one place across weeks of work. The tool got smarter. Most prompts did not catch up.
 
 This guide skips generic prompt lists. Below are six proven strategy frameworks, from Porter’s Five Forces to OKRs, each turned into a copy-paste prompt you can run today, plus a three-line upgrade that sharpens any answer ChatGPT gives you.
 
@@ -24,7 +24,7 @@ Consultants do not work that way. They pick a framework that fits the actual que
 
 The prompts below copy that habit. Each one names a framework, asks for your real numbers, and forces a specific output, so the answer looks like something a strategist would actually hand you.
 
-Related: for a broader set of ready-to-use prompts beyond strategy, see our **full list of strategic ChatGPT** **prompts.**
+Related: for a broader set of ready-to-use prompts beyond strategy, see our [30 best ChatGPT prompts for 2026](/best-chatgpt-prompts-2026/).
 
 ## The 6 Business Strategy Frameworks ChatGPT Can Run For You
 
@@ -34,11 +34,11 @@ Pick the framework that matches the decision you are facing this week, not the o
 
 Use this when you need to understand why a market is profitable, or why it is not, before you commit more budget to it.
 
- 
+**🎯 Prompt: Porter’s Five Forces**
 
-🎯 Prompt: Porter’s Five Forces
-
-Act as a business strategist trained in Porter's Five Forces. My company is \[company name\], operating in \[industry\] and selling \[product or service\] to \[target customer\]. Analyze the five forces for my market: threat of new entrants, supplier bargaining power, buyer bargaining power, threat of substitutes, and competitive rivalry. For each force, rate it Low, Medium, or High, explain why in two sentences, and end with the single biggest strategic risk I should address in the next 90 days.
+```prompt
+Act as a business strategist trained in Porter's Five Forces. My company is [company name], operating in [industry] and selling [product or service] to [target customer]. Analyze the five forces for my market: threat of new entrants, supplier bargaining power, buyer bargaining power, threat of substitutes, and competitive rivalry. For each force, rate it Low, Medium, or High, explain why in two sentences, and end with the single biggest strategic risk I should address in the next 90 days.
+```
 
 ⏱️ Takes about 5 minutes to fill in and run. Follow up with “which force changes fastest in the next 12 months?” to keep the analysis current.
 
@@ -46,11 +46,11 @@ Act as a business strategist trained in Porter's Five Forces. My company is \[co
 
 A SWOT built on guesses is worthless. This version forces you to supply the facts first.
 
- 
+**🧭 Prompt: SWOT Analysis**
 
-🧭 Prompt: SWOT Analysis
-
-Act as a strategy consultant running a SWOT analysis for \[company name\], a \[industry\] business with \[number\] employees and \[key product or service\]. Use only the information I give you: our strengths are \[list\], our weaknesses are \[list\], the market opportunities we see are \[list\], and the threats we are watching are \[list\]. Turn this into a SWOT grid, then tell me which single strength and opportunity combination gives us the fastest path to growth.
+```prompt
+Act as a strategy consultant running a SWOT analysis for [company name], a [industry] business with [number] employees and [key product or service]. Use only the information I give you: our strengths are [list], our weaknesses are [list], the market opportunities we see are [list], and the threats we are watching are [list]. Turn this into a SWOT grid, then tell me which single strength and opportunity combination gives us the fastest path to growth.
+```
 
 ✅ Works well as a Monday-morning check-in prompt. ❌ Skip it if you have not filled in real strengths and threats, since a blank SWOT just invites ChatGPT to invent generic ones.
 
@@ -58,11 +58,11 @@ Act as a strategy consultant running a SWOT analysis for \[company name\], a \[i
 
 Use this when the question is not “should we grow” but “where.”
 
- 
+**📈 Prompt: Ansoff Matrix**
 
-📈 Prompt: Ansoff Matrix
-
-Act as a growth strategist using the Ansoff Matrix. My company sells \[product or service\] to \[current market\]. I am considering four paths: market penetration, market development into \[new market\], product development such as \[new product idea\], and diversification into \[new area\]. Score each path from 1 to 10 on revenue potential, risk, and time to results, given our current resources of \[budget or team size\]. Recommend one path and list the first three steps to test it.
+```prompt
+Act as a growth strategist using the Ansoff Matrix. My company sells [product or service] to [current market]. I am considering four paths: market penetration, market development into [new market], product development such as [new product idea], and diversification into [new area]. Score each path from 1 to 10 on revenue potential, risk, and time to results, given our current resources of [budget or team size]. Recommend one path and list the first three steps to test it.
+```
 
 📊 The output works best as a table. If ChatGPT answers in prose, ask it to reformat the scores into rows and columns.
 
@@ -70,22 +70,22 @@ Act as a growth strategist using the Ansoff Matrix. My company sells \[product o
 
 Pricing decisions made on gut feel are strategy decisions made blind.
 
- 
+**💰 Prompt: Willingness to Pay**
 
-💰 Prompt: Willingness to Pay
-
-Act as a pricing strategist. My product is \[product\], currently priced at \[$price\], sold to \[customer type\]. Our closest competitors charge \[competitor prices\]. Customers tell us the biggest value driver is \[value driver\]. Build three pricing scenarios, lower, same, and higher, estimate how each affects perceived value and likely churn, and recommend one price with the reasoning a CFO would want to see.
+```prompt
+Act as a pricing strategist. My product is [product], currently priced at [$price], sold to [customer type]. Our closest competitors charge [competitor prices]. Customers tell us the biggest value driver is [value driver]. Build three pricing scenarios, lower, same, and higher, estimate how each affects perceived value and likely churn, and recommend one price with the reasoning a CFO would want to see.
+```
 
 
 ### 5\. PESTEL: Catch Risks Before They Hit the P&L
 
 Run this once a quarter, not once a year. Macro conditions move faster than most strategy decks account for.
 
- 
+**🌍 Prompt: PESTEL**
 
-🌍 Prompt: PESTEL
-
-Act as a risk analyst using the PESTEL framework for \[company or industry\]. Walk through Political, Economic, Social, Technological, Environmental, and Legal factors that could affect us in \[region\] over the next 12 months. For each factor, give one real trend, rate its impact as Low, Medium, or High, and flag the two factors that need a contingency plan first.
+```prompt
+Act as a risk analyst using the PESTEL framework for [company or industry]. Walk through Political, Economic, Social, Technological, Environmental, and Legal factors that could affect us in [region] over the next 12 months. For each factor, give one real trend, rate its impact as Low, Medium, or High, and flag the two factors that need a contingency plan first.
+```
 
 💰 Pair this with a budget review. A High-impact Economic factor usually means a pricing or cost conversation is overdue.
 
@@ -93,9 +93,11 @@ Act as a risk analyst using the PESTEL framework for \[company or industry\]. Wa
 
 A framework only matters if it produces something your team can act on Monday.
 
-✅ Prompt: OKRs
+**✅ Prompt: OKRs**
 
-Act as a strategy execution coach. Our top strategic priority for \[quarter or year\] is \[priority\]. Write one Objective that is ambitious and qualitative, then three Key Results that are measurable and time-bound. Each Key Result should include a baseline of \[current number\] and a target we can hit in \[timeframe\]. Flag any Key Result that sounds like a task instead of an outcome.
+```prompt
+Act as a strategy execution coach. Our top strategic priority for [quarter or year] is [priority]. Write one Objective that is ambitious and qualitative, then three Key Results that are measurable and time-bound. Each Key Result should include a baseline of [current number] and a target we can hit in [timeframe]. Flag any Key Result that sounds like a task instead of an outcome.
+```
 
 This is the prompt that closes the loop between analysis and action, so save it for last in any planning session.
 
@@ -146,7 +148,7 @@ _No. ChatGPT can structure analysis fast and test scenarios in minutes, but it c
 
 ### Which ChatGPT plan works best for strategic planning?
 
-_Free and Plus can run every prompt in this guide. Plus and higher plans add Projects and stronger memory, useful when a strategy takes several sessions to build. Business and Enterprise plans add the Work agent for pulling data from connected files and apps._
+_Every prompt in this guide is plain text, so any plan that can chat with the current default model can run them. Paid plans matter mainly when a strategy takes several sessions: Projects keep the files and chats together. ChatGPT Work, OpenAI's task agent, is available in the desktop app on Free and on the web for Plus and Pro, according to Engadget._
 
 ### How do I stop ChatGPT from giving generic strategy advice?
 
