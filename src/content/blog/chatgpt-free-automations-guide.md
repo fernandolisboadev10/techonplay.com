@@ -4,7 +4,7 @@ seoTitle: "ChatGPT Free Automations: 3 Scheduled Tasks to Run"
 description: "ChatGPT free automations with 3 scheduled tasks, copy-paste prompts and free Zapier or Make backups. See what Free users get since Aug 25."
 category: "Guides"
 date: 2026-09-19
-updated: 2026-09-21
+updated: 2026-11-04T07:30:00-05:00
 readingTime: "9 min"
 image: "./images/O-melhor-GPT-5.webp"
 imageAlt: "ChatGPT free in Practice: 10 Simple Automations to Save Time Every Day"
@@ -16,7 +16,7 @@ The feature launched on June 17 as a paid perk. About ten weeks later, OpenAI op
 
 This guide shows what the Free plan can and cannot schedule, how to set up your first task in about two minutes, and which five tasks deserve your three slots. It also covers copy-paste prompts for everything the scheduler skips, plus free Zapier and Make backups.
 
-## What ChatGPT Free Automations Can Do in September 2026
+## What ChatGPT Free Automations Can Do (November 2026)
 
 Here is the short version of what Free accounts get, based on OpenAI’s help center and release notes:
 
@@ -50,23 +50,33 @@ Pick tasks that repay you every day or every week. Each prompt below fits the on
 
 ### 1\. The Morning Briefing
 
-> Every weekday morning, give me the five most important news stories in \[industry\]. Write one sentence per story on why it matters to \[my role\]. Skip anything older than 24 hours.
+```prompt
+Every weekday morning, give me the five most important news stories in [industry]. Write one sentence per story on why it matters to [my role]. Skip anything older than 24 hours.
+```
 
 ### 2\. The Price or Change Watch
 
-> Check once a day whether \[product or page\] has dropped below \[$X\] or changed its \[policy\]. Message me only when something changed. Include the source.
+```prompt
+Check once a day whether [product or page] has dropped below [$X] or changed its [policy]. Message me only when something changed. Include the source.
+```
 
 ### 3\. The Friday Review
 
-> Every Friday afternoon, ask me five short questions about my week. Then turn my answers into a summary with wins, blockers, and three priorities for Monday.
+```prompt
+Every Friday afternoon, ask me five short questions about my week. Then turn my answers into a summary with wins, blockers, and three priorities for Monday.
+```
 
 ### 4\. The Daily Practice Drill
 
-> Each evening, send me one practice question on \[topic\] at \[level\]. Wait for my answer, then grade it and explain the gap.
+```prompt
+Each evening, send me one practice question on [topic] at [level]. Wait for my answer, then grade it and explain the gap.
+```
 
 ### 5\. The Deadline Nudge
 
-> Every day, list what I need to submit in the next seven days from this list: \[paste deadlines\]. Put the closest date first and flag anything due in under 48 hours.
+```prompt
+Every day, list what I need to submit in the next seven days from this list: [paste deadlines]. Put the closest date first and flag anything due in under 48 hours.
+```
 
 If you can keep only three, start with the briefing, the watch, and the Friday review. Rotate the drill and the nudge in when a deadline or exam gets close.
 
@@ -85,7 +95,7 @@ The Free plan covers reminders, briefings, and simple monitoring. Paid plans add
 | 🎙️ Voice chats or GPTs inside tasks | ❌ No | ❌ No | ❌ No |
 | 💰 Price | $0 | $20/month | $100 or $200/month |
 
-Source: OpenAI Help Center and ChatGPT release notes, September 2026. The Go plan also allows 3 active tasks.
+Source: OpenAI Help Center task limits as summarized in search results on November 4, 2026 (the help page itself returned an error to our fetcher). Agent-mode message counts and Pro pricing were not re-verified; check your plan page. The Go plan also allows 3 active tasks.
 
 📊 The Go plan also allows 3 active tasks. Business and Edu allow 10, and Enterprise allows 15. 💰 Prices: Go at $8/month (may show ads), Plus at $20/month, Pro at $100 or $200/month.
 
@@ -93,7 +103,7 @@ Source: OpenAI Help Center and ChatGPT release notes, September 2026. The Go pla
 
 Scheduled tasks skip voice, files, and GPTs. For those jobs, a reusable prompt still saves hours. Start with a master template so ChatGPT stops guessing. Prompt quality decides whether a task works, so skim [how to use ChatGPT effectively](/how-to-use-chatgpt-effectively/) first.
 
-```
+```prompt
 You are [role, e.g., senior project manager].
 Context: [paste email, notes, or scenario].
 Goal: [specific outcome].
@@ -104,9 +114,25 @@ If you need more information, ask me up to 3 questions first.
 
 Then plug in one of these three workflows:
 
-⏱️ **Meeting minutes:** “Turn these notes into minutes with decisions, action items (owner and date), and open questions. Keep it under 200 words. \[paste notes\]” ⏱️ **Email triage:** “Reply to this email in three versions: short, neutral, and warm. Keep each under 80 words. \[paste email\]” ⏱️ **SOP builder:** “Turn this rambling explanation into a numbered SOP with prerequisites, steps, and a final checklist. \[paste explanation\]”
+**Meeting minutes**
 
-Related: our list of the [best ChatGPT prompts for 2026](/best-chatgpt-prompts-2026/) and the [ChatGPT cheat sheet for productivity](/best-chatgpt-prompts-2026/) give you more templates to reuse.
+```prompt
+Turn these notes into minutes with decisions, action items (owner and date), and open questions. Keep it under 200 words. [paste notes]
+```
+
+**Email triage**
+
+```prompt
+Reply to this email in three versions: short, neutral, and warm. Keep each under 80 words. [paste email]
+```
+
+**SOP builder**
+
+```prompt
+Turn this rambling explanation into a numbered SOP with prerequisites, steps, and a final checklist. [paste explanation]
+```
+
+Related: our list of the [best ChatGPT prompts for 2026](/best-chatgpt-prompts-2026/) and the [business strategy prompt frameworks](/chatgpt-prompts-for-business-strategy/) give you more templates to reuse.
 
 ## When Free Runs Out: Zapier and Make Free Plans
 
@@ -120,7 +146,7 @@ A practical split: let ChatGPT do the thinking and let Zapier or Make do the mov
 
 ### Custom GPTs are on the way out
 
-OpenAI plans to retire custom GPTs on December 11, 2026, across all plans. It is migrating them to plugins that bundle instructions, reference files, and connected apps. Scheduled tasks do not support GPTs anyway, so build your automations on plain prompts.
+OpenAI plans to retire custom GPTs on December 11, 2026, according to EdTech Innovation Hub. Creators can use a "Migrate to plugin" option: instructions become a skill, connected apps carry over, and the original GPT turns read-only. Custom actions do not carry over automatically, and approved Enterprise workspaces can defer to February 11, 2027. Scheduled tasks do not support GPTs anyway, so build your automations on plain prompts.
 
 ### Share links expose your instructions
 
@@ -150,7 +176,7 @@ _No, because they solve different problems. Scheduled tasks generate summaries, 
 
 ### What happens to custom GPTs and my automations?
 
-_OpenAI plans to retire custom GPTs on December 11, 2026, and is moving them to plugins that combine instructions, files, and connected apps. Scheduled tasks never supported GPTs, so tasks built on plain prompts keep working without a migration._
+_OpenAI plans to retire custom GPTs on December 11, 2026, and is moving them to plugins. Scheduled tasks never supported GPTs, so tasks built on plain prompts keep working without a migration._
 
 ## The Bottom Line: Three Slots, One Habit
 
@@ -162,6 +188,7 @@ Open Scheduled today, paste the morning briefing, set the window, and let it run
 
 - [Engadget: Free accounts can now access ChatGPT’s upgraded task scheduling tool](https://www.engadget.com/2244194/free-accounts-can-now-access-chatgpts-upgraded-task-scheduling-tool/)
 - [Engadget: ChatGPT now has a hub for scheduled tasks](https://www.engadget.com/2196844/chatgpt-now-has-a-hub-for-scheduled-tasks/)
+- [EdTech Innovation Hub: OpenAI to retire custom GPTs and move creators to plugins](https://www.edtechinnovationhub.com/news/openai-to-retire-custom-gpts-in-december-as-creators-move-to-plugins)
 - [TechCrunch: ChatGPT now lets you schedule reminders and recurring tasks](https://techcrunch.com/2025/01/14/chatgpt-now-lets-you-schedule-reminders-and-recurring-tasks/)
 
 ## Related Reading
