@@ -4,7 +4,7 @@ seoTitle: "100 ChatGPT Image Prompts for Pro-Looking Visuals"
 description: "Turn generic ChatGPT images into professional visuals with 100 tested image prompts covering lighting, framing, and camera angles"
 category: "AI"
 date: 2026-09-01
-updated: 2026-09-01
+updated: 2026-11-04T19:15:00-05:00
 readingTime: "8 min"
 image: "./images/100-ChatGPT-Image-Prompts.webp"
 imageAlt: "100 ChatGPT Image Prompts"
@@ -109,7 +109,7 @@ Static images undersell movement. These commands make ChatGPT render motion in a
 -   💨 **windblown**: wind whips hair, fabric, and dust believably
 -   💥 **impactframe**: the exact instant of impact, debris and force lines
 
-### Product Commands For E-Commerce and Ads
+### Quick Reference: Which Category to Use
 
 | 📂 Category | 🎯 Best For | ⏱️ Effort | 📊 Impact |
 | --- | --- | --- | --- |
@@ -124,6 +124,8 @@ Static images undersell movement. These commands make ChatGPT render motion in a
 | 💥 Action & Dynamics | Sports, energy-driven content | Medium | Medium |
 | 📦 Product & Advertising | E-commerce, ad creative | Low | High |
 
+### Product Commands For E-Commerce and Ads
+
 For anyone generating product visuals, this category alone can replace an entire studio photography session.
 
 -   📦 **packshot**: clean studio presentation ready for e-commerce
@@ -135,7 +137,25 @@ For anyone generating product visuals, this category alone can replace an entire
 
 The commands aren’t meant to be used one at a time forever. Once you know a handful by heart, layering them is where the real quality jump happens. Want ready-made scenes? Try the [3D figurine trend](/3d-figurine-ai-trend-chatgpt/) or the [90s AI photo trend](/90s-ai-photo-trend-gemini-prompt/).
 
-A working formula looks like this: subject + 1 lighting command + 1 framing or angle command + optional style command. For example: “a barista pouring coffee, golden hour lighting, close-up, 35mm film grain” produces a warm, tightly framed, film-grain shot instead of a flat product photo.
+A working formula looks like this: subject + 1 lighting command + 1 framing or angle command + optional style command. For example, this prompt produces a warm, tightly framed, film-grain shot instead of a flat product photo:
+
+```prompt
+A barista pouring coffee at a small cafe counter, goldenhour lighting, closeup, 35mm film grain
+```
+
+The same structure works for product shots and concept art:
+
+```prompt
+A ceramic water bottle on a stone ledge, packshot, rimlight, negativeSpace on the right for text
+```
+
+```prompt
+A lighthouse in a storm, neonnoir, lowangle, cinematic
+```
+
+### Which ChatGPT Image Model Do You Get Now?
+
+OpenAI replaced the original GPT-4o image tool with a new “ChatGPT Images” model in December 2025, according to Engadget, which said it rolled out to all users. By October 2026, TechCrunch reported that OpenAI’s new virtual try-on feature runs on the newly launched ChatGPT Images 2.5. The commands in this guide are plain photographic language, so they are not tied to one version, but newer models follow detailed lighting and framing instructions more closely than older ones did. If a command seems to be ignored, shorten the prompt first, then try rephrasing it in full words (“low angle shot from below”).
 
 ⏱️ Takes seconds to test  
 💰 Costs nothing beyond your existing ChatGPT plan  
@@ -159,7 +179,7 @@ Instead of scrolling back to find a command, use the interactive list below. Sea
 
 **Do these commands work in every ChatGPT plan?**
 
-_Yes, the commands are prompt language, not a special feature, so they work anywhere ChatGPT can generate images, including the free tier with image limits._
+_Yes, the commands are prompt language, not a special feature, so they work anywhere ChatGPT can generate images, including the free tier. OpenAI does not publish an exact daily number for free accounts (it only says image generation has separate usage limits from text chat), and third-party estimates disagree, so check the limit message inside the app._
 
 **Can I combine commands from different categories?**
 
@@ -173,6 +193,10 @@ _Overloaded prompts confuse the model. Keep it to three or four commands per pro
 
 _No, Midjourney uses technical flags like `--ar` or `--stylize`. These are descriptive keywords that work because ChatGPT’s image model responds to natural language, not command-line syntax._
 
+**Which ChatGPT image model do these prompts run on?**
+
+_ChatGPT Images, which TechCrunch reported was on version 2.5 as of October 2026. The commands are descriptive phrases, so they carry over when OpenAI updates the model._
+
 **Do I need to type the slash symbol?**
 
 _No, the slash is a mnemonic from the original format, not a functional trigger. What actually works is the descriptive phrase, so typing “golden hour lighting” works the same as typing “/goldenhour.”_
@@ -185,7 +209,7 @@ The creators winning right now are the ones treating chatgpt image prompts as a 
 
 ## Sources
 
-- [TechCrunch: ChatGPT can now virtually try on clothes for you](https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/)
+- [TechCrunch: ChatGPT can now virtually try on clothes for you (runs on ChatGPT Images 2.5)](https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/)
 - [Engadget: ChatGPT image generation is now faster and better at following tweaks](https://www.engadget.com/ai/chatgpt-image-generation-is-now-faster-and-better-at-following-tweaks-180000750.html)
 
 ## Related Reading
