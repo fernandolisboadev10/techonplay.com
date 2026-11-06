@@ -4,7 +4,7 @@ seoTitle: "Blackbox AI Review 2026: Features, Pricing, Verdict"
 description: "See what Blackbox AI actually does, its real pricing tiers, and how the Chairman multi-agent workflow compares to GitHub Copilot in 2026."
 category: "Apps"
 date: 2026-09-21
-updated: 2026-09-22
+updated: 2026-11-06T07:20:00-05:00
 readingTime: "8 min"
 image: "./images/Blackbox-AI.webp"
 imageAlt: "Blackbox AI"
@@ -14,7 +14,7 @@ imageAlt: "Blackbox AI"
 
 The catch is that the product looks different depending on where you land. The main site now reads like an enterprise inference platform, while the VS Code extension and app still target solo developers with a free tier and three paid plans. Reviewers who tested both sides report a steep learning curve and a credit system that drains faster than the marketing suggests.
 
-This review breaks down what Blackbox AI actually does, what each pricing tier includes, and where it beats or loses to GitHub Copilot and Cursor. Every figure below comes from Blackbox’s own docs and independent reviews published in 2026, not guesswork.
+This review breaks down what Blackbox AI actually does, what each pricing tier includes, and where it beats or loses to GitHub Copilot and Cursor. Pricing figures come from reviews and plan listings published in 2026; one caution up front: as of November 6, 2026, Blackbox’s own pricing page no longer shows the consumer plans (details in the pricing section).
 
 ## What Blackbox AI Actually Is in 2026
 
@@ -32,7 +32,7 @@ The tradeoff is cost. Running four agents on one prompt burns through credits fa
 
 ## Blackbox AI Pricing: Free, Pro, Pro Plus and Pro Max
 
-Blackbox AI keeps a genuine free tier, no credit card required, which is rarer than it should be in this category. Paid plans stack up as follows, with roughly 20% off on annual billing.
+Blackbox AI has advertised a free tier with no credit card required, which is rarer than it should be in this category, though its current availability is unconfirmed (see the note below the table). Paid plans stack up as follows, with roughly 20% off on annual billing.
 
 💰 **Free:** $0, unlimited chat and VS Code extension access, select models only 💰 **Pro:** $10/month (about $8/month billed annually), all 300+ models, MCP support, full VS Code agent 💰 **Pro Plus:** $20/month, multi-agent execution, the Chairman workflow, app builder, coverage across 35+ IDEs, CLI, web and terminal 💰 **Pro Max:** $40/month, unlimited agent requests, Figma-to-code conversion, team controls, SAML SSO, analytics and priority support
 
@@ -46,7 +46,7 @@ Blackbox AI keeps a genuine free tier, no credit card required, which is rarer t
 | Pro MaxFull Stack | $40/mo  
 ~$32/mo yearly | ✅ Unlimited agent requests | ✅ Included, plus Figma-to-code | Team controls, SAML SSO, analytics, priority support | Small teams and startups |
 
-Prices as of September 2026, reflect monthly billing with the roughly 20% annual discount shown separately. Enterprise pricing runs on custom annual purchase-order commitments with per-token billing and is not shown here, since it is not a self-serve tier. Premium-model usage on every paid plan still draws from a separate credit pool on top of the subscription price. Verify current limits on Blackbox’s pricing page before subscribing.
+**Check before you rely on these numbers (November 6, 2026):** when we reopened [Blackbox’s official pricing page](https://www.blackbox.ai/pricing), it listed only a custom, annual Enterprise plan (purchase-order burn-down, 300+ models, Chairman orchestration as metered usage, contractual zero data retention). It showed no Free, Pro, Pro Plus or Pro Max cards, so we could not confirm the consumer tiers directly. Search snapshots from spring 2026 still list $10, $20 and $40 per month, but some sources say the free tier is no longer advertised. Treat the table as the last published consumer ladder (September 2026 snapshot, monthly billing, roughly 20% off annually), not a live price list. Enterprise pricing runs on custom annual purchase-order commitments with per-token billing and is not shown here, since it is not a self-serve tier. Premium-model usage on every paid plan still draws from a separate credit pool on top of the subscription price. Verify current limits on Blackbox’s pricing page before subscribing.
 
 Enterprise buyers sit outside this ladder entirely. That tier runs on annual purchase-order commitments with per-token pricing, no seats, and add-ons like single-tenant deployment, SCIM, RBAC, and contractual zero data retention, but there is no self-serve monthly option at that level.
 
@@ -60,7 +60,7 @@ Support is another weak point. Several reviewers describe slow or hard-to-reach 
 
 ## Blackbox AI vs GitHub Copilot and Cursor: The Short Version
 
-Blackbox AI undercuts GitHub Copilot on price, starting near $8/month on annual billing against Copilot’s $10/month, and it keeps a permanent free tier with unlimited requests. Copilot answers back with SOC 2 and ISO certifications, a 4.4/5 rating across nearly 400 G2 reviews, and native git tooling most teams already trust.
+Blackbox AI’s Pro plan, at about $8/month on annual billing, sits just under [GitHub Copilot Pro at $10/month](https://github.com/features/copilot/plans). Copilot’s own ladder has since grown: its plans page now lists Free ($0, 2,000 completions a month), Pro ($10), Pro+ ($39) and Max ($100), with usage measured in GitHub AI Credits (1 credit = $0.01) instead of premium requests. Copilot adds SOC 2 and ISO certifications, a 4.4/5 rating across nearly 400 G2 reviews, and native git tooling most teams already trust.
 
 Related: see how [Cursor AI](/cursor-ai-review-2026/) compares on price, model variety and agent features.
 
@@ -82,7 +82,7 @@ _Blackbox AI is a coding assistant that generates, explains, and debugs code ins
 
 ### Is Blackbox AI actually free?
 
-_Yes. The free plan gives unlimited chat and VS Code extension access with no credit card required, though it limits you to select models. Full access to the 300+ model catalog starts on the Pro plan at $10 per month, or about $8 billed annually._
+_It was, as of our last confirmed listing, but Blackbox’s current pricing page shows only Enterprise, so check the app or extension before counting on it. That listing’s free plan gave unlimited chat and VS Code extension access with no credit card required, though it limited you to select models. Full access to the 300+ model catalog starts on the Pro plan at $10 per month, or about $8 billed annually._
 
 ### Is Blackbox AI safe to use with proprietary code?
 
@@ -104,11 +104,14 @@ Try the free plan on your next debugging session before committing to Pro Plus o
 
 ## Sources
 
+- [Blackbox AI: pricing page (Enterprise only, checked November 6, 2026)](https://www.blackbox.ai/pricing)
+- [GitHub: Copilot plans and pricing](https://github.com/features/copilot/plans)
+
 - [CNBC: Cursor announces major update to AI agents as coding tool battle heats up](https://www.cnbc.com/2026/02/24/cursor-announces-major-update-as-ai-coding-agent-battle-heats-up.html)
 - [CNBC: Microsoft’s GitHub was positioned to win the AI coding race, but outages got in the way](https://www.cnbc.com/2026/05/22/microsoft-was-positioned-to-win-in-ai-coding-outages-got-in-the-way.html)
 
 ## Related Reading
 
-- [Cursor AI Review 2026: Is the $29B Coding Tool Worth It?](/cursor-ai-review-2026/)
+- [Cursor AI Review 2026: Is the $60B Coding Tool Worth It?](/cursor-ai-review-2026/)
 - [How to Install Claude Code CLI: Complete Setup Guide (2026)](/claude-code-cli-tutorial/)
 - [How to Protect Your Data From AI Chatbots (2026 Guide)](/how-to-protect-your-data-from-ai-chatbots/)
