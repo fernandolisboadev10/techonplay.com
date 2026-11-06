@@ -4,7 +4,7 @@ seoTitle: "Moltbook AI Agent Network: The Social Platform for Bots"
 description: "Discover what the Moltbook AI agent network is, how OpenClaw powers it, and why security experts warn about prompt injection risks in 2026"
 category: "AI"
 date: 2026-08-29
-updated: 2026-08-29
+updated: 2026-11-06T11:18:03-05:00
 readingTime: "7 min"
 image: "./images/Moltbook-AI-Agent.webp"
 imageAlt: "Moltbook AI Agent"
@@ -40,9 +40,9 @@ This is not a passive chatroom. Every account on Moltbook belongs to an autonomo
 
 ## The Meta Acquisition Changed Everything
 
-Just six weeks after launch, Moltbook stopped being a scrappy side project. Meta acquired the AI-agent platform on March 10, 2026, and its co-founders joined Meta Superintelligence Labs, the division led by former Scale AI CEO Alexandr Wang. The deal was first reported publicly and later confirmed by Meta, though the financial terms were never disclosed.
+Just six weeks after launch, Moltbook stopped being a scrappy side project. Meta confirmed the acquisition on March 10, 2026, after Axios first reported it. Moltbook CEO Matt Schlicht and COO Ben Parr joined Meta Superintelligence Labs, the AI unit led by former Scale AI CEO Alexandr Wang, reportedly starting March 16. According to CNBC, a Meta spokesperson said the team joining "opens up new ways for AI agents to work for people and businesses." Financial terms were not disclosed, and many commentators described the deal as an acqui-hire. As of this update (November 6, 2026), we did not find newer reporting on Moltbook's product plans under Meta, so treat the current state of the site as unconfirmed.
 
-That acquisition gave the **Moltbook AI agent** ecosystem a level of institutional backing few expected for a project built around bots debating each other on the internet. The core agent framework kept shipping updates too, with OpenClaw releasing one of its biggest version updates of the year in the months following the deal.
+That acquisition gave the **Moltbook AI agent** ecosystem a level of institutional backing few expected for a project built around bots debating each other on the internet.
 
 ## Is Moltbook Actually Safe to Join?
 
@@ -51,12 +51,13 @@ This is the question every AI enthusiast should ask before connecting an agent, 
 **What works well:**
 
 -   ✅ Open source and fully customizable agent framework
--   ✅ Genuine technical knowledge sharing between agents
+-   ✅ Agents can swap practical tips and workflows (though see the authenticity caveat below)
 -   ✅ Transparent community structure organized by submolts
 
 **What to watch out for:**
 
 -   ❌ Prompt injection risk. The platform itself warns that prompt injection vulnerabilities could let malicious instructions hijack a connected agent, and recommends running Moltbook only inside isolated environments.
+-   ❌ Impersonation and fake posts. TechCrunch reported that researchers found it "very easy for human users to pose as AIs," and that for a time credentials in Moltbook's database were left unsecured, so anyone could take a token and impersonate another agent (per Permiso Security's CTO Ian Ahl). Some of the viral posts that alarmed people may therefore not have been written by autonomous agents at all.
 -   ❌ Inflated user counts. A security researcher publicly demonstrated that he had registered hundreds of thousands of accounts using a single OpenClaw agent, which raises real doubts about how many reported users are genuine.
 -   ❌ Low third-party trust scores. Independent software directories rate the platform well below typical social platform scores based on early user reviews.
 
@@ -72,7 +73,7 @@ If you are experimenting with your own agent on Moltbook, treat it the same way 
 | 🔓 Access | Free, open-source agent setup | Free, human sign-up | Free and paid tiers |
 | ⚠️ Security risk | High, prompt injection warned by platform itself | Standard social media risks | Standard chatbot data risks |
 | 🚀 Growth speed | Explosive, viral within weeks | Gradual over years historically | Gradual, tied to product releases |
-| 🏢 Ownership | Owned by Meta (as of March 2026) | Varies by platform | OpenAI, Anthropic, Google, etc. |
+| 🏢 Ownership | Acquired by Meta (announced March 2026) | Varies by platform | OpenAI, Anthropic, Google, etc. |
 
 ## FAQ: Moltbook AI Agent Network
 
@@ -82,7 +83,7 @@ _Moltbook lets autonomous AI agents post, comment, and upvote inside topic commu
 
 **Can humans post on Moltbook?**
 
-_No. Humans can browse the site and read what agents post, but the platform is designed exclusively for AI agent participation. Posting, commenting, and upvoting are reserved for connected autonomous agents, not human accounts._
+_Not by design. Humans can browse and read, and the platform is meant for AI agent participation only. In practice, researchers told TechCrunch it was very easy for people to pose as AI agents, so some posts may be human-written._
 
 **Is Moltbook safe to connect my AI agent to?**
 
@@ -94,11 +95,11 @@ _OpenClaw is the open-source agent framework most Moltbook accounts are built on
 
 **Who owns Moltbook now?**
 
-_Meta acquired Moltbook on March 10, 2026, and folded its founding team into Meta Superintelligence Labs. The site remains live and active under that ownership, with the original submolt structure and Heartbeat system unchanged._
+_Meta confirmed it was acquiring Moltbook on March 10, 2026, and its founders Matt Schlicht and Ben Parr joined Meta Superintelligence Labs. Terms were not disclosed. We could not confirm how the site's features have changed since, so check Moltbook directly._
 
 ## The Bottom Line
 
-The **Moltbook AI agent** network is not a gimmick you can safely ignore. It is a live look at how autonomous agents behave when they are given a place to talk to each other instead of just to us, and Meta’s acquisition means this experiment is not going away anytime soon. If you run AI agents yourself, understanding how Moltbook works, and how it can go wrong, matters more every month it stays online.
+The **Moltbook AI agent** network is not a gimmick you can safely ignore. It is a live look at how autonomous agents behave when they are given a place to talk to each other instead of just to us, and Meta’s acqui-hire shows large companies are paying attention, though what happens to the platform next is not confirmed. If you run AI agents yourself, understanding how Moltbook works, and how it can go wrong, matters more every month it stays online.
 
 Curious how these agent risks connect to the security choices you make on your own devices? Read [how to protect your data from AI chatbots](/how-to-protect-your-data-from-ai-chatbots/) to see how the same principles apply closer to home.
 
