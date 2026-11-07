@@ -4,6 +4,7 @@ seoTitle: "Steam Frame Repairability: What iFixit Found"
 description: "See how repairable Valve's Steam Frame really is: magnetic lenses and a modular nose bridge, but a glued battery and a fan buried deep inside."
 category: "Gaming"
 date: 2026-09-29
+updated: 2026-11-06T19:16:00-05:00
 readingTime: "6 min"
 tags: ["Steam Frame", "Valve", "VR", "iFixit"]
 image: "./images/steam-frame-repairability.webp"
@@ -12,26 +13,26 @@ imageAlt: "Standalone VR headset opened on a clean workbench with magnetic lens 
 
 Is Valve's new headset easy to fix? **Steam Frame repairability** just got its first hard test, and iFixit's teardown brings mostly good news with two real catches: a glued battery and a fan buried under the optics.
 
-The timing helps buyers. Valve launched the Steam Frame on September 14, 2026, at $1,059 for the 256GB kit and $1,299 for the 1TB kit. When a headset costs that much, how long you can keep it running matters as much as the specs.
+The timing helps buyers. Valve opened Steam Frame reservations on September 14, 2026, at $1,059 for the 256GB kit and $1,299 for the 1TB kit, per Dexerto. When a headset costs that much, how long you can keep it running matters as much as the specs.
 
 Here's what iFixit found, which parts you can replace yourself, and whether repairability should change your buying decision.
 
 ## Steam Frame Repairability at a Glance
 
-iFixit did not assign a repairability score, but the verdict is clear from the details. It praised Valve's thoughtful design in most places, and Valve stumbled in a few.
+iFixit did not assign a repairability score, because it has no VR headset scorecard yet (the Steam Deck got 7/10; iFixit pointed to a 4/10 for the Quest 3 in comments). The verdict is still clear from the details. It praised Valve's thoughtful design in most places, and Valve stumbled in a few.
 
 | 🔧 Part | 📊 Verdict | 📝 What iFixit found |
 |---|---|---|
 | 👃 Nose bridge | ✅ Great | Modular and replaceable on its own, a step beyond what iFixit has seen on other headsets |
-| 🔍 Lens assemblies | ✅ Great | Held by magnets, easy to remove and reinstall |
+| 🔍 Lens assemblies | ✅ Great | Magnetic attachment to the IPD rail, among the most approachable optical swaps iFixit has seen (screws and cables still involved) |
 | 🔩 Fasteners | ✅ Good | Mostly screws and snaps that need only mild pressure |
 | 🔋 Battery | ❌ Poor | Glued to the housing, needed isopropyl alcohol and careful prying |
 | 🌀 Fan | ⚠️ Frustrating | Removal means disturbing the optical assemblies and dense internals |
-| 🎮 Controller joystick | ❌ Poor | Full-size TMR stick is soldered in |
+| 🎮 Controller joystick | ❌ Poor | Magnetic TMR stick is soldered to the board |
 
 ## What Valve Got Right
 
-**The modular nose bridge and magnetic lenses stand out.** The nose bridge replaces on its own, so a cracked or worn piece doesn't mean tearing down the whole front of the headset. The lenses attach with magnets, which makes cleaning, swapping, and upgrades much easier.
+**The modular nose bridge and magnetic lenses stand out.** The nose bridge replaces on its own, so a cracked or worn piece doesn't mean tearing down the whole front of the headset. The lenses attach magnetically to the IPD rail, which iFixit calls one of the most approachable optical-module replacements it has seen. Engadget notes that removal still takes screws and cables, and iFixit says the display cables are adhered to the LCD, so a display swap is not tool-free.
 
 Most of the body comes apart with screws and snaps. That is a big deal for a device you wear on your face and sweat into. Face gaskets, cushions, and light blockers are the parts that wear out first, and they are the easiest to reach.
 
@@ -41,7 +42,7 @@ Most of the body comes apart with screws and snaps. That is a big deal for a dev
 
 The battery is a curved two-cell lithium-polymer pack rated at 20.9 Wh by iFixit (Valve lists 21.6 Wh). It is glued to the inside of the housing with no easy-release mechanism. iFixit needed isopropyl alcohol and careful prying to get it out, per [vr.org's teardown summary](https://vr.org/articles/steam-frame-ifixit-teardown-battery-glued-fan-2026).
 
-[Editorial note: batteries are the part of any headset that wears out first. A glued pack is the biggest long-term worry here.]
+Batteries are the part of any headset that wears out first, so a glued pack is the biggest long-term worry here. iFixit says reviewers report roughly 1-2 hours of use per charge, which means more charge cycles, and it expects third-party packs to appear.
 
 ### The fan is the "clearest missed opportunity"
 
@@ -49,13 +50,13 @@ Swapping a fan should be a five-minute job. On the Steam Frame, getting to it me
 
 ### The controller joystick is soldered
 
-The Steam Frame controller uses a full-size TMR joystick, which is a good sign for drift resistance. But it is soldered to the board, so replacing it takes soldering skills, not a screwdriver.
+The Steam Frame controller uses magnetic TMR sticks, which avoid the wear that causes drift in potentiometer sticks. But they are soldered to the board, so replacing it takes soldering skills, not a screwdriver.
 
 ## Can You Buy Replacement Parts?
 
-Yes, with limits. iFixit says it will sell Steam Frame spares and publish repair guides, the same approach it took with the Steam Deck. The first wave, through the Valve Repair Hub, covers face gaskets, head cushions, and light blockers.
+Yes, with limits. iFixit says it will sell Steam Frame spares and publish repair guides, the same approach it took with the Steam Deck. The first wave, through the Valve Repair Hub, is described as coming "soon" with no date given in the coverage I could open; the planned first parts are face gaskets, head cushions, and light blockers.
 
-⚠️ **Batteries are not in the first wave.** iFixit said it won't sell Steam Frame batteries when the parts store goes live. Watch for that to change, because the battery is the part most owners will eventually need.
+⚠️ **Batteries and displays are not in the first wave.** iFixit said it won't sell Steam Frame batteries when the parts store goes live, and "we hope that will change." Watch for that, because the battery is the part most owners will eventually need. Valve still offers warranty repairs and replacements for covered units, per Engadget.
 
 ## Price and Specs
 
@@ -65,16 +66,16 @@ Yes, with limits. iFixit says it will sell Steam Frame spares and publish repair
 | 💵 1TB kit | $1,299 |
 | ⚙️ Chip | Snapdragon 8 Gen 3 |
 | 🧠 Memory | 16GB LPDDR5X |
-| 📅 Launch | September 14, 2026 |
-| 🎁 In the box | Controllers, Wi-Fi 6E adapter for PC streaming, Half-Life: Alyx |
+| 📅 Reservations opened | September 14, 2026 |
+| 🎁 In the box | Controllers, wireless adapter for PC streaming, Half-Life: Alyx (no power supply; a 45W+ USB-C charger works) |
 
-Reservations were randomized and purchase emails have gone out in waves since September 18, so availability depends on your place in line.
+Reservations were randomized and purchase emails were expected from September 18, so availability depends on your place in line.
 
 Related: [Best Gaming PC for AI and Gaming in 2026](/best-gaming-pc-ai-and-gaming-2026/)
 
 ## How to Make Your Steam Frame Last Longer
 
-Repairability is a backup plan. Good habits keep you from needing it. [Editorial note: these are general headset-care tips, not Valve guidance, so check the official manual for anything specific.]
+Repairability is a backup plan. Good habits keep you from needing it. These are general headset-care tips, not Valve guidance, so check the official manual for anything specific.
 
 - ✅ **Wipe the face gasket and cushions after each session.** Sweat is what wears them out, and they are the parts you can replace cheaply.
 - ✅ **Clean the lenses with a dry microfiber cloth.** Skip sprays and paper towels, which can scratch coatings.
@@ -94,7 +95,7 @@ The exception is the battery. If you plan to keep the Steam Frame for four or fi
 
 ### Is the Steam Frame easy to repair?
 
-Mostly yes. iFixit found a modular nose bridge, magnetic lens assemblies, and screws and snaps that come apart with mild pressure. The weak spots are a glued battery, a fan that sits under the optics, and a soldered controller joystick. iFixit did not give it a repairability score.
+Mostly yes. iFixit found a modular nose bridge, magnetic lens assemblies, and screws and snaps that come apart with mild pressure. The weak spots are a glued battery, a fan that sits under the optics, and soldered controller joysticks. iFixit did not give it a repairability score.
 
 ### Can you replace the Steam Frame battery?
 
@@ -102,17 +103,17 @@ Technically yes, but it is difficult. The battery is glued to the housing, and i
 
 ### How much does the Steam Frame cost?
 
-The 256GB kit costs $1,059 and the 1TB kit costs $1,299. Each kit includes the Steam Frame controllers, a Wi-Fi 6E adapter for PC streaming, and a copy of Half-Life: Alyx. Valve released it on September 14, 2026, and ships units as they become available.
+The 256GB kit costs $1,059 and the 1TB kit costs $1,299. Each kit includes the Steam Frame controllers, a wireless adapter for PC streaming, and a copy of Half-Life: Alyx. Reservations opened on September 14, 2026, and units ship to customers as purchase emails go out. No power supply is included.
 
 ### Will iFixit sell Steam Frame parts?
 
-Yes. iFixit will sell replacement parts and publish repair guides through the Valve Repair Hub. The first parts are face gaskets, head cushions, and light blockers. Batteries are not included at launch, and iFixit did not give a date for adding them.
+Yes. iFixit will sell replacement parts and publish repair guides through the Valve Repair Hub. The first parts are face gaskets, head cushions, and light blockers. Batteries and displays are not included at launch, and iFixit did not give a date for adding them.
 
 ## The Bottom Line
 
 Valve built a headset that opens up like a device meant to last, then glued in the one part that will age first. It is a strong start and a fixable flaw. Keep an eye on the Valve Repair Hub, and if you're buying at $1,059, ask whether you can live with a hard battery swap in a few years.
 
-**Sources:** [vr.org on the iFixit teardown](https://vr.org/articles/steam-frame-ifixit-teardown-battery-glued-fan-2026), [TechPowerUp](https://www.techpowerup.com/353017/ifixit-tears-down-steam-frame-and-confirms-replacement-parts-incoming), [Dexerto on price and release](https://www.dexerto.com/gaming/valve-reveals-steam-frame-price-and-release-date-starting-at-1059-3408909/).
+**Sources:** [vr.org on the iFixit teardown](https://vr.org/articles/steam-frame-ifixit-teardown-battery-glued-fan-2026), [TechPowerUp](https://www.techpowerup.com/353017/ifixit-tears-down-steam-frame-and-confirms-replacement-parts-incoming), [Dexerto on price and release](https://www.dexerto.com/gaming/valve-reveals-steam-frame-price-and-release-date-starting-at-1059-3408909/) | [iFixit teardown](https://www.ifixit.com/News/119488/steam-frame-teardown-were-fans-except-of-the-fan) | [Engadget](https://engadget.com/2281207/steam-frame-teardown-reveals-one-problem-repairs/).
 
 ## Related Reading
 
