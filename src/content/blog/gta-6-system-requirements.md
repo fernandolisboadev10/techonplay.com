@@ -4,7 +4,7 @@ seoTitle: "GTA 6 System Requirements 2026: PC Specs You Need"
 description: "GTA 6 system requirements for 2026, including predicted minimum, recommended, and enthusiast PC specs before Rockstar's official announcement."
 category: "Gaming"
 date: 2026-09-09
-updated: 2026-10-30T20:30:00-04:00
+updated: 2026-11-17T18:00:00-05:00
 readingTime: "8 min"
 image: "./images/gta6.webp"
 imageAlt: "GTA 6 System Requirements: Can Your PC Handle It? (Hardware Analysis)"
@@ -141,6 +141,7 @@ Bookmark this page. We’ll update every tier the second official specs land.
 
 ## Related Reading
 
+- [GTA 6's radio stations and how to hear them before launch](/gta-6-vice-city-radio/)
 - [Best Gaming PC for AI and Gaming in 2026: 4 Builds That Deliver](/best-gaming-pc-ai-and-gaming-2026/)
 - [NVIDIA Driver Crashing in 2026: The Fix That Actually Works](/fix-nvidia-driver-crashing-2026/)
 - [PS5 QSSR Explained: AI Upscaling Comes to the Base PS5](/ps5-qssr-ai-upscaling-explained/)

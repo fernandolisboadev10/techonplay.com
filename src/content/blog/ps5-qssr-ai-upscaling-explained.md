@@ -3,7 +3,7 @@ title: "PS5 QSSR Explained: AI Upscaling Comes to the Base PS5"
 description: "PS5 QSSR brings AI upscaling to the standard PlayStation 5. See how it differs from PSSR, which games support it now, and how to turn it on."
 category: "Gaming"
 date: 2026-10-02T18:00:00-04:00
-updated: 2026-10-30T08:35:00-04:00
+updated: 2026-11-17T18:00:00-05:00
 readingTime: "6 min"
 tags: ["PS5", "QSSR", "PSSR", "Sony", "AI upscaling"]
 image: "./images/ps5-qssr-ai-upscaling-explained.webp"
@@ -112,6 +112,7 @@ If you own either game, update it tonight and compare the new graphics option ag
 
 ## Related Reading
 
+- [How GTA 6 brings Vice City to life through its radio stations](/gta-6-vice-city-radio/)
 - [GTA 6 System Requirements 2026: What Your PC Actually Needs](/gta-6-system-requirements/)
 - [Best Gaming PC for AI and Gaming in 2026: 4 Builds That Deliver](/best-gaming-pc-ai-and-gaming-2026/)
 - [Steam Frame Repairability: What iFixit's Teardown Found [2026]](/steam-frame-repairability/)
