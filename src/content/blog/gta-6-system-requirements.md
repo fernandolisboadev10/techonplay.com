@@ -141,6 +141,7 @@ Bookmark this page. We’ll update every tier the second official specs land.
 
 ## Related Reading
 
+- [GTA 6 console resolutions and frame-rate targets](/gta-6-ps5-pro-60-fps/)
 - [GTA 6's radio stations and how to hear them before launch](/gta-6-vice-city-radio/)
 - [Best Gaming PC for AI and Gaming in 2026: 4 Builds That Deliver](/best-gaming-pc-ai-and-gaming-2026/)
 - [NVIDIA Driver Crashing in 2026: The Fix That Actually Works](/fix-nvidia-driver-crashing-2026/)
