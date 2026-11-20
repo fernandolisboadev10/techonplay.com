@@ -66,3 +66,4 @@ Once you've picked a platform, our [guide to GTA 6's radio stations](/gta-6-vice
 - [PS5 QSSR explained](/ps5-qssr-ai-upscaling-explained/)
 - [GTA 6 PC system requirements and what remains unknown](/gta-6-system-requirements/)
 - [How GTA 6 radio brings Vice City to life](/gta-6-vice-city-radio/)
+- [Meet the main and supporting characters of GTA 6](/gta-6-characters/)

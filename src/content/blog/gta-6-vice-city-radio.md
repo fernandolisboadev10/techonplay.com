@@ -58,5 +58,6 @@ Try Flash FM and Back Country first, then put Cocoteo next to Afro Bank FM. The 
 
 - [How GTA 6 performs on PS5 Pro and Xbox](/gta-6-ps5-pro-60-fps/)
 - [What we know about GTA 6 on PC](/gta-6-system-requirements/)
+- [Meet the GTA 6 characters behind Vice City’s music scene](/gta-6-characters/#boobie-ike-owns-a-piece-of-vice-citys-nightlife)
 - [How PS5 upscaling works](/ps5-qssr-ai-upscaling-explained/)
 - [How to choose a gaming PC in 2026](/best-gaming-pc-ai-and-gaming-2026/)
